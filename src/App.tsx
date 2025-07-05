@@ -1,24 +1,91 @@
 import React from 'react';
-import logo from './logo.svg';
+import { useGame } from './hooks/useGame';
+import { GameMode } from './types';
+import GameModeSelector from './components/GameModeSelector';
+import QuestionCard from './components/QuestionCard';
+import GameResults from './components/GameResults';
+import AnswerFeedback from './components/AnswerFeedback';
+import cars from './data/cars';
 import './App.css';
 
 function App() {
+  const { gameState, startGame, submitAnswer, continueToNextQuestion, resetGame, getGameStats } = useGame(cars);
+
+  const handleStartGame = (mode: GameMode) => {
+    startGame(mode);
+  };
+
+  const handleAnswer = (answer: string) => {
+    submitAnswer(answer);
+  };
+
+  const handlePlayAgain = () => {
+    resetGame();
+  };
+
+  const handleContinue = () => {
+    continueToNextQuestion();
+  };
+
+  if (!gameState.isGameStarted) {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1>Car Finder Game</h1>
+          <p>Test your knowledge of cars from around the world!</p>
+        </header>
+        <GameModeSelector onSelectMode={handleStartGame} />
+      </div>
+    );
+  }
+
+  if (gameState.isGameFinished) {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1>Car Finder Game</h1>
+        </header>
+        <GameResults stats={getGameStats()} onPlayAgain={handlePlayAgain} />
+      </div>
+    );
+  }
+
+  // Show answer feedback after submitting an answer
+  if (gameState.showAnswerFeedback && gameState.lastAnswerResult) {
+    return (
+      <div className="App">
+        <header className="App-header">
+          <h1>Car Finder Game</h1>
+          <div className="score-display">
+            Score: {gameState.score}/{gameState.currentQuestion + 1}
+          </div>
+        </header>
+        <AnswerFeedback
+          answerResult={gameState.lastAnswerResult}
+          gameMode={gameState.gameMode}
+          onContinue={handleContinue}
+        />
+      </div>
+    );
+  }
+
+  const currentQuestion = gameState.questions[gameState.currentQuestion];
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Car Finder Game</h1>
+        <div className="score-display">
+          Score: {gameState.score}/{gameState.currentQuestion + 1}
+        </div>
       </header>
+      <QuestionCard
+        question={currentQuestion}
+        questionNumber={gameState.currentQuestion + 1}
+        totalQuestions={gameState.questions.length}
+        gameMode={gameState.gameMode}
+        onAnswer={handleAnswer}
+      />
     </div>
   );
 }

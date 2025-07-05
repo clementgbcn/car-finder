@@ -1,0 +1,188 @@
+.answer-feedback {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.feedback-container {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.feedback-header {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.feedback-header.correct {
+  background: linear-gradient(135deg, #4CAF50, #66BB6A);
+  color: white;
+}
+
+.feedback-header.incorrect {
+  background: linear-gradient(135deg, #F44336, #EF5350);
+  color: white;
+}
+
+.feedback-icon {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.feedback-header h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.car-info {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  text-align: left;
+}
+
+.feedback-car-image {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.car-details {
+  flex: 1;
+}
+
+.car-details h3 {
+  margin: 0 0 1rem 0;
+  color: #333;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.answer-comparison {
+  margin-bottom: 1.5rem;
+}
+
+.user-answer,
+.correct-answer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  background: #f8f9fa;
+}
+
+.user-answer {
+  border-left: 4px solid #F44336;
+}
+
+.correct-answer {
+  border-left: 4px solid #4CAF50;
+}
+
+.label {
+  font-weight: 500;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.value {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.incorrect-answer {
+  color: #F44336;
+}
+
+.correct-answer-text {
+  color: #4CAF50;
+}
+
+.car-link {
+  margin-top: 1rem;
+}
+
+.wikipedia-link {
+  color: #4a90e2;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.wikipedia-link:hover {
+  color: #357abd;
+  text-decoration: underline;
+}
+
+.continue-button {
+  width: 100%;
+  padding: 1rem;
+  background: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.continue-button:hover {
+  background: #357abd;
+}
+
+@media (max-width: 768px) {
+  .answer-feedback {
+    padding: 1rem;
+  }
+  
+  .feedback-container {
+    padding: 1rem;
+  }
+  
+  .car-info {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .feedback-car-image {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .car-details {
+    text-align: center;
+  }
+  
+  .user-answer,
+  .correct-answer {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  
+  .feedback-header {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .feedback-header h2 {
+    font-size: 1.5rem;
+  }
+}
