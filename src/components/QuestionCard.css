@@ -82,20 +82,32 @@
 
 .input-form {
   margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
 }
 
 .answer-input {
   width: 100%;
-  padding: 1rem;
+  max-width: 400px;
+  padding: 1rem 1.5rem;
   border: 2px solid #e0e0e0;
-  border-radius: 8px;
-  font-size: 1rem;
-  transition: border-color 0.3s ease;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .answer-input:focus {
   outline: none;
   border-color: #4a90e2;
+  box-shadow: 0 4px 12px rgba(74, 144, 226, 0.2);
+  transform: translateY(-1px);
+}
+
+.answer-input::placeholder {
+  color: #999;
+  font-style: italic;
 }
 
 .submit-button {
@@ -126,5 +138,12 @@
   
   .options-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .answer-input {
+    max-width: 100%;
+    font-size: 1rem;
+    padding: 0.875rem 1rem;
+    text-align: left;
   }
 }

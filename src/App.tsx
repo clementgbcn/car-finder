@@ -27,6 +27,10 @@ function App() {
     continueToNextQuestion();
   };
 
+  const handleGoHome = () => {
+    resetGame();
+  };
+
   if (!gameState.isGameStarted) {
     return (
       <div className="App">
@@ -55,9 +59,16 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Car Finder Game</h1>
-          <div className="score-display">
-            Score: {gameState.score}/{gameState.currentQuestion + 1}
+          <div className="header-left">
+            <h1>Car Finder Game</h1>
+          </div>
+          <div className="header-right">
+            <div className="score-display">
+              Score: {gameState.score}/{gameState.currentQuestion + 1}
+            </div>
+            <button className="home-button" onClick={handleGoHome}>
+              🏠 Home
+            </button>
           </div>
         </header>
         <AnswerFeedback
@@ -74,9 +85,16 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Car Finder Game</h1>
-        <div className="score-display">
-          Score: {gameState.score}/{gameState.currentQuestion + 1}
+        <div className="header-left">
+          <h1>Car Finder Game</h1>
+        </div>
+        <div className="header-right">
+          <div className="score-display">
+            Score: {gameState.score}/{gameState.currentQuestion + 1}
+          </div>
+          <button className="home-button" onClick={handleGoHome}>
+            🏠 Home
+          </button>
         </div>
       </header>
       <QuestionCard
