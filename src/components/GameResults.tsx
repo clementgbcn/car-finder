@@ -5,9 +5,10 @@ import './GameResults.css';
 interface GameResultsProps {
   stats: GameStats;
   onPlayAgain: () => void;
+  onShowCredits?: () => void;
 }
 
-const GameResults: React.FC<GameResultsProps> = ({ stats, onPlayAgain }) => {
+const GameResults: React.FC<GameResultsProps> = ({ stats, onPlayAgain, onShowCredits }) => {
   const getScoreMessage = (percentage: number) => {
     if (percentage >= 90) return "Excellent! You're a car expert! 🏆";
     if (percentage >= 70) return "Great job! You know your cars! 👍";
@@ -60,9 +61,16 @@ const GameResults: React.FC<GameResultsProps> = ({ stats, onPlayAgain }) => {
 
         <p className="score-message">{getScoreMessage(stats.percentage)}</p>
 
-        <button className="play-again-button" onClick={onPlayAgain}>
-          Play Again
-        </button>
+        <div className="action-buttons">
+          <button className="play-again-button" onClick={onPlayAgain}>
+            Play Again
+          </button>
+          {onShowCredits && (
+            <button className="credits-button-results" onClick={onShowCredits}>
+              📷 Credits
+            </button>
+          )}
+        </div>
       </div>
     </div>
   );

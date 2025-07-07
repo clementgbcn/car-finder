@@ -2,1660 +2,52 @@ import { Car } from '../types';
 
 export const cars: Car[] = [
   {
-    "id": "ferrari_f40",
-    "brand": "Ferrari",
-    "model": "F40",
-    "fullName": "Ferrari F40",
-    "imageUrl": "/images/ferrari_f40.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_F40"
-  },
-  {
-    "id": "ferrari_f50",
-    "brand": "Ferrari",
-    "model": "F50",
-    "fullName": "Ferrari F50",
-    "imageUrl": "/images/ferrari_f50.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_F50"
-  },
-  {
-    "id": "ferrari_enzo",
-    "brand": "Ferrari",
-    "model": "Enzo",
-    "fullName": "Ferrari Enzo",
-    "imageUrl": "/images/ferrari_enzo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Enzo"
-  },
-  {
-    "id": "ferrari_laferrari",
-    "brand": "LaFerrari",
-    "model": "LaFerrari",
-    "fullName": "LaFerrari",
-    "imageUrl": "/images/ferrari_laferrari.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_LaFerrari"
-  },
-  {
-    "id": "lamborghini_countach",
-    "brand": "Lamborghini",
-    "model": "Countach",
-    "fullName": "Lamborghini Countach",
-    "imageUrl": "/images/lamborghini_countach.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
-  },
-  {
-    "id": "lamborghini_diablo",
-    "brand": "Lamborghini",
-    "model": "Diablo",
-    "fullName": "Lamborghini Diablo",
-    "imageUrl": "/images/lamborghini_diablo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
-  },
-  {
-    "id": "lamborghini_gallardo",
-    "brand": "Lamborghini",
-    "model": "Gallardo",
-    "fullName": "Lamborghini Gallardo",
-    "imageUrl": "/images/lamborghini_gallardo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
-  },
-  {
-    "id": "lamborghini_aventador",
-    "brand": "Lamborghini",
-    "model": "Aventador",
-    "fullName": "Lamborghini Aventador",
-    "imageUrl": "/images/lamborghini_aventador.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
-  },
-  {
-    "id": "porsche_911",
-    "brand": "Porsche",
-    "model": "911",
-    "fullName": "Porsche 911",
-    "imageUrl": "/images/porsche_911.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_911"
-  },
-  {
-    "id": "porsche_boxster",
-    "brand": "Porsche",
-    "model": "Boxster and Cayman",
-    "fullName": "Porsche Boxster and Cayman",
-    "imageUrl": "/images/porsche_boxster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Boxster"
-  },
-  {
-    "id": "porsche_cayman",
-    "brand": "Porsche",
-    "model": "Boxster and Cayman",
-    "fullName": "Porsche Boxster and Cayman",
-    "imageUrl": "/images/porsche_cayman.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Cayman"
-  },
-  {
-    "id": "porsche_cayenne",
-    "brand": "Porsche",
-    "model": "Cayenne",
-    "fullName": "Porsche Cayenne",
-    "imageUrl": "/images/porsche_cayenne.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
-  },
-  {
-    "id": "mclaren_f1",
-    "brand": "McLaren",
-    "model": "F1",
-    "fullName": "McLaren F1",
-    "imageUrl": "/images/mclaren_f1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_F1"
-  },
-  {
-    "id": "mclaren_p1",
-    "brand": "McLaren",
-    "model": "P1",
-    "fullName": "McLaren P1",
-    "imageUrl": "/images/mclaren_p1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_P1"
-  },
-  {
-    "id": "mclaren_720s",
-    "brand": "McLaren",
-    "model": "720S",
-    "fullName": "McLaren 720S",
-    "imageUrl": "/images/mclaren_720s.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_720S"
-  },
-  {
-    "id": "mclaren_senna",
-    "brand": "McLaren",
-    "model": "Senna",
-    "fullName": "McLaren Senna",
-    "imageUrl": "/images/mclaren_senna.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_Senna"
-  },
-  {
-    "id": "bugatti_veyron",
-    "brand": "Bugatti",
-    "model": "Veyron",
-    "fullName": "Bugatti Veyron",
-    "imageUrl": "/images/bugatti_veyron.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Veyron"
-  },
-  {
-    "id": "bugatti_chiron",
-    "brand": "Bugatti",
-    "model": "Chiron",
-    "fullName": "Bugatti Chiron",
-    "imageUrl": "/images/bugatti_chiron.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Chiron"
-  },
-  {
-    "id": "koenigsegg_agera",
-    "brand": "Koenigsegg",
-    "model": "Agera",
-    "fullName": "Koenigsegg Agera",
-    "imageUrl": "/images/koenigsegg_agera.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Agera"
-  },
-  {
-    "id": "koenigsegg_regera",
-    "brand": "Koenigsegg",
-    "model": "Regera",
-    "fullName": "Koenigsegg Regera",
-    "imageUrl": "/images/koenigsegg_regera.png",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Regera"
-  },
-  {
-    "id": "pagani_zonda",
-    "brand": "Pagani",
-    "model": "Zonda",
-    "fullName": "Pagani Zonda",
-    "imageUrl": "/images/pagani_zonda.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pagani_Zonda"
-  },
-  {
-    "id": "pagani_huayra",
-    "brand": "Pagani",
-    "model": "Huayra",
-    "fullName": "Pagani Huayra",
-    "imageUrl": "/images/pagani_huayra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pagani_Huayra"
-  },
-  {
-    "id": "bmw_m3",
-    "brand": "BMW",
-    "model": "M3",
-    "fullName": "BMW M3",
-    "imageUrl": "/images/bmw_m3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_M3"
-  },
-  {
-    "id": "bmw_m5",
-    "brand": "BMW",
-    "model": "M5",
-    "fullName": "BMW M5",
-    "imageUrl": "/images/bmw_m5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_M5"
-  },
-  {
-    "id": "bmw_x5",
-    "brand": "BMW",
-    "model": "X5",
-    "fullName": "BMW X5",
-    "imageUrl": "/images/bmw_x5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_X5"
-  },
-  {
-    "id": "bmw_i8",
-    "brand": "BMW",
-    "model": "i8",
-    "fullName": "BMW i8",
-    "imageUrl": "/images/bmw_i8.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_i8"
-  },
-  {
-    "id": "mercedes_benz_sls_amg",
-    "brand": "Mercedes-Benz",
-    "model": "SLS AMG",
-    "fullName": "Mercedes-Benz SLS AMG",
-    "imageUrl": "/images/mercedes_benz_sls_amg.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLS_AMG"
-  },
-  {
-    "id": "mercedes_benz_g_class",
-    "brand": "Mercedes-Benz",
-    "model": "G-Class",
-    "fullName": "Mercedes-Benz G-Class",
-    "imageUrl": "/images/mercedes_benz_g_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_G-Class"
-  },
-  {
-    "id": "mercedes_benz_s_class",
-    "brand": "Mercedes-Benz",
-    "model": "S-Class",
-    "fullName": "Mercedes-Benz S-Class",
-    "imageUrl": "/images/mercedes_benz_s_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_S-Class"
-  },
-  {
-    "id": "audi_r8",
-    "brand": "Audi",
-    "model": "R8",
-    "fullName": "Audi R8",
-    "imageUrl": "/images/audi_r8.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_R8"
-  },
-  {
-    "id": "audi_a4",
-    "brand": "Audi",
-    "model": "A4",
-    "fullName": "Audi A4",
-    "imageUrl": "/images/audi_a4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A4"
-  },
-  {
-    "id": "audi_q7",
-    "brand": "Audi",
-    "model": "Q7",
-    "fullName": "Audi Q7",
-    "imageUrl": "/images/audi_q7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q7"
-  },
-  {
-    "id": "audi_tt",
-    "brand": "Audi",
-    "model": "TT",
-    "fullName": "Audi TT",
-    "imageUrl": "/images/audi_tt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_TT"
-  },
-  {
-    "id": "aston_martin_db11",
-    "brand": "Aston",
-    "model": "Martin DB11",
-    "fullName": "Aston Martin DB11",
-    "imageUrl": "/images/aston_martin_db11.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DB11"
-  },
-  {
-    "id": "aston_martin_vantage",
-    "brand": "Aston",
-    "model": "Martin Vantage",
-    "fullName": "Aston Martin Vantage",
-    "imageUrl": "/images/aston_martin_vantage.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage"
-  },
-  {
-    "id": "aston_martin_dbs",
-    "brand": "Aston",
-    "model": "Martin DBS",
-    "fullName": "Aston Martin DBS",
-    "imageUrl": "/images/aston_martin_dbs.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DBS"
-  },
-  {
-    "id": "bentley_continental_gt",
-    "brand": "Bentley",
-    "model": "Continental GT",
-    "fullName": "Bentley Continental GT",
-    "imageUrl": "/images/bentley_continental_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Continental_GT"
-  },
-  {
-    "id": "rolls_royce_phantom",
-    "brand": "Rolls-Royce",
-    "model": "Phantom",
-    "fullName": "Rolls-Royce Phantom",
-    "imageUrl": "/images/rolls_royce_phantom.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Phantom"
-  },
-  {
-    "id": "rolls_royce_ghost",
-    "brand": "Rolls-Royce",
-    "model": "Ghost",
-    "fullName": "Rolls-Royce Ghost",
-    "imageUrl": "/images/rolls_royce_ghost.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Ghost"
-  },
-  {
-    "id": "jaguar_f_type",
-    "brand": "Jaguar",
-    "model": "F-Type",
-    "fullName": "Jaguar F-Type",
-    "imageUrl": "/images/jaguar_f_type.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_F-Type"
-  },
-  {
-    "id": "jaguar_xe",
-    "brand": "Jaguar",
-    "model": "XE",
-    "fullName": "Jaguar XE",
-    "imageUrl": "/images/jaguar_xe.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_XE"
-  },
-  {
-    "id": "jaguar_xf",
-    "brand": "Jaguar",
-    "model": "XF",
-    "fullName": "Jaguar XF",
-    "imageUrl": "/images/jaguar_xf.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_XF"
-  },
-  {
-    "id": "land_rover_range_rover",
-    "brand": "Range",
-    "model": "Rover",
-    "fullName": "Range Rover",
-    "imageUrl": "/images/land_rover_range_rover.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover"
-  },
-  {
-    "id": "land_rover_defender",
-    "brand": "Land",
-    "model": "Rover Defender",
-    "fullName": "Land Rover Defender",
-    "imageUrl": "/images/land_rover_defender.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Defender"
-  },
-  {
-    "id": "lotus_elise",
-    "brand": "Lotus",
-    "model": "Elise",
-    "fullName": "Lotus Elise",
-    "imageUrl": "/images/lotus_elise.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Elise"
-  },
-  {
-    "id": "lotus_exige",
-    "brand": "Lotus",
-    "model": "Exige",
-    "fullName": "Lotus Exige",
-    "imageUrl": "/images/lotus_exige.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Exige"
-  },
-  {
-    "id": "lotus_evora",
-    "brand": "Lotus",
-    "model": "Evora",
-    "fullName": "Lotus Evora",
-    "imageUrl": "/images/lotus_evora.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Evora"
-  },
-  {
-    "id": "mini_cooper",
-    "brand": "Mini",
-    "model": "Cooper",
-    "fullName": "Mini Cooper",
-    "imageUrl": "/images/mini_cooper.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Cooper"
-  },
-  {
-    "id": "ford_mustang",
-    "brand": "Ford",
-    "model": "Mustang",
-    "fullName": "Ford Mustang",
-    "imageUrl": "/images/ford_mustang.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Mustang"
-  },
-  {
-    "id": "ford_gt",
-    "brand": "Ford",
-    "model": "GT",
-    "fullName": "Ford GT",
-    "imageUrl": "/images/ford_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_GT"
-  },
-  {
-    "id": "ford_f_150",
-    "brand": "Ford",
-    "model": "F-Series",
-    "fullName": "Ford F-Series",
-    "imageUrl": "/images/ford_f_150.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_F-150"
-  },
-  {
-    "id": "chevrolet_camaro",
-    "brand": "Chevrolet",
-    "model": "Camaro",
-    "fullName": "Chevrolet Camaro",
-    "imageUrl": "/images/chevrolet_camaro.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Camaro"
-  },
-  {
-    "id": "chevrolet_corvette",
-    "brand": "Chevrolet",
-    "model": "Corvette",
-    "fullName": "Chevrolet Corvette",
-    "imageUrl": "/images/chevrolet_corvette.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Corvette"
-  },
-  {
-    "id": "chevrolet_silverado",
-    "brand": "Chevrolet",
-    "model": "Silverado",
-    "fullName": "Chevrolet Silverado",
-    "imageUrl": "/images/chevrolet_silverado.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Silverado"
-  },
-  {
-    "id": "dodge_challenger",
-    "brand": "Dodge",
-    "model": "Challenger",
-    "fullName": "Dodge Challenger",
-    "imageUrl": "/images/dodge_challenger.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Challenger"
-  },
-  {
-    "id": "dodge_charger",
-    "brand": "Dodge",
-    "model": "Charger",
-    "fullName": "Dodge Charger",
-    "imageUrl": "/images/dodge_charger.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Charger"
-  },
-  {
-    "id": "dodge_viper",
-    "brand": "Dodge",
-    "model": "Viper",
-    "fullName": "Dodge Viper",
-    "imageUrl": "/images/dodge_viper.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Viper"
-  },
-  {
-    "id": "cadillac_escalade",
-    "brand": "Cadillac",
-    "model": "Escalade",
-    "fullName": "Cadillac Escalade",
-    "imageUrl": "/images/cadillac_escalade.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Escalade"
-  },
-  {
-    "id": "cadillac_cts",
-    "brand": "Cadillac",
-    "model": "CTS",
-    "fullName": "Cadillac CTS",
-    "imageUrl": "/images/cadillac_cts.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_CTS"
-  },
-  {
-    "id": "nissan_gt_r",
-    "brand": "Nissan",
-    "model": "GT-R",
-    "fullName": "Nissan GT-R",
-    "imageUrl": "/images/nissan_gt_r.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_GT-R"
-  },
-  {
-    "id": "nissan_350z",
-    "brand": "Nissan",
-    "model": "350Z",
-    "fullName": "Nissan 350Z",
-    "imageUrl": "/images/nissan_350z.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_350Z"
-  },
-  {
-    "id": "nissan_skyline",
-    "brand": "Nissan",
-    "model": "Skyline",
-    "fullName": "Nissan Skyline",
-    "imageUrl": "/images/nissan_skyline.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Skyline"
-  },
-  {
-    "id": "toyota_supra",
-    "brand": "Toyota",
-    "model": "Supra",
-    "fullName": "Toyota Supra",
-    "imageUrl": "/images/toyota_supra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Supra"
-  },
-  {
-    "id": "toyota_86",
-    "brand": "Toyota",
-    "model": "86",
-    "fullName": "Toyota 86",
-    "imageUrl": "/images/toyota_86.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_86"
-  },
-  {
-    "id": "toyota_prius",
-    "brand": "Toyota",
-    "model": "Prius",
-    "fullName": "Toyota Prius",
-    "imageUrl": "/images/toyota_prius.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Prius"
-  },
-  {
-    "id": "honda_nsx",
-    "brand": "Honda",
-    "model": "NSX",
-    "fullName": "Honda NSX",
-    "imageUrl": "/images/honda_nsx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_NSX"
-  },
-  {
-    "id": "honda_civic_type_r",
-    "brand": "Honda",
-    "model": "Civic Type R",
-    "fullName": "Honda Civic Type R",
-    "imageUrl": "/images/honda_civic_type_r.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
-  },
-  {
-    "id": "honda_accord",
-    "brand": "Honda",
-    "model": "Accord",
-    "fullName": "Honda Accord",
-    "imageUrl": "/images/honda_accord.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Accord"
-  },
-  {
-    "id": "subaru_impreza_wrx",
-    "brand": "Subaru",
-    "model": "WRX",
-    "fullName": "Subaru WRX",
-    "imageUrl": "/images/subaru_impreza_wrx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Impreza_WRX"
-  },
-  {
-    "id": "subaru_brz",
-    "brand": "Toyota",
-    "model": "86",
-    "fullName": "Toyota 86",
-    "imageUrl": "/images/subaru_brz.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_BRZ"
-  },
-  {
-    "id": "mitsubishi_lancer_evolution",
-    "brand": "Mitsubishi",
-    "model": "Lancer Evolution",
-    "fullName": "Mitsubishi Lancer Evolution",
-    "imageUrl": "/images/mitsubishi_lancer_evolution.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution"
-  },
-  {
-    "id": "mazda_mx_5",
-    "brand": "Mazda",
-    "model": "MX-5",
-    "fullName": "Mazda MX-5",
-    "imageUrl": "/images/mazda_mx_5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_MX-5"
-  },
-  {
-    "id": "mazda_rx_7",
-    "brand": "Mazda",
-    "model": "RX-7",
-    "fullName": "Mazda RX-7",
-    "imageUrl": "/images/mazda_rx_7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_RX-7"
-  },
-  {
-    "id": "mazda_rx_8",
-    "brand": "Mazda",
-    "model": "RX-8",
-    "fullName": "Mazda RX-8",
-    "imageUrl": "/images/mazda_rx_8.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_RX-8"
-  },
-  {
-    "id": "lexus_lfa",
-    "brand": "Lexus",
-    "model": "LFA",
-    "fullName": "Lexus LFA",
-    "imageUrl": "/images/lexus_lfa.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_LFA"
-  },
-  {
-    "id": "lexus_ls",
-    "brand": "Lexus",
-    "model": "LS",
-    "fullName": "Lexus LS",
-    "imageUrl": "/images/lexus_ls.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_LS"
-  },
-  {
-    "id": "lexus_rx",
-    "brand": "Lexus",
-    "model": "RX",
-    "fullName": "Lexus RX",
-    "imageUrl": "/images/lexus_rx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_RX"
-  },
-  {
-    "id": "infiniti_g37",
-    "brand": "Infiniti",
-    "model": "G Line",
-    "fullName": "Infiniti G Line",
-    "imageUrl": "/images/infiniti_g37.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_G37"
-  },
-  {
-    "id": "infiniti_q50",
-    "brand": "Infiniti",
-    "model": "Q50",
-    "fullName": "Infiniti Q50",
-    "imageUrl": "/images/infiniti_q50.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q50"
-  },
-  {
-    "id": "acura_nsx",
-    "brand": "Honda",
-    "model": "NSX",
-    "fullName": "Honda NSX",
-    "imageUrl": "/images/acura_nsx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_NSX"
-  },
-  {
-    "id": "acura_tlx",
-    "brand": "Acura",
-    "model": "TLX",
-    "fullName": "Acura TLX",
-    "imageUrl": "/images/acura_tlx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_TLX"
-  },
-  {
-    "id": "alfa_romeo_4c",
-    "brand": "Alfa",
-    "model": "Romeo 4C",
-    "fullName": "Alfa Romeo 4C",
-    "imageUrl": "/images/alfa_romeo_4c.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_4C"
-  },
-  {
-    "id": "alfa_romeo_giulia",
-    "brand": "Alfa",
-    "model": "Romeo Giulia",
-    "fullName": "Alfa Romeo Giulia",
-    "imageUrl": "/images/alfa_romeo_giulia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Giulia"
-  },
-  {
-    "id": "alfa_romeo_spider",
-    "brand": "Alfa",
-    "model": "Romeo Spider",
-    "fullName": "Alfa Romeo Spider",
-    "imageUrl": "/images/alfa_romeo_spider.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Spider"
-  },
-  {
-    "id": "fiat_500",
-    "brand": "Fiat",
-    "model": "500",
-    "fullName": "Fiat 500",
-    "imageUrl": "/images/fiat_500.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_500"
-  },
-  {
-    "id": "fiat_panda",
-    "brand": "Fiat",
-    "model": "Panda",
-    "fullName": "Fiat Panda",
-    "imageUrl": "/images/fiat_panda.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Panda"
-  },
-  {
-    "id": "maserati_granturismo",
-    "brand": "Maserati",
-    "model": "GranTurismo",
-    "fullName": "Maserati GranTurismo",
-    "imageUrl": "/images/maserati_granturismo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_GranTurismo"
-  },
-  {
-    "id": "maserati_quattroporte",
-    "brand": "Maserati",
-    "model": "Quattroporte",
-    "fullName": "Maserati Quattroporte",
-    "imageUrl": "/images/maserati_quattroporte.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Quattroporte"
-  },
-  {
-    "id": "tesla_model_s",
-    "brand": "Tesla",
-    "model": "Model S",
-    "fullName": "Tesla Model S",
-    "imageUrl": "/images/tesla_model_s.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Model_S"
-  },
-  {
-    "id": "tesla_model_3",
-    "brand": "Tesla",
-    "model": "Model 3",
-    "fullName": "Tesla Model 3",
-    "imageUrl": "/images/tesla_model_3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Model_3"
-  },
-  {
-    "id": "tesla_model_x",
-    "brand": "Tesla",
-    "model": "Model X",
-    "fullName": "Tesla Model X",
-    "imageUrl": "/images/tesla_model_x.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Model_X"
-  },
-  {
-    "id": "tesla_model_y",
-    "brand": "Tesla",
-    "model": "Model Y",
-    "fullName": "Tesla Model Y",
-    "imageUrl": "/images/tesla_model_y.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Model_Y"
-  },
-  {
-    "id": "rimac_nevera",
-    "brand": "Rimac",
-    "model": "Nevera",
-    "fullName": "Rimac Nevera",
-    "imageUrl": "/images/rimac_nevera.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rimac_Nevera"
-  },
-  {
-    "id": "lotus_evija",
-    "brand": "Lotus",
-    "model": "Evija",
-    "fullName": "Lotus Evija",
-    "imageUrl": "/images/lotus_evija.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Evija"
-  },
-  {
-    "id": "porsche_taycan",
-    "brand": "Porsche",
-    "model": "Taycan",
-    "fullName": "Porsche Taycan",
-    "imageUrl": "/images/porsche_taycan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Taycan"
-  },
-  {
-    "id": "volkswagen_golf",
-    "brand": "Volkswagen",
-    "model": "Golf",
-    "fullName": "Volkswagen Golf",
-    "imageUrl": "/images/volkswagen_golf.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Golf"
-  },
-  {
-    "id": "volkswagen_beetle",
-    "brand": "Volkswagen",
-    "model": "Beetle",
-    "fullName": "Volkswagen Beetle",
-    "imageUrl": "/images/volkswagen_beetle.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
-  },
-  {
-    "id": "volkswagen_passat",
-    "brand": "Volkswagen",
-    "model": "Passat",
-    "fullName": "Volkswagen Passat",
-    "imageUrl": "/images/volkswagen_passat.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Passat"
-  },
-  {
-    "id": "bmw_3_series",
-    "brand": "BMW",
-    "model": "3 Series",
-    "fullName": "BMW 3 Series",
-    "imageUrl": "/images/bmw_3_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_3_Series"
-  },
-  {
-    "id": "bmw_5_series",
-    "brand": "BMW",
-    "model": "5 Series",
-    "fullName": "BMW 5 Series",
-    "imageUrl": "/images/bmw_5_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_5_Series"
-  },
-  {
-    "id": "bmw_x3",
-    "brand": "BMW",
-    "model": "X3",
-    "fullName": "BMW X3",
-    "imageUrl": "/images/bmw_x3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_X3"
-  },
-  {
-    "id": "mercedes_benz_c_class",
-    "brand": "Mercedes-Benz",
-    "model": "C-Class",
-    "fullName": "Mercedes-Benz C-Class",
-    "imageUrl": "/images/mercedes_benz_c_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_C-Class"
-  },
-  {
-    "id": "mercedes_benz_e_class",
-    "brand": "Mercedes-Benz",
-    "model": "E-Class",
-    "fullName": "Mercedes-Benz E-Class",
-    "imageUrl": "/images/mercedes_benz_e_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_E-Class"
-  },
-  {
-    "id": "audi_a3",
-    "brand": "Audi",
-    "model": "A3",
-    "fullName": "Audi A3",
-    "imageUrl": "/images/audi_a3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A3"
-  },
-  {
-    "id": "audi_q5",
-    "brand": "Audi",
-    "model": "Q5",
-    "fullName": "Audi Q5",
-    "imageUrl": "/images/audi_q5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q5"
-  },
-  {
-    "id": "volvo_xc90",
-    "brand": "Volvo",
-    "model": "XC90",
-    "fullName": "Volvo XC90",
-    "imageUrl": "/images/volvo_xc90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_XC90"
-  },
-  {
-    "id": "volvo_s60",
-    "brand": "Volvo",
-    "model": "S60",
-    "fullName": "Volvo S60",
-    "imageUrl": "/images/volvo_s60.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S60"
-  },
-  {
-    "id": "volvo_v60",
-    "brand": "Volvo",
-    "model": "V60",
-    "fullName": "Volvo V60",
-    "imageUrl": "/images/volvo_v60.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_V60"
-  },
-  {
-    "id": "saab_9_3",
-    "brand": "Saab",
-    "model": "9-3",
-    "fullName": "Saab 9-3",
-    "imageUrl": "/images/saab_9_3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_9-3"
-  },
-  {
-    "id": "saab_9_5",
-    "brand": "Saab",
-    "model": "9-5",
-    "fullName": "Saab 9-5",
-    "imageUrl": "/images/saab_9_5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_9-5"
-  },
-  {
-    "id": "peugeot_208",
-    "brand": "Peugeot",
-    "model": "208",
-    "fullName": "Peugeot 208",
-    "imageUrl": "/images/peugeot_208.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_208"
-  },
-  {
-    "id": "peugeot_308",
-    "brand": "Peugeot",
-    "model": "308",
-    "fullName": "Peugeot 308",
-    "imageUrl": "/images/peugeot_308.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_308"
-  },
-  {
-    "id": "peugeot_508",
-    "brand": "Peugeot",
-    "model": "508",
-    "fullName": "Peugeot 508",
-    "imageUrl": "/images/peugeot_508.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_508"
-  },
-  {
-    "id": "citro_n_c3",
-    "brand": "Citroën",
-    "model": "C3",
-    "fullName": "Citroën C3",
-    "imageUrl": "/images/citro_n_c3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_C3"
-  },
-  {
-    "id": "citro_n_c4",
-    "brand": "Citroën",
-    "model": "C4",
-    "fullName": "Citroën C4",
-    "imageUrl": "/images/citro_n_c4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_C4"
-  },
-  {
-    "id": "citro_n_ds3",
-    "brand": "DS",
-    "model": "3",
-    "fullName": "DS 3",
-    "imageUrl": "/images/citro_n_ds3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_DS3"
-  },
-  {
-    "id": "renault_clio",
-    "brand": "Renault",
-    "model": "Clio",
-    "fullName": "Renault Clio",
-    "imageUrl": "/images/renault_clio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Clio"
-  },
-  {
-    "id": "renault_megane",
-    "brand": "Renault",
-    "model": "Mégane",
-    "fullName": "Renault Mégane",
-    "imageUrl": "/images/renault_megane.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Megane"
-  },
-  {
-    "id": "renault_scenic",
-    "brand": "Renault",
-    "model": "Scénic",
-    "fullName": "Renault Scénic",
-    "imageUrl": "/images/renault_scenic.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Scenic"
-  },
-  {
-    "id": "hyundai_elantra",
-    "brand": "Hyundai",
-    "model": "Elantra",
-    "fullName": "Hyundai Elantra",
-    "imageUrl": "/images/hyundai_elantra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Elantra"
-  },
-  {
-    "id": "hyundai_sonata",
-    "brand": "Hyundai",
-    "model": "Sonata",
-    "fullName": "Hyundai Sonata",
-    "imageUrl": "/images/hyundai_sonata.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Sonata"
-  },
-  {
-    "id": "hyundai_tucson",
-    "brand": "Hyundai",
-    "model": "Tucson",
-    "fullName": "Hyundai Tucson",
-    "imageUrl": "/images/hyundai_tucson.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Tucson"
-  },
-  {
-    "id": "kia_optima",
-    "brand": "Kia",
-    "model": "K5",
-    "fullName": "Kia K5",
-    "imageUrl": "/images/kia_optima.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Optima"
-  },
-  {
-    "id": "kia_sorento",
-    "brand": "Kia",
-    "model": "Sorento",
-    "fullName": "Kia Sorento",
-    "imageUrl": "/images/kia_sorento.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Sorento"
-  },
-  {
-    "id": "kia_soul",
-    "brand": "Kia",
-    "model": "Soul",
-    "fullName": "Kia Soul",
-    "imageUrl": "/images/kia_soul.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Soul"
-  },
-  {
-    "id": "genesis_g90",
-    "brand": "Genesis",
-    "model": "G90",
-    "fullName": "Genesis G90",
-    "imageUrl": "/images/genesis_g90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_G90"
-  },
-  {
-    "id": "genesis_g80",
-    "brand": "Genesis",
-    "model": "G80",
-    "fullName": "Genesis G80",
-    "imageUrl": "/images/genesis_g80.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_G80"
-  },
-  {
-    "id": "jeep_wrangler",
-    "brand": "Jeep",
-    "model": "Wrangler",
-    "fullName": "Jeep Wrangler",
-    "imageUrl": "/images/jeep_wrangler.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Wrangler"
-  },
-  {
-    "id": "jeep_grand_cherokee",
-    "brand": "Jeep",
-    "model": "Grand Cherokee",
-    "fullName": "Jeep Grand Cherokee",
-    "imageUrl": "/images/jeep_grand_cherokee.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee"
-  },
-  {
-    "id": "range_rover_evoque",
-    "brand": "Range",
-    "model": "Rover Evoque",
-    "fullName": "Range Rover Evoque",
-    "imageUrl": "/images/range_rover_evoque.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Range_Rover_Evoque"
-  },
-  {
-    "id": "range_rover_sport",
-    "brand": "Range",
-    "model": "Rover Sport",
-    "fullName": "Range Rover Sport",
-    "imageUrl": "/images/range_rover_sport.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Range_Rover_Sport"
-  },
-  {
-    "id": "porsche_macan",
-    "brand": "Porsche",
-    "model": "Macan",
-    "fullName": "Porsche Macan",
-    "imageUrl": "/images/porsche_macan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Macan"
-  },
-  {
-    "id": "porsche_panamera",
-    "brand": "Porsche",
-    "model": "Panamera",
-    "fullName": "Porsche Panamera",
-    "imageUrl": "/images/porsche_panamera.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Panamera"
-  },
-  {
-    "id": "maserati_levante",
-    "brand": "Maserati",
-    "model": "Levante",
-    "fullName": "Maserati Levante",
-    "imageUrl": "/images/maserati_levante.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Levante"
-  },
-  {
-    "id": "alfa_romeo_stelvio",
-    "brand": "Alfa",
-    "model": "Romeo Stelvio",
-    "fullName": "Alfa Romeo Stelvio",
-    "imageUrl": "/images/alfa_romeo_stelvio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Stelvio"
-  },
-  {
-    "id": "jaguar_i_pace",
-    "brand": "Jaguar",
-    "model": "I-Pace",
-    "fullName": "Jaguar I-Pace",
-    "imageUrl": "/images/jaguar_i_pace.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_I-Pace"
-  },
-  {
-    "id": "jaguar_e_pace",
-    "brand": "Jaguar",
-    "model": "E-Pace",
-    "fullName": "Jaguar E-Pace",
-    "imageUrl": "/images/jaguar_e_pace.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_E-Pace"
-  },
-  {
-    "id": "volvo_xc40",
-    "brand": "Volvo",
-    "model": "XC40",
-    "fullName": "Volvo XC40",
-    "imageUrl": "/images/volvo_xc40.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_XC40"
-  },
-  {
-    "id": "volvo_xc60",
-    "brand": "Volvo",
-    "model": "XC60",
-    "fullName": "Volvo XC60",
-    "imageUrl": "/images/volvo_xc60.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_XC60"
-  },
-  {
-    "id": "mercedes_benz_gla_class",
-    "brand": "Mercedes-Benz",
-    "model": "GLA",
-    "fullName": "Mercedes-Benz GLA",
-    "imageUrl": "/images/mercedes_benz_gla_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLA-Class"
-  },
-  {
-    "id": "mercedes_benz_glc_class",
-    "brand": "Mercedes-Benz",
-    "model": "GLC",
-    "fullName": "Mercedes-Benz GLC",
-    "imageUrl": "/images/mercedes_benz_glc_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLC-Class"
-  },
-  {
-    "id": "bmw_x1",
-    "brand": "BMW",
-    "model": "X1",
-    "fullName": "BMW X1",
-    "imageUrl": "/images/bmw_x1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_X1"
-  },
-  {
-    "id": "bmw_x6",
-    "brand": "BMW",
-    "model": "X6",
-    "fullName": "BMW X6",
-    "imageUrl": "/images/bmw_x6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_X6"
-  },
-  {
-    "id": "audi_q3",
-    "brand": "Audi",
-    "model": "Q3",
-    "fullName": "Audi Q3",
-    "imageUrl": "/images/audi_q3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q3"
-  },
-  {
-    "id": "audi_q8",
-    "brand": "Audi",
-    "model": "Q8",
-    "fullName": "Audi Q8",
-    "imageUrl": "/images/audi_q8.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q8"
-  },
-  {
-    "id": "ford_focus",
-    "brand": "Ford",
-    "model": "Focus",
-    "fullName": "Ford Focus",
-    "imageUrl": "/images/ford_focus.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Focus"
-  },
-  {
-    "id": "ford_fiesta",
-    "brand": "Ford",
-    "model": "Fiesta",
-    "fullName": "Ford Fiesta",
-    "imageUrl": "/images/ford_fiesta.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Fiesta"
-  },
-  {
-    "id": "vauxhall_corsa",
-    "brand": "Opel",
-    "model": "Corsa",
-    "fullName": "Opel Corsa",
-    "imageUrl": "/images/vauxhall_corsa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Vauxhall_Corsa"
-  },
-  {
-    "id": "vauxhall_astra",
-    "brand": "Vauxhall",
-    "model": "Astra",
-    "fullName": "Vauxhall Astra",
-    "imageUrl": "/images/vauxhall_astra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Vauxhall_Astra"
-  },
-  {
-    "id": "opel_corsa",
-    "brand": "Opel",
-    "model": "Corsa",
-    "fullName": "Opel Corsa",
-    "imageUrl": "/images/opel_corsa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Corsa"
-  },
-  {
-    "id": "opel_astra",
-    "brand": "Opel",
-    "model": "Astra",
-    "fullName": "Opel Astra",
-    "imageUrl": "/images/opel_astra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Astra"
-  },
-  {
-    "id": "_koda_octavia",
-    "brand": "Škoda",
-    "model": "Octavia",
-    "fullName": "Škoda Octavia",
-    "imageUrl": "/images/_koda_octavia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Škoda_Octavia"
-  },
-  {
-    "id": "_koda_superb",
-    "brand": "Škoda",
-    "model": "Superb",
-    "fullName": "Škoda Superb",
-    "imageUrl": "/images/_koda_superb.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Škoda_Superb"
-  },
-  {
-    "id": "_koda_fabia",
+    "id": "skoda_fabia",
     "brand": "Škoda",
     "model": "Fabia",
     "fullName": "Škoda Fabia",
     "imageUrl": "/images/_koda_fabia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Škoda_Fabia"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Škoda_Fabia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Škoda Fabia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Škoda_Fabia"
   },
   {
-    "id": "seat_leon",
-    "brand": "SEAT",
-    "model": "León",
-    "fullName": "SEAT León",
-    "imageUrl": "/images/seat_leon.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Leon"
+    "id": "skoda_octavia",
+    "brand": "Škoda",
+    "model": "Octavia",
+    "fullName": "Škoda Octavia",
+    "imageUrl": "/images/_koda_octavia.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Škoda_Octavia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Škoda Octavia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Škoda_Octavia"
   },
   {
-    "id": "seat_ibiza",
-    "brand": "SEAT",
-    "model": "Ibiza",
-    "fullName": "SEAT Ibiza",
-    "imageUrl": "/images/seat_ibiza.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Ibiza"
+    "id": "skoda_superb",
+    "brand": "Škoda",
+    "model": "Superb",
+    "fullName": "Škoda Superb",
+    "imageUrl": "/images/_koda_superb.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Škoda_Superb",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Škoda Superb image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Škoda_Superb"
   },
   {
-    "id": "toyota_camry",
-    "brand": "Toyota",
-    "model": "Camry",
-    "fullName": "Toyota Camry",
-    "imageUrl": "/images/toyota_camry.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Camry"
-  },
-  {
-    "id": "toyota_corolla",
-    "brand": "Toyota",
-    "model": "Corolla",
-    "fullName": "Toyota Corolla",
-    "imageUrl": "/images/toyota_corolla.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Corolla"
-  },
-  {
-    "id": "toyota_rav4",
-    "brand": "Toyota",
-    "model": "RAV4",
-    "fullName": "Toyota RAV4",
-    "imageUrl": "/images/toyota_rav4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_RAV4"
-  },
-  {
-    "id": "honda_civic",
-    "brand": "Honda",
-    "model": "Civic",
-    "fullName": "Honda Civic",
-    "imageUrl": "/images/honda_civic.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Civic"
-  },
-  {
-    "id": "honda_cr_v",
-    "brand": "Honda",
-    "model": "CR-V",
-    "fullName": "Honda CR-V",
-    "imageUrl": "/images/honda_cr_v.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_CR-V"
-  },
-  {
-    "id": "honda_pilot",
-    "brand": "Honda",
-    "model": "Pilot",
-    "fullName": "Honda Pilot",
-    "imageUrl": "/images/honda_pilot.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Pilot"
-  },
-  {
-    "id": "nissan_altima",
-    "brand": "Nissan",
-    "model": "Altima",
-    "fullName": "Nissan Altima",
-    "imageUrl": "/images/nissan_altima.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Altima"
-  },
-  {
-    "id": "nissan_sentra",
-    "brand": "Nissan",
-    "model": "Sentra",
-    "fullName": "Nissan Sentra",
-    "imageUrl": "/images/nissan_sentra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Sentra"
-  },
-  {
-    "id": "nissan_rogue",
-    "brand": "Nissan",
-    "model": "Rogue",
-    "fullName": "Nissan Rogue",
-    "imageUrl": "/images/nissan_rogue.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Rogue"
-  },
-  {
-    "id": "mazda_3",
-    "brand": "Mazda3",
-    "model": "Mazda3",
-    "fullName": "Mazda3",
-    "imageUrl": "/images/mazda_3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_3"
-  },
-  {
-    "id": "mazda_6",
-    "brand": "Mazda6",
-    "model": "Mazda6",
-    "fullName": "Mazda6",
-    "imageUrl": "/images/mazda_6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_6"
-  },
-  {
-    "id": "mazda_cx_5",
-    "brand": "Mazda",
-    "model": "CX-5",
-    "fullName": "Mazda CX-5",
-    "imageUrl": "/images/mazda_cx_5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_CX-5"
-  },
-  {
-    "id": "subaru_outback",
-    "brand": "Subaru",
-    "model": "Outback",
-    "fullName": "Subaru Outback",
-    "imageUrl": "/images/subaru_outback.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Outback"
-  },
-  {
-    "id": "subaru_forester",
-    "brand": "Subaru",
-    "model": "Forester",
-    "fullName": "Subaru Forester",
-    "imageUrl": "/images/subaru_forester.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Forester"
-  },
-  {
-    "id": "subaru_legacy",
-    "brand": "Subaru",
-    "model": "Legacy",
-    "fullName": "Subaru Legacy",
-    "imageUrl": "/images/subaru_legacy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Legacy"
-  },
-  {
-    "id": "mitsubishi_outlander",
-    "brand": "Mitsubishi",
-    "model": "Outlander",
-    "fullName": "Mitsubishi Outlander",
-    "imageUrl": "/images/mitsubishi_outlander.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Outlander"
-  },
-  {
-    "id": "mitsubishi_eclipse",
-    "brand": "Mitsubishi",
-    "model": "Eclipse",
-    "fullName": "Mitsubishi Eclipse",
-    "imageUrl": "/images/mitsubishi_eclipse.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Eclipse"
-  },
-  {
-    "id": "ford_f_series",
-    "brand": "Ford",
-    "model": "F-Series",
-    "fullName": "Ford F-Series",
-    "imageUrl": "/images/ford_f_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_F-Series"
-  },
-  {
-    "id": "chevrolet_tahoe",
-    "brand": "Chevrolet",
-    "model": "Tahoe",
-    "fullName": "Chevrolet Tahoe",
-    "imageUrl": "/images/chevrolet_tahoe.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Tahoe"
-  },
-  {
-    "id": "gmc_sierra",
-    "brand": "Chevrolet",
-    "model": "Silverado",
-    "fullName": "Chevrolet Silverado",
-    "imageUrl": "/images/gmc_sierra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Sierra"
-  },
-  {
-    "id": "ram_1500",
-    "brand": "Ram",
-    "model": "pickup",
-    "fullName": "Ram pickup",
-    "imageUrl": "/images/ram_1500.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_1500"
-  },
-  {
-    "id": "toyota_tundra",
-    "brand": "Toyota",
-    "model": "Tundra",
-    "fullName": "Toyota Tundra",
-    "imageUrl": "/images/toyota_tundra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Tundra"
-  },
-  {
-    "id": "nissan_titan",
-    "brand": "Nissan",
-    "model": "Titan",
-    "fullName": "Nissan Titan",
-    "imageUrl": "/images/nissan_titan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Titan"
-  },
-  {
-    "id": "toyota_4runner",
-    "brand": "Toyota",
-    "model": "4Runner",
-    "fullName": "Toyota 4Runner",
-    "imageUrl": "/images/toyota_4runner.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_4Runner"
-  },
-  {
-    "id": "toyota_highlander",
-    "brand": "Toyota",
-    "model": "Highlander",
-    "fullName": "Toyota Highlander",
-    "imageUrl": "/images/toyota_highlander.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Highlander"
-  },
-  {
-    "id": "honda_ridgeline",
-    "brand": "Honda",
-    "model": "Ridgeline",
-    "fullName": "Honda Ridgeline",
-    "imageUrl": "/images/honda_ridgeline.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Ridgeline"
-  },
-  {
-    "id": "honda_passport",
-    "brand": "Honda",
-    "model": "Passport",
-    "fullName": "Honda Passport",
-    "imageUrl": "/images/honda_passport.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Passport"
-  },
-  {
-    "id": "jeep_cherokee",
-    "brand": "Jeep",
-    "model": "Cherokee",
-    "fullName": "Jeep Cherokee",
-    "imageUrl": "/images/jeep_cherokee.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Cherokee"
-  },
-  {
-    "id": "jeep_compass",
-    "brand": "Jeep",
-    "model": "Compass",
-    "fullName": "Jeep Compass",
-    "imageUrl": "/images/jeep_compass.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Compass"
-  },
-  {
-    "id": "hyundai_santa_fe",
-    "brand": "Hyundai",
-    "model": "Santa Fe",
-    "fullName": "Hyundai Santa Fe",
-    "imageUrl": "/images/hyundai_santa_fe.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Santa_Fe"
-  },
-  {
-    "id": "kia_telluride",
-    "brand": "Kia",
-    "model": "Telluride",
-    "fullName": "Kia Telluride",
-    "imageUrl": "/images/kia_telluride.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Telluride"
-  },
-  {
-    "id": "mazda_cx_9",
-    "brand": "Mazda",
-    "model": "CX-9",
-    "fullName": "Mazda CX-9",
-    "imageUrl": "/images/mazda_cx_9.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_CX-9"
-  },
-  {
-    "id": "subaru_ascent",
-    "brand": "Subaru",
-    "model": "Ascent",
-    "fullName": "Subaru Ascent",
-    "imageUrl": "/images/subaru_ascent.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Ascent"
-  },
-  {
-    "id": "bmw_7_series",
-    "brand": "BMW",
-    "model": "7 Series",
-    "fullName": "BMW 7 Series",
-    "imageUrl": "/images/bmw_7_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_7_Series"
-  },
-  {
-    "id": "audi_a8",
-    "brand": "Audi",
-    "model": "A8",
-    "fullName": "Audi A8",
-    "imageUrl": "/images/audi_a8.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A8"
-  },
-  {
-    "id": "cadillac_ct6",
-    "brand": "Cadillac",
-    "model": "CT6",
-    "fullName": "Cadillac CT6",
-    "imageUrl": "/images/cadillac_ct6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_CT6"
-  },
-  {
-    "id": "lincoln_continental",
-    "brand": "Lincoln",
-    "model": "Continental",
-    "fullName": "Lincoln Continental",
-    "imageUrl": "/images/lincoln_continental.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Continental"
-  },
-  {
-    "id": "volvo_s90",
-    "brand": "Volvo",
-    "model": "S90",
-    "fullName": "Volvo S90",
-    "imageUrl": "/images/volvo_s90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S90"
-  },
-  {
-    "id": "jaguar_xj",
-    "brand": "Jaguar",
-    "model": "XJ",
-    "fullName": "Jaguar XJ",
-    "imageUrl": "/images/jaguar_xj.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_XJ"
-  },
-  {
-    "id": "maserati_ghibli",
-    "brand": "Maserati",
-    "model": "Ghibli",
-    "fullName": "Maserati Ghibli",
-    "imageUrl": "/images/maserati_ghibli.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Ghibli"
-  },
-  {
-    "id": "bmw_z4",
-    "brand": "BMW",
-    "model": "Z",
-    "fullName": "BMW Z",
-    "imageUrl": "/images/bmw_z4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_Z4"
-  },
-  {
-    "id": "mercedes_benz_sl_class",
-    "brand": "Mercedes-Benz",
-    "model": "SL-Class",
-    "fullName": "Mercedes-Benz SL-Class",
-    "imageUrl": "/images/mercedes_benz_sl_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_SL-Class"
-  },
-  {
-    "id": "chevrolet_camaro_convertible",
-    "brand": "Chevrolet",
-    "model": "Camaro",
-    "fullName": "Chevrolet Camaro",
-    "imageUrl": "/images/chevrolet_camaro_convertible.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Camaro_Convertible"
-  },
-  {
-    "id": "mazda_mx_5_miata",
-    "brand": "Mazda",
-    "model": "MX-5",
-    "fullName": "Mazda MX-5",
-    "imageUrl": "/images/mazda_mx_5_miata.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_MX-5_Miata"
-  },
-  {
-    "id": "fiat_124_spider",
-    "brand": "Fiat",
-    "model": "124 Sport Spider",
-    "fullName": "Fiat 124 Sport Spider",
-    "imageUrl": "/images/fiat_124_spider.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_124_Spider"
-  },
-  {
-    "id": "volkswagen_golf_gti",
-    "brand": "Volkswagen",
-    "model": "Golf",
-    "fullName": "Volkswagen Golf",
-    "imageUrl": "/images/volkswagen_golf_gti.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Golf_GTI"
-  },
-  {
-    "id": "hyundai_veloster",
-    "brand": "Hyundai",
-    "model": "Veloster",
-    "fullName": "Hyundai Veloster",
-    "imageUrl": "/images/hyundai_veloster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Veloster"
-  },
-  {
-    "id": "ford_focus_st",
-    "brand": "Ford",
-    "model": "Focus",
-    "fullName": "Ford Focus",
-    "imageUrl": "/images/ford_focus_st.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Focus_ST"
-  },
-  {
-    "id": "toyota_yaris",
-    "brand": "Toyota",
-    "model": "Yaris",
-    "fullName": "Toyota Yaris",
-    "imageUrl": "/images/toyota_yaris.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Yaris"
-  },
-  {
-    "id": "volvo_v90",
-    "brand": "Volvo",
-    "model": "V90",
-    "fullName": "Volvo V90",
-    "imageUrl": "/images/volvo_v90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_V90"
-  },
-  {
-    "id": "audi_a4_allroad",
-    "brand": "Audi",
-    "model": "A4",
-    "fullName": "Audi A4",
-    "imageUrl": "/images/audi_a4_allroad.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A4_Allroad"
+    "id": "abarth_124_spider",
+    "brand": "Abarth",
+    "model": "124 Spider",
+    "fullName": "Abarth 124 Spider",
+    "imageUrl": "/images/abarth_124_spider.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Abarth_124_Spider",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Abarth 124 Spider image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Abarth_124_Spider"
   },
   {
     "id": "abarth_500",
@@ -1663,55 +55,71 @@ export const cars: Car[] = [
     "model": "500",
     "fullName": "Abarth 500",
     "imageUrl": "/images/abarth_500.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Abarth_500"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Abarth_500",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Abarth 500 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Abarth_500"
   },
   {
     "id": "abarth_595",
-    "brand": "Fiat",
-    "model": "500 (2007)",
-    "fullName": "Fiat 500 (2007)",
+    "brand": "Abarth",
+    "model": "595",
+    "fullName": "Abarth 595",
     "imageUrl": "/images/abarth_595.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Abarth_595"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Abarth_595",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Abarth 595 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Abarth_595"
   },
   {
     "id": "abarth_695",
-    "brand": "Fiat",
-    "model": "500 (2007)",
-    "fullName": "Fiat 500 (2007)",
+    "brand": "Abarth",
+    "model": "695",
+    "fullName": "Abarth 695",
     "imageUrl": "/images/abarth_695.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Abarth_695"
-  },
-  {
-    "id": "abarth_124_spider",
-    "brand": "Fiat",
-    "model": "124 Spider (2016)",
-    "fullName": "Fiat 124 Spider (2016)",
-    "imageUrl": "/images/abarth_124_spider.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Abarth_124_Spider"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Abarth_695",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Abarth 695 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Abarth_695"
   },
   {
     "id": "acura_cl",
     "brand": "Acura",
-    "model": "CL",
-    "fullName": "Acura CL",
+    "model": "Cl",
+    "fullName": "Acura Cl",
     "imageUrl": "/images/acura_cl.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_CL"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Cl",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Cl image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Cl"
   },
   {
     "id": "acura_ilx",
     "brand": "Acura",
-    "model": "ILX",
-    "fullName": "Acura ILX",
+    "model": "Ilx",
+    "fullName": "Acura Ilx",
     "imageUrl": "/images/acura_ilx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_ILX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Ilx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Ilx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Ilx"
   },
   {
     "id": "acura_integra",
-    "brand": "Honda",
+    "brand": "Acura",
     "model": "Integra",
-    "fullName": "Honda Integra",
+    "fullName": "Acura Integra",
     "imageUrl": "/images/acura_integra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Integra"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Integra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Integra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Integra"
   },
   {
     "id": "acura_legend",
@@ -1719,255 +127,491 @@ export const cars: Car[] = [
     "model": "Legend",
     "fullName": "Acura Legend",
     "imageUrl": "/images/acura_legend.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Legend"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Legend",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Legend image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Legend"
   },
   {
     "id": "acura_mdx",
     "brand": "Acura",
-    "model": "MDX",
-    "fullName": "Acura MDX",
+    "model": "Mdx",
+    "fullName": "Acura Mdx",
     "imageUrl": "/images/acura_mdx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_MDX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Mdx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Mdx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Mdx"
+  },
+  {
+    "id": "acura_nsx",
+    "brand": "Acura",
+    "model": "Nsx",
+    "fullName": "Acura Nsx",
+    "imageUrl": "/images/acura_nsx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Nsx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Nsx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Nsx"
   },
   {
     "id": "acura_rdx",
     "brand": "Acura",
-    "model": "RDX",
-    "fullName": "Acura RDX",
+    "model": "Rdx",
+    "fullName": "Acura Rdx",
     "imageUrl": "/images/acura_rdx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_RDX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Rdx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Rdx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Rdx"
   },
   {
     "id": "acura_rl",
     "brand": "Acura",
-    "model": "RL",
-    "fullName": "Acura RL",
+    "model": "Rl",
+    "fullName": "Acura Rl",
     "imageUrl": "/images/acura_rl.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_RL"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Rl",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Rl image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Rl"
   },
   {
     "id": "acura_rlx",
     "brand": "Acura",
-    "model": "RLX",
-    "fullName": "Acura RLX",
+    "model": "Rlx",
+    "fullName": "Acura Rlx",
     "imageUrl": "/images/acura_rlx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_RLX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Rlx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Rlx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Rlx"
   },
   {
     "id": "acura_rsx",
     "brand": "Acura",
-    "model": "RSX",
-    "fullName": "Acura RSX",
+    "model": "Rsx",
+    "fullName": "Acura Rsx",
     "imageUrl": "/images/acura_rsx.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_RSX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Rsx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Rsx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Rsx"
   },
   {
     "id": "acura_slx",
-    "brand": "Isuzu",
-    "model": "Trooper",
-    "fullName": "Isuzu Trooper",
+    "brand": "Acura",
+    "model": "Slx",
+    "fullName": "Acura Slx",
     "imageUrl": "/images/acura_slx.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_SLX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Slx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Slx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Slx"
   },
   {
     "id": "acura_tl",
     "brand": "Acura",
-    "model": "TL",
-    "fullName": "Acura TL",
+    "model": "Tl",
+    "fullName": "Acura Tl",
     "imageUrl": "/images/acura_tl.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_TL"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Tl",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Tl image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Tl"
+  },
+  {
+    "id": "acura_tlx",
+    "brand": "Acura",
+    "model": "Tlx",
+    "fullName": "Acura Tlx",
+    "imageUrl": "/images/acura_tlx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Tlx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Tlx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Tlx"
   },
   {
     "id": "acura_tsx",
     "brand": "Acura",
-    "model": "TSX",
-    "fullName": "Acura TSX",
+    "model": "Tsx",
+    "fullName": "Acura Tsx",
     "imageUrl": "/images/acura_tsx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_TSX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Tsx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Tsx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Tsx"
   },
   {
     "id": "acura_vigor",
-    "brand": "Honda",
+    "brand": "Acura",
     "model": "Vigor",
-    "fullName": "Honda Vigor",
+    "fullName": "Acura Vigor",
     "imageUrl": "/images/acura_vigor.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Vigor"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Vigor",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Vigor image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Vigor"
   },
   {
     "id": "acura_zdx",
     "brand": "Acura",
-    "model": "ZDX",
-    "fullName": "Acura ZDX",
+    "model": "Zdx",
+    "fullName": "Acura Zdx",
     "imageUrl": "/images/acura_zdx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_ZDX"
-  },
-  {
-    "id": "alfa_romeo_8c",
-    "brand": "Alfa",
-    "model": "Romeo 8C",
-    "fullName": "Alfa Romeo 8C",
-    "imageUrl": "/images/alfa_romeo_8c.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_8C"
-  },
-  {
-    "id": "alfa_romeo_33",
-    "brand": "Alfa",
-    "model": "Romeo 33",
-    "fullName": "Alfa Romeo 33",
-    "imageUrl": "/images/alfa_romeo_33.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_33"
-  },
-  {
-    "id": "alfa_romeo_75",
-    "brand": "Alfa",
-    "model": "Romeo 75",
-    "fullName": "Alfa Romeo 75",
-    "imageUrl": "/images/alfa_romeo_75.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_75"
-  },
-  {
-    "id": "alfa_romeo_90",
-    "brand": "Alfa",
-    "model": "Romeo 90",
-    "fullName": "Alfa Romeo 90",
-    "imageUrl": "/images/alfa_romeo_90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_90"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Acura_Zdx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Acura Zdx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Acura_Zdx"
   },
   {
     "id": "alfa_romeo_145",
-    "brand": "Alfa",
-    "model": "Romeo 145 and 146",
-    "fullName": "Alfa Romeo 145 and 146",
+    "brand": "Alfa Romeo",
+    "model": "Romeo 145",
+    "fullName": "Alfa Romeo Romeo 145",
     "imageUrl": "/images/alfa_romeo_145.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_145"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_145",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 145 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_145"
   },
   {
     "id": "alfa_romeo_146",
-    "brand": "Alfa",
-    "model": "Romeo 145 and 146",
-    "fullName": "Alfa Romeo 145 and 146",
+    "brand": "Alfa Romeo",
+    "model": "Romeo 146",
+    "fullName": "Alfa Romeo Romeo 146",
     "imageUrl": "/images/alfa_romeo_146.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_146"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_146",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 146 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_146"
   },
   {
     "id": "alfa_romeo_147",
-    "brand": "Alfa",
+    "brand": "Alfa Romeo",
     "model": "Romeo 147",
-    "fullName": "Alfa Romeo 147",
+    "fullName": "Alfa Romeo Romeo 147",
     "imageUrl": "/images/alfa_romeo_147.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_147"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_147",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 147 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_147"
   },
   {
     "id": "alfa_romeo_155",
-    "brand": "Alfa",
+    "brand": "Alfa Romeo",
     "model": "Romeo 155",
-    "fullName": "Alfa Romeo 155",
+    "fullName": "Alfa Romeo Romeo 155",
     "imageUrl": "/images/alfa_romeo_155.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_155"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_155",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 155 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_155"
   },
   {
     "id": "alfa_romeo_156",
-    "brand": "Alfa",
+    "brand": "Alfa Romeo",
     "model": "Romeo 156",
-    "fullName": "Alfa Romeo 156",
+    "fullName": "Alfa Romeo Romeo 156",
     "imageUrl": "/images/alfa_romeo_156.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_156"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_156",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 156 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_156"
   },
   {
     "id": "alfa_romeo_159",
-    "brand": "Alfa",
+    "brand": "Alfa Romeo",
     "model": "Romeo 159",
-    "fullName": "Alfa Romeo 159",
+    "fullName": "Alfa Romeo Romeo 159",
     "imageUrl": "/images/alfa_romeo_159.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_159"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_159",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 159 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_159"
   },
   {
     "id": "alfa_romeo_164",
-    "brand": "Alfa",
+    "brand": "Alfa Romeo",
     "model": "Romeo 164",
-    "fullName": "Alfa Romeo 164",
+    "fullName": "Alfa Romeo Romeo 164",
     "imageUrl": "/images/alfa_romeo_164.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_164"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_164",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 164 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_164"
   },
   {
     "id": "alfa_romeo_166",
-    "brand": "Alfa",
+    "brand": "Alfa Romeo",
     "model": "Romeo 166",
-    "fullName": "Alfa Romeo 166",
+    "fullName": "Alfa Romeo Romeo 166",
     "imageUrl": "/images/alfa_romeo_166.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_166"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_166",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 166 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_166"
+  },
+  {
+    "id": "alfa_romeo_33",
+    "brand": "Alfa Romeo",
+    "model": "Romeo 33",
+    "fullName": "Alfa Romeo Romeo 33",
+    "imageUrl": "/images/alfa_romeo_33.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_33",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 33 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_33"
+  },
+  {
+    "id": "alfa_romeo_4c",
+    "brand": "Alfa Romeo",
+    "model": "Romeo 4c",
+    "fullName": "Alfa Romeo Romeo 4c",
+    "imageUrl": "/images/alfa_romeo_4c.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_4c",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 4c image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_4c"
+  },
+  {
+    "id": "alfa_romeo_75",
+    "brand": "Alfa Romeo",
+    "model": "Romeo 75",
+    "fullName": "Alfa Romeo Romeo 75",
+    "imageUrl": "/images/alfa_romeo_75.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_75",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 75 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_75"
+  },
+  {
+    "id": "alfa_romeo_8c",
+    "brand": "Alfa Romeo",
+    "model": "Romeo 8c",
+    "fullName": "Alfa Romeo Romeo 8c",
+    "imageUrl": "/images/alfa_romeo_8c.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_8c",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 8c image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_8c"
+  },
+  {
+    "id": "alfa_romeo_90",
+    "brand": "Alfa Romeo",
+    "model": "Romeo 90",
+    "fullName": "Alfa Romeo Romeo 90",
+    "imageUrl": "/images/alfa_romeo_90.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo 90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_90"
   },
   {
     "id": "alfa_romeo_brera",
-    "brand": "Alfa",
-    "model": "Romeo Brera and Spider",
-    "fullName": "Alfa Romeo Brera and Spider",
+    "brand": "Alfa Romeo",
+    "model": "Romeo Brera",
+    "fullName": "Alfa Romeo Romeo Brera",
     "imageUrl": "/images/alfa_romeo_brera.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Brera"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Brera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo Brera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Brera"
+  },
+  {
+    "id": "alfa_romeo_giulia",
+    "brand": "Alfa Romeo",
+    "model": "Romeo Giulia",
+    "fullName": "Alfa Romeo Romeo Giulia",
+    "imageUrl": "/images/alfa_romeo_giulia.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Giulia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo Giulia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Giulia"
   },
   {
     "id": "alfa_romeo_giulietta",
-    "brand": "Alfa",
+    "brand": "Alfa Romeo",
     "model": "Romeo Giulietta",
-    "fullName": "Alfa Romeo Giulietta",
+    "fullName": "Alfa Romeo Romeo Giulietta",
     "imageUrl": "/images/alfa_romeo_giulietta.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Giulietta"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Giulietta",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo Giulietta image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Giulietta"
   },
   {
     "id": "alfa_romeo_mito",
-    "brand": "Alfa",
-    "model": "Romeo MiTo",
-    "fullName": "Alfa Romeo MiTo",
+    "brand": "Alfa Romeo",
+    "model": "Romeo Mito",
+    "fullName": "Alfa Romeo Romeo Mito",
     "imageUrl": "/images/alfa_romeo_mito.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_MiTo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Mito",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo Mito image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Mito"
+  },
+  {
+    "id": "alfa_romeo_spider",
+    "brand": "Alfa Romeo",
+    "model": "Romeo Spider",
+    "fullName": "Alfa Romeo Romeo Spider",
+    "imageUrl": "/images/alfa_romeo_spider.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Spider",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo Spider image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Spider"
+  },
+  {
+    "id": "alfa_romeo_stelvio",
+    "brand": "Alfa Romeo",
+    "model": "Romeo Stelvio",
+    "fullName": "Alfa Romeo Romeo Stelvio",
+    "imageUrl": "/images/alfa_romeo_stelvio.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Stelvio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo Stelvio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Stelvio"
   },
   {
     "id": "alfa_romeo_tonale",
-    "brand": "Alfa",
+    "brand": "Alfa Romeo",
     "model": "Romeo Tonale",
-    "fullName": "Alfa Romeo Tonale",
+    "fullName": "Alfa Romeo Romeo Tonale",
     "imageUrl": "/images/alfa_romeo_tonale.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Tonale"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Tonale",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Alfa Romeo Romeo Tonale image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Alfa_Romeo_Romeo_Tonale"
+  },
+  {
+    "id": "aston_martin_db11",
+    "brand": "Aston",
+    "model": "Martin Db11",
+    "fullName": "Aston Martin Db11",
+    "imageUrl": "/images/aston_martin_db11.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Db11",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Db11 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Db11"
   },
   {
     "id": "aston_martin_db5",
     "brand": "Aston",
-    "model": "Martin DB5",
-    "fullName": "Aston Martin DB5",
+    "model": "Martin Db5",
+    "fullName": "Aston Martin Db5",
     "imageUrl": "/images/aston_martin_db5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DB5"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Db5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Db5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Db5"
   },
   {
     "id": "aston_martin_db6",
     "brand": "Aston",
-    "model": "Martin DB6",
-    "fullName": "Aston Martin DB6",
+    "model": "Martin Db6",
+    "fullName": "Aston Martin Db6",
     "imageUrl": "/images/aston_martin_db6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DB6"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Db6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Db6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Db6"
   },
   {
     "id": "aston_martin_db7",
     "brand": "Aston",
-    "model": "Martin DB7",
-    "fullName": "Aston Martin DB7",
+    "model": "Martin Db7",
+    "fullName": "Aston Martin Db7",
     "imageUrl": "/images/aston_martin_db7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DB7"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Db7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Db7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Db7"
   },
   {
     "id": "aston_martin_db9",
     "brand": "Aston",
-    "model": "Martin DB9",
-    "fullName": "Aston Martin DB9",
+    "model": "Martin Db9",
+    "fullName": "Aston Martin Db9",
     "imageUrl": "/images/aston_martin_db9.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DB9"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Db9",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Db9 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Db9"
   },
   {
-    "id": "aston_martin_vanquish",
+    "id": "aston_martin_dbs",
     "brand": "Aston",
-    "model": "Martin Vanquish",
-    "fullName": "Aston Martin Vanquish",
-    "imageUrl": "/images/aston_martin_vanquish.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Vanquish"
+    "model": "Martin Dbs",
+    "fullName": "Aston Martin Dbs",
+    "imageUrl": "/images/aston_martin_dbs.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Dbs",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Dbs image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Dbs"
+  },
+  {
+    "id": "aston_martin_dbx",
+    "brand": "Aston",
+    "model": "Martin Dbx",
+    "fullName": "Aston Martin Dbx",
+    "imageUrl": "/images/aston_martin_dbx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Dbx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Dbx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Dbx"
+  },
+  {
+    "id": "aston_martin_one_77",
+    "brand": "Aston",
+    "model": "Martin One 77",
+    "fullName": "Aston Martin One 77",
+    "imageUrl": "/images/aston_martin_one_77.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_One_77",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin One 77 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_One_77"
   },
   {
     "id": "aston_martin_rapide",
@@ -1975,31 +619,11 @@ export const cars: Car[] = [
     "model": "Martin Rapide",
     "fullName": "Aston Martin Rapide",
     "imageUrl": "/images/aston_martin_rapide.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Rapide"
-  },
-  {
-    "id": "aston_martin_virage",
-    "brand": "Aston",
-    "model": "Martin Virage",
-    "fullName": "Aston Martin Virage",
-    "imageUrl": "/images/aston_martin_virage.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Virage"
-  },
-  {
-    "id": "aston_martin_one_77",
-    "brand": "Aston",
-    "model": "Martin One-77",
-    "fullName": "Aston Martin One-77",
-    "imageUrl": "/images/aston_martin_one_77.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_One-77"
-  },
-  {
-    "id": "aston_martin_vulcan",
-    "brand": "Aston",
-    "model": "Martin Vulcan",
-    "fullName": "Aston Martin Vulcan",
-    "imageUrl": "/images/aston_martin_vulcan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Vulcan"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Rapide",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Rapide image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Rapide"
   },
   {
     "id": "aston_martin_valkyrie",
@@ -2007,15 +631,59 @@ export const cars: Car[] = [
     "model": "Martin Valkyrie",
     "fullName": "Aston Martin Valkyrie",
     "imageUrl": "/images/aston_martin_valkyrie.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Valkyrie"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Valkyrie",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Valkyrie image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Valkyrie"
   },
   {
-    "id": "aston_martin_dbx",
+    "id": "aston_martin_vanquish",
     "brand": "Aston",
-    "model": "Martin DBX",
-    "fullName": "Aston Martin DBX",
-    "imageUrl": "/images/aston_martin_dbx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_DBX"
+    "model": "Martin Vanquish",
+    "fullName": "Aston Martin Vanquish",
+    "imageUrl": "/images/aston_martin_vanquish.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Vanquish",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Vanquish image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Vanquish"
+  },
+  {
+    "id": "aston_martin_vantage",
+    "brand": "Aston",
+    "model": "Martin Vantage",
+    "fullName": "Aston Martin Vantage",
+    "imageUrl": "/images/aston_martin_vantage.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Vantage image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Vantage"
+  },
+  {
+    "id": "aston_martin_virage",
+    "brand": "Aston",
+    "model": "Martin Virage",
+    "fullName": "Aston Martin Virage",
+    "imageUrl": "/images/aston_martin_virage.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Virage",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Virage image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Virage"
+  },
+  {
+    "id": "aston_martin_vulcan",
+    "brand": "Aston",
+    "model": "Martin Vulcan",
+    "fullName": "Aston Martin Vulcan",
+    "imageUrl": "/images/aston_martin_vulcan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Aston_Martin_Vulcan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Aston Martin Vulcan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Aston_Martin_Vulcan"
   },
   {
     "id": "audi_a1",
@@ -2023,7 +691,47 @@ export const cars: Car[] = [
     "model": "A1",
     "fullName": "Audi A1",
     "imageUrl": "/images/audi_a1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A1"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi A1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_A1"
+  },
+  {
+    "id": "audi_a3",
+    "brand": "Audi",
+    "model": "A3",
+    "fullName": "Audi A3",
+    "imageUrl": "/images/audi_a3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi A3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_A3"
+  },
+  {
+    "id": "audi_a4",
+    "brand": "Audi",
+    "model": "A4",
+    "fullName": "Audi A4",
+    "imageUrl": "/images/audi_a4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi A4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_A4"
+  },
+  {
+    "id": "audi_a4_allroad",
+    "brand": "Audi",
+    "model": "A4 Allroad",
+    "fullName": "Audi A4 Allroad",
+    "imageUrl": "/images/audi_a4_allroad.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A4_Allroad",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi A4 Allroad image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_A4_Allroad"
   },
   {
     "id": "audi_a5",
@@ -2031,7 +739,11 @@ export const cars: Car[] = [
     "model": "A5",
     "fullName": "Audi A5",
     "imageUrl": "/images/audi_a5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A5"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi A5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_A5"
   },
   {
     "id": "audi_a6",
@@ -2039,7 +751,11 @@ export const cars: Car[] = [
     "model": "A6",
     "fullName": "Audi A6",
     "imageUrl": "/images/audi_a6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A6"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi A6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_A6"
   },
   {
     "id": "audi_a7",
@@ -2047,7 +763,47 @@ export const cars: Car[] = [
     "model": "A7",
     "fullName": "Audi A7",
     "imageUrl": "/images/audi_a7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A7"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi A7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_A7"
+  },
+  {
+    "id": "audi_a8",
+    "brand": "Audi",
+    "model": "A8",
+    "fullName": "Audi A8",
+    "imageUrl": "/images/audi_a8.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_A8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi A8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_A8"
+  },
+  {
+    "id": "audi_e_tron",
+    "brand": "Audi",
+    "model": "E Tron",
+    "fullName": "Audi E Tron",
+    "imageUrl": "/images/audi_e_tron.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_E_Tron",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi E Tron image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_E_Tron"
+  },
+  {
+    "id": "audi_e_tron_gt",
+    "brand": "Audi",
+    "model": "E Tron Gt",
+    "fullName": "Audi E Tron Gt",
+    "imageUrl": "/images/audi_e_tron_gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_E_Tron_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi E Tron Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_E_Tron_Gt"
   },
   {
     "id": "audi_q2",
@@ -2055,63 +811,155 @@ export const cars: Car[] = [
     "model": "Q2",
     "fullName": "Audi Q2",
     "imageUrl": "/images/audi_q2.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q2"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Q2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Q2"
+  },
+  {
+    "id": "audi_q3",
+    "brand": "Audi",
+    "model": "Q3",
+    "fullName": "Audi Q3",
+    "imageUrl": "/images/audi_q3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Q3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Q3"
   },
   {
     "id": "audi_q4_e_tron",
     "brand": "Audi",
-    "model": "Q4 e-tron",
-    "fullName": "Audi Q4 e-tron",
+    "model": "Q4 E Tron",
+    "fullName": "Audi Q4 E Tron",
     "imageUrl": "/images/audi_q4_e_tron.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q4_e-tron"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q4_E_Tron",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Q4 E Tron image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Q4_E_Tron"
+  },
+  {
+    "id": "audi_q5",
+    "brand": "Audi",
+    "model": "Q5",
+    "fullName": "Audi Q5",
+    "imageUrl": "/images/audi_q5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Q5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Q5"
+  },
+  {
+    "id": "audi_q7",
+    "brand": "Audi",
+    "model": "Q7",
+    "fullName": "Audi Q7",
+    "imageUrl": "/images/audi_q7.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Q7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Q7"
+  },
+  {
+    "id": "audi_q8",
+    "brand": "Audi",
+    "model": "Q8",
+    "fullName": "Audi Q8",
+    "imageUrl": "/images/audi_q8.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Q8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Q8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Q8"
+  },
+  {
+    "id": "audi_r8",
+    "brand": "Audi",
+    "model": "R8",
+    "fullName": "Audi R8",
+    "imageUrl": "/images/audi_r8.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_R8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi R8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_R8"
   },
   {
     "id": "audi_rs2",
     "brand": "Audi",
-    "model": "RS 2 Avant",
-    "fullName": "Audi RS 2 Avant",
+    "model": "Rs2",
+    "fullName": "Audi Rs2",
     "imageUrl": "/images/audi_rs2.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_RS2"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Rs2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Rs2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Rs2"
   },
   {
     "id": "audi_rs3",
     "brand": "Audi",
-    "model": "A3",
-    "fullName": "Audi A3",
+    "model": "Rs3",
+    "fullName": "Audi Rs3",
     "imageUrl": "/images/audi_rs3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_RS3"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Rs3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Rs3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Rs3"
   },
   {
     "id": "audi_rs4",
     "brand": "Audi",
-    "model": "RS 4",
-    "fullName": "Audi RS 4",
+    "model": "Rs4",
+    "fullName": "Audi Rs4",
     "imageUrl": "/images/audi_rs4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_RS4"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Rs4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Rs4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Rs4"
   },
   {
     "id": "audi_rs5",
     "brand": "Audi",
-    "model": "A5",
-    "fullName": "Audi A5",
+    "model": "Rs5",
+    "fullName": "Audi Rs5",
     "imageUrl": "/images/audi_rs5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_RS5"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Rs5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Rs5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Rs5"
   },
   {
     "id": "audi_rs6",
     "brand": "Audi",
-    "model": "RS 6",
-    "fullName": "Audi RS 6",
+    "model": "Rs6",
+    "fullName": "Audi Rs6",
     "imageUrl": "/images/audi_rs6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_RS6"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Rs6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Rs6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Rs6"
   },
   {
     "id": "audi_rs7",
     "brand": "Audi",
-    "model": "A7",
-    "fullName": "Audi A7",
+    "model": "Rs7",
+    "fullName": "Audi Rs7",
     "imageUrl": "/images/audi_rs7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_RS7"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Rs7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Rs7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Rs7"
   },
   {
     "id": "audi_s1",
@@ -2119,7 +967,11 @@ export const cars: Car[] = [
     "model": "S1",
     "fullName": "Audi S1",
     "imageUrl": "/images/audi_s1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S1"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi S1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_S1"
   },
   {
     "id": "audi_s3",
@@ -2127,7 +979,11 @@ export const cars: Car[] = [
     "model": "S3",
     "fullName": "Audi S3",
     "imageUrl": "/images/audi_s3.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S3"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi S3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_S3"
   },
   {
     "id": "audi_s4",
@@ -2135,7 +991,11 @@ export const cars: Car[] = [
     "model": "S4",
     "fullName": "Audi S4",
     "imageUrl": "/images/audi_s4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S4"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi S4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_S4"
   },
   {
     "id": "audi_s5",
@@ -2143,7 +1003,11 @@ export const cars: Car[] = [
     "model": "S5",
     "fullName": "Audi S5",
     "imageUrl": "/images/audi_s5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S5"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi S5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_S5"
   },
   {
     "id": "audi_s6",
@@ -2151,15 +1015,23 @@ export const cars: Car[] = [
     "model": "S6",
     "fullName": "Audi S6",
     "imageUrl": "/images/audi_s6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S6"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi S6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_S6"
   },
   {
     "id": "audi_s7",
     "brand": "Audi",
-    "model": "A7",
-    "fullName": "Audi A7",
+    "model": "S7",
+    "fullName": "Audi S7",
     "imageUrl": "/images/audi_s7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S7"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi S7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_S7"
   },
   {
     "id": "audi_s8",
@@ -2167,39 +1039,47 @@ export const cars: Car[] = [
     "model": "S8",
     "fullName": "Audi S8",
     "imageUrl": "/images/audi_s8.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S8"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_S8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi S8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_S8"
   },
   {
-    "id": "audi_tts",
+    "id": "audi_tt",
     "brand": "Audi",
-    "model": "TT",
-    "fullName": "Audi TT",
-    "imageUrl": "/images/audi_tts.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_TTS"
+    "model": "Tt",
+    "fullName": "Audi Tt",
+    "imageUrl": "/images/audi_tt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Tt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Tt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Tt"
   },
   {
     "id": "audi_tt_rs",
     "brand": "Audi",
-    "model": "TT",
-    "fullName": "Audi TT",
+    "model": "Tt Rs",
+    "fullName": "Audi Tt Rs",
     "imageUrl": "/images/audi_tt_rs.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_TT_RS"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Tt_Rs",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Tt Rs image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Tt_Rs"
   },
   {
-    "id": "audi_e_tron",
+    "id": "audi_tts",
     "brand": "Audi",
-    "model": "e-tron",
-    "fullName": "Audi e-tron",
-    "imageUrl": "/images/audi_e_tron.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_e-tron"
-  },
-  {
-    "id": "audi_e_tron_gt",
-    "brand": "Audi e-tron",
-    "model": "GT",
-    "fullName": "Audi e-tron GT",
-    "imageUrl": "/images/audi_e_tron_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_e-tron_GT"
+    "model": "Tts",
+    "fullName": "Audi Tts",
+    "imageUrl": "/images/audi_tts.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Audi_Tts",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Audi Tts image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Audi_Tts"
   },
   {
     "id": "bentley_arnage",
@@ -2207,7 +1087,11 @@ export const cars: Car[] = [
     "model": "Arnage",
     "fullName": "Bentley Arnage",
     "imageUrl": "/images/bentley_arnage.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Arnage"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Arnage",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bentley Arnage image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bentley_Arnage"
   },
   {
     "id": "bentley_azure",
@@ -2215,7 +1099,11 @@ export const cars: Car[] = [
     "model": "Azure",
     "fullName": "Bentley Azure",
     "imageUrl": "/images/bentley_azure.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Azure"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Azure",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bentley Azure image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bentley_Azure"
   },
   {
     "id": "bentley_bentayga",
@@ -2223,7 +1111,11 @@ export const cars: Car[] = [
     "model": "Bentayga",
     "fullName": "Bentley Bentayga",
     "imageUrl": "/images/bentley_bentayga.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Bentayga"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Bentayga",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bentley Bentayga image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bentley_Bentayga"
   },
   {
     "id": "bentley_brooklands",
@@ -2231,7 +1123,23 @@ export const cars: Car[] = [
     "model": "Brooklands",
     "fullName": "Bentley Brooklands",
     "imageUrl": "/images/bentley_brooklands.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Brooklands"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Brooklands",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bentley Brooklands image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bentley_Brooklands"
+  },
+  {
+    "id": "bentley_continental_gt",
+    "brand": "Bentley",
+    "model": "Continental Gt",
+    "fullName": "Bentley Continental Gt",
+    "imageUrl": "/images/bentley_continental_gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Continental_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bentley Continental Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bentley_Continental_Gt"
   },
   {
     "id": "bentley_turbo_r",
@@ -2239,175 +1147,383 @@ export const cars: Car[] = [
     "model": "Turbo R",
     "fullName": "Bentley Turbo R",
     "imageUrl": "/images/bentley_turbo_r.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Turbo_R"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bentley_Turbo_R",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bentley Turbo R image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bentley_Turbo_R"
   },
   {
     "id": "bmw_1_series",
-    "brand": "BMW",
+    "brand": "Bmw",
     "model": "1 Series",
-    "fullName": "BMW 1 Series",
+    "fullName": "Bmw 1 Series",
     "imageUrl": "/images/bmw_1_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_1_Series"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_1_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw 1 Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_1_Series"
   },
   {
     "id": "bmw_2_series",
-    "brand": "BMW",
+    "brand": "Bmw",
     "model": "2 Series",
-    "fullName": "BMW 2 Series",
+    "fullName": "Bmw 2 Series",
     "imageUrl": "/images/bmw_2_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_2_Series"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_2_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw 2 Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_2_Series"
+  },
+  {
+    "id": "bmw_3_series",
+    "brand": "Bmw",
+    "model": "3 Series",
+    "fullName": "Bmw 3 Series",
+    "imageUrl": "/images/bmw_3_series.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_3_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw 3 Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_3_Series"
   },
   {
     "id": "bmw_4_series",
-    "brand": "BMW",
+    "brand": "Bmw",
     "model": "4 Series",
-    "fullName": "BMW 4 Series",
+    "fullName": "Bmw 4 Series",
     "imageUrl": "/images/bmw_4_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_4_Series"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_4_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw 4 Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_4_Series"
+  },
+  {
+    "id": "bmw_5_series",
+    "brand": "Bmw",
+    "model": "5 Series",
+    "fullName": "Bmw 5 Series",
+    "imageUrl": "/images/bmw_5_series.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_5_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw 5 Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_5_Series"
   },
   {
     "id": "bmw_6_series",
-    "brand": "BMW",
+    "brand": "Bmw",
     "model": "6 Series",
-    "fullName": "BMW 6 Series",
+    "fullName": "Bmw 6 Series",
     "imageUrl": "/images/bmw_6_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_6_Series"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_6_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw 6 Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_6_Series"
+  },
+  {
+    "id": "bmw_7_series",
+    "brand": "Bmw",
+    "model": "7 Series",
+    "fullName": "Bmw 7 Series",
+    "imageUrl": "/images/bmw_7_series.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_7_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw 7 Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_7_Series"
   },
   {
     "id": "bmw_8_series",
-    "brand": "BMW",
+    "brand": "Bmw",
     "model": "8 Series",
-    "fullName": "BMW 8 Series",
+    "fullName": "Bmw 8 Series",
     "imageUrl": "/images/bmw_8_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_8_Series"
-  },
-  {
-    "id": "bmw_x2",
-    "brand": "BMW",
-    "model": "X2",
-    "fullName": "BMW X2",
-    "imageUrl": "/images/bmw_x2.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_X2"
-  },
-  {
-    "id": "bmw_x4",
-    "brand": "BMW",
-    "model": "X4",
-    "fullName": "BMW X4",
-    "imageUrl": "/images/bmw_x4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_X4"
-  },
-  {
-    "id": "bmw_x7",
-    "brand": "BMW",
-    "model": "X7",
-    "fullName": "BMW X7",
-    "imageUrl": "/images/bmw_x7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_X7"
-  },
-  {
-    "id": "bmw_z3",
-    "brand": "BMW",
-    "model": "Z3",
-    "fullName": "BMW Z3",
-    "imageUrl": "/images/bmw_z3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_Z3"
-  },
-  {
-    "id": "bmw_z8",
-    "brand": "BMW",
-    "model": "Z8",
-    "fullName": "BMW Z8",
-    "imageUrl": "/images/bmw_z8.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_Z8"
-  },
-  {
-    "id": "bmw_m1",
-    "brand": "BMW",
-    "model": "M1",
-    "fullName": "BMW M1",
-    "imageUrl": "/images/bmw_m1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_M1"
-  },
-  {
-    "id": "bmw_m2",
-    "brand": "BMW",
-    "model": "M2",
-    "fullName": "BMW M2",
-    "imageUrl": "/images/bmw_m2.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_M2"
-  },
-  {
-    "id": "bmw_m4",
-    "brand": "BMW",
-    "model": "M4",
-    "fullName": "BMW M4",
-    "imageUrl": "/images/bmw_m4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_M4"
-  },
-  {
-    "id": "bmw_m6",
-    "brand": "BMW",
-    "model": "M6",
-    "fullName": "BMW M6",
-    "imageUrl": "/images/bmw_m6.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_M6"
-  },
-  {
-    "id": "bmw_m8",
-    "brand": "BMW",
-    "model": "M8",
-    "fullName": "BMW M8",
-    "imageUrl": "/images/bmw_m8.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_M8"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_8_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw 8 Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_8_Series"
   },
   {
     "id": "bmw_i3",
-    "brand": "BMW",
-    "model": "i3",
-    "fullName": "BMW i3",
+    "brand": "Bmw",
+    "model": "I3",
+    "fullName": "Bmw I3",
     "imageUrl": "/images/bmw_i3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_i3"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_I3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw I3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_I3"
   },
   {
     "id": "bmw_i4",
-    "brand": "BMW",
-    "model": "i4",
-    "fullName": "BMW i4",
+    "brand": "Bmw",
+    "model": "I4",
+    "fullName": "Bmw I4",
     "imageUrl": "/images/bmw_i4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_i4"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_I4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw I4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_I4"
   },
   {
     "id": "bmw_i7",
-    "brand": "BMW",
-    "model": "7 Series (G70)",
-    "fullName": "BMW 7 Series (G70)",
+    "brand": "Bmw",
+    "model": "I7",
+    "fullName": "Bmw I7",
     "imageUrl": "/images/bmw_i7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_i7"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_I7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw I7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_I7"
+  },
+  {
+    "id": "bmw_i8",
+    "brand": "Bmw",
+    "model": "I8",
+    "fullName": "Bmw I8",
+    "imageUrl": "/images/bmw_i8.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_I8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw I8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_I8"
   },
   {
     "id": "bmw_ix",
-    "brand": "BMW",
-    "model": "iX",
-    "fullName": "BMW iX",
+    "brand": "Bmw",
+    "model": "Ix",
+    "fullName": "Bmw Ix",
     "imageUrl": "/images/bmw_ix.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_iX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_Ix",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw Ix image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_Ix"
   },
   {
     "id": "bmw_ix3",
-    "brand": "BMW",
-    "model": "X3",
-    "fullName": "BMW X3",
+    "brand": "Bmw",
+    "model": "Ix3",
+    "fullName": "Bmw Ix3",
     "imageUrl": "/images/bmw_ix3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/BMW_iX3"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_Ix3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw Ix3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_Ix3"
   },
   {
-    "id": "bugatti_divo",
-    "brand": "Bugatti",
-    "model": "Divo",
-    "fullName": "Bugatti Divo",
-    "imageUrl": "/images/bugatti_divo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Divo"
+    "id": "bmw_m1",
+    "brand": "Bmw",
+    "model": "M1",
+    "fullName": "Bmw M1",
+    "imageUrl": "/images/bmw_m1.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_M1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw M1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_M1"
+  },
+  {
+    "id": "bmw_m2",
+    "brand": "Bmw",
+    "model": "M2",
+    "fullName": "Bmw M2",
+    "imageUrl": "/images/bmw_m2.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_M2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw M2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_M2"
+  },
+  {
+    "id": "bmw_m3",
+    "brand": "Bmw",
+    "model": "M3",
+    "fullName": "Bmw M3",
+    "imageUrl": "/images/bmw_m3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_M3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw M3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_M3"
+  },
+  {
+    "id": "bmw_m4",
+    "brand": "Bmw",
+    "model": "M4",
+    "fullName": "Bmw M4",
+    "imageUrl": "/images/bmw_m4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_M4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw M4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_M4"
+  },
+  {
+    "id": "bmw_m5",
+    "brand": "Bmw",
+    "model": "M5",
+    "fullName": "Bmw M5",
+    "imageUrl": "/images/bmw_m5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_M5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw M5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_M5"
+  },
+  {
+    "id": "bmw_m6",
+    "brand": "Bmw",
+    "model": "M6",
+    "fullName": "Bmw M6",
+    "imageUrl": "/images/bmw_m6.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_M6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw M6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_M6"
+  },
+  {
+    "id": "bmw_m8",
+    "brand": "Bmw",
+    "model": "M8",
+    "fullName": "Bmw M8",
+    "imageUrl": "/images/bmw_m8.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_M8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw M8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_M8"
+  },
+  {
+    "id": "bmw_x1",
+    "brand": "Bmw",
+    "model": "X1",
+    "fullName": "Bmw X1",
+    "imageUrl": "/images/bmw_x1.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_X1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw X1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_X1"
+  },
+  {
+    "id": "bmw_x2",
+    "brand": "Bmw",
+    "model": "X2",
+    "fullName": "Bmw X2",
+    "imageUrl": "/images/bmw_x2.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_X2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw X2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_X2"
+  },
+  {
+    "id": "bmw_x3",
+    "brand": "Bmw",
+    "model": "X3",
+    "fullName": "Bmw X3",
+    "imageUrl": "/images/bmw_x3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_X3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw X3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_X3"
+  },
+  {
+    "id": "bmw_x4",
+    "brand": "Bmw",
+    "model": "X4",
+    "fullName": "Bmw X4",
+    "imageUrl": "/images/bmw_x4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_X4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw X4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_X4"
+  },
+  {
+    "id": "bmw_x5",
+    "brand": "Bmw",
+    "model": "X5",
+    "fullName": "Bmw X5",
+    "imageUrl": "/images/bmw_x5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_X5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw X5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_X5"
+  },
+  {
+    "id": "bmw_x6",
+    "brand": "Bmw",
+    "model": "X6",
+    "fullName": "Bmw X6",
+    "imageUrl": "/images/bmw_x6.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_X6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw X6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_X6"
+  },
+  {
+    "id": "bmw_x7",
+    "brand": "Bmw",
+    "model": "X7",
+    "fullName": "Bmw X7",
+    "imageUrl": "/images/bmw_x7.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_X7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw X7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_X7"
+  },
+  {
+    "id": "bmw_z3",
+    "brand": "Bmw",
+    "model": "Z3",
+    "fullName": "Bmw Z3",
+    "imageUrl": "/images/bmw_z3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_Z3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw Z3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_Z3"
+  },
+  {
+    "id": "bmw_z4",
+    "brand": "Bmw",
+    "model": "Z4",
+    "fullName": "Bmw Z4",
+    "imageUrl": "/images/bmw_z4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_Z4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw Z4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_Z4"
+  },
+  {
+    "id": "bmw_z8",
+    "brand": "Bmw",
+    "model": "Z8",
+    "fullName": "Bmw Z8",
+    "imageUrl": "/images/bmw_z8.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bmw_Z8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bmw Z8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bmw_Z8"
   },
   {
     "id": "bugatti_centodieci",
@@ -2415,79 +1531,83 @@ export const cars: Car[] = [
     "model": "Centodieci",
     "fullName": "Bugatti Centodieci",
     "imageUrl": "/images/bugatti_centodieci.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Centodieci"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Centodieci",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bugatti Centodieci image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bugatti_Centodieci"
   },
   {
-    "id": "bugatti_la_voiture_noire",
+    "id": "bugatti_chiron",
     "brand": "Bugatti",
     "model": "Chiron",
     "fullName": "Bugatti Chiron",
-    "imageUrl": "/images/bugatti_la_voiture_noire.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_La_Voiture_Noire"
+    "imageUrl": "/images/bugatti_chiron.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Chiron",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bugatti Chiron image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bugatti_Chiron"
+  },
+  {
+    "id": "bugatti_divo",
+    "brand": "Bugatti",
+    "model": "Divo",
+    "fullName": "Bugatti Divo",
+    "imageUrl": "/images/bugatti_divo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Divo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bugatti Divo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bugatti_Divo"
   },
   {
     "id": "bugatti_eb_110",
     "brand": "Bugatti",
-    "model": "EB 110",
-    "fullName": "Bugatti EB 110",
+    "model": "Eb 110",
+    "fullName": "Bugatti Eb 110",
     "imageUrl": "/images/bugatti_eb_110.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_EB_110"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Eb_110",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bugatti Eb 110 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bugatti_Eb_110"
+  },
+  {
+    "id": "bugatti_la_voiture_noire",
+    "brand": "Bugatti",
+    "model": "La Voiture Noire",
+    "fullName": "Bugatti La Voiture Noire",
+    "imageUrl": "/images/bugatti_la_voiture_noire.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_La_Voiture_Noire",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bugatti La Voiture Noire image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bugatti_La_Voiture_Noire"
+  },
+  {
+    "id": "bugatti_veyron",
+    "brand": "Bugatti",
+    "model": "Veyron",
+    "fullName": "Bugatti Veyron",
+    "imageUrl": "/images/bugatti_veyron.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bugatti_Veyron",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Bugatti Veyron image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Bugatti_Veyron"
   },
   {
     "id": "buick_cascada",
-    "brand": "Opel",
+    "brand": "Buick",
     "model": "Cascada",
-    "fullName": "Opel Cascada",
+    "fullName": "Buick Cascada",
     "imageUrl": "/images/buick_cascada.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Cascada"
-  },
-  {
-    "id": "buick_enclave",
-    "brand": "Buick",
-    "model": "Enclave",
-    "fullName": "Buick Enclave",
-    "imageUrl": "/images/buick_enclave.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Enclave"
-  },
-  {
-    "id": "buick_encore",
-    "brand": "Buick",
-    "model": "Encore",
-    "fullName": "Buick Encore",
-    "imageUrl": "/images/buick_encore.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Encore"
-  },
-  {
-    "id": "buick_envision",
-    "brand": "Buick",
-    "model": "Envision",
-    "fullName": "Buick Envision",
-    "imageUrl": "/images/buick_envision.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Envision"
-  },
-  {
-    "id": "buick_lacrosse",
-    "brand": "Buick",
-    "model": "LaCrosse",
-    "fullName": "Buick LaCrosse",
-    "imageUrl": "/images/buick_lacrosse.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_LaCrosse"
-  },
-  {
-    "id": "buick_regal",
-    "brand": "Buick",
-    "model": "Regal",
-    "fullName": "Buick Regal",
-    "imageUrl": "/images/buick_regal.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Regal"
-  },
-  {
-    "id": "buick_verano",
-    "brand": "Buick",
-    "model": "Verano",
-    "fullName": "Buick Verano",
-    "imageUrl": "/images/buick_verano.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Verano"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Cascada",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Cascada image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Cascada"
   },
   {
     "id": "buick_century",
@@ -2495,15 +1615,71 @@ export const cars: Car[] = [
     "model": "Century",
     "fullName": "Buick Century",
     "imageUrl": "/images/buick_century.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Century"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Century",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Century image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Century"
+  },
+  {
+    "id": "buick_enclave",
+    "brand": "Buick",
+    "model": "Enclave",
+    "fullName": "Buick Enclave",
+    "imageUrl": "/images/buick_enclave.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Enclave",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Enclave image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Enclave"
+  },
+  {
+    "id": "buick_encore",
+    "brand": "Buick",
+    "model": "Encore",
+    "fullName": "Buick Encore",
+    "imageUrl": "/images/buick_encore.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Encore",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Encore image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Encore"
+  },
+  {
+    "id": "buick_envision",
+    "brand": "Buick",
+    "model": "Envision",
+    "fullName": "Buick Envision",
+    "imageUrl": "/images/buick_envision.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Envision",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Envision image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Envision"
+  },
+  {
+    "id": "buick_lacrosse",
+    "brand": "Buick",
+    "model": "Lacrosse",
+    "fullName": "Buick Lacrosse",
+    "imageUrl": "/images/buick_lacrosse.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Lacrosse",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Lacrosse image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Lacrosse"
   },
   {
     "id": "buick_lesabre",
     "brand": "Buick",
-    "model": "LeSabre",
-    "fullName": "Buick LeSabre",
+    "model": "Lesabre",
+    "fullName": "Buick Lesabre",
     "imageUrl": "/images/buick_lesabre.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_LeSabre"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Lesabre",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Lesabre image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Lesabre"
   },
   {
     "id": "buick_park_avenue",
@@ -2511,7 +1687,23 @@ export const cars: Car[] = [
     "model": "Park Avenue",
     "fullName": "Buick Park Avenue",
     "imageUrl": "/images/buick_park_avenue.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Park_Avenue"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Park_Avenue",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Park Avenue image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Park_Avenue"
+  },
+  {
+    "id": "buick_regal",
+    "brand": "Buick",
+    "model": "Regal",
+    "fullName": "Buick Regal",
+    "imageUrl": "/images/buick_regal.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Regal",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Regal image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Regal"
   },
   {
     "id": "buick_riviera",
@@ -2519,7 +1711,11 @@ export const cars: Car[] = [
     "model": "Riviera",
     "fullName": "Buick Riviera",
     "imageUrl": "/images/buick_riviera.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Riviera"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Riviera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Riviera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Riviera"
   },
   {
     "id": "buick_roadmaster",
@@ -2527,7 +1723,11 @@ export const cars: Car[] = [
     "model": "Roadmaster",
     "fullName": "Buick Roadmaster",
     "imageUrl": "/images/buick_roadmaster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Roadmaster"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Roadmaster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Roadmaster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Roadmaster"
   },
   {
     "id": "buick_skylark",
@@ -2535,39 +1735,107 @@ export const cars: Car[] = [
     "model": "Skylark",
     "fullName": "Buick Skylark",
     "imageUrl": "/images/buick_skylark.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Skylark"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Skylark",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Skylark image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Skylark"
+  },
+  {
+    "id": "buick_verano",
+    "brand": "Buick",
+    "model": "Verano",
+    "fullName": "Buick Verano",
+    "imageUrl": "/images/buick_verano.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Buick_Verano",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Buick Verano image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Buick_Verano"
   },
   {
     "id": "cadillac_ats",
     "brand": "Cadillac",
-    "model": "ATS",
-    "fullName": "Cadillac ATS",
+    "model": "Ats",
+    "fullName": "Cadillac Ats",
     "imageUrl": "/images/cadillac_ats.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_ATS"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Ats",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Ats image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Ats"
   },
   {
     "id": "cadillac_ct4",
     "brand": "Cadillac",
-    "model": "CT4",
-    "fullName": "Cadillac CT4",
+    "model": "Ct4",
+    "fullName": "Cadillac Ct4",
     "imageUrl": "/images/cadillac_ct4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_CT4"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Ct4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Ct4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Ct4"
   },
   {
     "id": "cadillac_ct5",
     "brand": "Cadillac",
-    "model": "CT5",
-    "fullName": "Cadillac CT5",
+    "model": "Ct5",
+    "fullName": "Cadillac Ct5",
     "imageUrl": "/images/cadillac_ct5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_CT5"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Ct5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Ct5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Ct5"
+  },
+  {
+    "id": "cadillac_ct6",
+    "brand": "Cadillac",
+    "model": "Ct6",
+    "fullName": "Cadillac Ct6",
+    "imageUrl": "/images/cadillac_ct6.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Ct6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Ct6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Ct6"
+  },
+  {
+    "id": "cadillac_cts",
+    "brand": "Cadillac",
+    "model": "Cts",
+    "fullName": "Cadillac Cts",
+    "imageUrl": "/images/cadillac_cts.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Cts",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Cts image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Cts"
+  },
+  {
+    "id": "cadillac_deville",
+    "brand": "Cadillac",
+    "model": "Deville",
+    "fullName": "Cadillac Deville",
+    "imageUrl": "/images/cadillac_deville.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Deville",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Deville image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Deville"
   },
   {
     "id": "cadillac_dts",
     "brand": "Cadillac",
-    "model": "DTS",
-    "fullName": "Cadillac DTS",
+    "model": "Dts",
+    "fullName": "Cadillac Dts",
     "imageUrl": "/images/cadillac_dts.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_DTS"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Dts",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Dts image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Dts"
   },
   {
     "id": "cadillac_eldorado",
@@ -2575,63 +1843,23 @@ export const cars: Car[] = [
     "model": "Eldorado",
     "fullName": "Cadillac Eldorado",
     "imageUrl": "/images/cadillac_eldorado.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Eldorado"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Eldorado",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Eldorado image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Eldorado"
   },
   {
-    "id": "cadillac_srx",
+    "id": "cadillac_escalade",
     "brand": "Cadillac",
-    "model": "SRX",
-    "fullName": "Cadillac SRX",
-    "imageUrl": "/images/cadillac_srx.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_SRX"
-  },
-  {
-    "id": "cadillac_sts",
-    "brand": "Cadillac",
-    "model": "STS",
-    "fullName": "Cadillac STS",
-    "imageUrl": "/images/cadillac_sts.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_STS"
-  },
-  {
-    "id": "cadillac_xlr",
-    "brand": "Cadillac",
-    "model": "XLR",
-    "fullName": "Cadillac XLR",
-    "imageUrl": "/images/cadillac_xlr.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_XLR"
-  },
-  {
-    "id": "cadillac_xt4",
-    "brand": "Cadillac",
-    "model": "XT4",
-    "fullName": "Cadillac XT4",
-    "imageUrl": "/images/cadillac_xt4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_XT4"
-  },
-  {
-    "id": "cadillac_xt5",
-    "brand": "Cadillac",
-    "model": "XT5",
-    "fullName": "Cadillac XT5",
-    "imageUrl": "/images/cadillac_xt5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_XT5"
-  },
-  {
-    "id": "cadillac_xt6",
-    "brand": "Cadillac",
-    "model": "XT6",
-    "fullName": "Cadillac XT6",
-    "imageUrl": "/images/cadillac_xt6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_XT6"
-  },
-  {
-    "id": "cadillac_xts",
-    "brand": "Cadillac",
-    "model": "XTS",
-    "fullName": "Cadillac XTS",
-    "imageUrl": "/images/cadillac_xts.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_XTS"
+    "model": "Escalade",
+    "fullName": "Cadillac Escalade",
+    "imageUrl": "/images/cadillac_escalade.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Escalade",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Escalade image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Escalade"
   },
   {
     "id": "cadillac_seville",
@@ -2639,87 +1867,95 @@ export const cars: Car[] = [
     "model": "Seville",
     "fullName": "Cadillac Seville",
     "imageUrl": "/images/cadillac_seville.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Seville"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Seville",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Seville image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Seville"
   },
   {
-    "id": "cadillac_deville",
+    "id": "cadillac_srx",
     "brand": "Cadillac",
-    "model": "de Ville series",
-    "fullName": "Cadillac de Ville series",
-    "imageUrl": "/images/cadillac_deville.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_DeVille"
+    "model": "Srx",
+    "fullName": "Cadillac Srx",
+    "imageUrl": "/images/cadillac_srx.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Srx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Srx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Srx"
   },
   {
-    "id": "chevrolet_cruze",
-    "brand": "Chevrolet",
-    "model": "Cruze",
-    "fullName": "Chevrolet Cruze",
-    "imageUrl": "/images/chevrolet_cruze.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Cruze"
+    "id": "cadillac_sts",
+    "brand": "Cadillac",
+    "model": "Sts",
+    "fullName": "Cadillac Sts",
+    "imageUrl": "/images/cadillac_sts.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Sts",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Sts image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Sts"
   },
   {
-    "id": "chevrolet_equinox",
-    "brand": "Chevrolet",
-    "model": "Equinox",
-    "fullName": "Chevrolet Equinox",
-    "imageUrl": "/images/chevrolet_equinox.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Equinox"
+    "id": "cadillac_xlr",
+    "brand": "Cadillac",
+    "model": "Xlr",
+    "fullName": "Cadillac Xlr",
+    "imageUrl": "/images/cadillac_xlr.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Xlr",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Xlr image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Xlr"
   },
   {
-    "id": "chevrolet_impala",
-    "brand": "Chevrolet",
-    "model": "Impala",
-    "fullName": "Chevrolet Impala",
-    "imageUrl": "/images/chevrolet_impala.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Impala"
+    "id": "cadillac_xt4",
+    "brand": "Cadillac",
+    "model": "Xt4",
+    "fullName": "Cadillac Xt4",
+    "imageUrl": "/images/cadillac_xt4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Xt4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Xt4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Xt4"
   },
   {
-    "id": "chevrolet_malibu",
-    "brand": "Chevrolet",
-    "model": "Malibu",
-    "fullName": "Chevrolet Malibu",
-    "imageUrl": "/images/chevrolet_malibu.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Malibu"
+    "id": "cadillac_xt5",
+    "brand": "Cadillac",
+    "model": "Xt5",
+    "fullName": "Cadillac Xt5",
+    "imageUrl": "/images/cadillac_xt5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Xt5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Xt5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Xt5"
   },
   {
-    "id": "chevrolet_suburban",
-    "brand": "Chevrolet",
-    "model": "Suburban",
-    "fullName": "Chevrolet Suburban",
-    "imageUrl": "/images/chevrolet_suburban.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Suburban"
+    "id": "cadillac_xt6",
+    "brand": "Cadillac",
+    "model": "Xt6",
+    "fullName": "Cadillac Xt6",
+    "imageUrl": "/images/cadillac_xt6.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Xt6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Xt6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Xt6"
   },
   {
-    "id": "chevrolet_traverse",
-    "brand": "Chevrolet",
-    "model": "Traverse",
-    "fullName": "Chevrolet Traverse",
-    "imageUrl": "/images/chevrolet_traverse.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Traverse"
-  },
-  {
-    "id": "chevrolet_trax",
-    "brand": "Chevrolet",
-    "model": "Trax",
-    "fullName": "Chevrolet Trax",
-    "imageUrl": "/images/chevrolet_trax.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Trax"
-  },
-  {
-    "id": "chevrolet_volt",
-    "brand": "Chevrolet",
-    "model": "Volt",
-    "fullName": "Chevrolet Volt",
-    "imageUrl": "/images/chevrolet_volt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Volt"
-  },
-  {
-    "id": "chevrolet_bolt",
-    "brand": "Chevrolet",
-    "model": "Bolt",
-    "fullName": "Chevrolet Bolt",
-    "imageUrl": "/images/chevrolet_bolt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Bolt"
+    "id": "cadillac_xts",
+    "brand": "Cadillac",
+    "model": "Xts",
+    "fullName": "Cadillac Xts",
+    "imageUrl": "/images/cadillac_xts.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Cadillac_Xts",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Cadillac Xts image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Cadillac_Xts"
   },
   {
     "id": "chevrolet_blazer",
@@ -2727,47 +1963,47 @@ export const cars: Car[] = [
     "model": "Blazer",
     "fullName": "Chevrolet Blazer",
     "imageUrl": "/images/chevrolet_blazer.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Blazer"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Blazer",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Blazer image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Blazer"
   },
   {
-    "id": "chevrolet_colorado",
+    "id": "chevrolet_bolt",
     "brand": "Chevrolet",
-    "model": "Colorado",
-    "fullName": "Chevrolet Colorado",
-    "imageUrl": "/images/chevrolet_colorado.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Colorado"
+    "model": "Bolt",
+    "fullName": "Chevrolet Bolt",
+    "imageUrl": "/images/chevrolet_bolt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Bolt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Bolt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Bolt"
   },
   {
-    "id": "chevrolet_express",
+    "id": "chevrolet_camaro",
     "brand": "Chevrolet",
-    "model": "Express",
-    "fullName": "Chevrolet Express",
-    "imageUrl": "/images/chevrolet_express.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Express"
+    "model": "Camaro",
+    "fullName": "Chevrolet Camaro",
+    "imageUrl": "/images/chevrolet_camaro.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Camaro",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Camaro image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Camaro"
   },
   {
-    "id": "chevrolet_sonic",
+    "id": "chevrolet_camaro_convertible",
     "brand": "Chevrolet",
-    "model": "Aveo",
-    "fullName": "Chevrolet Aveo",
-    "imageUrl": "/images/chevrolet_sonic.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Sonic"
-  },
-  {
-    "id": "chevrolet_spark",
-    "brand": "Chevrolet",
-    "model": "Spark",
-    "fullName": "Chevrolet Spark",
-    "imageUrl": "/images/chevrolet_spark.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Spark"
-  },
-  {
-    "id": "chevrolet_ss",
-    "brand": "Holden",
-    "model": "Commodore (VF)",
-    "fullName": "Holden Commodore (VF)",
-    "imageUrl": "/images/chevrolet_ss.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_SS"
+    "model": "Camaro Convertible",
+    "fullName": "Chevrolet Camaro Convertible",
+    "imageUrl": "/images/chevrolet_camaro_convertible.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Camaro_Convertible",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Camaro Convertible image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Camaro_Convertible"
   },
   {
     "id": "chevrolet_caprice",
@@ -2775,23 +2011,11 @@ export const cars: Car[] = [
     "model": "Caprice",
     "fullName": "Chevrolet Caprice",
     "imageUrl": "/images/chevrolet_caprice.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Caprice"
-  },
-  {
-    "id": "chevrolet_monte_carlo",
-    "brand": "Chevrolet",
-    "model": "Monte Carlo",
-    "fullName": "Chevrolet Monte Carlo",
-    "imageUrl": "/images/chevrolet_monte_carlo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Monte_Carlo"
-  },
-  {
-    "id": "chevrolet_lumina",
-    "brand": "Chevrolet",
-    "model": "Lumina",
-    "fullName": "Chevrolet Lumina",
-    "imageUrl": "/images/chevrolet_lumina.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Lumina"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Caprice",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Caprice image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Caprice"
   },
   {
     "id": "chevrolet_cavalier",
@@ -2799,7 +2023,227 @@ export const cars: Car[] = [
     "model": "Cavalier",
     "fullName": "Chevrolet Cavalier",
     "imageUrl": "/images/chevrolet_cavalier.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Cavalier"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Cavalier",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Cavalier image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Cavalier"
+  },
+  {
+    "id": "chevrolet_colorado",
+    "brand": "Chevrolet",
+    "model": "Colorado",
+    "fullName": "Chevrolet Colorado",
+    "imageUrl": "/images/chevrolet_colorado.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Colorado",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Colorado image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Colorado"
+  },
+  {
+    "id": "chevrolet_corvette",
+    "brand": "Chevrolet",
+    "model": "Corvette",
+    "fullName": "Chevrolet Corvette",
+    "imageUrl": "/images/chevrolet_corvette.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Corvette",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Corvette image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Corvette"
+  },
+  {
+    "id": "chevrolet_cruze",
+    "brand": "Chevrolet",
+    "model": "Cruze",
+    "fullName": "Chevrolet Cruze",
+    "imageUrl": "/images/chevrolet_cruze.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Cruze",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Cruze image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Cruze"
+  },
+  {
+    "id": "chevrolet_equinox",
+    "brand": "Chevrolet",
+    "model": "Equinox",
+    "fullName": "Chevrolet Equinox",
+    "imageUrl": "/images/chevrolet_equinox.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Equinox",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Equinox image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Equinox"
+  },
+  {
+    "id": "chevrolet_express",
+    "brand": "Chevrolet",
+    "model": "Express",
+    "fullName": "Chevrolet Express",
+    "imageUrl": "/images/chevrolet_express.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Express",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Express image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Express"
+  },
+  {
+    "id": "chevrolet_impala",
+    "brand": "Chevrolet",
+    "model": "Impala",
+    "fullName": "Chevrolet Impala",
+    "imageUrl": "/images/chevrolet_impala.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Impala",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Impala image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Impala"
+  },
+  {
+    "id": "chevrolet_lumina",
+    "brand": "Chevrolet",
+    "model": "Lumina",
+    "fullName": "Chevrolet Lumina",
+    "imageUrl": "/images/chevrolet_lumina.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Lumina",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Lumina image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Lumina"
+  },
+  {
+    "id": "chevrolet_malibu",
+    "brand": "Chevrolet",
+    "model": "Malibu",
+    "fullName": "Chevrolet Malibu",
+    "imageUrl": "/images/chevrolet_malibu.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Malibu",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Malibu image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Malibu"
+  },
+  {
+    "id": "chevrolet_monte_carlo",
+    "brand": "Chevrolet",
+    "model": "Monte Carlo",
+    "fullName": "Chevrolet Monte Carlo",
+    "imageUrl": "/images/chevrolet_monte_carlo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Monte_Carlo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Monte Carlo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Monte_Carlo"
+  },
+  {
+    "id": "chevrolet_silverado",
+    "brand": "Chevrolet",
+    "model": "Silverado",
+    "fullName": "Chevrolet Silverado",
+    "imageUrl": "/images/chevrolet_silverado.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Silverado",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Silverado image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Silverado"
+  },
+  {
+    "id": "chevrolet_sonic",
+    "brand": "Chevrolet",
+    "model": "Sonic",
+    "fullName": "Chevrolet Sonic",
+    "imageUrl": "/images/chevrolet_sonic.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Sonic",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Sonic image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Sonic"
+  },
+  {
+    "id": "chevrolet_spark",
+    "brand": "Chevrolet",
+    "model": "Spark",
+    "fullName": "Chevrolet Spark",
+    "imageUrl": "/images/chevrolet_spark.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Spark",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Spark image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Spark"
+  },
+  {
+    "id": "chevrolet_ss",
+    "brand": "Chevrolet",
+    "model": "Ss",
+    "fullName": "Chevrolet Ss",
+    "imageUrl": "/images/chevrolet_ss.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Ss",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Ss image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Ss"
+  },
+  {
+    "id": "chevrolet_suburban",
+    "brand": "Chevrolet",
+    "model": "Suburban",
+    "fullName": "Chevrolet Suburban",
+    "imageUrl": "/images/chevrolet_suburban.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Suburban",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Suburban image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Suburban"
+  },
+  {
+    "id": "chevrolet_tahoe",
+    "brand": "Chevrolet",
+    "model": "Tahoe",
+    "fullName": "Chevrolet Tahoe",
+    "imageUrl": "/images/chevrolet_tahoe.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Tahoe",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Tahoe image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Tahoe"
+  },
+  {
+    "id": "chevrolet_traverse",
+    "brand": "Chevrolet",
+    "model": "Traverse",
+    "fullName": "Chevrolet Traverse",
+    "imageUrl": "/images/chevrolet_traverse.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Traverse",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Traverse image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Traverse"
+  },
+  {
+    "id": "chevrolet_trax",
+    "brand": "Chevrolet",
+    "model": "Trax",
+    "fullName": "Chevrolet Trax",
+    "imageUrl": "/images/chevrolet_trax.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Trax",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Trax image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Trax"
+  },
+  {
+    "id": "chevrolet_volt",
+    "brand": "Chevrolet",
+    "model": "Volt",
+    "fullName": "Chevrolet Volt",
+    "imageUrl": "/images/chevrolet_volt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chevrolet_Volt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chevrolet Volt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chevrolet_Volt"
   },
   {
     "id": "chrysler_200",
@@ -2807,7 +2251,11 @@ export const cars: Car[] = [
     "model": "200",
     "fullName": "Chrysler 200",
     "imageUrl": "/images/chrysler_200.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_200"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_200",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler 200 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_200"
   },
   {
     "id": "chrysler_300",
@@ -2815,15 +2263,23 @@ export const cars: Car[] = [
     "model": "300",
     "fullName": "Chrysler 300",
     "imageUrl": "/images/chrysler_300.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_300"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_300",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler 300 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_300"
   },
   {
     "id": "chrysler_aspen",
-    "brand": "Dodge",
-    "model": "Durango",
-    "fullName": "Dodge Durango",
+    "brand": "Chrysler",
+    "model": "Aspen",
+    "fullName": "Chrysler Aspen",
     "imageUrl": "/images/chrysler_aspen.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Aspen"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Aspen",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler Aspen image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_Aspen"
   },
   {
     "id": "chrysler_concorde",
@@ -2831,7 +2287,11 @@ export const cars: Car[] = [
     "model": "Concorde",
     "fullName": "Chrysler Concorde",
     "imageUrl": "/images/chrysler_concorde.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Concorde"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Concorde",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler Concorde image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_Concorde"
   },
   {
     "id": "chrysler_crossfire",
@@ -2839,15 +2299,23 @@ export const cars: Car[] = [
     "model": "Crossfire",
     "fullName": "Chrysler Crossfire",
     "imageUrl": "/images/chrysler_crossfire.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Crossfire"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Crossfire",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler Crossfire image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_Crossfire"
   },
   {
     "id": "chrysler_lhs",
     "brand": "Chrysler",
-    "model": "LHS",
-    "fullName": "Chrysler LHS",
+    "model": "Lhs",
+    "fullName": "Chrysler Lhs",
     "imageUrl": "/images/chrysler_lhs.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_LHS"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Lhs",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler Lhs image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_Lhs"
   },
   {
     "id": "chrysler_pacifica",
@@ -2855,15 +2323,23 @@ export const cars: Car[] = [
     "model": "Pacifica",
     "fullName": "Chrysler Pacifica",
     "imageUrl": "/images/chrysler_pacifica.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Pacifica"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Pacifica",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler Pacifica image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_Pacifica"
   },
   {
     "id": "chrysler_pt_cruiser",
     "brand": "Chrysler",
-    "model": "PT Cruiser",
-    "fullName": "Chrysler PT Cruiser",
+    "model": "Pt Cruiser",
+    "fullName": "Chrysler Pt Cruiser",
     "imageUrl": "/images/chrysler_pt_cruiser.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_PT_Cruiser"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Pt_Cruiser",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler Pt Cruiser image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_Pt_Cruiser"
   },
   {
     "id": "chrysler_sebring",
@@ -2871,7 +2347,11 @@ export const cars: Car[] = [
     "model": "Sebring",
     "fullName": "Chrysler Sebring",
     "imageUrl": "/images/chrysler_sebring.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Sebring"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Sebring",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler Sebring image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_Sebring"
   },
   {
     "id": "chrysler_voyager",
@@ -2879,215 +2359,323 @@ export const cars: Car[] = [
     "model": "Voyager",
     "fullName": "Chrysler Voyager",
     "imageUrl": "/images/chrysler_voyager.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Voyager"
-  },
-  {
-    "id": "citro_n_c1",
-    "brand": "Citroën",
-    "model": "C1",
-    "fullName": "Citroën C1",
-    "imageUrl": "/images/citro_n_c1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_C1"
-  },
-  {
-    "id": "citro_n_c2",
-    "brand": "Citroën",
-    "model": "C2",
-    "fullName": "Citroën C2",
-    "imageUrl": "/images/citro_n_c2.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_C2"
-  },
-  {
-    "id": "citro_n_c5",
-    "brand": "Citroën",
-    "model": "C5",
-    "fullName": "Citroën C5",
-    "imageUrl": "/images/citro_n_c5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_C5"
-  },
-  {
-    "id": "citro_n_c6",
-    "brand": "Citroën",
-    "model": "C6",
-    "fullName": "Citroën C6",
-    "imageUrl": "/images/citro_n_c6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_C6"
-  },
-  {
-    "id": "citro_n_c8",
-    "brand": "Eurovans",
-    "model": "Eurovans",
-    "fullName": "Eurovans",
-    "imageUrl": "/images/citro_n_c8.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_C8"
-  },
-  {
-    "id": "citro_n_ds4",
-    "brand": "DS",
-    "model": "4",
-    "fullName": "DS 4",
-    "imageUrl": "/images/citro_n_ds4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_DS4"
-  },
-  {
-    "id": "citro_n_ds5",
-    "brand": "DS",
-    "model": "5",
-    "fullName": "DS 5",
-    "imageUrl": "/images/citro_n_ds5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_DS5"
-  },
-  {
-    "id": "citro_n_berlingo",
-    "brand": "Citroën",
-    "model": "Berlingo",
-    "fullName": "Citroën Berlingo",
-    "imageUrl": "/images/citro_n_berlingo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Berlingo"
-  },
-  {
-    "id": "citro_n_picasso",
-    "brand": "Citroën",
-    "model": "Picasso",
-    "fullName": "Citroën Picasso",
-    "imageUrl": "/images/citro_n_picasso.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Picasso"
-  },
-  {
-    "id": "citro_n_jumper",
-    "brand": "Fiat",
-    "model": "Ducato",
-    "fullName": "Fiat Ducato",
-    "imageUrl": "/images/citro_n_jumper.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Jumper"
-  },
-  {
-    "id": "citro_n_jumpy",
-    "brand": "Citroën",
-    "model": "Jumpy",
-    "fullName": "Citroën Jumpy",
-    "imageUrl": "/images/citro_n_jumpy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Jumpy"
-  },
-  {
-    "id": "citro_n_nemo",
-    "brand": "Fiat",
-    "model": "Fiorino",
-    "fullName": "Fiat Fiorino",
-    "imageUrl": "/images/citro_n_nemo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Nemo"
-  },
-  {
-    "id": "citro_n_saxo",
-    "brand": "Citroën",
-    "model": "Saxo",
-    "fullName": "Citroën Saxo",
-    "imageUrl": "/images/citro_n_saxo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Saxo"
-  },
-  {
-    "id": "citro_n_xantia",
-    "brand": "Citroën",
-    "model": "Xantia",
-    "fullName": "Citroën Xantia",
-    "imageUrl": "/images/citro_n_xantia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Xantia"
-  },
-  {
-    "id": "citro_n_xsara",
-    "brand": "Citroën",
-    "model": "Xsara",
-    "fullName": "Citroën Xsara",
-    "imageUrl": "/images/citro_n_xsara.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Xsara"
-  },
-  {
-    "id": "citro_n_zx",
-    "brand": "Citroën",
-    "model": "ZX",
-    "fullName": "Citroën ZX",
-    "imageUrl": "/images/citro_n_zx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_ZX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Chrysler_Voyager",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Chrysler Voyager image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Chrysler_Voyager"
   },
   {
     "id": "citro_n_2cv",
-    "brand": "Citroën",
-    "model": "2CV",
-    "fullName": "Citroën 2CV",
+    "brand": "Citro",
+    "model": "N 2cv",
+    "fullName": "Citro N 2cv",
     "imageUrl": "/images/citro_n_2cv.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_2CV"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_2cv",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N 2cv image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_2cv"
   },
   {
     "id": "citro_n_ax",
-    "brand": "Citroën",
-    "model": "AX",
-    "fullName": "Citroën AX",
+    "brand": "Citro",
+    "model": "N Ax",
+    "fullName": "Citro N Ax",
     "imageUrl": "/images/citro_n_ax.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_AX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Ax",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Ax image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Ax"
+  },
+  {
+    "id": "citro_n_berlingo",
+    "brand": "Citro",
+    "model": "N Berlingo",
+    "fullName": "Citro N Berlingo",
+    "imageUrl": "/images/citro_n_berlingo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Berlingo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Berlingo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Berlingo"
   },
   {
     "id": "citro_n_bx",
-    "brand": "Citroën",
-    "model": "BX",
-    "fullName": "Citroën BX",
+    "brand": "Citro",
+    "model": "N Bx",
+    "fullName": "Citro N Bx",
     "imageUrl": "/images/citro_n_bx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_BX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Bx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Bx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Bx"
+  },
+  {
+    "id": "citro_n_c1",
+    "brand": "Citro",
+    "model": "N C1",
+    "fullName": "Citro N C1",
+    "imageUrl": "/images/citro_n_c1.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_C1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N C1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_C1"
+  },
+  {
+    "id": "citro_n_c2",
+    "brand": "Citro",
+    "model": "N C2",
+    "fullName": "Citro N C2",
+    "imageUrl": "/images/citro_n_c2.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_C2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N C2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_C2"
+  },
+  {
+    "id": "citro_n_c3",
+    "brand": "Citro",
+    "model": "N C3",
+    "fullName": "Citro N C3",
+    "imageUrl": "/images/citro_n_c3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_C3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N C3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_C3"
+  },
+  {
+    "id": "citro_n_c4",
+    "brand": "Citro",
+    "model": "N C4",
+    "fullName": "Citro N C4",
+    "imageUrl": "/images/citro_n_c4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_C4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N C4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_C4"
+  },
+  {
+    "id": "citro_n_c5",
+    "brand": "Citro",
+    "model": "N C5",
+    "fullName": "Citro N C5",
+    "imageUrl": "/images/citro_n_c5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_C5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N C5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_C5"
+  },
+  {
+    "id": "citro_n_c6",
+    "brand": "Citro",
+    "model": "N C6",
+    "fullName": "Citro N C6",
+    "imageUrl": "/images/citro_n_c6.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_C6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N C6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_C6"
+  },
+  {
+    "id": "citro_n_c8",
+    "brand": "Citro",
+    "model": "N C8",
+    "fullName": "Citro N C8",
+    "imageUrl": "/images/citro_n_c8.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_C8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N C8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_C8"
   },
   {
     "id": "citro_n_cx",
-    "brand": "Citroën",
-    "model": "CX",
-    "fullName": "Citroën CX",
+    "brand": "Citro",
+    "model": "N Cx",
+    "fullName": "Citro N Cx",
     "imageUrl": "/images/citro_n_cx.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_CX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Cx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Cx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Cx"
+  },
+  {
+    "id": "citro_n_ds3",
+    "brand": "Citro",
+    "model": "N Ds3",
+    "fullName": "Citro N Ds3",
+    "imageUrl": "/images/citro_n_ds3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Ds3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Ds3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Ds3"
+  },
+  {
+    "id": "citro_n_ds4",
+    "brand": "Citro",
+    "model": "N Ds4",
+    "fullName": "Citro N Ds4",
+    "imageUrl": "/images/citro_n_ds4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Ds4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Ds4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Ds4"
+  },
+  {
+    "id": "citro_n_ds5",
+    "brand": "Citro",
+    "model": "N Ds5",
+    "fullName": "Citro N Ds5",
+    "imageUrl": "/images/citro_n_ds5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Ds5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Ds5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Ds5"
   },
   {
     "id": "citro_n_gs",
-    "brand": "Citroën",
-    "model": "GS",
-    "fullName": "Citroën GS",
+    "brand": "Citro",
+    "model": "N Gs",
+    "fullName": "Citro N Gs",
     "imageUrl": "/images/citro_n_gs.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_GS"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Gs",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Gs image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Gs"
+  },
+  {
+    "id": "citro_n_jumper",
+    "brand": "Citro",
+    "model": "N Jumper",
+    "fullName": "Citro N Jumper",
+    "imageUrl": "/images/citro_n_jumper.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Jumper",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Jumper image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Jumper"
+  },
+  {
+    "id": "citro_n_jumpy",
+    "brand": "Citro",
+    "model": "N Jumpy",
+    "fullName": "Citro N Jumpy",
+    "imageUrl": "/images/citro_n_jumpy.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Jumpy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Jumpy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Jumpy"
+  },
+  {
+    "id": "citro_n_nemo",
+    "brand": "Citro",
+    "model": "N Nemo",
+    "fullName": "Citro N Nemo",
+    "imageUrl": "/images/citro_n_nemo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Nemo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Nemo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Nemo"
+  },
+  {
+    "id": "citro_n_picasso",
+    "brand": "Citro",
+    "model": "N Picasso",
+    "fullName": "Citro N Picasso",
+    "imageUrl": "/images/citro_n_picasso.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Picasso",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Picasso image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Picasso"
+  },
+  {
+    "id": "citro_n_saxo",
+    "brand": "Citro",
+    "model": "N Saxo",
+    "fullName": "Citro N Saxo",
+    "imageUrl": "/images/citro_n_saxo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Saxo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Saxo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Saxo"
   },
   {
     "id": "citro_n_sm",
-    "brand": "Citroën",
-    "model": "SM",
-    "fullName": "Citroën SM",
+    "brand": "Citro",
+    "model": "N Sm",
+    "fullName": "Citro N Sm",
     "imageUrl": "/images/citro_n_sm.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_SM"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Sm",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Sm image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Sm"
   },
   {
     "id": "citro_n_visa",
-    "brand": "Citroën",
-    "model": "Visa",
-    "fullName": "Citroën Visa",
+    "brand": "Citro",
+    "model": "N Visa",
+    "fullName": "Citro N Visa",
     "imageUrl": "/images/citro_n_visa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citroën_Visa"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Visa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Visa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Visa"
   },
   {
-    "id": "dacia_duster",
-    "brand": "Dacia",
-    "model": "Duster",
-    "fullName": "Dacia Duster",
-    "imageUrl": "/images/dacia_duster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Duster"
+    "id": "citro_n_xantia",
+    "brand": "Citro",
+    "model": "N Xantia",
+    "fullName": "Citro N Xantia",
+    "imageUrl": "/images/citro_n_xantia.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Xantia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Xantia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Xantia"
   },
   {
-    "id": "dacia_logan",
-    "brand": "Dacia",
-    "model": "Logan",
-    "fullName": "Dacia Logan",
-    "imageUrl": "/images/dacia_logan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Logan"
+    "id": "citro_n_xsara",
+    "brand": "Citro",
+    "model": "N Xsara",
+    "fullName": "Citro N Xsara",
+    "imageUrl": "/images/citro_n_xsara.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Xsara",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Xsara image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Xsara"
   },
   {
-    "id": "dacia_sandero",
-    "brand": "Dacia",
-    "model": "Sandero",
-    "fullName": "Dacia Sandero",
-    "imageUrl": "/images/dacia_sandero.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Sandero"
+    "id": "citro_n_zx",
+    "brand": "Citro",
+    "model": "N Zx",
+    "fullName": "Citro N Zx",
+    "imageUrl": "/images/citro_n_zx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Citro_N_Zx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Citro N Zx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Citro_N_Zx"
   },
   {
     "id": "dacia_dokker",
@@ -3095,7 +2683,23 @@ export const cars: Car[] = [
     "model": "Dokker",
     "fullName": "Dacia Dokker",
     "imageUrl": "/images/dacia_dokker.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Dokker"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Dokker",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dacia Dokker image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dacia_Dokker"
+  },
+  {
+    "id": "dacia_duster",
+    "brand": "Dacia",
+    "model": "Duster",
+    "fullName": "Dacia Duster",
+    "imageUrl": "/images/dacia_duster.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Duster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dacia Duster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dacia_Duster"
   },
   {
     "id": "dacia_lodgy",
@@ -3103,47 +2707,47 @@ export const cars: Car[] = [
     "model": "Lodgy",
     "fullName": "Dacia Lodgy",
     "imageUrl": "/images/dacia_lodgy.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Lodgy"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Lodgy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dacia Lodgy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dacia_Lodgy"
+  },
+  {
+    "id": "dacia_logan",
+    "brand": "Dacia",
+    "model": "Logan",
+    "fullName": "Dacia Logan",
+    "imageUrl": "/images/dacia_logan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Logan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dacia Logan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dacia_Logan"
+  },
+  {
+    "id": "dacia_sandero",
+    "brand": "Dacia",
+    "model": "Sandero",
+    "fullName": "Dacia Sandero",
+    "imageUrl": "/images/dacia_sandero.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Sandero",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dacia Sandero image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dacia_Sandero"
   },
   {
     "id": "dacia_spring",
-    "brand": "Renault",
-    "model": "Kwid",
-    "fullName": "Renault Kwid",
+    "brand": "Dacia",
+    "model": "Spring",
+    "fullName": "Dacia Spring",
     "imageUrl": "/images/dacia_spring.png",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Spring"
-  },
-  {
-    "id": "dodge_dart",
-    "brand": "Dodge",
-    "model": "Dart",
-    "fullName": "Dodge Dart",
-    "imageUrl": "/images/dodge_dart.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Dart"
-  },
-  {
-    "id": "dodge_durango",
-    "brand": "Dodge",
-    "model": "Durango",
-    "fullName": "Dodge Durango",
-    "imageUrl": "/images/dodge_durango.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Durango"
-  },
-  {
-    "id": "dodge_grand_caravan",
-    "brand": "Dodge",
-    "model": "Caravan",
-    "fullName": "Dodge Caravan",
-    "imageUrl": "/images/dodge_grand_caravan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Grand_Caravan"
-  },
-  {
-    "id": "dodge_journey",
-    "brand": "Dodge",
-    "model": "Journey",
-    "fullName": "Dodge Journey",
-    "imageUrl": "/images/dodge_journey.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Journey"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dacia_Spring",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dacia Spring image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dacia_Spring"
   },
   {
     "id": "dodge_avenger",
@@ -3151,7 +2755,11 @@ export const cars: Car[] = [
     "model": "Avenger",
     "fullName": "Dodge Avenger",
     "imageUrl": "/images/dodge_avenger.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Avenger"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Avenger",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Avenger image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Avenger"
   },
   {
     "id": "dodge_caliber",
@@ -3159,7 +2767,71 @@ export const cars: Car[] = [
     "model": "Caliber",
     "fullName": "Dodge Caliber",
     "imageUrl": "/images/dodge_caliber.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Caliber"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Caliber",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Caliber image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Caliber"
+  },
+  {
+    "id": "dodge_challenger",
+    "brand": "Dodge",
+    "model": "Challenger",
+    "fullName": "Dodge Challenger",
+    "imageUrl": "/images/dodge_challenger.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Challenger",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Challenger image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Challenger"
+  },
+  {
+    "id": "dodge_charger",
+    "brand": "Dodge",
+    "model": "Charger",
+    "fullName": "Dodge Charger",
+    "imageUrl": "/images/dodge_charger.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Charger",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Charger image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Charger"
+  },
+  {
+    "id": "dodge_dart",
+    "brand": "Dodge",
+    "model": "Dart",
+    "fullName": "Dodge Dart",
+    "imageUrl": "/images/dodge_dart.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Dart",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Dart image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Dart"
+  },
+  {
+    "id": "dodge_durango",
+    "brand": "Dodge",
+    "model": "Durango",
+    "fullName": "Dodge Durango",
+    "imageUrl": "/images/dodge_durango.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Durango",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Durango image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Durango"
+  },
+  {
+    "id": "dodge_grand_caravan",
+    "brand": "Dodge",
+    "model": "Grand Caravan",
+    "fullName": "Dodge Grand Caravan",
+    "imageUrl": "/images/dodge_grand_caravan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Grand_Caravan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Grand Caravan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Grand_Caravan"
   },
   {
     "id": "dodge_intrepid",
@@ -3167,7 +2839,23 @@ export const cars: Car[] = [
     "model": "Intrepid",
     "fullName": "Dodge Intrepid",
     "imageUrl": "/images/dodge_intrepid.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Intrepid"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Intrepid",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Intrepid image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Intrepid"
+  },
+  {
+    "id": "dodge_journey",
+    "brand": "Dodge",
+    "model": "Journey",
+    "fullName": "Dodge Journey",
+    "imageUrl": "/images/dodge_journey.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Journey",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Journey image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Journey"
   },
   {
     "id": "dodge_magnum",
@@ -3175,15 +2863,23 @@ export const cars: Car[] = [
     "model": "Magnum",
     "fullName": "Dodge Magnum",
     "imageUrl": "/images/dodge_magnum.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Magnum"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Magnum",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Magnum image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Magnum"
   },
   {
     "id": "dodge_neon",
-    "brand": "Chrysler",
+    "brand": "Dodge",
     "model": "Neon",
-    "fullName": "Chrysler Neon",
+    "fullName": "Dodge Neon",
     "imageUrl": "/images/dodge_neon.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Neon"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Neon",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Neon image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Neon"
   },
   {
     "id": "dodge_nitro",
@@ -3191,15 +2887,23 @@ export const cars: Car[] = [
     "model": "Nitro",
     "fullName": "Dodge Nitro",
     "imageUrl": "/images/dodge_nitro.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Nitro"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Nitro",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Nitro image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Nitro"
   },
   {
     "id": "dodge_ram",
-    "brand": "Ram",
-    "model": "pickup",
-    "fullName": "Ram pickup",
+    "brand": "Dodge",
+    "model": "Ram",
+    "fullName": "Dodge Ram",
     "imageUrl": "/images/dodge_ram.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Ram"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Ram",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Ram image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Ram"
   },
   {
     "id": "dodge_stratus",
@@ -3207,39 +2911,71 @@ export const cars: Car[] = [
     "model": "Stratus",
     "fullName": "Dodge Stratus",
     "imageUrl": "/images/dodge_stratus.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Stratus"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Stratus",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Stratus image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Stratus"
+  },
+  {
+    "id": "dodge_viper",
+    "brand": "Dodge",
+    "model": "Viper",
+    "fullName": "Dodge Viper",
+    "imageUrl": "/images/dodge_viper.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Dodge_Viper",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Dodge Viper image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Dodge_Viper"
   },
   {
     "id": "ferrari_250_gt",
     "brand": "Ferrari",
-    "model": "250",
-    "fullName": "Ferrari 250",
+    "model": "250 Gt",
+    "fullName": "Ferrari 250 Gt",
     "imageUrl": "/images/ferrari_250_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_250_GT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_250_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 250 Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_250_Gt"
   },
   {
     "id": "ferrari_275_gtb",
     "brand": "Ferrari",
-    "model": "275",
-    "fullName": "Ferrari 275",
+    "model": "275 Gtb",
+    "fullName": "Ferrari 275 Gtb",
     "imageUrl": "/images/ferrari_275_gtb.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_275_GTB"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_275_Gtb",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 275 Gtb image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_275_Gtb"
   },
   {
     "id": "ferrari_288_gto",
     "brand": "Ferrari",
-    "model": "288 GTO",
-    "fullName": "Ferrari 288 GTO",
+    "model": "288 Gto",
+    "fullName": "Ferrari 288 Gto",
     "imageUrl": "/images/ferrari_288_gto.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_288_GTO"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_288_Gto",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 288 Gto image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_288_Gto"
   },
   {
     "id": "ferrari_308_gtb",
     "brand": "Ferrari",
-    "model": "308 GTB/GTS",
-    "fullName": "Ferrari 308 GTB/GTS",
+    "model": "308 Gtb",
+    "fullName": "Ferrari 308 Gtb",
     "imageUrl": "/images/ferrari_308_gtb.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_308_GTB"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_308_Gtb",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 308 Gtb image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_308_Gtb"
   },
   {
     "id": "ferrari_328",
@@ -3247,7 +2983,11 @@ export const cars: Car[] = [
     "model": "328",
     "fullName": "Ferrari 328",
     "imageUrl": "/images/ferrari_328.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_328"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_328",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 328 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_328"
   },
   {
     "id": "ferrari_348",
@@ -3255,15 +2995,23 @@ export const cars: Car[] = [
     "model": "348",
     "fullName": "Ferrari 348",
     "imageUrl": "/images/ferrari_348.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_348"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_348",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 348 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_348"
   },
   {
     "id": "ferrari_355",
     "brand": "Ferrari",
-    "model": "F355",
-    "fullName": "Ferrari F355",
+    "model": "355",
+    "fullName": "Ferrari 355",
     "imageUrl": "/images/ferrari_355.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_355"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_355",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 355 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_355"
   },
   {
     "id": "ferrari_360",
@@ -3271,15 +3019,23 @@ export const cars: Car[] = [
     "model": "360",
     "fullName": "Ferrari 360",
     "imageUrl": "/images/ferrari_360.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_360"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_360",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 360 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_360"
   },
   {
     "id": "ferrari_430",
     "brand": "Ferrari",
-    "model": "F430",
-    "fullName": "Ferrari F430",
+    "model": "430",
+    "fullName": "Ferrari 430",
     "imageUrl": "/images/ferrari_430.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_430"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_430",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 430 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_430"
   },
   {
     "id": "ferrari_456",
@@ -3287,7 +3043,11 @@ export const cars: Car[] = [
     "model": "456",
     "fullName": "Ferrari 456",
     "imageUrl": "/images/ferrari_456.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_456"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_456",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 456 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_456"
   },
   {
     "id": "ferrari_458",
@@ -3295,7 +3055,11 @@ export const cars: Car[] = [
     "model": "458",
     "fullName": "Ferrari 458",
     "imageUrl": "/images/ferrari_458.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_458"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_458",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 458 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_458"
   },
   {
     "id": "ferrari_488",
@@ -3303,7 +3067,11 @@ export const cars: Car[] = [
     "model": "488",
     "fullName": "Ferrari 488",
     "imageUrl": "/images/ferrari_488.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_488"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_488",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 488 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_488"
   },
   {
     "id": "ferrari_512",
@@ -3311,7 +3079,11 @@ export const cars: Car[] = [
     "model": "512",
     "fullName": "Ferrari 512",
     "imageUrl": "/images/ferrari_512.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_512"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_512",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 512 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_512"
   },
   {
     "id": "ferrari_550",
@@ -3319,15 +3091,23 @@ export const cars: Car[] = [
     "model": "550",
     "fullName": "Ferrari 550",
     "imageUrl": "/images/ferrari_550.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_550"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_550",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 550 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_550"
   },
   {
     "id": "ferrari_575m",
     "brand": "Ferrari",
-    "model": "575M Maranello",
-    "fullName": "Ferrari 575M Maranello",
+    "model": "575m",
+    "fullName": "Ferrari 575m",
     "imageUrl": "/images/ferrari_575m.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_575M"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_575m",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 575m image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_575m"
   },
   {
     "id": "ferrari_599",
@@ -3335,15 +3115,35 @@ export const cars: Car[] = [
     "model": "599",
     "fullName": "Ferrari 599",
     "imageUrl": "/images/ferrari_599.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_599"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_599",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 599 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_599"
   },
   {
     "id": "ferrari_612",
     "brand": "Ferrari",
-    "model": "612 Scaglietti",
-    "fullName": "Ferrari 612 Scaglietti",
+    "model": "612",
+    "fullName": "Ferrari 612",
     "imageUrl": "/images/ferrari_612.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_612"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_612",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 612 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_612"
+  },
+  {
+    "id": "ferrari_812",
+    "brand": "Ferrari",
+    "model": "812",
+    "fullName": "Ferrari 812",
+    "imageUrl": "/images/ferrari_812.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_812",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari 812 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_812"
   },
   {
     "id": "ferrari_california",
@@ -3351,7 +3151,23 @@ export const cars: Car[] = [
     "model": "California",
     "fullName": "Ferrari California",
     "imageUrl": "/images/ferrari_california.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_California"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_California",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari California image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_California"
+  },
+  {
+    "id": "ferrari_enzo",
+    "brand": "Ferrari",
+    "model": "Enzo",
+    "fullName": "Ferrari Enzo",
+    "imageUrl": "/images/ferrari_enzo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Enzo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari Enzo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_Enzo"
   },
   {
     "id": "ferrari_f12",
@@ -3359,7 +3175,11 @@ export const cars: Car[] = [
     "model": "F12",
     "fullName": "Ferrari F12",
     "imageUrl": "/images/ferrari_f12.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_F12"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_F12",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari F12 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_F12"
   },
   {
     "id": "ferrari_f355",
@@ -3367,23 +3187,71 @@ export const cars: Car[] = [
     "model": "F355",
     "fullName": "Ferrari F355",
     "imageUrl": "/images/ferrari_f355.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_F355"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_F355",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari F355 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_F355"
+  },
+  {
+    "id": "ferrari_f40",
+    "brand": "Ferrari",
+    "model": "F40",
+    "fullName": "Ferrari F40",
+    "imageUrl": "/images/ferrari_f40.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_F40",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari F40 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_F40"
+  },
+  {
+    "id": "ferrari_f50",
+    "brand": "Ferrari",
+    "model": "F50",
+    "fullName": "Ferrari F50",
+    "imageUrl": "/images/ferrari_f50.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_F50",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari F50 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_F50"
   },
   {
     "id": "ferrari_ff",
     "brand": "Ferrari",
-    "model": "FF",
-    "fullName": "Ferrari FF",
+    "model": "Ff",
+    "fullName": "Ferrari Ff",
     "imageUrl": "/images/ferrari_ff.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_FF"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Ff",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari Ff image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_Ff"
   },
   {
     "id": "ferrari_gtc4lusso",
     "brand": "Ferrari",
-    "model": "GTC4Lusso",
-    "fullName": "Ferrari GTC4Lusso",
+    "model": "Gtc4lusso",
+    "fullName": "Ferrari Gtc4lusso",
     "imageUrl": "/images/ferrari_gtc4lusso.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_GTC4Lusso"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Gtc4lusso",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari Gtc4lusso image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_Gtc4lusso"
+  },
+  {
+    "id": "ferrari_laferrari",
+    "brand": "Ferrari",
+    "model": "Laferrari",
+    "fullName": "Ferrari Laferrari",
+    "imageUrl": "/images/ferrari_laferrari.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Laferrari",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari Laferrari image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_Laferrari"
   },
   {
     "id": "ferrari_portofino",
@@ -3391,7 +3259,11 @@ export const cars: Car[] = [
     "model": "Portofino",
     "fullName": "Ferrari Portofino",
     "imageUrl": "/images/ferrari_portofino.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Portofino"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Portofino",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari Portofino image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_Portofino"
   },
   {
     "id": "ferrari_roma",
@@ -3399,15 +3271,23 @@ export const cars: Car[] = [
     "model": "Roma",
     "fullName": "Ferrari Roma",
     "imageUrl": "/images/ferrari_roma.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Roma"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Roma",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari Roma image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_Roma"
   },
   {
     "id": "ferrari_sf90",
     "brand": "Ferrari",
-    "model": "SF90",
-    "fullName": "Ferrari SF90",
+    "model": "Sf90",
+    "fullName": "Ferrari Sf90",
     "imageUrl": "/images/ferrari_sf90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_SF90"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Sf90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari Sf90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_Sf90"
   },
   {
     "id": "ferrari_testarossa",
@@ -3415,31 +3295,59 @@ export const cars: Car[] = [
     "model": "Testarossa",
     "fullName": "Ferrari Testarossa",
     "imageUrl": "/images/ferrari_testarossa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Testarossa"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_Testarossa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ferrari Testarossa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ferrari_Testarossa"
   },
   {
-    "id": "ferrari_812",
-    "brand": "Ferrari",
-    "model": "812 Superfast",
-    "fullName": "Ferrari 812 Superfast",
-    "imageUrl": "/images/ferrari_812.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ferrari_812"
+    "id": "fiat_124_spider",
+    "brand": "Fiat",
+    "model": "124 Spider",
+    "fullName": "Fiat 124 Spider",
+    "imageUrl": "/images/fiat_124_spider.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_124_Spider",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat 124 Spider image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_124_Spider"
+  },
+  {
+    "id": "fiat_500",
+    "brand": "Fiat",
+    "model": "500",
+    "fullName": "Fiat 500",
+    "imageUrl": "/images/fiat_500.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_500",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat 500 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_500"
   },
   {
     "id": "fiat_500l",
     "brand": "Fiat",
-    "model": "500L",
-    "fullName": "Fiat 500L",
+    "model": "500l",
+    "fullName": "Fiat 500l",
     "imageUrl": "/images/fiat_500l.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_500L"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_500l",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat 500l image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_500l"
   },
   {
     "id": "fiat_500x",
     "brand": "Fiat",
-    "model": "500X",
-    "fullName": "Fiat 500X",
+    "model": "500x",
+    "fullName": "Fiat 500x",
     "imageUrl": "/images/fiat_500x.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_500X"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_500x",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat 500x image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_500x"
   },
   {
     "id": "fiat_albea",
@@ -3447,23 +3355,35 @@ export const cars: Car[] = [
     "model": "Albea",
     "fullName": "Fiat Albea",
     "imageUrl": "/images/fiat_albea.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Albea"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Albea",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Albea image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Albea"
   },
   {
     "id": "fiat_brava",
     "brand": "Fiat",
-    "model": "Bravo and Brava",
-    "fullName": "Fiat Bravo and Brava",
+    "model": "Brava",
+    "fullName": "Fiat Brava",
     "imageUrl": "/images/fiat_brava.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Brava"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Brava",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Brava image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Brava"
   },
   {
     "id": "fiat_bravo",
     "brand": "Fiat",
-    "model": "Bravo and Brava",
-    "fullName": "Fiat Bravo and Brava",
+    "model": "Bravo",
+    "fullName": "Fiat Bravo",
     "imageUrl": "/images/fiat_bravo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Bravo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Bravo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Bravo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Bravo"
   },
   {
     "id": "fiat_croma",
@@ -3471,15 +3391,23 @@ export const cars: Car[] = [
     "model": "Croma",
     "fullName": "Fiat Croma",
     "imageUrl": "/images/fiat_croma.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Croma"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Croma",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Croma image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Croma"
   },
   {
     "id": "fiat_doblo",
     "brand": "Fiat",
-    "model": "Doblò",
-    "fullName": "Fiat Doblò",
+    "model": "Doblo",
+    "fullName": "Fiat Doblo",
     "imageUrl": "/images/fiat_doblo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Doblo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Doblo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Doblo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Doblo"
   },
   {
     "id": "fiat_ducato",
@@ -3487,7 +3415,11 @@ export const cars: Car[] = [
     "model": "Ducato",
     "fullName": "Fiat Ducato",
     "imageUrl": "/images/fiat_ducato.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Ducato"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Ducato",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Ducato image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Ducato"
   },
   {
     "id": "fiat_fiorino",
@@ -3495,7 +3427,11 @@ export const cars: Car[] = [
     "model": "Fiorino",
     "fullName": "Fiat Fiorino",
     "imageUrl": "/images/fiat_fiorino.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Fiorino"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Fiorino",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Fiorino image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Fiorino"
   },
   {
     "id": "fiat_idea",
@@ -3503,7 +3439,11 @@ export const cars: Car[] = [
     "model": "Idea",
     "fullName": "Fiat Idea",
     "imageUrl": "/images/fiat_idea.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Idea"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Idea",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Idea image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Idea"
   },
   {
     "id": "fiat_linea",
@@ -3511,7 +3451,11 @@ export const cars: Car[] = [
     "model": "Linea",
     "fullName": "Fiat Linea",
     "imageUrl": "/images/fiat_linea.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Linea"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Linea",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Linea image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Linea"
   },
   {
     "id": "fiat_marea",
@@ -3519,7 +3463,11 @@ export const cars: Car[] = [
     "model": "Marea",
     "fullName": "Fiat Marea",
     "imageUrl": "/images/fiat_marea.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Marea"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Marea",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Marea image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Marea"
   },
   {
     "id": "fiat_multipla",
@@ -3527,7 +3475,11 @@ export const cars: Car[] = [
     "model": "Multipla",
     "fullName": "Fiat Multipla",
     "imageUrl": "/images/fiat_multipla.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Multipla"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Multipla",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Multipla image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Multipla"
   },
   {
     "id": "fiat_palio",
@@ -3535,7 +3487,23 @@ export const cars: Car[] = [
     "model": "Palio",
     "fullName": "Fiat Palio",
     "imageUrl": "/images/fiat_palio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Palio"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Palio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Palio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Palio"
+  },
+  {
+    "id": "fiat_panda",
+    "brand": "Fiat",
+    "model": "Panda",
+    "fullName": "Fiat Panda",
+    "imageUrl": "/images/fiat_panda.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Panda",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Panda image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Panda"
   },
   {
     "id": "fiat_punto",
@@ -3543,23 +3511,35 @@ export const cars: Car[] = [
     "model": "Punto",
     "fullName": "Fiat Punto",
     "imageUrl": "/images/fiat_punto.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Punto"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Punto",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Punto image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Punto"
   },
   {
     "id": "fiat_qubo",
     "brand": "Fiat",
-    "model": "Fiorino",
-    "fullName": "Fiat Fiorino",
+    "model": "Qubo",
+    "fullName": "Fiat Qubo",
     "imageUrl": "/images/fiat_qubo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Qubo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Qubo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Qubo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Qubo"
   },
   {
     "id": "fiat_scudo",
-    "brand": "Citroën",
-    "model": "Jumpy",
-    "fullName": "Citroën Jumpy",
+    "brand": "Fiat",
+    "model": "Scudo",
+    "fullName": "Fiat Scudo",
     "imageUrl": "/images/fiat_scudo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Scudo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Scudo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Scudo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Scudo"
   },
   {
     "id": "fiat_sedici",
@@ -3567,7 +3547,11 @@ export const cars: Car[] = [
     "model": "Sedici",
     "fullName": "Fiat Sedici",
     "imageUrl": "/images/fiat_sedici.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Sedici"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Sedici",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Sedici image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Sedici"
   },
   {
     "id": "fiat_seicento",
@@ -3575,7 +3559,11 @@ export const cars: Car[] = [
     "model": "Seicento",
     "fullName": "Fiat Seicento",
     "imageUrl": "/images/fiat_seicento.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Seicento"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Seicento",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Seicento image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Seicento"
   },
   {
     "id": "fiat_siena",
@@ -3583,7 +3571,11 @@ export const cars: Car[] = [
     "model": "Siena",
     "fullName": "Fiat Siena",
     "imageUrl": "/images/fiat_siena.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Siena"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Siena",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Siena image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Siena"
   },
   {
     "id": "fiat_stilo",
@@ -3591,7 +3583,11 @@ export const cars: Car[] = [
     "model": "Stilo",
     "fullName": "Fiat Stilo",
     "imageUrl": "/images/fiat_stilo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Stilo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Stilo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Stilo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Stilo"
   },
   {
     "id": "fiat_strada",
@@ -3599,7 +3595,11 @@ export const cars: Car[] = [
     "model": "Strada",
     "fullName": "Fiat Strada",
     "imageUrl": "/images/fiat_strada.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Strada"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Strada",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Strada image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Strada"
   },
   {
     "id": "fiat_tempra",
@@ -3607,15 +3607,23 @@ export const cars: Car[] = [
     "model": "Tempra",
     "fullName": "Fiat Tempra",
     "imageUrl": "/images/fiat_tempra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Tempra"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Tempra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Tempra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Tempra"
   },
   {
     "id": "fiat_ulysse",
-    "brand": "Eurovans",
-    "model": "Eurovans",
-    "fullName": "Eurovans",
+    "brand": "Fiat",
+    "model": "Ulysse",
+    "fullName": "Fiat Ulysse",
     "imageUrl": "/images/fiat_ulysse.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Ulysse"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Ulysse",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Ulysse image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Ulysse"
   },
   {
     "id": "fiat_uno",
@@ -3623,87 +3631,11 @@ export const cars: Car[] = [
     "model": "Uno",
     "fullName": "Fiat Uno",
     "imageUrl": "/images/fiat_uno.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Uno"
-  },
-  {
-    "id": "ford_bronco",
-    "brand": "Ford",
-    "model": "Bronco",
-    "fullName": "Ford Bronco",
-    "imageUrl": "/images/ford_bronco.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Bronco"
-  },
-  {
-    "id": "ford_edge",
-    "brand": "Ford",
-    "model": "Edge",
-    "fullName": "Ford Edge",
-    "imageUrl": "/images/ford_edge.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Edge"
-  },
-  {
-    "id": "ford_escape",
-    "brand": "Ford",
-    "model": "Escape",
-    "fullName": "Ford Escape",
-    "imageUrl": "/images/ford_escape.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Escape"
-  },
-  {
-    "id": "ford_expedition",
-    "brand": "Ford",
-    "model": "Expedition",
-    "fullName": "Ford Expedition",
-    "imageUrl": "/images/ford_expedition.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Expedition"
-  },
-  {
-    "id": "ford_explorer",
-    "brand": "Ford",
-    "model": "Explorer",
-    "fullName": "Ford Explorer",
-    "imageUrl": "/images/ford_explorer.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Explorer"
-  },
-  {
-    "id": "ford_f_250",
-    "brand": "Ford",
-    "model": "F-Series",
-    "fullName": "Ford F-Series",
-    "imageUrl": "/images/ford_f_250.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_F-250"
-  },
-  {
-    "id": "ford_f_350",
-    "brand": "Ford",
-    "model": "Super Duty",
-    "fullName": "Ford Super Duty",
-    "imageUrl": "/images/ford_f_350.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_F-350"
-  },
-  {
-    "id": "ford_ranger",
-    "brand": "Ford",
-    "model": "Ranger",
-    "fullName": "Ford Ranger",
-    "imageUrl": "/images/ford_ranger.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Ranger"
-  },
-  {
-    "id": "ford_taurus",
-    "brand": "Ford",
-    "model": "Taurus",
-    "fullName": "Ford Taurus",
-    "imageUrl": "/images/ford_taurus.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Taurus"
-  },
-  {
-    "id": "ford_transit",
-    "brand": "Ford",
-    "model": "Transit",
-    "fullName": "Ford Transit",
-    "imageUrl": "/images/ford_transit.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Transit"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Fiat_Uno",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Fiat Uno image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Fiat_Uno"
   },
   {
     "id": "ford_aerostar",
@@ -3711,23 +3643,59 @@ export const cars: Car[] = [
     "model": "Aerostar",
     "fullName": "Ford Aerostar",
     "imageUrl": "/images/ford_aerostar.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Aerostar"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Aerostar",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Aerostar image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Aerostar"
+  },
+  {
+    "id": "ford_bronco",
+    "brand": "Ford",
+    "model": "Bronco",
+    "fullName": "Ford Bronco",
+    "imageUrl": "/images/ford_bronco.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Bronco",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Bronco image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Bronco"
   },
   {
     "id": "ford_bronco_ii",
     "brand": "Ford",
-    "model": "Bronco II",
-    "fullName": "Ford Bronco II",
+    "model": "Bronco Ii",
+    "fullName": "Ford Bronco Ii",
     "imageUrl": "/images/ford_bronco_ii.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Bronco_II"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Bronco_Ii",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Bronco Ii image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Bronco_Ii"
+  },
+  {
+    "id": "ford_c_max",
+    "brand": "Ford",
+    "model": "C Max",
+    "fullName": "Ford C Max",
+    "imageUrl": "/images/ford_c_max.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_C_Max",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford C Max image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_C_Max"
   },
   {
     "id": "ford_contour",
     "brand": "Ford",
-    "model": "Mondeo (first generation)",
-    "fullName": "Ford Mondeo (first generation)",
+    "model": "Contour",
+    "fullName": "Ford Contour",
     "imageUrl": "/images/ford_contour.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Contour"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Contour",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Contour image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Contour"
   },
   {
     "id": "ford_crown_victoria",
@@ -3735,15 +3703,47 @@ export const cars: Car[] = [
     "model": "Crown Victoria",
     "fullName": "Ford Crown Victoria",
     "imageUrl": "/images/ford_crown_victoria.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Crown_Victoria"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Crown_Victoria",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Crown Victoria image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Crown_Victoria"
   },
   {
     "id": "ford_ecosport",
     "brand": "Ford",
-    "model": "EcoSport",
-    "fullName": "Ford EcoSport",
+    "model": "Ecosport",
+    "fullName": "Ford Ecosport",
     "imageUrl": "/images/ford_ecosport.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Ecosport"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Ecosport",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Ecosport image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Ecosport"
+  },
+  {
+    "id": "ford_edge",
+    "brand": "Ford",
+    "model": "Edge",
+    "fullName": "Ford Edge",
+    "imageUrl": "/images/ford_edge.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Edge",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Edge image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Edge"
+  },
+  {
+    "id": "ford_escape",
+    "brand": "Ford",
+    "model": "Escape",
+    "fullName": "Ford Escape",
+    "imageUrl": "/images/ford_escape.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Escape",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Escape image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Escape"
   },
   {
     "id": "ford_excursion",
@@ -3751,15 +3751,131 @@ export const cars: Car[] = [
     "model": "Excursion",
     "fullName": "Ford Excursion",
     "imageUrl": "/images/ford_excursion.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Excursion"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Excursion",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Excursion image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Excursion"
+  },
+  {
+    "id": "ford_expedition",
+    "brand": "Ford",
+    "model": "Expedition",
+    "fullName": "Ford Expedition",
+    "imageUrl": "/images/ford_expedition.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Expedition",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Expedition image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Expedition"
+  },
+  {
+    "id": "ford_explorer",
+    "brand": "Ford",
+    "model": "Explorer",
+    "fullName": "Ford Explorer",
+    "imageUrl": "/images/ford_explorer.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Explorer",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Explorer image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Explorer"
+  },
+  {
+    "id": "ford_f_150",
+    "brand": "Ford",
+    "model": "F 150",
+    "fullName": "Ford F 150",
+    "imageUrl": "/images/ford_f_150.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_F_150",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford F 150 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_F_150"
+  },
+  {
+    "id": "ford_f_250",
+    "brand": "Ford",
+    "model": "F 250",
+    "fullName": "Ford F 250",
+    "imageUrl": "/images/ford_f_250.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_F_250",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford F 250 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_F_250"
+  },
+  {
+    "id": "ford_f_350",
+    "brand": "Ford",
+    "model": "F 350",
+    "fullName": "Ford F 350",
+    "imageUrl": "/images/ford_f_350.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_F_350",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford F 350 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_F_350"
+  },
+  {
+    "id": "ford_f_series",
+    "brand": "Ford",
+    "model": "F Series",
+    "fullName": "Ford F Series",
+    "imageUrl": "/images/ford_f_series.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_F_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford F Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_F_Series"
+  },
+  {
+    "id": "ford_fiesta",
+    "brand": "Ford",
+    "model": "Fiesta",
+    "fullName": "Ford Fiesta",
+    "imageUrl": "/images/ford_fiesta.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Fiesta",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Fiesta image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Fiesta"
+  },
+  {
+    "id": "ford_focus",
+    "brand": "Ford",
+    "model": "Focus",
+    "fullName": "Ford Focus",
+    "imageUrl": "/images/ford_focus.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Focus",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Focus image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Focus"
+  },
+  {
+    "id": "ford_focus_st",
+    "brand": "Ford",
+    "model": "Focus St",
+    "fullName": "Ford Focus St",
+    "imageUrl": "/images/ford_focus_st.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Focus_St",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Focus St image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Focus_St"
   },
   {
     "id": "ford_freestar",
     "brand": "Ford",
-    "model": "Windstar",
-    "fullName": "Ford Windstar",
+    "model": "Freestar",
+    "fullName": "Ford Freestar",
     "imageUrl": "/images/ford_freestar.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Freestar"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Freestar",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Freestar image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Freestar"
   },
   {
     "id": "ford_galaxy",
@@ -3767,7 +3883,23 @@ export const cars: Car[] = [
     "model": "Galaxy",
     "fullName": "Ford Galaxy",
     "imageUrl": "/images/ford_galaxy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Galaxy"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Galaxy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Galaxy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Galaxy"
+  },
+  {
+    "id": "ford_gt",
+    "brand": "Ford",
+    "model": "Gt",
+    "fullName": "Ford Gt",
+    "imageUrl": "/images/ford_gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Gt"
   },
   {
     "id": "ford_ka",
@@ -3775,71 +3907,11 @@ export const cars: Car[] = [
     "model": "Ka",
     "fullName": "Ford Ka",
     "imageUrl": "/images/ford_ka.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Ka"
-  },
-  {
-    "id": "ford_mondeo",
-    "brand": "Ford",
-    "model": "Mondeo",
-    "fullName": "Ford Mondeo",
-    "imageUrl": "/images/ford_mondeo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Mondeo"
-  },
-  {
-    "id": "ford_probe",
-    "brand": "Ford",
-    "model": "Probe",
-    "fullName": "Ford Probe",
-    "imageUrl": "/images/ford_probe.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Probe"
-  },
-  {
-    "id": "ford_puma",
-    "brand": "Ford",
-    "model": "Puma",
-    "fullName": "Ford Puma",
-    "imageUrl": "/images/ford_puma.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Puma"
-  },
-  {
-    "id": "ford_sierra",
-    "brand": "Ford",
-    "model": "Sierra",
-    "fullName": "Ford Sierra",
-    "imageUrl": "/images/ford_sierra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Sierra"
-  },
-  {
-    "id": "ford_taurus_x",
-    "brand": "Ford",
-    "model": "Freestyle",
-    "fullName": "Ford Freestyle",
-    "imageUrl": "/images/ford_taurus_x.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Taurus_X"
-  },
-  {
-    "id": "ford_tempo",
-    "brand": "Ford",
-    "model": "Tempo",
-    "fullName": "Ford Tempo",
-    "imageUrl": "/images/ford_tempo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Tempo"
-  },
-  {
-    "id": "ford_thunderbird",
-    "brand": "Ford",
-    "model": "Thunderbird",
-    "fullName": "Ford Thunderbird",
-    "imageUrl": "/images/ford_thunderbird.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Thunderbird"
-  },
-  {
-    "id": "ford_windstar",
-    "brand": "Ford",
-    "model": "Windstar",
-    "fullName": "Ford Windstar",
-    "imageUrl": "/images/ford_windstar.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Windstar"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Ka",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Ka image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Ka"
   },
   {
     "id": "ford_kuga",
@@ -3847,23 +3919,167 @@ export const cars: Car[] = [
     "model": "Kuga",
     "fullName": "Ford Kuga",
     "imageUrl": "/images/ford_kuga.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Kuga"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Kuga",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Kuga image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Kuga"
   },
   {
-    "id": "ford_c_max",
+    "id": "ford_mondeo",
     "brand": "Ford",
-    "model": "C-Max",
-    "fullName": "Ford C-Max",
-    "imageUrl": "/images/ford_c_max.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_C-Max"
+    "model": "Mondeo",
+    "fullName": "Ford Mondeo",
+    "imageUrl": "/images/ford_mondeo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Mondeo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Mondeo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Mondeo"
+  },
+  {
+    "id": "ford_mustang",
+    "brand": "Ford",
+    "model": "Mustang",
+    "fullName": "Ford Mustang",
+    "imageUrl": "/images/ford_mustang.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Mustang",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Mustang image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Mustang"
+  },
+  {
+    "id": "ford_probe",
+    "brand": "Ford",
+    "model": "Probe",
+    "fullName": "Ford Probe",
+    "imageUrl": "/images/ford_probe.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Probe",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Probe image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Probe"
+  },
+  {
+    "id": "ford_puma",
+    "brand": "Ford",
+    "model": "Puma",
+    "fullName": "Ford Puma",
+    "imageUrl": "/images/ford_puma.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Puma",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Puma image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Puma"
+  },
+  {
+    "id": "ford_ranger",
+    "brand": "Ford",
+    "model": "Ranger",
+    "fullName": "Ford Ranger",
+    "imageUrl": "/images/ford_ranger.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Ranger",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Ranger image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Ranger"
   },
   {
     "id": "ford_s_max",
     "brand": "Ford",
-    "model": "S-Max",
-    "fullName": "Ford S-Max",
+    "model": "S Max",
+    "fullName": "Ford S Max",
     "imageUrl": "/images/ford_s_max.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_S-Max"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_S_Max",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford S Max image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_S_Max"
+  },
+  {
+    "id": "ford_sierra",
+    "brand": "Ford",
+    "model": "Sierra",
+    "fullName": "Ford Sierra",
+    "imageUrl": "/images/ford_sierra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Sierra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Sierra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Sierra"
+  },
+  {
+    "id": "ford_taurus",
+    "brand": "Ford",
+    "model": "Taurus",
+    "fullName": "Ford Taurus",
+    "imageUrl": "/images/ford_taurus.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Taurus",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Taurus image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Taurus"
+  },
+  {
+    "id": "ford_taurus_x",
+    "brand": "Ford",
+    "model": "Taurus X",
+    "fullName": "Ford Taurus X",
+    "imageUrl": "/images/ford_taurus_x.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Taurus_X",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Taurus X image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Taurus_X"
+  },
+  {
+    "id": "ford_tempo",
+    "brand": "Ford",
+    "model": "Tempo",
+    "fullName": "Ford Tempo",
+    "imageUrl": "/images/ford_tempo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Tempo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Tempo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Tempo"
+  },
+  {
+    "id": "ford_thunderbird",
+    "brand": "Ford",
+    "model": "Thunderbird",
+    "fullName": "Ford Thunderbird",
+    "imageUrl": "/images/ford_thunderbird.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Thunderbird",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Thunderbird image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Thunderbird"
+  },
+  {
+    "id": "ford_transit",
+    "brand": "Ford",
+    "model": "Transit",
+    "fullName": "Ford Transit",
+    "imageUrl": "/images/ford_transit.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Transit",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Transit image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Transit"
+  },
+  {
+    "id": "ford_windstar",
+    "brand": "Ford",
+    "model": "Windstar",
+    "fullName": "Ford Windstar",
+    "imageUrl": "/images/ford_windstar.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ford_Windstar",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ford Windstar image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ford_Windstar"
   },
   {
     "id": "genesis_g70",
@@ -3871,183 +4087,191 @@ export const cars: Car[] = [
     "model": "G70",
     "fullName": "Genesis G70",
     "imageUrl": "/images/genesis_g70.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_G70"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_G70",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Genesis G70 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Genesis_G70"
+  },
+  {
+    "id": "genesis_g80",
+    "brand": "Genesis",
+    "model": "G80",
+    "fullName": "Genesis G80",
+    "imageUrl": "/images/genesis_g80.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_G80",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Genesis G80 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Genesis_G80"
+  },
+  {
+    "id": "genesis_g90",
+    "brand": "Genesis",
+    "model": "G90",
+    "fullName": "Genesis G90",
+    "imageUrl": "/images/genesis_g90.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_G90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Genesis G90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Genesis_G90"
   },
   {
     "id": "genesis_gv70",
     "brand": "Genesis",
-    "model": "GV70",
-    "fullName": "Genesis GV70",
+    "model": "Gv70",
+    "fullName": "Genesis Gv70",
     "imageUrl": "/images/genesis_gv70.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_GV70"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_Gv70",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Genesis Gv70 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Genesis_Gv70"
   },
   {
     "id": "genesis_gv80",
     "brand": "Genesis",
-    "model": "GV80",
-    "fullName": "Genesis GV80",
+    "model": "Gv80",
+    "fullName": "Genesis Gv80",
     "imageUrl": "/images/genesis_gv80.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_GV80"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Genesis_Gv80",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Genesis Gv80 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Genesis_Gv80"
   },
   {
     "id": "gmc_acadia",
-    "brand": "GMC",
+    "brand": "Gmc",
     "model": "Acadia",
-    "fullName": "GMC Acadia",
+    "fullName": "Gmc Acadia",
     "imageUrl": "/images/gmc_acadia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Acadia"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Acadia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Acadia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Acadia"
   },
   {
     "id": "gmc_canyon",
-    "brand": "Chevrolet",
-    "model": "Colorado",
-    "fullName": "Chevrolet Colorado",
+    "brand": "Gmc",
+    "model": "Canyon",
+    "fullName": "Gmc Canyon",
     "imageUrl": "/images/gmc_canyon.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Canyon"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Canyon",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Canyon image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Canyon"
   },
   {
     "id": "gmc_envoy",
-    "brand": "GMC",
+    "brand": "Gmc",
     "model": "Envoy",
-    "fullName": "GMC Envoy",
+    "fullName": "Gmc Envoy",
     "imageUrl": "/images/gmc_envoy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Envoy"
-  },
-  {
-    "id": "gmc_safari",
-    "brand": "Chevrolet",
-    "model": "Astro",
-    "fullName": "Chevrolet Astro",
-    "imageUrl": "/images/gmc_safari.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Safari"
-  },
-  {
-    "id": "gmc_savana",
-    "brand": "Chevrolet",
-    "model": "Express",
-    "fullName": "Chevrolet Express",
-    "imageUrl": "/images/gmc_savana.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Savana"
-  },
-  {
-    "id": "gmc_terrain",
-    "brand": "GMC",
-    "model": "Terrain",
-    "fullName": "GMC Terrain",
-    "imageUrl": "/images/gmc_terrain.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Terrain"
-  },
-  {
-    "id": "gmc_yukon",
-    "brand": "Chevrolet",
-    "model": "Tahoe",
-    "fullName": "Chevrolet Tahoe",
-    "imageUrl": "/images/gmc_yukon.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Yukon"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Envoy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Envoy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Envoy"
   },
   {
     "id": "gmc_jimmy",
-    "brand": "Chevrolet S-10",
-    "model": "Blazer",
-    "fullName": "Chevrolet S-10 Blazer",
+    "brand": "Gmc",
+    "model": "Jimmy",
+    "fullName": "Gmc Jimmy",
     "imageUrl": "/images/gmc_jimmy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Jimmy"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Jimmy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Jimmy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Jimmy"
+  },
+  {
+    "id": "gmc_safari",
+    "brand": "Gmc",
+    "model": "Safari",
+    "fullName": "Gmc Safari",
+    "imageUrl": "/images/gmc_safari.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Safari",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Safari image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Safari"
+  },
+  {
+    "id": "gmc_savana",
+    "brand": "Gmc",
+    "model": "Savana",
+    "fullName": "Gmc Savana",
+    "imageUrl": "/images/gmc_savana.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Savana",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Savana image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Savana"
+  },
+  {
+    "id": "gmc_sierra",
+    "brand": "Gmc",
+    "model": "Sierra",
+    "fullName": "Gmc Sierra",
+    "imageUrl": "/images/gmc_sierra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Sierra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Sierra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Sierra"
   },
   {
     "id": "gmc_sonoma",
-    "brand": "Chevrolet",
-    "model": "S-10",
-    "fullName": "Chevrolet S-10",
+    "brand": "Gmc",
+    "model": "Sonoma",
+    "fullName": "Gmc Sonoma",
     "imageUrl": "/images/gmc_sonoma.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/GMC_Sonoma"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Sonoma",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Sonoma image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Sonoma"
   },
   {
-    "id": "honda_cr_z",
-    "brand": "Honda",
-    "model": "CR-Z",
-    "fullName": "Honda CR-Z",
-    "imageUrl": "/images/honda_cr_z.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_CR-Z"
+    "id": "gmc_terrain",
+    "brand": "Gmc",
+    "model": "Terrain",
+    "fullName": "Gmc Terrain",
+    "imageUrl": "/images/gmc_terrain.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Terrain",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Terrain image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Terrain"
   },
   {
-    "id": "honda_element",
-    "brand": "Honda",
-    "model": "Element",
-    "fullName": "Honda Element",
-    "imageUrl": "/images/honda_element.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Element"
+    "id": "gmc_yukon",
+    "brand": "Gmc",
+    "model": "Yukon",
+    "fullName": "Gmc Yukon",
+    "imageUrl": "/images/gmc_yukon.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Gmc_Yukon",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Gmc Yukon image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Gmc_Yukon"
   },
   {
-    "id": "honda_fit",
+    "id": "honda_accord",
     "brand": "Honda",
-    "model": "Fit",
-    "fullName": "Honda Fit",
-    "imageUrl": "/images/honda_fit.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Fit"
-  },
-  {
-    "id": "honda_hr_v",
-    "brand": "Honda",
-    "model": "HR-V",
-    "fullName": "Honda HR-V",
-    "imageUrl": "/images/honda_hr_v.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_HR-V"
-  },
-  {
-    "id": "honda_insight",
-    "brand": "Honda",
-    "model": "Insight",
-    "fullName": "Honda Insight",
-    "imageUrl": "/images/honda_insight.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Insight"
-  },
-  {
-    "id": "honda_odyssey",
-    "brand": "Honda",
-    "model": "Odyssey",
-    "fullName": "Honda Odyssey",
-    "imageUrl": "/images/honda_odyssey.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Odyssey"
-  },
-  {
-    "id": "honda_prelude",
-    "brand": "Honda",
-    "model": "Prelude",
-    "fullName": "Honda Prelude",
-    "imageUrl": "/images/honda_prelude.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Prelude"
-  },
-  {
-    "id": "honda_s2000",
-    "brand": "Honda",
-    "model": "S2000",
-    "fullName": "Honda S2000",
-    "imageUrl": "/images/honda_s2000.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_S2000"
-  },
-  {
-    "id": "honda_jazz",
-    "brand": "Honda",
-    "model": "Jazz",
-    "fullName": "Honda Jazz",
-    "imageUrl": "/images/honda_jazz.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Jazz"
-  },
-  {
-    "id": "honda_legend",
-    "brand": "Honda",
-    "model": "Legend",
-    "fullName": "Honda Legend",
-    "imageUrl": "/images/honda_legend.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Legend"
-  },
-  {
-    "id": "honda_integra",
-    "brand": "Honda",
-    "model": "Integra",
-    "fullName": "Honda Integra",
-    "imageUrl": "/images/honda_integra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Integra"
+    "model": "Accord",
+    "fullName": "Honda Accord",
+    "imageUrl": "/images/honda_accord.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Accord",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Accord image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Accord"
   },
   {
     "id": "honda_city",
@@ -4055,23 +4279,83 @@ export const cars: Car[] = [
     "model": "City",
     "fullName": "Honda City",
     "imageUrl": "/images/honda_city.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_City"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_City",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda City image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_City"
   },
   {
-    "id": "honda_shuttle",
+    "id": "honda_civic",
     "brand": "Honda",
-    "model": "Shuttle",
-    "fullName": "Honda Shuttle",
-    "imageUrl": "/images/honda_shuttle.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Shuttle"
+    "model": "Civic",
+    "fullName": "Honda Civic",
+    "imageUrl": "/images/honda_civic.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Civic",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Civic image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Civic"
   },
   {
-    "id": "honda_stream",
+    "id": "honda_civic_type_r",
     "brand": "Honda",
-    "model": "Stream",
-    "fullName": "Honda Stream",
-    "imageUrl": "/images/honda_stream.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Stream"
+    "model": "Civic Type R",
+    "fullName": "Honda Civic Type R",
+    "imageUrl": "/images/honda_civic_type_r.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Civic Type R image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Civic_Type_R"
+  },
+  {
+    "id": "honda_cr_v",
+    "brand": "Honda",
+    "model": "Cr V",
+    "fullName": "Honda Cr V",
+    "imageUrl": "/images/honda_cr_v.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Cr_V",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Cr V image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Cr_V"
+  },
+  {
+    "id": "honda_cr_z",
+    "brand": "Honda",
+    "model": "Cr Z",
+    "fullName": "Honda Cr Z",
+    "imageUrl": "/images/honda_cr_z.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Cr_Z",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Cr Z image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Cr_Z"
+  },
+  {
+    "id": "honda_element",
+    "brand": "Honda",
+    "model": "Element",
+    "fullName": "Honda Element",
+    "imageUrl": "/images/honda_element.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Element",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Element image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Element"
+  },
+  {
+    "id": "honda_fit",
+    "brand": "Honda",
+    "model": "Fit",
+    "fullName": "Honda Fit",
+    "imageUrl": "/images/honda_fit.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Fit",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Fit image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Fit"
   },
   {
     "id": "honda_freed",
@@ -4079,15 +4363,191 @@ export const cars: Car[] = [
     "model": "Freed",
     "fullName": "Honda Freed",
     "imageUrl": "/images/honda_freed.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Freed"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Freed",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Freed image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Freed"
+  },
+  {
+    "id": "honda_hr_v",
+    "brand": "Honda",
+    "model": "Hr V",
+    "fullName": "Honda Hr V",
+    "imageUrl": "/images/honda_hr_v.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Hr_V",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Hr V image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Hr_V"
+  },
+  {
+    "id": "honda_insight",
+    "brand": "Honda",
+    "model": "Insight",
+    "fullName": "Honda Insight",
+    "imageUrl": "/images/honda_insight.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Insight",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Insight image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Insight"
+  },
+  {
+    "id": "honda_integra",
+    "brand": "Honda",
+    "model": "Integra",
+    "fullName": "Honda Integra",
+    "imageUrl": "/images/honda_integra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Integra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Integra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Integra"
+  },
+  {
+    "id": "honda_jazz",
+    "brand": "Honda",
+    "model": "Jazz",
+    "fullName": "Honda Jazz",
+    "imageUrl": "/images/honda_jazz.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Jazz",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Jazz image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Jazz"
+  },
+  {
+    "id": "honda_legend",
+    "brand": "Honda",
+    "model": "Legend",
+    "fullName": "Honda Legend",
+    "imageUrl": "/images/honda_legend.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Legend",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Legend image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Legend"
+  },
+  {
+    "id": "honda_nsx",
+    "brand": "Honda",
+    "model": "Nsx",
+    "fullName": "Honda Nsx",
+    "imageUrl": "/images/honda_nsx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Nsx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Nsx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Nsx"
+  },
+  {
+    "id": "honda_odyssey",
+    "brand": "Honda",
+    "model": "Odyssey",
+    "fullName": "Honda Odyssey",
+    "imageUrl": "/images/honda_odyssey.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Odyssey",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Odyssey image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Odyssey"
+  },
+  {
+    "id": "honda_passport",
+    "brand": "Honda",
+    "model": "Passport",
+    "fullName": "Honda Passport",
+    "imageUrl": "/images/honda_passport.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Passport",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Passport image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Passport"
+  },
+  {
+    "id": "honda_pilot",
+    "brand": "Honda",
+    "model": "Pilot",
+    "fullName": "Honda Pilot",
+    "imageUrl": "/images/honda_pilot.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Pilot",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Pilot image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Pilot"
+  },
+  {
+    "id": "honda_prelude",
+    "brand": "Honda",
+    "model": "Prelude",
+    "fullName": "Honda Prelude",
+    "imageUrl": "/images/honda_prelude.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Prelude",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Prelude image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Prelude"
+  },
+  {
+    "id": "honda_ridgeline",
+    "brand": "Honda",
+    "model": "Ridgeline",
+    "fullName": "Honda Ridgeline",
+    "imageUrl": "/images/honda_ridgeline.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Ridgeline",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Ridgeline image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Ridgeline"
+  },
+  {
+    "id": "honda_s2000",
+    "brand": "Honda",
+    "model": "S2000",
+    "fullName": "Honda S2000",
+    "imageUrl": "/images/honda_s2000.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_S2000",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda S2000 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_S2000"
+  },
+  {
+    "id": "honda_shuttle",
+    "brand": "Honda",
+    "model": "Shuttle",
+    "fullName": "Honda Shuttle",
+    "imageUrl": "/images/honda_shuttle.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Shuttle",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Shuttle image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Shuttle"
+  },
+  {
+    "id": "honda_stream",
+    "brand": "Honda",
+    "model": "Stream",
+    "fullName": "Honda Stream",
+    "imageUrl": "/images/honda_stream.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Stream",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Stream image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Stream"
   },
   {
     "id": "honda_vezel",
     "brand": "Honda",
-    "model": "HR-V",
-    "fullName": "Honda HR-V",
+    "model": "Vezel",
+    "fullName": "Honda Vezel",
     "imageUrl": "/images/honda_vezel.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Vezel"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Honda_Vezel",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Honda Vezel image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Honda_Vezel"
   },
   {
     "id": "hyundai_accent",
@@ -4095,15 +4555,35 @@ export const cars: Car[] = [
     "model": "Accent",
     "fullName": "Hyundai Accent",
     "imageUrl": "/images/hyundai_accent.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Accent"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Accent",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Accent image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Accent"
   },
   {
     "id": "hyundai_azera",
     "brand": "Hyundai",
-    "model": "Grandeur",
-    "fullName": "Hyundai Grandeur",
+    "model": "Azera",
+    "fullName": "Hyundai Azera",
     "imageUrl": "/images/hyundai_azera.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Azera"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Azera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Azera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Azera"
+  },
+  {
+    "id": "hyundai_elantra",
+    "brand": "Hyundai",
+    "model": "Elantra",
+    "fullName": "Hyundai Elantra",
+    "imageUrl": "/images/hyundai_elantra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Elantra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Elantra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Elantra"
   },
   {
     "id": "hyundai_equus",
@@ -4111,7 +4591,11 @@ export const cars: Car[] = [
     "model": "Equus",
     "fullName": "Hyundai Equus",
     "imageUrl": "/images/hyundai_equus.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Equus"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Equus",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Equus image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Equus"
   },
   {
     "id": "hyundai_genesis",
@@ -4119,7 +4603,59 @@ export const cars: Car[] = [
     "model": "Genesis",
     "fullName": "Hyundai Genesis",
     "imageUrl": "/images/hyundai_genesis.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Genesis"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Genesis",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Genesis image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Genesis"
+  },
+  {
+    "id": "hyundai_i10",
+    "brand": "Hyundai",
+    "model": "I10",
+    "fullName": "Hyundai I10",
+    "imageUrl": "/images/hyundai_i10.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_I10",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai I10 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_I10"
+  },
+  {
+    "id": "hyundai_i20",
+    "brand": "Hyundai",
+    "model": "I20",
+    "fullName": "Hyundai I20",
+    "imageUrl": "/images/hyundai_i20.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_I20",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai I20 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_I20"
+  },
+  {
+    "id": "hyundai_i30",
+    "brand": "Hyundai",
+    "model": "I30",
+    "fullName": "Hyundai I30",
+    "imageUrl": "/images/hyundai_i30.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_I30",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai I30 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_I30"
+  },
+  {
+    "id": "hyundai_i40",
+    "brand": "Hyundai",
+    "model": "I40",
+    "fullName": "Hyundai I40",
+    "imageUrl": "/images/hyundai_i40.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_I40",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai I40 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_I40"
   },
   {
     "id": "hyundai_ioniq",
@@ -4127,7 +4663,35 @@ export const cars: Car[] = [
     "model": "Ioniq",
     "fullName": "Hyundai Ioniq",
     "imageUrl": "/images/hyundai_ioniq.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Ioniq"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Ioniq",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Ioniq image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Ioniq"
+  },
+  {
+    "id": "hyundai_ix20",
+    "brand": "Hyundai",
+    "model": "Ix20",
+    "fullName": "Hyundai Ix20",
+    "imageUrl": "/images/hyundai_ix20.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Ix20",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Ix20 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Ix20"
+  },
+  {
+    "id": "hyundai_ix35",
+    "brand": "Hyundai",
+    "model": "Ix35",
+    "fullName": "Hyundai Ix35",
+    "imageUrl": "/images/hyundai_ix35.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Ix35",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Ix35 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Ix35"
   },
   {
     "id": "hyundai_kona",
@@ -4135,7 +4699,11 @@ export const cars: Car[] = [
     "model": "Kona",
     "fullName": "Hyundai Kona",
     "imageUrl": "/images/hyundai_kona.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Kona"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Kona",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Kona image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Kona"
   },
   {
     "id": "hyundai_nexo",
@@ -4143,7 +4711,11 @@ export const cars: Car[] = [
     "model": "Nexo",
     "fullName": "Hyundai Nexo",
     "imageUrl": "/images/hyundai_nexo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Nexo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Nexo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Nexo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Nexo"
   },
   {
     "id": "hyundai_palisade",
@@ -4151,7 +4723,59 @@ export const cars: Car[] = [
     "model": "Palisade",
     "fullName": "Hyundai Palisade",
     "imageUrl": "/images/hyundai_palisade.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Palisade"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Palisade",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Palisade image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Palisade"
+  },
+  {
+    "id": "hyundai_santa_fe",
+    "brand": "Hyundai",
+    "model": "Santa Fe",
+    "fullName": "Hyundai Santa Fe",
+    "imageUrl": "/images/hyundai_santa_fe.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Santa_Fe",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Santa Fe image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Santa_Fe"
+  },
+  {
+    "id": "hyundai_sonata",
+    "brand": "Hyundai",
+    "model": "Sonata",
+    "fullName": "Hyundai Sonata",
+    "imageUrl": "/images/hyundai_sonata.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Sonata",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Sonata image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Sonata"
+  },
+  {
+    "id": "hyundai_tucson",
+    "brand": "Hyundai",
+    "model": "Tucson",
+    "fullName": "Hyundai Tucson",
+    "imageUrl": "/images/hyundai_tucson.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Tucson",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Tucson image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Tucson"
+  },
+  {
+    "id": "hyundai_veloster",
+    "brand": "Hyundai",
+    "model": "Veloster",
+    "fullName": "Hyundai Veloster",
+    "imageUrl": "/images/hyundai_veloster.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Veloster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Veloster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Veloster"
   },
   {
     "id": "hyundai_venue",
@@ -4159,95 +4783,83 @@ export const cars: Car[] = [
     "model": "Venue",
     "fullName": "Hyundai Venue",
     "imageUrl": "/images/hyundai_venue.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Venue"
-  },
-  {
-    "id": "hyundai_i10",
-    "brand": "Hyundai",
-    "model": "i10",
-    "fullName": "Hyundai i10",
-    "imageUrl": "/images/hyundai_i10.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_i10"
-  },
-  {
-    "id": "hyundai_i20",
-    "brand": "Hyundai",
-    "model": "i20",
-    "fullName": "Hyundai i20",
-    "imageUrl": "/images/hyundai_i20.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_i20"
-  },
-  {
-    "id": "hyundai_i30",
-    "brand": "Hyundai",
-    "model": "i30",
-    "fullName": "Hyundai i30",
-    "imageUrl": "/images/hyundai_i30.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_i30"
-  },
-  {
-    "id": "hyundai_i40",
-    "brand": "Hyundai",
-    "model": "i40",
-    "fullName": "Hyundai i40",
-    "imageUrl": "/images/hyundai_i40.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_i40"
-  },
-  {
-    "id": "hyundai_ix20",
-    "brand": "Hyundai",
-    "model": "ix20",
-    "fullName": "Hyundai ix20",
-    "imageUrl": "/images/hyundai_ix20.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_ix20"
-  },
-  {
-    "id": "hyundai_ix35",
-    "brand": "Hyundai",
-    "model": "Tucson",
-    "fullName": "Hyundai Tucson",
-    "imageUrl": "/images/hyundai_ix35.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_ix35"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Hyundai_Venue",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Hyundai Venue image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Hyundai_Venue"
   },
   {
     "id": "infiniti_ex",
     "brand": "Infiniti",
-    "model": "QX50",
-    "fullName": "Infiniti QX50",
+    "model": "Ex",
+    "fullName": "Infiniti Ex",
     "imageUrl": "/images/infiniti_ex.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_EX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Ex",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Ex image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Ex"
   },
   {
     "id": "infiniti_fx",
     "brand": "Infiniti",
-    "model": "QX70",
-    "fullName": "Infiniti QX70",
+    "model": "Fx",
+    "fullName": "Infiniti Fx",
     "imageUrl": "/images/infiniti_fx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_FX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Fx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Fx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Fx"
   },
   {
     "id": "infiniti_g",
     "brand": "Infiniti",
-    "model": "G Line",
-    "fullName": "Infiniti G Line",
+    "model": "G",
+    "fullName": "Infiniti G",
     "imageUrl": "/images/infiniti_g.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_G"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_G",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti G image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_G"
+  },
+  {
+    "id": "infiniti_g37",
+    "brand": "Infiniti",
+    "model": "G37",
+    "fullName": "Infiniti G37",
+    "imageUrl": "/images/infiniti_g37.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_G37",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti G37 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_G37"
   },
   {
     "id": "infiniti_i",
-    "brand": "Nissan",
-    "model": "Cefiro",
-    "fullName": "Nissan Cefiro",
+    "brand": "Infiniti",
+    "model": "I",
+    "fullName": "Infiniti I",
     "imageUrl": "/images/infiniti_i.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_I"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_I",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti I image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_I"
   },
   {
     "id": "infiniti_j",
     "brand": "Infiniti",
-    "model": "J30",
-    "fullName": "Infiniti J30",
+    "model": "J",
+    "fullName": "Infiniti J",
     "imageUrl": "/images/infiniti_j.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_J"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_J",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti J image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_J"
   },
   {
     "id": "infiniti_m",
@@ -4255,7 +4867,11 @@ export const cars: Car[] = [
     "model": "M",
     "fullName": "Infiniti M",
     "imageUrl": "/images/infiniti_m.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_M"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_M",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti M image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_M"
   },
   {
     "id": "infiniti_q30",
@@ -4263,15 +4879,23 @@ export const cars: Car[] = [
     "model": "Q30",
     "fullName": "Infiniti Q30",
     "imageUrl": "/images/infiniti_q30.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q30"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q30",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Q30 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Q30"
   },
   {
     "id": "infiniti_q40",
     "brand": "Infiniti",
-    "model": "G Line",
-    "fullName": "Infiniti G Line",
+    "model": "Q40",
+    "fullName": "Infiniti Q40",
     "imageUrl": "/images/infiniti_q40.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q40"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q40",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Q40 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Q40"
   },
   {
     "id": "infiniti_q45",
@@ -4279,7 +4903,23 @@ export const cars: Car[] = [
     "model": "Q45",
     "fullName": "Infiniti Q45",
     "imageUrl": "/images/infiniti_q45.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q45"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q45",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Q45 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Q45"
+  },
+  {
+    "id": "infiniti_q50",
+    "brand": "Infiniti",
+    "model": "Q50",
+    "fullName": "Infiniti Q50",
+    "imageUrl": "/images/infiniti_q50.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q50",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Q50 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Q50"
   },
   {
     "id": "infiniti_q70",
@@ -4287,71 +4927,107 @@ export const cars: Car[] = [
     "model": "Q70",
     "fullName": "Infiniti Q70",
     "imageUrl": "/images/infiniti_q70.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q70"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Q70",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Q70 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Q70"
   },
   {
     "id": "infiniti_qx30",
     "brand": "Infiniti",
-    "model": "QX30",
-    "fullName": "Infiniti QX30",
+    "model": "Qx30",
+    "fullName": "Infiniti Qx30",
     "imageUrl": "/images/infiniti_qx30.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_QX30"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Qx30",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Qx30 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Qx30"
   },
   {
     "id": "infiniti_qx4",
-    "brand": "Nissan",
-    "model": "Pathfinder",
-    "fullName": "Nissan Pathfinder",
+    "brand": "Infiniti",
+    "model": "Qx4",
+    "fullName": "Infiniti Qx4",
     "imageUrl": "/images/infiniti_qx4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_QX4"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Qx4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Qx4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Qx4"
   },
   {
     "id": "infiniti_qx50",
     "brand": "Infiniti",
-    "model": "QX50",
-    "fullName": "Infiniti QX50",
+    "model": "Qx50",
+    "fullName": "Infiniti Qx50",
     "imageUrl": "/images/infiniti_qx50.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_QX50"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Qx50",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Qx50 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Qx50"
   },
   {
     "id": "infiniti_qx56",
     "brand": "Infiniti",
-    "model": "QX80",
-    "fullName": "Infiniti QX80",
+    "model": "Qx56",
+    "fullName": "Infiniti Qx56",
     "imageUrl": "/images/infiniti_qx56.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_QX56"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Qx56",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Qx56 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Qx56"
   },
   {
     "id": "infiniti_qx60",
     "brand": "Infiniti",
-    "model": "QX60",
-    "fullName": "Infiniti QX60",
+    "model": "Qx60",
+    "fullName": "Infiniti Qx60",
     "imageUrl": "/images/infiniti_qx60.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_QX60"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Qx60",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Qx60 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Qx60"
   },
   {
     "id": "infiniti_qx70",
     "brand": "Infiniti",
-    "model": "QX70",
-    "fullName": "Infiniti QX70",
+    "model": "Qx70",
+    "fullName": "Infiniti Qx70",
     "imageUrl": "/images/infiniti_qx70.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_QX70"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Qx70",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Qx70 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Qx70"
   },
   {
     "id": "infiniti_qx80",
     "brand": "Infiniti",
-    "model": "QX80",
-    "fullName": "Infiniti QX80",
+    "model": "Qx80",
+    "fullName": "Infiniti Qx80",
     "imageUrl": "/images/infiniti_qx80.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_QX80"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Infiniti_Qx80",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Infiniti Qx80 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Infiniti_Qx80"
   },
   {
     "id": "isuzu_amigo",
     "brand": "Isuzu",
-    "model": "MU",
-    "fullName": "Isuzu MU",
+    "model": "Amigo",
+    "fullName": "Isuzu Amigo",
     "imageUrl": "/images/isuzu_amigo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Amigo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Amigo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Amigo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Amigo"
   },
   {
     "id": "isuzu_ascender",
@@ -4359,7 +5035,11 @@ export const cars: Car[] = [
     "model": "Ascender",
     "fullName": "Isuzu Ascender",
     "imageUrl": "/images/isuzu_ascender.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Ascender"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Ascender",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Ascender image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Ascender"
   },
   {
     "id": "isuzu_axiom",
@@ -4367,39 +5047,59 @@ export const cars: Car[] = [
     "model": "Axiom",
     "fullName": "Isuzu Axiom",
     "imageUrl": "/images/isuzu_axiom.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Axiom"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Axiom",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Axiom image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Axiom"
   },
   {
     "id": "isuzu_hombre",
-    "brand": "Chevrolet",
-    "model": "S-10",
-    "fullName": "Chevrolet S-10",
+    "brand": "Isuzu",
+    "model": "Hombre",
+    "fullName": "Isuzu Hombre",
     "imageUrl": "/images/isuzu_hombre.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Hombre"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Hombre",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Hombre image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Hombre"
   },
   {
     "id": "isuzu_impulse",
     "brand": "Isuzu",
-    "model": "Piazza",
-    "fullName": "Isuzu Piazza",
+    "model": "Impulse",
+    "fullName": "Isuzu Impulse",
     "imageUrl": "/images/isuzu_impulse.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Impulse"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Impulse",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Impulse image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Impulse"
   },
   {
     "id": "isuzu_oasis",
-    "brand": "Honda",
-    "model": "Odyssey (North America)",
-    "fullName": "Honda Odyssey (North America)",
+    "brand": "Isuzu",
+    "model": "Oasis",
+    "fullName": "Isuzu Oasis",
     "imageUrl": "/images/isuzu_oasis.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Oasis"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Oasis",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Oasis image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Oasis"
   },
   {
     "id": "isuzu_pickup",
     "brand": "Isuzu",
-    "model": "Faster",
-    "fullName": "Isuzu Faster",
+    "model": "Pickup",
+    "fullName": "Isuzu Pickup",
     "imageUrl": "/images/isuzu_pickup.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Pickup"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Pickup",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Pickup image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Pickup"
   },
   {
     "id": "isuzu_rodeo",
@@ -4407,7 +5107,11 @@ export const cars: Car[] = [
     "model": "Rodeo",
     "fullName": "Isuzu Rodeo",
     "imageUrl": "/images/isuzu_rodeo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Rodeo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Rodeo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Rodeo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Rodeo"
   },
   {
     "id": "isuzu_trooper",
@@ -4415,79 +5119,95 @@ export const cars: Car[] = [
     "model": "Trooper",
     "fullName": "Isuzu Trooper",
     "imageUrl": "/images/isuzu_trooper.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Trooper"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Trooper",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Trooper image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Trooper"
   },
   {
     "id": "isuzu_vehicross",
     "brand": "Isuzu",
-    "model": "VehiCROSS",
-    "fullName": "Isuzu VehiCROSS",
+    "model": "Vehicross",
+    "fullName": "Isuzu Vehicross",
     "imageUrl": "/images/isuzu_vehicross.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_VehiCROSS"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Isuzu_Vehicross",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Isuzu Vehicross image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Isuzu_Vehicross"
   },
   {
-    "id": "jaguar_f_pace",
+    "id": "jaguar_e_pace",
     "brand": "Jaguar",
-    "model": "F-Pace",
-    "fullName": "Jaguar F-Pace",
-    "imageUrl": "/images/jaguar_f_pace.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_F-Pace"
-  },
-  {
-    "id": "jaguar_s_type",
-    "brand": "Jaguar",
-    "model": "S-Type",
-    "fullName": "Jaguar S-Type",
-    "imageUrl": "/images/jaguar_s_type.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_S-Type"
-  },
-  {
-    "id": "jaguar_x_type",
-    "brand": "Jaguar",
-    "model": "X-Type",
-    "fullName": "Jaguar X-Type",
-    "imageUrl": "/images/jaguar_x_type.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_X-Type"
-  },
-  {
-    "id": "jaguar_xk",
-    "brand": "Jaguar",
-    "model": "XK",
-    "fullName": "Jaguar XK",
-    "imageUrl": "/images/jaguar_xk.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_XK"
-  },
-  {
-    "id": "jaguar_xkr",
-    "brand": "Jaguar",
-    "model": "XK",
-    "fullName": "Jaguar XK",
-    "imageUrl": "/images/jaguar_xkr.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_XKR"
-  },
-  {
-    "id": "jaguar_xjs",
-    "brand": "Jaguar",
-    "model": "XJS",
-    "fullName": "Jaguar XJS",
-    "imageUrl": "/images/jaguar_xjs.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_XJS"
+    "model": "E Pace",
+    "fullName": "Jaguar E Pace",
+    "imageUrl": "/images/jaguar_e_pace.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_E_Pace",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar E Pace image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_E_Pace"
   },
   {
     "id": "jaguar_e_type",
     "brand": "Jaguar",
-    "model": "E-Type",
-    "fullName": "Jaguar E-Type",
+    "model": "E Type",
+    "fullName": "Jaguar E Type",
     "imageUrl": "/images/jaguar_e_type.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_E-Type"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_E_Type",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar E Type image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_E_Type"
+  },
+  {
+    "id": "jaguar_f_pace",
+    "brand": "Jaguar",
+    "model": "F Pace",
+    "fullName": "Jaguar F Pace",
+    "imageUrl": "/images/jaguar_f_pace.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_F_Pace",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar F Pace image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_F_Pace"
+  },
+  {
+    "id": "jaguar_f_type",
+    "brand": "Jaguar",
+    "model": "F Type",
+    "fullName": "Jaguar F Type",
+    "imageUrl": "/images/jaguar_f_type.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_F_Type",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar F Type image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_F_Type"
+  },
+  {
+    "id": "jaguar_i_pace",
+    "brand": "Jaguar",
+    "model": "I Pace",
+    "fullName": "Jaguar I Pace",
+    "imageUrl": "/images/jaguar_i_pace.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_I_Pace",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar I Pace image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_I_Pace"
   },
   {
     "id": "jaguar_mark_ii",
     "brand": "Jaguar",
-    "model": "Mark 2",
-    "fullName": "Jaguar Mark 2",
+    "model": "Mark Ii",
+    "fullName": "Jaguar Mark Ii",
     "imageUrl": "/images/jaguar_mark_ii.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Mark_II"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Mark_Ii",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Mark Ii image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Mark_Ii"
   },
   {
     "id": "jaguar_mark_x",
@@ -4495,39 +5215,131 @@ export const cars: Car[] = [
     "model": "Mark X",
     "fullName": "Jaguar Mark X",
     "imageUrl": "/images/jaguar_mark_x.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Mark_X"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Mark_X",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Mark X image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Mark_X"
+  },
+  {
+    "id": "jaguar_s_type",
+    "brand": "Jaguar",
+    "model": "S Type",
+    "fullName": "Jaguar S Type",
+    "imageUrl": "/images/jaguar_s_type.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_S_Type",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar S Type image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_S_Type"
+  },
+  {
+    "id": "jaguar_x_type",
+    "brand": "Jaguar",
+    "model": "X Type",
+    "fullName": "Jaguar X Type",
+    "imageUrl": "/images/jaguar_x_type.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_X_Type",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar X Type image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_X_Type"
+  },
+  {
+    "id": "jaguar_xe",
+    "brand": "Jaguar",
+    "model": "Xe",
+    "fullName": "Jaguar Xe",
+    "imageUrl": "/images/jaguar_xe.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Xe",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Xe image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Xe"
+  },
+  {
+    "id": "jaguar_xf",
+    "brand": "Jaguar",
+    "model": "Xf",
+    "fullName": "Jaguar Xf",
+    "imageUrl": "/images/jaguar_xf.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Xf",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Xf image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Xf"
+  },
+  {
+    "id": "jaguar_xj",
+    "brand": "Jaguar",
+    "model": "Xj",
+    "fullName": "Jaguar Xj",
+    "imageUrl": "/images/jaguar_xj.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Xj",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Xj image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Xj"
   },
   {
     "id": "jaguar_xj220",
     "brand": "Jaguar",
-    "model": "XJ220",
-    "fullName": "Jaguar XJ220",
+    "model": "Xj220",
+    "fullName": "Jaguar Xj220",
     "imageUrl": "/images/jaguar_xj220.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_XJ220"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Xj220",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Xj220 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Xj220"
   },
   {
-    "id": "jeep_liberty",
-    "brand": "Jeep",
-    "model": "Liberty",
-    "fullName": "Jeep Liberty",
-    "imageUrl": "/images/jeep_liberty.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Liberty"
+    "id": "jaguar_xjs",
+    "brand": "Jaguar",
+    "model": "Xjs",
+    "fullName": "Jaguar Xjs",
+    "imageUrl": "/images/jaguar_xjs.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Xjs",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Xjs image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Xjs"
   },
   {
-    "id": "jeep_patriot",
-    "brand": "Jeep",
-    "model": "Patriot",
-    "fullName": "Jeep Patriot",
-    "imageUrl": "/images/jeep_patriot.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Patriot"
+    "id": "jaguar_xk",
+    "brand": "Jaguar",
+    "model": "Xk",
+    "fullName": "Jaguar Xk",
+    "imageUrl": "/images/jaguar_xk.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Xk",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Xk image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Xk"
   },
   {
-    "id": "jeep_renegade",
+    "id": "jaguar_xkr",
+    "brand": "Jaguar",
+    "model": "Xkr",
+    "fullName": "Jaguar Xkr",
+    "imageUrl": "/images/jaguar_xkr.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jaguar_Xkr",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jaguar Xkr image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jaguar_Xkr"
+  },
+  {
+    "id": "jeep_cherokee",
     "brand": "Jeep",
-    "model": "Renegade",
-    "fullName": "Jeep Renegade",
-    "imageUrl": "/images/jeep_renegade.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Renegade"
+    "model": "Cherokee",
+    "fullName": "Jeep Cherokee",
+    "imageUrl": "/images/jeep_cherokee.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Cherokee",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Cherokee image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Cherokee"
   },
   {
     "id": "jeep_commander",
@@ -4535,7 +5347,71 @@ export const cars: Car[] = [
     "model": "Commander",
     "fullName": "Jeep Commander",
     "imageUrl": "/images/jeep_commander.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Commander"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Commander",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Commander image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Commander"
+  },
+  {
+    "id": "jeep_compass",
+    "brand": "Jeep",
+    "model": "Compass",
+    "fullName": "Jeep Compass",
+    "imageUrl": "/images/jeep_compass.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Compass",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Compass image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Compass"
+  },
+  {
+    "id": "jeep_grand_cherokee",
+    "brand": "Jeep",
+    "model": "Grand Cherokee",
+    "fullName": "Jeep Grand Cherokee",
+    "imageUrl": "/images/jeep_grand_cherokee.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Grand Cherokee image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Grand_Cherokee"
+  },
+  {
+    "id": "jeep_liberty",
+    "brand": "Jeep",
+    "model": "Liberty",
+    "fullName": "Jeep Liberty",
+    "imageUrl": "/images/jeep_liberty.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Liberty",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Liberty image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Liberty"
+  },
+  {
+    "id": "jeep_patriot",
+    "brand": "Jeep",
+    "model": "Patriot",
+    "fullName": "Jeep Patriot",
+    "imageUrl": "/images/jeep_patriot.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Patriot",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Patriot image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Patriot"
+  },
+  {
+    "id": "jeep_renegade",
+    "brand": "Jeep",
+    "model": "Renegade",
+    "fullName": "Jeep Renegade",
+    "imageUrl": "/images/jeep_renegade.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Renegade",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Renegade image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Renegade"
   },
   {
     "id": "jeep_wagoneer",
@@ -4543,23 +5419,47 @@ export const cars: Car[] = [
     "model": "Wagoneer",
     "fullName": "Jeep Wagoneer",
     "imageUrl": "/images/jeep_wagoneer.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Wagoneer"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Wagoneer",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Wagoneer image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Wagoneer"
+  },
+  {
+    "id": "jeep_wrangler",
+    "brand": "Jeep",
+    "model": "Wrangler",
+    "fullName": "Jeep Wrangler",
+    "imageUrl": "/images/jeep_wrangler.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Jeep_Wrangler",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Jeep Wrangler image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Jeep_Wrangler"
   },
   {
     "id": "kia_amanti",
     "brand": "Kia",
-    "model": "Opirus",
-    "fullName": "Kia Opirus",
+    "model": "Amanti",
+    "fullName": "Kia Amanti",
     "imageUrl": "/images/kia_amanti.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Amanti"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Amanti",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Amanti image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Amanti"
   },
   {
     "id": "kia_borrego",
     "brand": "Kia",
-    "model": "Mohave",
-    "fullName": "Kia Mohave",
+    "model": "Borrego",
+    "fullName": "Kia Borrego",
     "imageUrl": "/images/kia_borrego.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Borrego"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Borrego",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Borrego image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Borrego"
   },
   {
     "id": "kia_cadenza",
@@ -4567,7 +5467,11 @@ export const cars: Car[] = [
     "model": "Cadenza",
     "fullName": "Kia Cadenza",
     "imageUrl": "/images/kia_cadenza.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Cadenza"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Cadenza",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Cadenza image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Cadenza"
   },
   {
     "id": "kia_carnival",
@@ -4575,95 +5479,11 @@ export const cars: Car[] = [
     "model": "Carnival",
     "fullName": "Kia Carnival",
     "imageUrl": "/images/kia_carnival.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Carnival"
-  },
-  {
-    "id": "kia_cerato",
-    "brand": "Kia",
-    "model": "Cerato",
-    "fullName": "Kia Cerato",
-    "imageUrl": "/images/kia_cerato.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Cerato"
-  },
-  {
-    "id": "kia_forte",
-    "brand": "Kia",
-    "model": "Forte",
-    "fullName": "Kia Forte",
-    "imageUrl": "/images/kia_forte.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Forte"
-  },
-  {
-    "id": "kia_k5",
-    "brand": "Kia",
-    "model": "K5",
-    "fullName": "Kia K5",
-    "imageUrl": "/images/kia_k5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_K5"
-  },
-  {
-    "id": "kia_k900",
-    "brand": "Kia",
-    "model": "K9",
-    "fullName": "Kia K9",
-    "imageUrl": "/images/kia_k900.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_K900"
-  },
-  {
-    "id": "kia_niro",
-    "brand": "Kia",
-    "model": "Niro",
-    "fullName": "Kia Niro",
-    "imageUrl": "/images/kia_niro.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Niro"
-  },
-  {
-    "id": "kia_rio",
-    "brand": "Kia",
-    "model": "Rio",
-    "fullName": "Kia Rio",
-    "imageUrl": "/images/kia_rio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Rio"
-  },
-  {
-    "id": "kia_sedona",
-    "brand": "Kia",
-    "model": "Carnival",
-    "fullName": "Kia Carnival",
-    "imageUrl": "/images/kia_sedona.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Sedona"
-  },
-  {
-    "id": "kia_seltos",
-    "brand": "Kia",
-    "model": "Seltos",
-    "fullName": "Kia Seltos",
-    "imageUrl": "/images/kia_seltos.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Seltos"
-  },
-  {
-    "id": "kia_sportage",
-    "brand": "Kia",
-    "model": "Sportage",
-    "fullName": "Kia Sportage",
-    "imageUrl": "/images/kia_sportage.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Sportage"
-  },
-  {
-    "id": "kia_stinger",
-    "brand": "Kia",
-    "model": "Stinger",
-    "fullName": "Kia Stinger",
-    "imageUrl": "/images/kia_stinger.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Stinger"
-  },
-  {
-    "id": "kia_picanto",
-    "brand": "Kia",
-    "model": "Picanto",
-    "fullName": "Kia Picanto",
-    "imageUrl": "/images/kia_picanto.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Picanto"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Carnival",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Carnival image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Carnival"
   },
   {
     "id": "kia_ceed",
@@ -4671,63 +5491,263 @@ export const cars: Car[] = [
     "model": "Ceed",
     "fullName": "Kia Ceed",
     "imageUrl": "/images/kia_ceed.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Ceed"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Ceed",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Ceed image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Ceed"
   },
   {
-    "id": "kia_proceed",
+    "id": "kia_cerato",
     "brand": "Kia",
-    "model": "Ceed",
-    "fullName": "Kia Ceed",
-    "imageUrl": "/images/kia_proceed.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Proceed"
-  },
-  {
-    "id": "kia_xceed",
-    "brand": "Kia",
-    "model": "Ceed",
-    "fullName": "Kia Ceed",
-    "imageUrl": "/images/kia_xceed.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Xceed"
+    "model": "Cerato",
+    "fullName": "Kia Cerato",
+    "imageUrl": "/images/kia_cerato.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Cerato",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Cerato image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Cerato"
   },
   {
     "id": "kia_ev6",
     "brand": "Kia",
-    "model": "EV6",
-    "fullName": "Kia EV6",
+    "model": "Ev6",
+    "fullName": "Kia Ev6",
     "imageUrl": "/images/kia_ev6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_EV6"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Ev6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Ev6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Ev6"
+  },
+  {
+    "id": "kia_forte",
+    "brand": "Kia",
+    "model": "Forte",
+    "fullName": "Kia Forte",
+    "imageUrl": "/images/kia_forte.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Forte",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Forte image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Forte"
+  },
+  {
+    "id": "kia_k5",
+    "brand": "Kia",
+    "model": "K5",
+    "fullName": "Kia K5",
+    "imageUrl": "/images/kia_k5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_K5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia K5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_K5"
+  },
+  {
+    "id": "kia_k900",
+    "brand": "Kia",
+    "model": "K900",
+    "fullName": "Kia K900",
+    "imageUrl": "/images/kia_k900.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_K900",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia K900 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_K900"
+  },
+  {
+    "id": "kia_niro",
+    "brand": "Kia",
+    "model": "Niro",
+    "fullName": "Kia Niro",
+    "imageUrl": "/images/kia_niro.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Niro",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Niro image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Niro"
+  },
+  {
+    "id": "kia_optima",
+    "brand": "Kia",
+    "model": "Optima",
+    "fullName": "Kia Optima",
+    "imageUrl": "/images/kia_optima.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Optima",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Optima image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Optima"
+  },
+  {
+    "id": "kia_picanto",
+    "brand": "Kia",
+    "model": "Picanto",
+    "fullName": "Kia Picanto",
+    "imageUrl": "/images/kia_picanto.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Picanto",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Picanto image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Picanto"
+  },
+  {
+    "id": "kia_proceed",
+    "brand": "Kia",
+    "model": "Proceed",
+    "fullName": "Kia Proceed",
+    "imageUrl": "/images/kia_proceed.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Proceed",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Proceed image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Proceed"
+  },
+  {
+    "id": "kia_rio",
+    "brand": "Kia",
+    "model": "Rio",
+    "fullName": "Kia Rio",
+    "imageUrl": "/images/kia_rio.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Rio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Rio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Rio"
+  },
+  {
+    "id": "kia_sedona",
+    "brand": "Kia",
+    "model": "Sedona",
+    "fullName": "Kia Sedona",
+    "imageUrl": "/images/kia_sedona.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Sedona",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Sedona image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Sedona"
+  },
+  {
+    "id": "kia_seltos",
+    "brand": "Kia",
+    "model": "Seltos",
+    "fullName": "Kia Seltos",
+    "imageUrl": "/images/kia_seltos.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Seltos",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Seltos image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Seltos"
+  },
+  {
+    "id": "kia_sorento",
+    "brand": "Kia",
+    "model": "Sorento",
+    "fullName": "Kia Sorento",
+    "imageUrl": "/images/kia_sorento.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Sorento",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Sorento image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Sorento"
+  },
+  {
+    "id": "kia_soul",
+    "brand": "Kia",
+    "model": "Soul",
+    "fullName": "Kia Soul",
+    "imageUrl": "/images/kia_soul.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Soul",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Soul image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Soul"
+  },
+  {
+    "id": "kia_sportage",
+    "brand": "Kia",
+    "model": "Sportage",
+    "fullName": "Kia Sportage",
+    "imageUrl": "/images/kia_sportage.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Sportage",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Sportage image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Sportage"
+  },
+  {
+    "id": "kia_stinger",
+    "brand": "Kia",
+    "model": "Stinger",
+    "fullName": "Kia Stinger",
+    "imageUrl": "/images/kia_stinger.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Stinger",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Stinger image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Stinger"
+  },
+  {
+    "id": "kia_telluride",
+    "brand": "Kia",
+    "model": "Telluride",
+    "fullName": "Kia Telluride",
+    "imageUrl": "/images/kia_telluride.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Telluride",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Telluride image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Telluride"
+  },
+  {
+    "id": "kia_xceed",
+    "brand": "Kia",
+    "model": "Xceed",
+    "fullName": "Kia Xceed",
+    "imageUrl": "/images/kia_xceed.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Kia_Xceed",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Kia Xceed image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Kia_Xceed"
+  },
+  {
+    "id": "koenigsegg_agera",
+    "brand": "Koenigsegg",
+    "model": "Agera",
+    "fullName": "Koenigsegg Agera",
+    "imageUrl": "/images/koenigsegg_agera.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Agera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Koenigsegg Agera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Koenigsegg_Agera"
   },
   {
     "id": "koenigsegg_ccr",
     "brand": "Koenigsegg",
-    "model": "CCR",
-    "fullName": "Koenigsegg CCR",
+    "model": "Ccr",
+    "fullName": "Koenigsegg Ccr",
     "imageUrl": "/images/koenigsegg_ccr.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_CCR"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Ccr",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Koenigsegg Ccr image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Koenigsegg_Ccr"
   },
   {
     "id": "koenigsegg_ccx",
     "brand": "Koenigsegg",
-    "model": "CCX",
-    "fullName": "Koenigsegg CCX",
+    "model": "Ccx",
+    "fullName": "Koenigsegg Ccx",
     "imageUrl": "/images/koenigsegg_ccx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_CCX"
-  },
-  {
-    "id": "koenigsegg_one_1",
-    "brand": "Koenigsegg",
-    "model": "Agera",
-    "fullName": "Koenigsegg Agera",
-    "imageUrl": "/images/koenigsegg_one_1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_One:1"
-  },
-  {
-    "id": "koenigsegg_jesko",
-    "brand": "Koenigsegg",
-    "model": "Jesko",
-    "fullName": "Koenigsegg Jesko",
-    "imageUrl": "/images/koenigsegg_jesko.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Jesko"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Ccx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Koenigsegg Ccx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Koenigsegg_Ccx"
   },
   {
     "id": "koenigsegg_gemera",
@@ -4735,63 +5755,107 @@ export const cars: Car[] = [
     "model": "Gemera",
     "fullName": "Koenigsegg Gemera",
     "imageUrl": "/images/koenigsegg_gemera.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Gemera"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Gemera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Koenigsegg Gemera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Koenigsegg_Gemera"
   },
   {
-    "id": "lamborghini_hurac_n",
-    "brand": "Lamborghini",
-    "model": "Huracán",
-    "fullName": "Lamborghini Huracán",
-    "imageUrl": "/images/lamborghini_hurac_n.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Huracán"
+    "id": "koenigsegg_jesko",
+    "brand": "Koenigsegg",
+    "model": "Jesko",
+    "fullName": "Koenigsegg Jesko",
+    "imageUrl": "/images/koenigsegg_jesko.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Jesko",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Koenigsegg Jesko image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Koenigsegg_Jesko"
   },
   {
-    "id": "lamborghini_jalpa",
-    "brand": "Lamborghini",
-    "model": "Jalpa",
-    "fullName": "Lamborghini Jalpa",
-    "imageUrl": "/images/lamborghini_jalpa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Jalpa"
+    "id": "koenigsegg_one_1",
+    "brand": "Koenigsegg",
+    "model": "One 1",
+    "fullName": "Koenigsegg One 1",
+    "imageUrl": "/images/koenigsegg_one_1.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_One_1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Koenigsegg One 1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Koenigsegg_One_1"
   },
   {
-    "id": "lamborghini_miura",
-    "brand": "Lamborghini",
-    "model": "Miura",
-    "fullName": "Lamborghini Miura",
-    "imageUrl": "/images/lamborghini_miura.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Miura"
+    "id": "koenigsegg_regera",
+    "brand": "Koenigsegg",
+    "model": "Regera",
+    "fullName": "Koenigsegg Regera",
+    "imageUrl": "/images/koenigsegg_regera.png",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Koenigsegg_Regera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Koenigsegg Regera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Koenigsegg_Regera"
   },
   {
-    "id": "lamborghini_murci_lago",
+    "id": "lamborghini_350gt",
     "brand": "Lamborghini",
-    "model": "Murciélago",
-    "fullName": "Lamborghini Murciélago",
-    "imageUrl": "/images/lamborghini_murci_lago.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Murciélago"
+    "model": "350gt",
+    "fullName": "Lamborghini 350gt",
+    "imageUrl": "/images/lamborghini_350gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_350gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini 350gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_350gt"
   },
   {
-    "id": "lamborghini_silhouette",
+    "id": "lamborghini_400gt",
     "brand": "Lamborghini",
-    "model": "Silhouette",
-    "fullName": "Lamborghini Silhouette",
-    "imageUrl": "/images/lamborghini_silhouette.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Silhouette"
+    "model": "400gt",
+    "fullName": "Lamborghini 400gt",
+    "imageUrl": "/images/lamborghini_400gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_400gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini 400gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_400gt"
   },
   {
-    "id": "lamborghini_urus",
+    "id": "lamborghini_aventador",
     "brand": "Lamborghini",
-    "model": "Urus",
-    "fullName": "Lamborghini Urus",
-    "imageUrl": "/images/lamborghini_urus.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Urus"
+    "model": "Aventador",
+    "fullName": "Lamborghini Aventador",
+    "imageUrl": "/images/lamborghini_aventador.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Aventador",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Aventador image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Aventador"
   },
   {
-    "id": "lamborghini_veneno",
+    "id": "lamborghini_countach",
     "brand": "Lamborghini",
-    "model": "Veneno",
-    "fullName": "Lamborghini Veneno",
-    "imageUrl": "/images/lamborghini_veneno.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Veneno"
+    "model": "Countach",
+    "fullName": "Lamborghini Countach",
+    "imageUrl": "/images/lamborghini_countach.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Countach",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Countach image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Countach"
+  },
+  {
+    "id": "lamborghini_diablo",
+    "brand": "Lamborghini",
+    "model": "Diablo",
+    "fullName": "Lamborghini Diablo",
+    "imageUrl": "/images/lamborghini_diablo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Diablo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Diablo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Diablo"
   },
   {
     "id": "lamborghini_espada",
@@ -4799,15 +5863,35 @@ export const cars: Car[] = [
     "model": "Espada",
     "fullName": "Lamborghini Espada",
     "imageUrl": "/images/lamborghini_espada.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Espada"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Espada",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Espada image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Espada"
   },
   {
-    "id": "lamborghini_jarama",
+    "id": "lamborghini_gallardo",
     "brand": "Lamborghini",
-    "model": "Jarama",
-    "fullName": "Lamborghini Jarama",
-    "imageUrl": "/images/lamborghini_jarama.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Jarama"
+    "model": "Gallardo",
+    "fullName": "Lamborghini Gallardo",
+    "imageUrl": "/images/lamborghini_gallardo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Gallardo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Gallardo"
+  },
+  {
+    "id": "lamborghini_hurac_n",
+    "brand": "Lamborghini",
+    "model": "Hurac N",
+    "fullName": "Lamborghini Hurac N",
+    "imageUrl": "/images/lamborghini_hurac_n.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Hurac_N",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Hurac N image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Hurac_N"
   },
   {
     "id": "lamborghini_islero",
@@ -4815,39 +5899,131 @@ export const cars: Car[] = [
     "model": "Islero",
     "fullName": "Lamborghini Islero",
     "imageUrl": "/images/lamborghini_islero.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Islero"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Islero",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Islero image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Islero"
   },
   {
-    "id": "lamborghini_400gt",
+    "id": "lamborghini_jalpa",
     "brand": "Lamborghini",
-    "model": "400 GT",
-    "fullName": "Lamborghini 400 GT",
-    "imageUrl": "/images/lamborghini_400gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_400GT"
+    "model": "Jalpa",
+    "fullName": "Lamborghini Jalpa",
+    "imageUrl": "/images/lamborghini_jalpa.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Jalpa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Jalpa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Jalpa"
   },
   {
-    "id": "lamborghini_350gt",
+    "id": "lamborghini_jarama",
     "brand": "Lamborghini",
-    "model": "350 GT",
-    "fullName": "Lamborghini 350 GT",
-    "imageUrl": "/images/lamborghini_350gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_350GT"
+    "model": "Jarama",
+    "fullName": "Lamborghini Jarama",
+    "imageUrl": "/images/lamborghini_jarama.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Jarama",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Jarama image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Jarama"
   },
   {
-    "id": "lamborghini_si_n",
+    "id": "lamborghini_miura",
     "brand": "Lamborghini",
-    "model": "Sián FKP 37",
-    "fullName": "Lamborghini Sián FKP 37",
-    "imageUrl": "/images/lamborghini_si_n.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Sián"
+    "model": "Miura",
+    "fullName": "Lamborghini Miura",
+    "imageUrl": "/images/lamborghini_miura.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Miura",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Miura image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Miura"
+  },
+  {
+    "id": "lamborghini_murci_lago",
+    "brand": "Lamborghini",
+    "model": "Murci Lago",
+    "fullName": "Lamborghini Murci Lago",
+    "imageUrl": "/images/lamborghini_murci_lago.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Murci_Lago",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Murci Lago image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Murci_Lago"
   },
   {
     "id": "lamborghini_reventon",
     "brand": "Lamborghini",
-    "model": "Reventón",
-    "fullName": "Lamborghini Reventón",
+    "model": "Reventon",
+    "fullName": "Lamborghini Reventon",
     "imageUrl": "/images/lamborghini_reventon.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Reventon"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Reventon",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Reventon image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Reventon"
+  },
+  {
+    "id": "lamborghini_si_n",
+    "brand": "Lamborghini",
+    "model": "Si N",
+    "fullName": "Lamborghini Si N",
+    "imageUrl": "/images/lamborghini_si_n.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Si_N",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Si N image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Si_N"
+  },
+  {
+    "id": "lamborghini_silhouette",
+    "brand": "Lamborghini",
+    "model": "Silhouette",
+    "fullName": "Lamborghini Silhouette",
+    "imageUrl": "/images/lamborghini_silhouette.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Silhouette",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Silhouette image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Silhouette"
+  },
+  {
+    "id": "lamborghini_urus",
+    "brand": "Lamborghini",
+    "model": "Urus",
+    "fullName": "Lamborghini Urus",
+    "imageUrl": "/images/lamborghini_urus.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Urus",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Urus image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Urus"
+  },
+  {
+    "id": "lamborghini_veneno",
+    "brand": "Lamborghini",
+    "model": "Veneno",
+    "fullName": "Lamborghini Veneno",
+    "imageUrl": "/images/lamborghini_veneno.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lamborghini_Veneno",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lamborghini Veneno image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lamborghini_Veneno"
+  },
+  {
+    "id": "land_rover_defender",
+    "brand": "Land",
+    "model": "Rover Defender",
+    "fullName": "Land Rover Defender",
+    "imageUrl": "/images/land_rover_defender.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Defender",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Defender image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Defender"
   },
   {
     "id": "land_rover_discovery",
@@ -4855,7 +6031,11 @@ export const cars: Car[] = [
     "model": "Rover Discovery",
     "fullName": "Land Rover Discovery",
     "imageUrl": "/images/land_rover_discovery.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Discovery"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Discovery",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Discovery image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Discovery"
   },
   {
     "id": "land_rover_discovery_sport",
@@ -4863,7 +6043,11 @@ export const cars: Car[] = [
     "model": "Rover Discovery Sport",
     "fullName": "Land Rover Discovery Sport",
     "imageUrl": "/images/land_rover_discovery_sport.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Discovery_Sport"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Discovery_Sport",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Discovery Sport image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Discovery_Sport"
   },
   {
     "id": "land_rover_freelander",
@@ -4871,151 +6055,275 @@ export const cars: Car[] = [
     "model": "Rover Freelander",
     "fullName": "Land Rover Freelander",
     "imageUrl": "/images/land_rover_freelander.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Freelander"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Freelander",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Freelander image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Freelander"
   },
   {
     "id": "land_rover_lr2",
     "brand": "Land",
-    "model": "Rover Freelander",
-    "fullName": "Land Rover Freelander",
+    "model": "Rover Lr2",
+    "fullName": "Land Rover Lr2",
     "imageUrl": "/images/land_rover_lr2.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_LR2"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Lr2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Lr2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Lr2"
   },
   {
     "id": "land_rover_lr3",
     "brand": "Land",
-    "model": "Rover Discovery",
-    "fullName": "Land Rover Discovery",
+    "model": "Rover Lr3",
+    "fullName": "Land Rover Lr3",
     "imageUrl": "/images/land_rover_lr3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_LR3"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Lr3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Lr3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Lr3"
   },
   {
     "id": "land_rover_lr4",
     "brand": "Land",
-    "model": "Rover Discovery",
-    "fullName": "Land Rover Discovery",
+    "model": "Rover Lr4",
+    "fullName": "Land Rover Lr4",
     "imageUrl": "/images/land_rover_lr4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_LR4"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Lr4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Lr4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Lr4"
+  },
+  {
+    "id": "land_rover_range_rover",
+    "brand": "Land",
+    "model": "Rover Range Rover",
+    "fullName": "Land Rover Range Rover",
+    "imageUrl": "/images/land_rover_range_rover.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Range Rover image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover"
   },
   {
     "id": "land_rover_range_rover_evoque",
-    "brand": "Range",
-    "model": "Rover Evoque",
-    "fullName": "Range Rover Evoque",
+    "brand": "Land",
+    "model": "Rover Range Rover Evoque",
+    "fullName": "Land Rover Range Rover Evoque",
     "imageUrl": "/images/land_rover_range_rover_evoque.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Evoque"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Evoque",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Range Rover Evoque image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Evoque"
   },
   {
     "id": "land_rover_range_rover_sport",
-    "brand": "Range",
-    "model": "Rover Sport",
-    "fullName": "Range Rover Sport",
+    "brand": "Land",
+    "model": "Rover Range Rover Sport",
+    "fullName": "Land Rover Range Rover Sport",
     "imageUrl": "/images/land_rover_range_rover_sport.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Sport"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Sport",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Range Rover Sport image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Sport"
   },
   {
     "id": "land_rover_range_rover_velar",
-    "brand": "Range",
-    "model": "Rover Velar",
-    "fullName": "Range Rover Velar",
+    "brand": "Land",
+    "model": "Rover Range Rover Velar",
+    "fullName": "Land Rover Range Rover Velar",
     "imageUrl": "/images/land_rover_range_rover_velar.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Velar"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Velar",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Land Rover Range Rover Velar image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Land_Rover_Range_Rover_Velar"
   },
   {
     "id": "lexus_ct",
     "brand": "Lexus",
-    "model": "CT",
-    "fullName": "Lexus CT",
+    "model": "Ct",
+    "fullName": "Lexus Ct",
     "imageUrl": "/images/lexus_ct.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_CT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Ct",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Ct image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Ct"
   },
   {
     "id": "lexus_es",
     "brand": "Lexus",
-    "model": "ES",
-    "fullName": "Lexus ES",
+    "model": "Es",
+    "fullName": "Lexus Es",
     "imageUrl": "/images/lexus_es.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_ES"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Es",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Es image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Es"
   },
   {
     "id": "lexus_gs",
     "brand": "Lexus",
-    "model": "GS",
-    "fullName": "Lexus GS",
+    "model": "Gs",
+    "fullName": "Lexus Gs",
     "imageUrl": "/images/lexus_gs.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_GS"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Gs",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Gs image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Gs"
   },
   {
     "id": "lexus_gx",
     "brand": "Lexus",
-    "model": "GX",
-    "fullName": "Lexus GX",
+    "model": "Gx",
+    "fullName": "Lexus Gx",
     "imageUrl": "/images/lexus_gx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_GX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Gx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Gx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Gx"
   },
   {
     "id": "lexus_is",
     "brand": "Lexus",
-    "model": "IS",
-    "fullName": "Lexus IS",
+    "model": "Is",
+    "fullName": "Lexus Is",
     "imageUrl": "/images/lexus_is.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_IS"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Is",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Is image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Is"
   },
   {
     "id": "lexus_lc",
     "brand": "Lexus",
-    "model": "LC",
-    "fullName": "Lexus LC",
+    "model": "Lc",
+    "fullName": "Lexus Lc",
     "imageUrl": "/images/lexus_lc.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_LC"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Lc",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Lc image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Lc"
+  },
+  {
+    "id": "lexus_lfa",
+    "brand": "Lexus",
+    "model": "Lfa",
+    "fullName": "Lexus Lfa",
+    "imageUrl": "/images/lexus_lfa.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Lfa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Lfa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Lfa"
+  },
+  {
+    "id": "lexus_ls",
+    "brand": "Lexus",
+    "model": "Ls",
+    "fullName": "Lexus Ls",
+    "imageUrl": "/images/lexus_ls.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Ls",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Ls image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Ls"
   },
   {
     "id": "lexus_lx",
     "brand": "Lexus",
-    "model": "LX",
-    "fullName": "Lexus LX",
+    "model": "Lx",
+    "fullName": "Lexus Lx",
     "imageUrl": "/images/lexus_lx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_LX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Lx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Lx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Lx"
   },
   {
     "id": "lexus_nx",
     "brand": "Lexus",
-    "model": "NX",
-    "fullName": "Lexus NX",
+    "model": "Nx",
+    "fullName": "Lexus Nx",
     "imageUrl": "/images/lexus_nx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_NX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Nx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Nx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Nx"
   },
   {
     "id": "lexus_rc",
     "brand": "Lexus",
-    "model": "RC",
-    "fullName": "Lexus RC",
+    "model": "Rc",
+    "fullName": "Lexus Rc",
     "imageUrl": "/images/lexus_rc.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_RC"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Rc",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Rc image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Rc"
   },
   {
-    "id": "lexus_sc",
+    "id": "lexus_rx",
     "brand": "Lexus",
-    "model": "SC",
-    "fullName": "Lexus SC",
-    "imageUrl": "/images/lexus_sc.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_SC"
-  },
-  {
-    "id": "lexus_ux",
-    "brand": "Lexus",
-    "model": "UX",
-    "fullName": "Lexus UX",
-    "imageUrl": "/images/lexus_ux.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_UX"
+    "model": "Rx",
+    "fullName": "Lexus Rx",
+    "imageUrl": "/images/lexus_rx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Rx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Rx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Rx"
   },
   {
     "id": "lexus_rx_450h",
     "brand": "Lexus",
-    "model": "RX",
-    "fullName": "Lexus RX",
+    "model": "Rx 450h",
+    "fullName": "Lexus Rx 450h",
     "imageUrl": "/images/lexus_rx_450h.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_RX_450h"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Rx_450h",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Rx 450h image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Rx_450h"
+  },
+  {
+    "id": "lexus_sc",
+    "brand": "Lexus",
+    "model": "Sc",
+    "fullName": "Lexus Sc",
+    "imageUrl": "/images/lexus_sc.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Sc",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Sc image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Sc"
+  },
+  {
+    "id": "lexus_ux",
+    "brand": "Lexus",
+    "model": "Ux",
+    "fullName": "Lexus Ux",
+    "imageUrl": "/images/lexus_ux.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lexus_Ux",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lexus Ux image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lexus_Ux"
   },
   {
     "id": "lincoln_aviator",
@@ -5023,103 +6331,11 @@ export const cars: Car[] = [
     "model": "Aviator",
     "fullName": "Lincoln Aviator",
     "imageUrl": "/images/lincoln_aviator.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Aviator"
-  },
-  {
-    "id": "lincoln_corsair",
-    "brand": "Lincoln",
-    "model": "Corsair",
-    "fullName": "Lincoln Corsair",
-    "imageUrl": "/images/lincoln_corsair.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Corsair"
-  },
-  {
-    "id": "lincoln_mkc",
-    "brand": "Lincoln",
-    "model": "MKC",
-    "fullName": "Lincoln MKC",
-    "imageUrl": "/images/lincoln_mkc.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_MKC"
-  },
-  {
-    "id": "lincoln_mks",
-    "brand": "Lincoln",
-    "model": "MKS",
-    "fullName": "Lincoln MKS",
-    "imageUrl": "/images/lincoln_mks.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_MKS"
-  },
-  {
-    "id": "lincoln_mkt",
-    "brand": "Lincoln",
-    "model": "MKT",
-    "fullName": "Lincoln MKT",
-    "imageUrl": "/images/lincoln_mkt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_MKT"
-  },
-  {
-    "id": "lincoln_mkx",
-    "brand": "Lincoln",
-    "model": "MKX",
-    "fullName": "Lincoln MKX",
-    "imageUrl": "/images/lincoln_mkx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_MKX"
-  },
-  {
-    "id": "lincoln_mkz",
-    "brand": "Lincoln",
-    "model": "MKZ",
-    "fullName": "Lincoln MKZ",
-    "imageUrl": "/images/lincoln_mkz.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_MKZ"
-  },
-  {
-    "id": "lincoln_navigator",
-    "brand": "Lincoln",
-    "model": "Navigator",
-    "fullName": "Lincoln Navigator",
-    "imageUrl": "/images/lincoln_navigator.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Navigator"
-  },
-  {
-    "id": "lincoln_nautilus",
-    "brand": "Lincoln",
-    "model": "Nautilus",
-    "fullName": "Lincoln Nautilus",
-    "imageUrl": "/images/lincoln_nautilus.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Nautilus"
-  },
-  {
-    "id": "lincoln_town_car",
-    "brand": "Lincoln",
-    "model": "Town Car",
-    "fullName": "Lincoln Town Car",
-    "imageUrl": "/images/lincoln_town_car.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Town_Car"
-  },
-  {
-    "id": "lincoln_ls",
-    "brand": "Lincoln",
-    "model": "LS",
-    "fullName": "Lincoln LS",
-    "imageUrl": "/images/lincoln_ls.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_LS"
-  },
-  {
-    "id": "lincoln_mark_viii",
-    "brand": "Lincoln",
-    "model": "Mark VIII",
-    "fullName": "Lincoln Mark VIII",
-    "imageUrl": "/images/lincoln_mark_viii.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mark_VIII"
-  },
-  {
-    "id": "lincoln_mark_vii",
-    "brand": "Lincoln",
-    "model": "Continental Mark VII",
-    "fullName": "Lincoln Continental Mark VII",
-    "imageUrl": "/images/lincoln_mark_vii.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mark_VII"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Aviator",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Aviator image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Aviator"
   },
   {
     "id": "lincoln_blackwood",
@@ -5127,7 +6343,167 @@ export const cars: Car[] = [
     "model": "Blackwood",
     "fullName": "Lincoln Blackwood",
     "imageUrl": "/images/lincoln_blackwood.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Blackwood"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Blackwood",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Blackwood image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Blackwood"
+  },
+  {
+    "id": "lincoln_continental",
+    "brand": "Lincoln",
+    "model": "Continental",
+    "fullName": "Lincoln Continental",
+    "imageUrl": "/images/lincoln_continental.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Continental",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Continental image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Continental"
+  },
+  {
+    "id": "lincoln_corsair",
+    "brand": "Lincoln",
+    "model": "Corsair",
+    "fullName": "Lincoln Corsair",
+    "imageUrl": "/images/lincoln_corsair.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Corsair",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Corsair image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Corsair"
+  },
+  {
+    "id": "lincoln_ls",
+    "brand": "Lincoln",
+    "model": "Ls",
+    "fullName": "Lincoln Ls",
+    "imageUrl": "/images/lincoln_ls.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Ls",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Ls image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Ls"
+  },
+  {
+    "id": "lincoln_mark_vii",
+    "brand": "Lincoln",
+    "model": "Mark Vii",
+    "fullName": "Lincoln Mark Vii",
+    "imageUrl": "/images/lincoln_mark_vii.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mark_Vii",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Mark Vii image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Mark_Vii"
+  },
+  {
+    "id": "lincoln_mark_viii",
+    "brand": "Lincoln",
+    "model": "Mark Viii",
+    "fullName": "Lincoln Mark Viii",
+    "imageUrl": "/images/lincoln_mark_viii.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mark_Viii",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Mark Viii image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Mark_Viii"
+  },
+  {
+    "id": "lincoln_mkc",
+    "brand": "Lincoln",
+    "model": "Mkc",
+    "fullName": "Lincoln Mkc",
+    "imageUrl": "/images/lincoln_mkc.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mkc",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Mkc image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Mkc"
+  },
+  {
+    "id": "lincoln_mks",
+    "brand": "Lincoln",
+    "model": "Mks",
+    "fullName": "Lincoln Mks",
+    "imageUrl": "/images/lincoln_mks.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mks",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Mks image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Mks"
+  },
+  {
+    "id": "lincoln_mkt",
+    "brand": "Lincoln",
+    "model": "Mkt",
+    "fullName": "Lincoln Mkt",
+    "imageUrl": "/images/lincoln_mkt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mkt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Mkt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Mkt"
+  },
+  {
+    "id": "lincoln_mkx",
+    "brand": "Lincoln",
+    "model": "Mkx",
+    "fullName": "Lincoln Mkx",
+    "imageUrl": "/images/lincoln_mkx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mkx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Mkx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Mkx"
+  },
+  {
+    "id": "lincoln_mkz",
+    "brand": "Lincoln",
+    "model": "Mkz",
+    "fullName": "Lincoln Mkz",
+    "imageUrl": "/images/lincoln_mkz.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Mkz",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Mkz image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Mkz"
+  },
+  {
+    "id": "lincoln_nautilus",
+    "brand": "Lincoln",
+    "model": "Nautilus",
+    "fullName": "Lincoln Nautilus",
+    "imageUrl": "/images/lincoln_nautilus.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Nautilus",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Nautilus image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Nautilus"
+  },
+  {
+    "id": "lincoln_navigator",
+    "brand": "Lincoln",
+    "model": "Navigator",
+    "fullName": "Lincoln Navigator",
+    "imageUrl": "/images/lincoln_navigator.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Navigator",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Navigator image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Navigator"
+  },
+  {
+    "id": "lincoln_town_car",
+    "brand": "Lincoln",
+    "model": "Town Car",
+    "fullName": "Lincoln Town Car",
+    "imageUrl": "/images/lincoln_town_car.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Town_Car",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Town Car image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Town_Car"
   },
   {
     "id": "lincoln_zephyr",
@@ -5135,39 +6511,11 @@ export const cars: Car[] = [
     "model": "Zephyr",
     "fullName": "Lincoln Zephyr",
     "imageUrl": "/images/lincoln_zephyr.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Zephyr"
-  },
-  {
-    "id": "lotus_esprit",
-    "brand": "Lotus",
-    "model": "Esprit",
-    "fullName": "Lotus Esprit",
-    "imageUrl": "/images/lotus_esprit.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Esprit"
-  },
-  {
-    "id": "lotus_europa",
-    "brand": "Lotus",
-    "model": "Europa",
-    "fullName": "Lotus Europa",
-    "imageUrl": "/images/lotus_europa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Europa"
-  },
-  {
-    "id": "lotus_seven",
-    "brand": "Lotus",
-    "model": "Seven",
-    "fullName": "Lotus Seven",
-    "imageUrl": "/images/lotus_seven.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Seven"
-  },
-  {
-    "id": "lotus_elan",
-    "brand": "Lotus",
-    "model": "Elan",
-    "fullName": "Lotus Elan",
-    "imageUrl": "/images/lotus_elan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Elan"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lincoln_Zephyr",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lincoln Zephyr image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lincoln_Zephyr"
   },
   {
     "id": "lotus_carlton",
@@ -5175,15 +6523,47 @@ export const cars: Car[] = [
     "model": "Carlton",
     "fullName": "Lotus Carlton",
     "imageUrl": "/images/lotus_carlton.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Carlton"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Carlton",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Carlton image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Carlton"
   },
   {
     "id": "lotus_eclat",
     "brand": "Lotus",
-    "model": "Éclat",
-    "fullName": "Lotus Éclat",
+    "model": "Eclat",
+    "fullName": "Lotus Eclat",
     "imageUrl": "/images/lotus_eclat.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Eclat"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Eclat",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Eclat image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Eclat"
+  },
+  {
+    "id": "lotus_elan",
+    "brand": "Lotus",
+    "model": "Elan",
+    "fullName": "Lotus Elan",
+    "imageUrl": "/images/lotus_elan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Elan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Elan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Elan"
+  },
+  {
+    "id": "lotus_elise",
+    "brand": "Lotus",
+    "model": "Elise",
+    "fullName": "Lotus Elise",
+    "imageUrl": "/images/lotus_elise.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Elise",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Elise image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Elise"
   },
   {
     "id": "lotus_elite",
@@ -5191,7 +6571,11 @@ export const cars: Car[] = [
     "model": "Elite",
     "fullName": "Lotus Elite",
     "imageUrl": "/images/lotus_elite.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Elite"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Elite",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Elite image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Elite"
   },
   {
     "id": "lotus_emira",
@@ -5199,23 +6583,107 @@ export const cars: Car[] = [
     "model": "Emira",
     "fullName": "Lotus Emira",
     "imageUrl": "/images/lotus_emira.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Emira"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Emira",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Emira image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Emira"
+  },
+  {
+    "id": "lotus_esprit",
+    "brand": "Lotus",
+    "model": "Esprit",
+    "fullName": "Lotus Esprit",
+    "imageUrl": "/images/lotus_esprit.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Esprit",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Esprit image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Esprit"
+  },
+  {
+    "id": "lotus_europa",
+    "brand": "Lotus",
+    "model": "Europa",
+    "fullName": "Lotus Europa",
+    "imageUrl": "/images/lotus_europa.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Europa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Europa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Europa"
+  },
+  {
+    "id": "lotus_evija",
+    "brand": "Lotus",
+    "model": "Evija",
+    "fullName": "Lotus Evija",
+    "imageUrl": "/images/lotus_evija.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Evija",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Evija image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Evija"
+  },
+  {
+    "id": "lotus_evora",
+    "brand": "Lotus",
+    "model": "Evora",
+    "fullName": "Lotus Evora",
+    "imageUrl": "/images/lotus_evora.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Evora",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Evora image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Evora"
+  },
+  {
+    "id": "lotus_exige",
+    "brand": "Lotus",
+    "model": "Exige",
+    "fullName": "Lotus Exige",
+    "imageUrl": "/images/lotus_exige.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Exige",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Exige image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Exige"
+  },
+  {
+    "id": "lotus_seven",
+    "brand": "Lotus",
+    "model": "Seven",
+    "fullName": "Lotus Seven",
+    "imageUrl": "/images/lotus_seven.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lotus_Seven",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Lotus Seven image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Lotus_Seven"
   },
   {
     "id": "maserati_3200_gt",
     "brand": "Maserati",
-    "model": "3200 GT",
-    "fullName": "Maserati 3200 GT",
+    "model": "3200 Gt",
+    "fullName": "Maserati 3200 Gt",
     "imageUrl": "/images/maserati_3200_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_3200_GT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_3200_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati 3200 Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_3200_Gt"
   },
   {
     "id": "maserati_4200_gt",
     "brand": "Maserati",
-    "model": "Coupé",
-    "fullName": "Maserati Coupé",
+    "model": "4200 Gt",
+    "fullName": "Maserati 4200 Gt",
     "imageUrl": "/images/maserati_4200_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_4200_GT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_4200_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati 4200 Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_4200_Gt"
   },
   {
     "id": "maserati_biturbo",
@@ -5223,7 +6691,11 @@ export const cars: Car[] = [
     "model": "Biturbo",
     "fullName": "Maserati Biturbo",
     "imageUrl": "/images/maserati_biturbo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Biturbo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Biturbo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Biturbo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Biturbo"
   },
   {
     "id": "maserati_bora",
@@ -5231,7 +6703,47 @@ export const cars: Car[] = [
     "model": "Bora",
     "fullName": "Maserati Bora",
     "imageUrl": "/images/maserati_bora.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Bora"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Bora",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Bora image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Bora"
+  },
+  {
+    "id": "maserati_ghibli",
+    "brand": "Maserati",
+    "model": "Ghibli",
+    "fullName": "Maserati Ghibli",
+    "imageUrl": "/images/maserati_ghibli.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Ghibli",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Ghibli image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Ghibli"
+  },
+  {
+    "id": "maserati_grancabrio",
+    "brand": "Maserati",
+    "model": "Grancabrio",
+    "fullName": "Maserati Grancabrio",
+    "imageUrl": "/images/maserati_grancabrio.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Grancabrio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Grancabrio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Grancabrio"
+  },
+  {
+    "id": "maserati_granturismo",
+    "brand": "Maserati",
+    "model": "Granturismo",
+    "fullName": "Maserati Granturismo",
+    "imageUrl": "/images/maserati_granturismo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Granturismo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Granturismo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Granturismo"
   },
   {
     "id": "maserati_khamsin",
@@ -5239,7 +6751,35 @@ export const cars: Car[] = [
     "model": "Khamsin",
     "fullName": "Maserati Khamsin",
     "imageUrl": "/images/maserati_khamsin.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Khamsin"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Khamsin",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Khamsin image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Khamsin"
+  },
+  {
+    "id": "maserati_levante",
+    "brand": "Maserati",
+    "model": "Levante",
+    "fullName": "Maserati Levante",
+    "imageUrl": "/images/maserati_levante.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Levante",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Levante image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Levante"
+  },
+  {
+    "id": "maserati_mc20",
+    "brand": "Maserati",
+    "model": "Mc20",
+    "fullName": "Maserati Mc20",
+    "imageUrl": "/images/maserati_mc20.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Mc20",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Mc20 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Mc20"
   },
   {
     "id": "maserati_merak",
@@ -5247,7 +6787,23 @@ export const cars: Car[] = [
     "model": "Merak",
     "fullName": "Maserati Merak",
     "imageUrl": "/images/maserati_merak.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Merak"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Merak",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Merak image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Merak"
+  },
+  {
+    "id": "maserati_quattroporte",
+    "brand": "Maserati",
+    "model": "Quattroporte",
+    "fullName": "Maserati Quattroporte",
+    "imageUrl": "/images/maserati_quattroporte.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Quattroporte",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Quattroporte image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Quattroporte"
   },
   {
     "id": "maserati_shamal",
@@ -5255,151 +6811,71 @@ export const cars: Car[] = [
     "model": "Shamal",
     "fullName": "Maserati Shamal",
     "imageUrl": "/images/maserati_shamal.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Shamal"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Shamal",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Shamal image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Shamal"
   },
   {
     "id": "maserati_spyder",
     "brand": "Maserati",
-    "model": "Coupé",
-    "fullName": "Maserati Coupé",
+    "model": "Spyder",
+    "fullName": "Maserati Spyder",
     "imageUrl": "/images/maserati_spyder.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Spyder"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_Spyder",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Maserati Spyder image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Maserati_Spyder"
   },
   {
-    "id": "maserati_mc20",
-    "brand": "Maserati",
-    "model": "MC20",
-    "fullName": "Maserati MC20",
-    "imageUrl": "/images/maserati_mc20.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_MC20"
-  },
-  {
-    "id": "maserati_grancabrio",
-    "brand": "Maserati",
-    "model": "GranTurismo",
-    "fullName": "Maserati GranTurismo",
-    "imageUrl": "/images/maserati_grancabrio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Maserati_GranCabrio"
-  },
-  {
-    "id": "mazda2",
-    "brand": "Mazda2",
-    "model": "Mazda2",
-    "fullName": "Mazda2",
-    "imageUrl": "/images/mazda2.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda2"
-  },
-  {
-    "id": "mazda3",
-    "brand": "Mazda3",
-    "model": "Mazda3",
-    "fullName": "Mazda3",
-    "imageUrl": "/images/mazda3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda3"
-  },
-  {
-    "id": "mazda5",
+    "id": "mazda_3",
     "brand": "Mazda",
-    "model": "Premacy",
-    "fullName": "Mazda Premacy",
-    "imageUrl": "/images/mazda5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda5"
-  },
-  {
-    "id": "mazda6",
-    "brand": "Mazda6",
-    "model": "Mazda6",
-    "fullName": "Mazda6",
-    "imageUrl": "/images/mazda6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda6"
-  },
-  {
-    "id": "mazda_b_series",
-    "brand": "Mazda",
-    "model": "B series",
-    "fullName": "Mazda B series",
-    "imageUrl": "/images/mazda_b_series.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_B-Series"
-  },
-  {
-    "id": "mazda_cx_3",
-    "brand": "Mazda",
-    "model": "CX-3",
-    "fullName": "Mazda CX-3",
-    "imageUrl": "/images/mazda_cx_3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_CX-3"
-  },
-  {
-    "id": "mazda_cx_7",
-    "brand": "Mazda",
-    "model": "CX-7",
-    "fullName": "Mazda CX-7",
-    "imageUrl": "/images/mazda_cx_7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_CX-7"
-  },
-  {
-    "id": "mazda_cx_30",
-    "brand": "Mazda",
-    "model": "CX-30",
-    "fullName": "Mazda CX-30",
-    "imageUrl": "/images/mazda_cx_30.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_CX-30"
-  },
-  {
-    "id": "mazda_mx_6",
-    "brand": "Mazda",
-    "model": "MX-6",
-    "fullName": "Mazda MX-6",
-    "imageUrl": "/images/mazda_mx_6.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_MX-6"
-  },
-  {
-    "id": "mazda_protege",
-    "brand": "Mazda",
-    "model": "Familia",
-    "fullName": "Mazda Familia",
-    "imageUrl": "/images/mazda_protege.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Protege"
-  },
-  {
-    "id": "mazda_tribute",
-    "brand": "Mazda",
-    "model": "Tribute",
-    "fullName": "Mazda Tribute",
-    "imageUrl": "/images/mazda_tribute.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Tribute"
-  },
-  {
-    "id": "mazda_mpv",
-    "brand": "Mazda",
-    "model": "MPV",
-    "fullName": "Mazda MPV",
-    "imageUrl": "/images/mazda_mpv.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_MPV"
-  },
-  {
-    "id": "mazda_millenia",
-    "brand": "Mazda",
-    "model": "Millenia",
-    "fullName": "Mazda Millenia",
-    "imageUrl": "/images/mazda_millenia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Millenia"
+    "model": "3",
+    "fullName": "Mazda 3",
+    "imageUrl": "/images/mazda_3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda 3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_3"
   },
   {
     "id": "mazda_323",
     "brand": "Mazda",
-    "model": "Familia",
-    "fullName": "Mazda Familia",
+    "model": "323",
+    "fullName": "Mazda 323",
     "imageUrl": "/images/mazda_323.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_323"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_323",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda 323 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_323"
+  },
+  {
+    "id": "mazda_6",
+    "brand": "Mazda",
+    "model": "6",
+    "fullName": "Mazda 6",
+    "imageUrl": "/images/mazda_6.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda 6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_6"
   },
   {
     "id": "mazda_626",
     "brand": "Mazda",
-    "model": "Capella",
-    "fullName": "Mazda Capella",
+    "model": "626",
+    "fullName": "Mazda 626",
     "imageUrl": "/images/mazda_626.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_626"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_626",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda 626 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_626"
   },
   {
     "id": "mazda_929",
@@ -5407,7 +6883,107 @@ export const cars: Car[] = [
     "model": "929",
     "fullName": "Mazda 929",
     "imageUrl": "/images/mazda_929.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_929"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_929",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda 929 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_929"
+  },
+  {
+    "id": "mazda_atenza",
+    "brand": "Mazda",
+    "model": "Atenza",
+    "fullName": "Mazda Atenza",
+    "imageUrl": "/images/mazda_atenza.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Atenza",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Atenza image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Atenza"
+  },
+  {
+    "id": "mazda_axela",
+    "brand": "Mazda",
+    "model": "Axela",
+    "fullName": "Mazda Axela",
+    "imageUrl": "/images/mazda_axela.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Axela",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Axela image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Axela"
+  },
+  {
+    "id": "mazda_b_series",
+    "brand": "Mazda",
+    "model": "B Series",
+    "fullName": "Mazda B Series",
+    "imageUrl": "/images/mazda_b_series.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_B_Series",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda B Series image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_B_Series"
+  },
+  {
+    "id": "mazda_cx_3",
+    "brand": "Mazda",
+    "model": "Cx 3",
+    "fullName": "Mazda Cx 3",
+    "imageUrl": "/images/mazda_cx_3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Cx_3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Cx 3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Cx_3"
+  },
+  {
+    "id": "mazda_cx_30",
+    "brand": "Mazda",
+    "model": "Cx 30",
+    "fullName": "Mazda Cx 30",
+    "imageUrl": "/images/mazda_cx_30.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Cx_30",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Cx 30 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Cx_30"
+  },
+  {
+    "id": "mazda_cx_5",
+    "brand": "Mazda",
+    "model": "Cx 5",
+    "fullName": "Mazda Cx 5",
+    "imageUrl": "/images/mazda_cx_5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Cx_5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Cx 5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Cx_5"
+  },
+  {
+    "id": "mazda_cx_7",
+    "brand": "Mazda",
+    "model": "Cx 7",
+    "fullName": "Mazda Cx 7",
+    "imageUrl": "/images/mazda_cx_7.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Cx_7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Cx 7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Cx_7"
+  },
+  {
+    "id": "mazda_cx_9",
+    "brand": "Mazda",
+    "model": "Cx 9",
+    "fullName": "Mazda Cx 9",
+    "imageUrl": "/images/mazda_cx_9.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Cx_9",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Cx 9 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Cx_9"
   },
   {
     "id": "mazda_demio",
@@ -5415,7 +6991,71 @@ export const cars: Car[] = [
     "model": "Demio",
     "fullName": "Mazda Demio",
     "imageUrl": "/images/mazda_demio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Demio"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Demio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Demio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Demio"
+  },
+  {
+    "id": "mazda_millenia",
+    "brand": "Mazda",
+    "model": "Millenia",
+    "fullName": "Mazda Millenia",
+    "imageUrl": "/images/mazda_millenia.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Millenia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Millenia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Millenia"
+  },
+  {
+    "id": "mazda_mpv",
+    "brand": "Mazda",
+    "model": "Mpv",
+    "fullName": "Mazda Mpv",
+    "imageUrl": "/images/mazda_mpv.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Mpv",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Mpv image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Mpv"
+  },
+  {
+    "id": "mazda_mx_5",
+    "brand": "Mazda",
+    "model": "Mx 5",
+    "fullName": "Mazda Mx 5",
+    "imageUrl": "/images/mazda_mx_5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Mx_5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Mx 5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Mx_5"
+  },
+  {
+    "id": "mazda_mx_5_miata",
+    "brand": "Mazda",
+    "model": "Mx 5 Miata",
+    "fullName": "Mazda Mx 5 Miata",
+    "imageUrl": "/images/mazda_mx_5_miata.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Mx_5_Miata",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Mx 5 Miata image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Mx_5_Miata"
+  },
+  {
+    "id": "mazda_mx_6",
+    "brand": "Mazda",
+    "model": "Mx 6",
+    "fullName": "Mazda Mx 6",
+    "imageUrl": "/images/mazda_mx_6.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Mx_6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Mx 6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Mx_6"
   },
   {
     "id": "mazda_premacy",
@@ -5423,263 +7063,635 @@ export const cars: Car[] = [
     "model": "Premacy",
     "fullName": "Mazda Premacy",
     "imageUrl": "/images/mazda_premacy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Premacy"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Premacy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Premacy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Premacy"
   },
   {
-    "id": "mazda_axela",
+    "id": "mazda_protege",
+    "brand": "Mazda",
+    "model": "Protege",
+    "fullName": "Mazda Protege",
+    "imageUrl": "/images/mazda_protege.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Protege",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Protege image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Protege"
+  },
+  {
+    "id": "mazda_rx_7",
+    "brand": "Mazda",
+    "model": "Rx 7",
+    "fullName": "Mazda Rx 7",
+    "imageUrl": "/images/mazda_rx_7.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Rx_7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Rx 7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Rx_7"
+  },
+  {
+    "id": "mazda_rx_8",
+    "brand": "Mazda",
+    "model": "Rx 8",
+    "fullName": "Mazda Rx 8",
+    "imageUrl": "/images/mazda_rx_8.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Rx_8",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Rx 8 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Rx_8"
+  },
+  {
+    "id": "mazda_tribute",
+    "brand": "Mazda",
+    "model": "Tribute",
+    "fullName": "Mazda Tribute",
+    "imageUrl": "/images/mazda_tribute.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Tribute",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda Tribute image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda_Tribute"
+  },
+  {
+    "id": "mazda2",
+    "brand": "Mazda2",
+    "model": "Mazda2",
+    "fullName": "Mazda2",
+    "imageUrl": "/images/mazda2.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda2"
+  },
+  {
+    "id": "mazda3",
     "brand": "Mazda3",
     "model": "Mazda3",
     "fullName": "Mazda3",
-    "imageUrl": "/images/mazda_axela.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Axela"
+    "imageUrl": "/images/mazda3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda3"
   },
   {
-    "id": "mazda_atenza",
+    "id": "mazda5",
+    "brand": "Mazda5",
+    "model": "Mazda5",
+    "fullName": "Mazda5",
+    "imageUrl": "/images/mazda5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda5"
+  },
+  {
+    "id": "mazda6",
     "brand": "Mazda6",
     "model": "Mazda6",
     "fullName": "Mazda6",
-    "imageUrl": "/images/mazda_atenza.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda_Atenza"
+    "imageUrl": "/images/mazda6.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mazda6",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mazda6 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mazda6"
   },
   {
     "id": "mclaren_540c",
-    "brand": "McLaren",
-    "model": "570S",
-    "fullName": "McLaren 570S",
+    "brand": "Mclaren",
+    "model": "540c",
+    "fullName": "Mclaren 540c",
     "imageUrl": "/images/mclaren_540c.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_540C"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_540c",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren 540c image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_540c"
   },
   {
     "id": "mclaren_570s",
-    "brand": "McLaren",
-    "model": "570S",
-    "fullName": "McLaren 570S",
+    "brand": "Mclaren",
+    "model": "570s",
+    "fullName": "Mclaren 570s",
     "imageUrl": "/images/mclaren_570s.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_570S"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_570s",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren 570s image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_570s"
   },
   {
     "id": "mclaren_600lt",
-    "brand": "McLaren",
-    "model": "570S",
-    "fullName": "McLaren 570S",
+    "brand": "Mclaren",
+    "model": "600lt",
+    "fullName": "Mclaren 600lt",
     "imageUrl": "/images/mclaren_600lt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_600LT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_600lt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren 600lt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_600lt"
   },
   {
     "id": "mclaren_650s",
-    "brand": "McLaren",
-    "model": "650S",
-    "fullName": "McLaren 650S",
+    "brand": "Mclaren",
+    "model": "650s",
+    "fullName": "Mclaren 650s",
     "imageUrl": "/images/mclaren_650s.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_650S"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_650s",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren 650s image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_650s"
   },
   {
     "id": "mclaren_675lt",
-    "brand": "McLaren",
-    "model": "650S",
-    "fullName": "McLaren 650S",
+    "brand": "Mclaren",
+    "model": "675lt",
+    "fullName": "Mclaren 675lt",
     "imageUrl": "/images/mclaren_675lt.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_675LT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_675lt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren 675lt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_675lt"
+  },
+  {
+    "id": "mclaren_720s",
+    "brand": "Mclaren",
+    "model": "720s",
+    "fullName": "Mclaren 720s",
+    "imageUrl": "/images/mclaren_720s.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_720s",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren 720s image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_720s"
   },
   {
     "id": "mclaren_765lt",
-    "brand": "McLaren",
-    "model": "720S",
-    "fullName": "McLaren 720S",
+    "brand": "Mclaren",
+    "model": "765lt",
+    "fullName": "Mclaren 765lt",
     "imageUrl": "/images/mclaren_765lt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_765LT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_765lt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren 765lt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_765lt"
   },
   {
     "id": "mclaren_artura",
-    "brand": "McLaren",
+    "brand": "Mclaren",
     "model": "Artura",
-    "fullName": "McLaren Artura",
+    "fullName": "Mclaren Artura",
     "imageUrl": "/images/mclaren_artura.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_Artura"
-  },
-  {
-    "id": "mclaren_gt",
-    "brand": "McLaren",
-    "model": "GT",
-    "fullName": "McLaren GT",
-    "imageUrl": "/images/mclaren_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_GT"
-  },
-  {
-    "id": "mclaren_mp4_12c",
-    "brand": "McLaren",
-    "model": "12C",
-    "fullName": "McLaren 12C",
-    "imageUrl": "/images/mclaren_mp4_12c.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_MP4-12C"
-  },
-  {
-    "id": "mclaren_speedtail",
-    "brand": "McLaren",
-    "model": "Speedtail",
-    "fullName": "McLaren Speedtail",
-    "imageUrl": "/images/mclaren_speedtail.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_Speedtail"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_Artura",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren Artura image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_Artura"
   },
   {
     "id": "mclaren_elva",
-    "brand": "McLaren",
+    "brand": "Mclaren",
     "model": "Elva",
-    "fullName": "McLaren Elva",
+    "fullName": "Mclaren Elva",
     "imageUrl": "/images/mclaren_elva.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/McLaren_Elva"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_Elva",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren Elva image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_Elva"
+  },
+  {
+    "id": "mclaren_f1",
+    "brand": "Mclaren",
+    "model": "F1",
+    "fullName": "Mclaren F1",
+    "imageUrl": "/images/mclaren_f1.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_F1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren F1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_F1"
+  },
+  {
+    "id": "mclaren_gt",
+    "brand": "Mclaren",
+    "model": "Gt",
+    "fullName": "Mclaren Gt",
+    "imageUrl": "/images/mclaren_gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_Gt"
+  },
+  {
+    "id": "mclaren_mp4_12c",
+    "brand": "Mclaren",
+    "model": "Mp4 12c",
+    "fullName": "Mclaren Mp4 12c",
+    "imageUrl": "/images/mclaren_mp4_12c.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_Mp4_12c",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren Mp4 12c image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_Mp4_12c"
+  },
+  {
+    "id": "mclaren_p1",
+    "brand": "Mclaren",
+    "model": "P1",
+    "fullName": "Mclaren P1",
+    "imageUrl": "/images/mclaren_p1.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_P1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren P1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_P1"
+  },
+  {
+    "id": "mclaren_senna",
+    "brand": "Mclaren",
+    "model": "Senna",
+    "fullName": "Mclaren Senna",
+    "imageUrl": "/images/mclaren_senna.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_Senna",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren Senna image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_Senna"
+  },
+  {
+    "id": "mclaren_speedtail",
+    "brand": "Mclaren",
+    "model": "Speedtail",
+    "fullName": "Mclaren Speedtail",
+    "imageUrl": "/images/mclaren_speedtail.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mclaren_Speedtail",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mclaren Speedtail image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mclaren_Speedtail"
   },
   {
     "id": "mercedes_benz_a_class",
     "brand": "Mercedes-Benz",
-    "model": "A-Class",
-    "fullName": "Mercedes-Benz A-Class",
+    "model": "Benz A Class",
+    "fullName": "Mercedes-Benz Benz A Class",
     "imageUrl": "/images/mercedes_benz_a_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_A-Class"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_A_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz A Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_A_Class"
+  },
+  {
+    "id": "mercedes_benz_amg_gt",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Amg Gt",
+    "fullName": "Mercedes-Benz Benz Amg Gt",
+    "imageUrl": "/images/mercedes_benz_amg_gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Amg_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Amg Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Amg_Gt"
   },
   {
     "id": "mercedes_benz_b_class",
     "brand": "Mercedes-Benz",
-    "model": "B-Class",
-    "fullName": "Mercedes-Benz B-Class",
+    "model": "Benz B Class",
+    "fullName": "Mercedes-Benz Benz B Class",
     "imageUrl": "/images/mercedes_benz_b_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_B-Class"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_B_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz B Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_B_Class"
+  },
+  {
+    "id": "mercedes_benz_c_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz C Class",
+    "fullName": "Mercedes-Benz Benz C Class",
+    "imageUrl": "/images/mercedes_benz_c_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_C_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz C Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_C_Class"
   },
   {
     "id": "mercedes_benz_cla_class",
     "brand": "Mercedes-Benz",
-    "model": "CLA",
-    "fullName": "Mercedes-Benz CLA",
+    "model": "Benz Cla Class",
+    "fullName": "Mercedes-Benz Benz Cla Class",
     "imageUrl": "/images/mercedes_benz_cla_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLA-Class"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Cla_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Cla Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Cla_Class"
   },
   {
     "id": "mercedes_benz_cls_class",
     "brand": "Mercedes-Benz",
-    "model": "CLS",
-    "fullName": "Mercedes-Benz CLS",
+    "model": "Benz Cls Class",
+    "fullName": "Mercedes-Benz Benz Cls Class",
     "imageUrl": "/images/mercedes_benz_cls_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_CLS-Class"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Cls_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Cls Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Cls_Class"
   },
   {
-    "id": "mercedes_benz_glb_class",
+    "id": "mercedes_benz_e_class",
     "brand": "Mercedes-Benz",
-    "model": "GLB",
-    "fullName": "Mercedes-Benz GLB",
-    "imageUrl": "/images/mercedes_benz_glb_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLB-Class"
-  },
-  {
-    "id": "mercedes_benz_gle_class",
-    "brand": "Mercedes-Benz",
-    "model": "GLE",
-    "fullName": "Mercedes-Benz GLE",
-    "imageUrl": "/images/mercedes_benz_gle_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLE-Class"
-  },
-  {
-    "id": "mercedes_benz_gls_class",
-    "brand": "Mercedes-Benz",
-    "model": "GLS",
-    "fullName": "Mercedes-Benz GLS",
-    "imageUrl": "/images/mercedes_benz_gls_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_GLS-Class"
-  },
-  {
-    "id": "mercedes_benz_slc_class",
-    "brand": "Mercedes-Benz",
-    "model": "SLC-Class",
-    "fullName": "Mercedes-Benz SLC-Class",
-    "imageUrl": "/images/mercedes_benz_slc_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLC-Class"
-  },
-  {
-    "id": "mercedes_benz_slk_class",
-    "brand": "Mercedes-Benz",
-    "model": "SLK-Class",
-    "fullName": "Mercedes-Benz SLK-Class",
-    "imageUrl": "/images/mercedes_benz_slk_class.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLK-Class"
-  },
-  {
-    "id": "mercedes_benz_slr_mclaren",
-    "brand": "Mercedes-Benz",
-    "model": "SLR McLaren",
-    "fullName": "Mercedes-Benz SLR McLaren",
-    "imageUrl": "/images/mercedes_benz_slr_mclaren.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_SLR_McLaren"
-  },
-  {
-    "id": "mercedes_benz_sprinter",
-    "brand": "Mercedes-Benz",
-    "model": "Sprinter",
-    "fullName": "Mercedes-Benz Sprinter",
-    "imageUrl": "/images/mercedes_benz_sprinter.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Sprinter"
-  },
-  {
-    "id": "mercedes_benz_vito",
-    "brand": "Mercedes-Benz",
-    "model": "Vito",
-    "fullName": "Mercedes-Benz Vito",
-    "imageUrl": "/images/mercedes_benz_vito.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Vito"
-  },
-  {
-    "id": "mercedes_benz_amg_gt",
-    "brand": "Mercedes-AMG",
-    "model": "GT",
-    "fullName": "Mercedes-AMG GT",
-    "imageUrl": "/images/mercedes_benz_amg_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_AMG_GT"
-  },
-  {
-    "id": "mercedes_benz_eqc",
-    "brand": "Mercedes-Benz",
-    "model": "EQC",
-    "fullName": "Mercedes-Benz EQC",
-    "imageUrl": "/images/mercedes_benz_eqc.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQC"
-  },
-  {
-    "id": "mercedes_benz_eqs",
-    "brand": "Mercedes-Benz",
-    "model": "EQS",
-    "fullName": "Mercedes-Benz EQS",
-    "imageUrl": "/images/mercedes_benz_eqs.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQS"
+    "model": "Benz E Class",
+    "fullName": "Mercedes-Benz Benz E Class",
+    "imageUrl": "/images/mercedes_benz_e_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_E_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz E Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_E_Class"
   },
   {
     "id": "mercedes_benz_eqa",
     "brand": "Mercedes-Benz",
-    "model": "EQA",
-    "fullName": "Mercedes-Benz EQA",
+    "model": "Benz Eqa",
+    "fullName": "Mercedes-Benz Benz Eqa",
     "imageUrl": "/images/mercedes_benz_eqa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQA"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Eqa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqa"
   },
   {
     "id": "mercedes_benz_eqb",
     "brand": "Mercedes-Benz",
-    "model": "EQB",
-    "fullName": "Mercedes-Benz EQB",
+    "model": "Benz Eqb",
+    "fullName": "Mercedes-Benz Benz Eqb",
     "imageUrl": "/images/mercedes_benz_eqb.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQB"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqb",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Eqb image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqb"
+  },
+  {
+    "id": "mercedes_benz_eqc",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Eqc",
+    "fullName": "Mercedes-Benz Benz Eqc",
+    "imageUrl": "/images/mercedes_benz_eqc.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqc",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Eqc image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqc"
   },
   {
     "id": "mercedes_benz_eqe",
     "brand": "Mercedes-Benz",
-    "model": "EQE",
-    "fullName": "Mercedes-Benz EQE",
+    "model": "Benz Eqe",
+    "fullName": "Mercedes-Benz Benz Eqe",
     "imageUrl": "/images/mercedes_benz_eqe.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_EQE"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqe",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Eqe image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqe"
+  },
+  {
+    "id": "mercedes_benz_eqs",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Eqs",
+    "fullName": "Mercedes-Benz Benz Eqs",
+    "imageUrl": "/images/mercedes_benz_eqs.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqs",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Eqs image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Eqs"
+  },
+  {
+    "id": "mercedes_benz_g_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz G Class",
+    "fullName": "Mercedes-Benz Benz G Class",
+    "imageUrl": "/images/mercedes_benz_g_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_G_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz G Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_G_Class"
+  },
+  {
+    "id": "mercedes_benz_gla_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Gla Class",
+    "fullName": "Mercedes-Benz Benz Gla Class",
+    "imageUrl": "/images/mercedes_benz_gla_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Gla_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Gla Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Gla_Class"
+  },
+  {
+    "id": "mercedes_benz_glb_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Glb Class",
+    "fullName": "Mercedes-Benz Benz Glb Class",
+    "imageUrl": "/images/mercedes_benz_glb_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Glb_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Glb Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Glb_Class"
+  },
+  {
+    "id": "mercedes_benz_glc_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Glc Class",
+    "fullName": "Mercedes-Benz Benz Glc Class",
+    "imageUrl": "/images/mercedes_benz_glc_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Glc_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Glc Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Glc_Class"
+  },
+  {
+    "id": "mercedes_benz_gle_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Gle Class",
+    "fullName": "Mercedes-Benz Benz Gle Class",
+    "imageUrl": "/images/mercedes_benz_gle_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Gle_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Gle Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Gle_Class"
+  },
+  {
+    "id": "mercedes_benz_gls_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Gls Class",
+    "fullName": "Mercedes-Benz Benz Gls Class",
+    "imageUrl": "/images/mercedes_benz_gls_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Gls_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Gls Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Gls_Class"
+  },
+  {
+    "id": "mercedes_benz_s_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz S Class",
+    "fullName": "Mercedes-Benz Benz S Class",
+    "imageUrl": "/images/mercedes_benz_s_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_S_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz S Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_S_Class"
+  },
+  {
+    "id": "mercedes_benz_sl_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Sl Class",
+    "fullName": "Mercedes-Benz Benz Sl Class",
+    "imageUrl": "/images/mercedes_benz_sl_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Sl_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Sl Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Sl_Class"
+  },
+  {
+    "id": "mercedes_benz_slc_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Slc Class",
+    "fullName": "Mercedes-Benz Benz Slc Class",
+    "imageUrl": "/images/mercedes_benz_slc_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Slc_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Slc Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Slc_Class"
+  },
+  {
+    "id": "mercedes_benz_slk_class",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Slk Class",
+    "fullName": "Mercedes-Benz Benz Slk Class",
+    "imageUrl": "/images/mercedes_benz_slk_class.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Slk_Class",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Slk Class image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Slk_Class"
+  },
+  {
+    "id": "mercedes_benz_slr_mclaren",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Slr Mclaren",
+    "fullName": "Mercedes-Benz Benz Slr Mclaren",
+    "imageUrl": "/images/mercedes_benz_slr_mclaren.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Slr_Mclaren",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Slr Mclaren image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Slr_Mclaren"
+  },
+  {
+    "id": "mercedes_benz_sls_amg",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Sls Amg",
+    "fullName": "Mercedes-Benz Benz Sls Amg",
+    "imageUrl": "/images/mercedes_benz_sls_amg.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Sls_Amg",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Sls Amg image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Sls_Amg"
+  },
+  {
+    "id": "mercedes_benz_sprinter",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Sprinter",
+    "fullName": "Mercedes-Benz Benz Sprinter",
+    "imageUrl": "/images/mercedes_benz_sprinter.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Sprinter",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Sprinter image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Sprinter"
+  },
+  {
+    "id": "mercedes_benz_vito",
+    "brand": "Mercedes-Benz",
+    "model": "Benz Vito",
+    "fullName": "Mercedes-Benz Benz Vito",
+    "imageUrl": "/images/mercedes_benz_vito.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Vito",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mercedes-Benz Benz Vito image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mercedes-Benz_Benz_Vito"
+  },
+  {
+    "id": "mini_convertible",
+    "brand": "Mini",
+    "model": "Convertible",
+    "fullName": "Mini Convertible",
+    "imageUrl": "/images/mini_convertible.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Convertible",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini Convertible image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_Convertible"
+  },
+  {
+    "id": "mini_cooper",
+    "brand": "Mini",
+    "model": "Cooper",
+    "fullName": "Mini Cooper",
+    "imageUrl": "/images/mini_cooper.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Cooper",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini Cooper image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_Cooper"
   },
   {
     "id": "mini_cooper_s",
     "brand": "Mini",
-    "model": "Mini",
-    "fullName": "Mini",
+    "model": "Cooper S",
+    "fullName": "Mini Cooper S",
     "imageUrl": "/images/mini_cooper_s.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Cooper_S"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Cooper_S",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini Cooper S image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_Cooper_S"
   },
   {
     "id": "mini_countryman",
@@ -5687,47 +7699,23 @@ export const cars: Car[] = [
     "model": "Countryman",
     "fullName": "Mini Countryman",
     "imageUrl": "/images/mini_countryman.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Countryman"
-  },
-  {
-    "id": "mini_paceman",
-    "brand": "Mini",
-    "model": "Paceman",
-    "fullName": "Mini Paceman",
-    "imageUrl": "/images/mini_paceman.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Paceman"
-  },
-  {
-    "id": "mini_roadster",
-    "brand": "Mini",
-    "model": "Coupé and Roadster",
-    "fullName": "Mini Coupé and Roadster",
-    "imageUrl": "/images/mini_roadster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Roadster"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Countryman",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini Countryman image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_Countryman"
   },
   {
     "id": "mini_coupe",
     "brand": "Mini",
-    "model": "Coupé and Roadster",
-    "fullName": "Mini Coupé and Roadster",
+    "model": "Coupe",
+    "fullName": "Mini Coupe",
     "imageUrl": "/images/mini_coupe.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Coupe"
-  },
-  {
-    "id": "mini_convertible",
-    "brand": "Mini",
-    "model": "Mini",
-    "fullName": "Mini",
-    "imageUrl": "/images/mini_convertible.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Convertible"
-  },
-  {
-    "id": "mini_john_cooper_works",
-    "brand": "Mini",
-    "model": "Hatch",
-    "fullName": "Mini Hatch",
-    "imageUrl": "/images/mini_john_cooper_works.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_John_Cooper_Works"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Coupe",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini Coupe image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_Coupe"
   },
   {
     "id": "mini_electric",
@@ -5735,95 +7723,71 @@ export const cars: Car[] = [
     "model": "Electric",
     "fullName": "Mini Electric",
     "imageUrl": "/images/mini_electric.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Electric"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Electric",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini Electric image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_Electric"
+  },
+  {
+    "id": "mini_john_cooper_works",
+    "brand": "Mini",
+    "model": "John Cooper Works",
+    "fullName": "Mini John Cooper Works",
+    "imageUrl": "/images/mini_john_cooper_works.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_John_Cooper_Works",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini John Cooper Works image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_John_Cooper_Works"
+  },
+  {
+    "id": "mini_paceman",
+    "brand": "Mini",
+    "model": "Paceman",
+    "fullName": "Mini Paceman",
+    "imageUrl": "/images/mini_paceman.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Paceman",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini Paceman image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_Paceman"
+  },
+  {
+    "id": "mini_roadster",
+    "brand": "Mini",
+    "model": "Roadster",
+    "fullName": "Mini Roadster",
+    "imageUrl": "/images/mini_roadster.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mini_Roadster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mini Roadster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mini_Roadster"
   },
   {
     "id": "mitsubishi_3000gt",
     "brand": "Mitsubishi",
-    "model": "3000GT",
-    "fullName": "Mitsubishi 3000GT",
+    "model": "3000gt",
+    "fullName": "Mitsubishi 3000gt",
     "imageUrl": "/images/mitsubishi_3000gt.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_3000GT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_3000gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi 3000gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_3000gt"
   },
   {
     "id": "mitsubishi_asx",
     "brand": "Mitsubishi",
-    "model": "ASX",
-    "fullName": "Mitsubishi ASX",
+    "model": "Asx",
+    "fullName": "Mitsubishi Asx",
     "imageUrl": "/images/mitsubishi_asx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_ASX"
-  },
-  {
-    "id": "mitsubishi_diamante",
-    "brand": "Mitsubishi",
-    "model": "Diamante",
-    "fullName": "Mitsubishi Diamante",
-    "imageUrl": "/images/mitsubishi_diamante.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Diamante"
-  },
-  {
-    "id": "mitsubishi_galant",
-    "brand": "Mitsubishi",
-    "model": "Galant",
-    "fullName": "Mitsubishi Galant",
-    "imageUrl": "/images/mitsubishi_galant.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Galant"
-  },
-  {
-    "id": "mitsubishi_lancer",
-    "brand": "Mitsubishi",
-    "model": "Lancer",
-    "fullName": "Mitsubishi Lancer",
-    "imageUrl": "/images/mitsubishi_lancer.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Lancer"
-  },
-  {
-    "id": "mitsubishi_mirage",
-    "brand": "Mitsubishi",
-    "model": "Mirage",
-    "fullName": "Mitsubishi Mirage",
-    "imageUrl": "/images/mitsubishi_mirage.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Mirage"
-  },
-  {
-    "id": "mitsubishi_montero",
-    "brand": "Mitsubishi",
-    "model": "Pajero",
-    "fullName": "Mitsubishi Pajero",
-    "imageUrl": "/images/mitsubishi_montero.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Montero"
-  },
-  {
-    "id": "mitsubishi_pajero",
-    "brand": "Mitsubishi",
-    "model": "Pajero",
-    "fullName": "Mitsubishi Pajero",
-    "imageUrl": "/images/mitsubishi_pajero.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero"
-  },
-  {
-    "id": "mitsubishi_starion",
-    "brand": "Mitsubishi",
-    "model": "Starion",
-    "fullName": "Mitsubishi Starion",
-    "imageUrl": "/images/mitsubishi_starion.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Starion"
-  },
-  {
-    "id": "mitsubishi_i_miev",
-    "brand": "Mitsubishi",
-    "model": "i-MiEV",
-    "fullName": "Mitsubishi i-MiEV",
-    "imageUrl": "/images/mitsubishi_i_miev.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_i-MiEV"
-  },
-  {
-    "id": "mitsubishi_colt",
-    "brand": "Mitsubishi",
-    "model": "Colt",
-    "fullName": "Mitsubishi Colt",
-    "imageUrl": "/images/mitsubishi_colt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Colt"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Asx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Asx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Asx"
   },
   {
     "id": "mitsubishi_carisma",
@@ -5831,15 +7795,59 @@ export const cars: Car[] = [
     "model": "Carisma",
     "fullName": "Mitsubishi Carisma",
     "imageUrl": "/images/mitsubishi_carisma.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Carisma"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Carisma",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Carisma image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Carisma"
   },
   {
-    "id": "mitsubishi_space_star",
+    "id": "mitsubishi_colt",
     "brand": "Mitsubishi",
-    "model": "Space Star",
-    "fullName": "Mitsubishi Space Star",
-    "imageUrl": "/images/mitsubishi_space_star.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Space_Star"
+    "model": "Colt",
+    "fullName": "Mitsubishi Colt",
+    "imageUrl": "/images/mitsubishi_colt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Colt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Colt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Colt"
+  },
+  {
+    "id": "mitsubishi_diamante",
+    "brand": "Mitsubishi",
+    "model": "Diamante",
+    "fullName": "Mitsubishi Diamante",
+    "imageUrl": "/images/mitsubishi_diamante.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Diamante",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Diamante image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Diamante"
+  },
+  {
+    "id": "mitsubishi_eclipse",
+    "brand": "Mitsubishi",
+    "model": "Eclipse",
+    "fullName": "Mitsubishi Eclipse",
+    "imageUrl": "/images/mitsubishi_eclipse.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Eclipse",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Eclipse image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Eclipse"
+  },
+  {
+    "id": "mitsubishi_galant",
+    "brand": "Mitsubishi",
+    "model": "Galant",
+    "fullName": "Mitsubishi Galant",
+    "imageUrl": "/images/mitsubishi_galant.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Galant",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Galant image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Galant"
   },
   {
     "id": "mitsubishi_grandis",
@@ -5847,183 +7855,167 @@ export const cars: Car[] = [
     "model": "Grandis",
     "fullName": "Mitsubishi Grandis",
     "imageUrl": "/images/mitsubishi_grandis.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Grandis"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Grandis",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Grandis image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Grandis"
   },
   {
-    "id": "nissan_370z",
-    "brand": "Nissan",
-    "model": "370Z",
-    "fullName": "Nissan 370Z",
-    "imageUrl": "/images/nissan_370z.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_370Z"
+    "id": "mitsubishi_i_miev",
+    "brand": "Mitsubishi",
+    "model": "I Miev",
+    "fullName": "Mitsubishi I Miev",
+    "imageUrl": "/images/mitsubishi_i_miev.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_I_Miev",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi I Miev image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_I_Miev"
   },
   {
-    "id": "nissan_armada",
-    "brand": "Nissan",
-    "model": "Armada",
-    "fullName": "Nissan Armada",
-    "imageUrl": "/images/nissan_armada.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Armada"
+    "id": "mitsubishi_lancer",
+    "brand": "Mitsubishi",
+    "model": "Lancer",
+    "fullName": "Mitsubishi Lancer",
+    "imageUrl": "/images/mitsubishi_lancer.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Lancer",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Lancer image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Lancer"
   },
   {
-    "id": "nissan_cube",
-    "brand": "Nissan",
-    "model": "Cube",
-    "fullName": "Nissan Cube",
-    "imageUrl": "/images/nissan_cube.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Cube"
+    "id": "mitsubishi_lancer_evolution",
+    "brand": "Mitsubishi",
+    "model": "Lancer Evolution",
+    "fullName": "Mitsubishi Lancer Evolution",
+    "imageUrl": "/images/mitsubishi_lancer_evolution.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Lancer Evolution image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Lancer_Evolution"
   },
   {
-    "id": "nissan_frontier",
-    "brand": "Nissan",
-    "model": "Frontier",
-    "fullName": "Nissan Frontier",
-    "imageUrl": "/images/nissan_frontier.png",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Frontier"
+    "id": "mitsubishi_mirage",
+    "brand": "Mitsubishi",
+    "model": "Mirage",
+    "fullName": "Mitsubishi Mirage",
+    "imageUrl": "/images/mitsubishi_mirage.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Mirage",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Mirage image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Mirage"
   },
   {
-    "id": "nissan_juke",
-    "brand": "Nissan",
-    "model": "Juke",
-    "fullName": "Nissan Juke",
-    "imageUrl": "/images/nissan_juke.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Juke"
+    "id": "mitsubishi_montero",
+    "brand": "Mitsubishi",
+    "model": "Montero",
+    "fullName": "Mitsubishi Montero",
+    "imageUrl": "/images/mitsubishi_montero.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Montero",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Montero image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Montero"
   },
   {
-    "id": "nissan_leaf",
-    "brand": "Nissan",
-    "model": "Leaf",
-    "fullName": "Nissan Leaf",
-    "imageUrl": "/images/nissan_leaf.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Leaf"
+    "id": "mitsubishi_outlander",
+    "brand": "Mitsubishi",
+    "model": "Outlander",
+    "fullName": "Mitsubishi Outlander",
+    "imageUrl": "/images/mitsubishi_outlander.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Outlander",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Outlander image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Outlander"
   },
   {
-    "id": "nissan_maxima",
-    "brand": "Nissan",
-    "model": "Maxima",
-    "fullName": "Nissan Maxima",
-    "imageUrl": "/images/nissan_maxima.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Maxima"
+    "id": "mitsubishi_pajero",
+    "brand": "Mitsubishi",
+    "model": "Pajero",
+    "fullName": "Mitsubishi Pajero",
+    "imageUrl": "/images/mitsubishi_pajero.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Pajero image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Pajero"
   },
   {
-    "id": "nissan_murano",
-    "brand": "Nissan",
-    "model": "Murano",
-    "fullName": "Nissan Murano",
-    "imageUrl": "/images/nissan_murano.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Murano"
+    "id": "mitsubishi_space_star",
+    "brand": "Mitsubishi",
+    "model": "Space Star",
+    "fullName": "Mitsubishi Space Star",
+    "imageUrl": "/images/mitsubishi_space_star.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Space_Star",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Space Star image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Space_Star"
   },
   {
-    "id": "nissan_pathfinder",
-    "brand": "Nissan",
-    "model": "Pathfinder",
-    "fullName": "Nissan Pathfinder",
-    "imageUrl": "/images/nissan_pathfinder.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Pathfinder"
-  },
-  {
-    "id": "nissan_patrol",
-    "brand": "Nissan",
-    "model": "Patrol",
-    "fullName": "Nissan Patrol",
-    "imageUrl": "/images/nissan_patrol.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Patrol"
-  },
-  {
-    "id": "nissan_pulsar",
-    "brand": "Nissan",
-    "model": "Pulsar",
-    "fullName": "Nissan Pulsar",
-    "imageUrl": "/images/nissan_pulsar.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Pulsar"
-  },
-  {
-    "id": "nissan_qashqai",
-    "brand": "Nissan",
-    "model": "Qashqai",
-    "fullName": "Nissan Qashqai",
-    "imageUrl": "/images/nissan_qashqai.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Qashqai"
-  },
-  {
-    "id": "nissan_quest",
-    "brand": "Nissan",
-    "model": "Quest",
-    "fullName": "Nissan Quest",
-    "imageUrl": "/images/nissan_quest.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Quest"
-  },
-  {
-    "id": "nissan_sunny",
-    "brand": "Nissan",
-    "model": "Sunny",
-    "fullName": "Nissan Sunny",
-    "imageUrl": "/images/nissan_sunny.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Sunny"
-  },
-  {
-    "id": "nissan_teana",
-    "brand": "Nissan",
-    "model": "Teana",
-    "fullName": "Nissan Teana",
-    "imageUrl": "/images/nissan_teana.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Teana"
-  },
-  {
-    "id": "nissan_versa",
-    "brand": "Nissan",
-    "model": "Versa",
-    "fullName": "Nissan Versa",
-    "imageUrl": "/images/nissan_versa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Versa"
-  },
-  {
-    "id": "nissan_x_trail",
-    "brand": "Nissan",
-    "model": "X-Trail",
-    "fullName": "Nissan X-Trail",
-    "imageUrl": "/images/nissan_x_trail.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_X-Trail"
-  },
-  {
-    "id": "nissan_xterra",
-    "brand": "Nissan",
-    "model": "Xterra",
-    "fullName": "Nissan Xterra",
-    "imageUrl": "/images/nissan_xterra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Xterra"
+    "id": "mitsubishi_starion",
+    "brand": "Mitsubishi",
+    "model": "Starion",
+    "fullName": "Mitsubishi Starion",
+    "imageUrl": "/images/mitsubishi_starion.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Mitsubishi_Starion",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Mitsubishi Starion image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Mitsubishi_Starion"
   },
   {
     "id": "nissan_240sx",
     "brand": "Nissan",
-    "model": "240SX",
-    "fullName": "Nissan 240SX",
+    "model": "240sx",
+    "fullName": "Nissan 240sx",
     "imageUrl": "/images/nissan_240sx.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_240SX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_240sx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan 240sx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_240sx"
   },
   {
     "id": "nissan_300zx",
     "brand": "Nissan",
-    "model": "300ZX",
-    "fullName": "Nissan 300ZX",
+    "model": "300zx",
+    "fullName": "Nissan 300zx",
     "imageUrl": "/images/nissan_300zx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_300ZX"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_300zx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan 300zx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_300zx"
   },
   {
-    "id": "nissan_silvia",
+    "id": "nissan_350z",
     "brand": "Nissan",
-    "model": "Silvia",
-    "fullName": "Nissan Silvia",
-    "imageUrl": "/images/nissan_silvia.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Silvia"
+    "model": "350z",
+    "fullName": "Nissan 350z",
+    "imageUrl": "/images/nissan_350z.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_350z",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan 350z image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_350z"
   },
   {
-    "id": "nissan_primera",
+    "id": "nissan_370z",
     "brand": "Nissan",
-    "model": "Primera",
-    "fullName": "Nissan Primera",
-    "imageUrl": "/images/nissan_primera.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Primera"
+    "model": "370z",
+    "fullName": "Nissan 370z",
+    "imageUrl": "/images/nissan_370z.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_370z",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan 370z image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_370z"
   },
   {
     "id": "nissan_almera",
@@ -6031,39 +8023,23 @@ export const cars: Car[] = [
     "model": "Almera",
     "fullName": "Nissan Almera",
     "imageUrl": "/images/nissan_almera.png",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Almera"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Almera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Almera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Almera"
   },
   {
-    "id": "nissan_micra",
+    "id": "nissan_altima",
     "brand": "Nissan",
-    "model": "Micra",
-    "fullName": "Nissan Micra",
-    "imageUrl": "/images/nissan_micra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Micra"
-  },
-  {
-    "id": "nissan_note",
-    "brand": "Nissan",
-    "model": "Note",
-    "fullName": "Nissan Note",
-    "imageUrl": "/images/nissan_note.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Note"
-  },
-  {
-    "id": "nissan_tiida",
-    "brand": "Nissan",
-    "model": "Tiida",
-    "fullName": "Nissan Tiida",
-    "imageUrl": "/images/nissan_tiida.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Tiida"
-  },
-  {
-    "id": "nissan_kicks",
-    "brand": "Nissan",
-    "model": "Kicks",
-    "fullName": "Nissan Kicks",
-    "imageUrl": "/images/nissan_kicks.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Kicks"
+    "model": "Altima",
+    "fullName": "Nissan Altima",
+    "imageUrl": "/images/nissan_altima.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Altima",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Altima image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Altima"
   },
   {
     "id": "nissan_ariya",
@@ -6071,7 +8047,347 @@ export const cars: Car[] = [
     "model": "Ariya",
     "fullName": "Nissan Ariya",
     "imageUrl": "/images/nissan_ariya.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Ariya"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Ariya",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Ariya image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Ariya"
+  },
+  {
+    "id": "nissan_armada",
+    "brand": "Nissan",
+    "model": "Armada",
+    "fullName": "Nissan Armada",
+    "imageUrl": "/images/nissan_armada.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Armada",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Armada image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Armada"
+  },
+  {
+    "id": "nissan_cube",
+    "brand": "Nissan",
+    "model": "Cube",
+    "fullName": "Nissan Cube",
+    "imageUrl": "/images/nissan_cube.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Cube",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Cube image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Cube"
+  },
+  {
+    "id": "nissan_frontier",
+    "brand": "Nissan",
+    "model": "Frontier",
+    "fullName": "Nissan Frontier",
+    "imageUrl": "/images/nissan_frontier.png",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Frontier",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Frontier image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Frontier"
+  },
+  {
+    "id": "nissan_gt_r",
+    "brand": "Nissan",
+    "model": "Gt R",
+    "fullName": "Nissan Gt R",
+    "imageUrl": "/images/nissan_gt_r.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Gt_R",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Gt R image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Gt_R"
+  },
+  {
+    "id": "nissan_juke",
+    "brand": "Nissan",
+    "model": "Juke",
+    "fullName": "Nissan Juke",
+    "imageUrl": "/images/nissan_juke.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Juke",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Juke image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Juke"
+  },
+  {
+    "id": "nissan_kicks",
+    "brand": "Nissan",
+    "model": "Kicks",
+    "fullName": "Nissan Kicks",
+    "imageUrl": "/images/nissan_kicks.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Kicks",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Kicks image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Kicks"
+  },
+  {
+    "id": "nissan_leaf",
+    "brand": "Nissan",
+    "model": "Leaf",
+    "fullName": "Nissan Leaf",
+    "imageUrl": "/images/nissan_leaf.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Leaf",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Leaf image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Leaf"
+  },
+  {
+    "id": "nissan_maxima",
+    "brand": "Nissan",
+    "model": "Maxima",
+    "fullName": "Nissan Maxima",
+    "imageUrl": "/images/nissan_maxima.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Maxima",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Maxima image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Maxima"
+  },
+  {
+    "id": "nissan_micra",
+    "brand": "Nissan",
+    "model": "Micra",
+    "fullName": "Nissan Micra",
+    "imageUrl": "/images/nissan_micra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Micra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Micra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Micra"
+  },
+  {
+    "id": "nissan_murano",
+    "brand": "Nissan",
+    "model": "Murano",
+    "fullName": "Nissan Murano",
+    "imageUrl": "/images/nissan_murano.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Murano",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Murano image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Murano"
+  },
+  {
+    "id": "nissan_note",
+    "brand": "Nissan",
+    "model": "Note",
+    "fullName": "Nissan Note",
+    "imageUrl": "/images/nissan_note.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Note",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Note image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Note"
+  },
+  {
+    "id": "nissan_pathfinder",
+    "brand": "Nissan",
+    "model": "Pathfinder",
+    "fullName": "Nissan Pathfinder",
+    "imageUrl": "/images/nissan_pathfinder.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Pathfinder",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Pathfinder image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Pathfinder"
+  },
+  {
+    "id": "nissan_patrol",
+    "brand": "Nissan",
+    "model": "Patrol",
+    "fullName": "Nissan Patrol",
+    "imageUrl": "/images/nissan_patrol.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Patrol",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Patrol image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Patrol"
+  },
+  {
+    "id": "nissan_primera",
+    "brand": "Nissan",
+    "model": "Primera",
+    "fullName": "Nissan Primera",
+    "imageUrl": "/images/nissan_primera.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Primera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Primera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Primera"
+  },
+  {
+    "id": "nissan_pulsar",
+    "brand": "Nissan",
+    "model": "Pulsar",
+    "fullName": "Nissan Pulsar",
+    "imageUrl": "/images/nissan_pulsar.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Pulsar",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Pulsar image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Pulsar"
+  },
+  {
+    "id": "nissan_qashqai",
+    "brand": "Nissan",
+    "model": "Qashqai",
+    "fullName": "Nissan Qashqai",
+    "imageUrl": "/images/nissan_qashqai.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Qashqai",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Qashqai image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Qashqai"
+  },
+  {
+    "id": "nissan_quest",
+    "brand": "Nissan",
+    "model": "Quest",
+    "fullName": "Nissan Quest",
+    "imageUrl": "/images/nissan_quest.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Quest",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Quest image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Quest"
+  },
+  {
+    "id": "nissan_rogue",
+    "brand": "Nissan",
+    "model": "Rogue",
+    "fullName": "Nissan Rogue",
+    "imageUrl": "/images/nissan_rogue.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Rogue",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Rogue image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Rogue"
+  },
+  {
+    "id": "nissan_sentra",
+    "brand": "Nissan",
+    "model": "Sentra",
+    "fullName": "Nissan Sentra",
+    "imageUrl": "/images/nissan_sentra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Sentra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Sentra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Sentra"
+  },
+  {
+    "id": "nissan_silvia",
+    "brand": "Nissan",
+    "model": "Silvia",
+    "fullName": "Nissan Silvia",
+    "imageUrl": "/images/nissan_silvia.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Silvia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Silvia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Silvia"
+  },
+  {
+    "id": "nissan_skyline",
+    "brand": "Nissan",
+    "model": "Skyline",
+    "fullName": "Nissan Skyline",
+    "imageUrl": "/images/nissan_skyline.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Skyline",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Skyline image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Skyline"
+  },
+  {
+    "id": "nissan_sunny",
+    "brand": "Nissan",
+    "model": "Sunny",
+    "fullName": "Nissan Sunny",
+    "imageUrl": "/images/nissan_sunny.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Sunny",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Sunny image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Sunny"
+  },
+  {
+    "id": "nissan_teana",
+    "brand": "Nissan",
+    "model": "Teana",
+    "fullName": "Nissan Teana",
+    "imageUrl": "/images/nissan_teana.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Teana",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Teana image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Teana"
+  },
+  {
+    "id": "nissan_tiida",
+    "brand": "Nissan",
+    "model": "Tiida",
+    "fullName": "Nissan Tiida",
+    "imageUrl": "/images/nissan_tiida.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Tiida",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Tiida image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Tiida"
+  },
+  {
+    "id": "nissan_titan",
+    "brand": "Nissan",
+    "model": "Titan",
+    "fullName": "Nissan Titan",
+    "imageUrl": "/images/nissan_titan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Titan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Titan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Titan"
+  },
+  {
+    "id": "nissan_versa",
+    "brand": "Nissan",
+    "model": "Versa",
+    "fullName": "Nissan Versa",
+    "imageUrl": "/images/nissan_versa.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Versa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Versa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Versa"
+  },
+  {
+    "id": "nissan_x_trail",
+    "brand": "Nissan",
+    "model": "X Trail",
+    "fullName": "Nissan X Trail",
+    "imageUrl": "/images/nissan_x_trail.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_X_Trail",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan X Trail image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_X_Trail"
+  },
+  {
+    "id": "nissan_xterra",
+    "brand": "Nissan",
+    "model": "Xterra",
+    "fullName": "Nissan Xterra",
+    "imageUrl": "/images/nissan_xterra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nissan_Xterra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Nissan Xterra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Nissan_Xterra"
   },
   {
     "id": "opel_adam",
@@ -6079,151 +8395,11 @@ export const cars: Car[] = [
     "model": "Adam",
     "fullName": "Opel Adam",
     "imageUrl": "/images/opel_adam.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Adam"
-  },
-  {
-    "id": "opel_antara",
-    "brand": "Opel",
-    "model": "Antara",
-    "fullName": "Opel Antara",
-    "imageUrl": "/images/opel_antara.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Antara"
-  },
-  {
-    "id": "opel_calibra",
-    "brand": "Opel",
-    "model": "Calibra",
-    "fullName": "Opel Calibra",
-    "imageUrl": "/images/opel_calibra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Calibra"
-  },
-  {
-    "id": "opel_combo",
-    "brand": "Opel",
-    "model": "Combo",
-    "fullName": "Opel Combo",
-    "imageUrl": "/images/opel_combo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Combo"
-  },
-  {
-    "id": "opel_crossland",
-    "brand": "Opel",
-    "model": "Crossland",
-    "fullName": "Opel Crossland",
-    "imageUrl": "/images/opel_crossland.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Crossland"
-  },
-  {
-    "id": "opel_grandland",
-    "brand": "Opel",
-    "model": "Grandland",
-    "fullName": "Opel Grandland",
-    "imageUrl": "/images/opel_grandland.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Grandland"
-  },
-  {
-    "id": "opel_insignia",
-    "brand": "Opel",
-    "model": "Insignia",
-    "fullName": "Opel Insignia",
-    "imageUrl": "/images/opel_insignia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Insignia"
-  },
-  {
-    "id": "opel_karl",
-    "brand": "Opel",
-    "model": "Karl",
-    "fullName": "Opel Karl",
-    "imageUrl": "/images/opel_karl.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Karl"
-  },
-  {
-    "id": "opel_meriva",
-    "brand": "Opel",
-    "model": "Meriva",
-    "fullName": "Opel Meriva",
-    "imageUrl": "/images/opel_meriva.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Meriva"
-  },
-  {
-    "id": "opel_mokka",
-    "brand": "Opel",
-    "model": "Mokka",
-    "fullName": "Opel Mokka",
-    "imageUrl": "/images/opel_mokka.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Mokka"
-  },
-  {
-    "id": "opel_tigra",
-    "brand": "Opel",
-    "model": "Tigra",
-    "fullName": "Opel Tigra",
-    "imageUrl": "/images/opel_tigra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Tigra"
-  },
-  {
-    "id": "opel_vectra",
-    "brand": "Opel",
-    "model": "Vectra",
-    "fullName": "Opel Vectra",
-    "imageUrl": "/images/opel_vectra.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Vectra"
-  },
-  {
-    "id": "opel_vivaro",
-    "brand": "Opel",
-    "model": "Vivaro",
-    "fullName": "Opel Vivaro",
-    "imageUrl": "/images/opel_vivaro.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Vivaro"
-  },
-  {
-    "id": "opel_zafira",
-    "brand": "Opel",
-    "model": "Zafira",
-    "fullName": "Opel Zafira",
-    "imageUrl": "/images/opel_zafira.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Zafira"
-  },
-  {
-    "id": "opel_omega",
-    "brand": "Opel",
-    "model": "Omega",
-    "fullName": "Opel Omega",
-    "imageUrl": "/images/opel_omega.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Omega"
-  },
-  {
-    "id": "opel_kadett",
-    "brand": "Opel",
-    "model": "Kadett",
-    "fullName": "Opel Kadett",
-    "imageUrl": "/images/opel_kadett.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Kadett"
-  },
-  {
-    "id": "opel_manta",
-    "brand": "Opel",
-    "model": "Manta",
-    "fullName": "Opel Manta",
-    "imageUrl": "/images/opel_manta.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Manta"
-  },
-  {
-    "id": "opel_gt",
-    "brand": "Opel",
-    "model": "GT",
-    "fullName": "Opel GT",
-    "imageUrl": "/images/opel_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_GT"
-  },
-  {
-    "id": "opel_speedster",
-    "brand": "Opel",
-    "model": "Speedster",
-    "fullName": "Opel Speedster",
-    "imageUrl": "/images/opel_speedster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Speedster"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Adam",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Adam image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Adam"
   },
   {
     "id": "opel_agila",
@@ -6231,7 +8407,191 @@ export const cars: Car[] = [
     "model": "Agila",
     "fullName": "Opel Agila",
     "imageUrl": "/images/opel_agila.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Agila"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Agila",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Agila image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Agila"
+  },
+  {
+    "id": "opel_antara",
+    "brand": "Opel",
+    "model": "Antara",
+    "fullName": "Opel Antara",
+    "imageUrl": "/images/opel_antara.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Antara",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Antara image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Antara"
+  },
+  {
+    "id": "opel_astra",
+    "brand": "Opel",
+    "model": "Astra",
+    "fullName": "Opel Astra",
+    "imageUrl": "/images/opel_astra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Astra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Astra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Astra"
+  },
+  {
+    "id": "opel_calibra",
+    "brand": "Opel",
+    "model": "Calibra",
+    "fullName": "Opel Calibra",
+    "imageUrl": "/images/opel_calibra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Calibra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Calibra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Calibra"
+  },
+  {
+    "id": "opel_combo",
+    "brand": "Opel",
+    "model": "Combo",
+    "fullName": "Opel Combo",
+    "imageUrl": "/images/opel_combo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Combo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Combo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Combo"
+  },
+  {
+    "id": "opel_corsa",
+    "brand": "Opel",
+    "model": "Corsa",
+    "fullName": "Opel Corsa",
+    "imageUrl": "/images/opel_corsa.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Corsa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Corsa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Corsa"
+  },
+  {
+    "id": "opel_crossland",
+    "brand": "Opel",
+    "model": "Crossland",
+    "fullName": "Opel Crossland",
+    "imageUrl": "/images/opel_crossland.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Crossland",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Crossland image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Crossland"
+  },
+  {
+    "id": "opel_grandland",
+    "brand": "Opel",
+    "model": "Grandland",
+    "fullName": "Opel Grandland",
+    "imageUrl": "/images/opel_grandland.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Grandland",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Grandland image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Grandland"
+  },
+  {
+    "id": "opel_gt",
+    "brand": "Opel",
+    "model": "Gt",
+    "fullName": "Opel Gt",
+    "imageUrl": "/images/opel_gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Gt"
+  },
+  {
+    "id": "opel_insignia",
+    "brand": "Opel",
+    "model": "Insignia",
+    "fullName": "Opel Insignia",
+    "imageUrl": "/images/opel_insignia.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Insignia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Insignia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Insignia"
+  },
+  {
+    "id": "opel_kadett",
+    "brand": "Opel",
+    "model": "Kadett",
+    "fullName": "Opel Kadett",
+    "imageUrl": "/images/opel_kadett.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Kadett",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Kadett image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Kadett"
+  },
+  {
+    "id": "opel_karl",
+    "brand": "Opel",
+    "model": "Karl",
+    "fullName": "Opel Karl",
+    "imageUrl": "/images/opel_karl.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Karl",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Karl image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Karl"
+  },
+  {
+    "id": "opel_manta",
+    "brand": "Opel",
+    "model": "Manta",
+    "fullName": "Opel Manta",
+    "imageUrl": "/images/opel_manta.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Manta",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Manta image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Manta"
+  },
+  {
+    "id": "opel_meriva",
+    "brand": "Opel",
+    "model": "Meriva",
+    "fullName": "Opel Meriva",
+    "imageUrl": "/images/opel_meriva.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Meriva",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Meriva image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Meriva"
+  },
+  {
+    "id": "opel_mokka",
+    "brand": "Opel",
+    "model": "Mokka",
+    "fullName": "Opel Mokka",
+    "imageUrl": "/images/opel_mokka.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Mokka",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Mokka image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Mokka"
+  },
+  {
+    "id": "opel_omega",
+    "brand": "Opel",
+    "model": "Omega",
+    "fullName": "Opel Omega",
+    "imageUrl": "/images/opel_omega.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Omega",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Omega image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Omega"
   },
   {
     "id": "opel_signum",
@@ -6239,15 +8599,95 @@ export const cars: Car[] = [
     "model": "Signum",
     "fullName": "Opel Signum",
     "imageUrl": "/images/opel_signum.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Signum"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Signum",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Signum image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Signum"
+  },
+  {
+    "id": "opel_speedster",
+    "brand": "Opel",
+    "model": "Speedster",
+    "fullName": "Opel Speedster",
+    "imageUrl": "/images/opel_speedster.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Speedster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Speedster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Speedster"
+  },
+  {
+    "id": "opel_tigra",
+    "brand": "Opel",
+    "model": "Tigra",
+    "fullName": "Opel Tigra",
+    "imageUrl": "/images/opel_tigra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Tigra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Tigra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Tigra"
+  },
+  {
+    "id": "opel_vectra",
+    "brand": "Opel",
+    "model": "Vectra",
+    "fullName": "Opel Vectra",
+    "imageUrl": "/images/opel_vectra.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Vectra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Vectra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Vectra"
+  },
+  {
+    "id": "opel_vivaro",
+    "brand": "Opel",
+    "model": "Vivaro",
+    "fullName": "Opel Vivaro",
+    "imageUrl": "/images/opel_vivaro.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Vivaro",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Vivaro image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Vivaro"
+  },
+  {
+    "id": "opel_zafira",
+    "brand": "Opel",
+    "model": "Zafira",
+    "fullName": "Opel Zafira",
+    "imageUrl": "/images/opel_zafira.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Opel_Zafira",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Opel Zafira image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Opel_Zafira"
+  },
+  {
+    "id": "pagani_huayra",
+    "brand": "Pagani",
+    "model": "Huayra",
+    "fullName": "Pagani Huayra",
+    "imageUrl": "/images/pagani_huayra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pagani_Huayra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Pagani Huayra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Pagani_Huayra"
   },
   {
     "id": "pagani_imola",
     "brand": "Pagani",
-    "model": "Huayra",
-    "fullName": "Pagani Huayra",
+    "model": "Imola",
+    "fullName": "Pagani Imola",
     "imageUrl": "/images/pagani_imola.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pagani_Imola"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pagani_Imola",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Pagani Imola image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Pagani_Imola"
   },
   {
     "id": "pagani_utopia",
@@ -6255,159 +8695,23 @@ export const cars: Car[] = [
     "model": "Utopia",
     "fullName": "Pagani Utopia",
     "imageUrl": "/images/pagani_utopia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pagani_Utopia"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pagani_Utopia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Pagani Utopia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Pagani_Utopia"
   },
   {
-    "id": "peugeot_106",
-    "brand": "Peugeot",
-    "model": "106",
-    "fullName": "Peugeot 106",
-    "imageUrl": "/images/peugeot_106.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_106"
-  },
-  {
-    "id": "peugeot_107",
-    "brand": "Peugeot",
-    "model": "107",
-    "fullName": "Peugeot 107",
-    "imageUrl": "/images/peugeot_107.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_107"
-  },
-  {
-    "id": "peugeot_108",
-    "brand": "Peugeot",
-    "model": "108",
-    "fullName": "Peugeot 108",
-    "imageUrl": "/images/peugeot_108.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_108"
-  },
-  {
-    "id": "peugeot_205",
-    "brand": "Peugeot",
-    "model": "205",
-    "fullName": "Peugeot 205",
-    "imageUrl": "/images/peugeot_205.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_205"
-  },
-  {
-    "id": "peugeot_206",
-    "brand": "Peugeot",
-    "model": "206",
-    "fullName": "Peugeot 206",
-    "imageUrl": "/images/peugeot_206.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_206"
-  },
-  {
-    "id": "peugeot_207",
-    "brand": "Peugeot",
-    "model": "207",
-    "fullName": "Peugeot 207",
-    "imageUrl": "/images/peugeot_207.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_207"
-  },
-  {
-    "id": "peugeot_301",
-    "brand": "Peugeot",
-    "model": "301 (2012)",
-    "fullName": "Peugeot 301 (2012)",
-    "imageUrl": "/images/peugeot_301.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_301"
-  },
-  {
-    "id": "peugeot_306",
-    "brand": "Peugeot",
-    "model": "306",
-    "fullName": "Peugeot 306",
-    "imageUrl": "/images/peugeot_306.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_306"
-  },
-  {
-    "id": "peugeot_307",
-    "brand": "Peugeot",
-    "model": "307",
-    "fullName": "Peugeot 307",
-    "imageUrl": "/images/peugeot_307.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_307"
-  },
-  {
-    "id": "peugeot_309",
-    "brand": "Peugeot",
-    "model": "309",
-    "fullName": "Peugeot 309",
-    "imageUrl": "/images/peugeot_309.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_309"
-  },
-  {
-    "id": "peugeot_405",
-    "brand": "Peugeot",
-    "model": "405",
-    "fullName": "Peugeot 405",
-    "imageUrl": "/images/peugeot_405.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_405"
-  },
-  {
-    "id": "peugeot_406",
-    "brand": "Peugeot",
-    "model": "406",
-    "fullName": "Peugeot 406",
-    "imageUrl": "/images/peugeot_406.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_406"
-  },
-  {
-    "id": "peugeot_407",
-    "brand": "Peugeot",
-    "model": "407",
-    "fullName": "Peugeot 407",
-    "imageUrl": "/images/peugeot_407.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_407"
-  },
-  {
-    "id": "peugeot_408",
-    "brand": "Peugeot",
-    "model": "408",
-    "fullName": "Peugeot 408",
-    "imageUrl": "/images/peugeot_408.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_408"
-  },
-  {
-    "id": "peugeot_505",
-    "brand": "Peugeot",
-    "model": "505",
-    "fullName": "Peugeot 505",
-    "imageUrl": "/images/peugeot_505.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_505"
-  },
-  {
-    "id": "peugeot_605",
-    "brand": "Peugeot",
-    "model": "605",
-    "fullName": "Peugeot 605",
-    "imageUrl": "/images/peugeot_605.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_605"
-  },
-  {
-    "id": "peugeot_607",
-    "brand": "Peugeot",
-    "model": "607",
-    "fullName": "Peugeot 607",
-    "imageUrl": "/images/peugeot_607.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_607"
-  },
-  {
-    "id": "peugeot_806",
-    "brand": "Eurovans",
-    "model": "Eurovans",
-    "fullName": "Eurovans",
-    "imageUrl": "/images/peugeot_806.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_806"
-  },
-  {
-    "id": "peugeot_807",
-    "brand": "Eurovans",
-    "model": "Eurovans",
-    "fullName": "Eurovans",
-    "imageUrl": "/images/peugeot_807.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_807"
+    "id": "pagani_zonda",
+    "brand": "Pagani",
+    "model": "Zonda",
+    "fullName": "Pagani Zonda",
+    "imageUrl": "/images/pagani_zonda.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pagani_Zonda",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Pagani Zonda image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Pagani_Zonda"
   },
   {
     "id": "peugeot_1007",
@@ -6415,7 +8719,47 @@ export const cars: Car[] = [
     "model": "1007",
     "fullName": "Peugeot 1007",
     "imageUrl": "/images/peugeot_1007.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_1007"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_1007",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 1007 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_1007"
+  },
+  {
+    "id": "peugeot_106",
+    "brand": "Peugeot",
+    "model": "106",
+    "fullName": "Peugeot 106",
+    "imageUrl": "/images/peugeot_106.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_106",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 106 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_106"
+  },
+  {
+    "id": "peugeot_107",
+    "brand": "Peugeot",
+    "model": "107",
+    "fullName": "Peugeot 107",
+    "imageUrl": "/images/peugeot_107.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_107",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 107 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_107"
+  },
+  {
+    "id": "peugeot_108",
+    "brand": "Peugeot",
+    "model": "108",
+    "fullName": "Peugeot 108",
+    "imageUrl": "/images/peugeot_108.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_108",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 108 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_108"
   },
   {
     "id": "peugeot_2008",
@@ -6423,7 +8767,59 @@ export const cars: Car[] = [
     "model": "2008",
     "fullName": "Peugeot 2008",
     "imageUrl": "/images/peugeot_2008.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_2008"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_2008",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 2008 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_2008"
+  },
+  {
+    "id": "peugeot_205",
+    "brand": "Peugeot",
+    "model": "205",
+    "fullName": "Peugeot 205",
+    "imageUrl": "/images/peugeot_205.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_205",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 205 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_205"
+  },
+  {
+    "id": "peugeot_206",
+    "brand": "Peugeot",
+    "model": "206",
+    "fullName": "Peugeot 206",
+    "imageUrl": "/images/peugeot_206.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_206",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 206 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_206"
+  },
+  {
+    "id": "peugeot_207",
+    "brand": "Peugeot",
+    "model": "207",
+    "fullName": "Peugeot 207",
+    "imageUrl": "/images/peugeot_207.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_207",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 207 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_207"
+  },
+  {
+    "id": "peugeot_208",
+    "brand": "Peugeot",
+    "model": "208",
+    "fullName": "Peugeot 208",
+    "imageUrl": "/images/peugeot_208.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_208",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 208 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_208"
   },
   {
     "id": "peugeot_3008",
@@ -6431,7 +8827,71 @@ export const cars: Car[] = [
     "model": "3008",
     "fullName": "Peugeot 3008",
     "imageUrl": "/images/peugeot_3008.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_3008"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_3008",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 3008 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_3008"
+  },
+  {
+    "id": "peugeot_301",
+    "brand": "Peugeot",
+    "model": "301",
+    "fullName": "Peugeot 301",
+    "imageUrl": "/images/peugeot_301.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_301",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 301 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_301"
+  },
+  {
+    "id": "peugeot_306",
+    "brand": "Peugeot",
+    "model": "306",
+    "fullName": "Peugeot 306",
+    "imageUrl": "/images/peugeot_306.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_306",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 306 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_306"
+  },
+  {
+    "id": "peugeot_307",
+    "brand": "Peugeot",
+    "model": "307",
+    "fullName": "Peugeot 307",
+    "imageUrl": "/images/peugeot_307.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_307",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 307 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_307"
+  },
+  {
+    "id": "peugeot_308",
+    "brand": "Peugeot",
+    "model": "308",
+    "fullName": "Peugeot 308",
+    "imageUrl": "/images/peugeot_308.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_308",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 308 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_308"
+  },
+  {
+    "id": "peugeot_309",
+    "brand": "Peugeot",
+    "model": "309",
+    "fullName": "Peugeot 309",
+    "imageUrl": "/images/peugeot_309.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_309",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 309 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_309"
   },
   {
     "id": "peugeot_4007",
@@ -6439,7 +8899,11 @@ export const cars: Car[] = [
     "model": "4007",
     "fullName": "Peugeot 4007",
     "imageUrl": "/images/peugeot_4007.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_4007"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_4007",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 4007 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_4007"
   },
   {
     "id": "peugeot_4008",
@@ -6447,7 +8911,59 @@ export const cars: Car[] = [
     "model": "4008",
     "fullName": "Peugeot 4008",
     "imageUrl": "/images/peugeot_4008.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_4008"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_4008",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 4008 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_4008"
+  },
+  {
+    "id": "peugeot_405",
+    "brand": "Peugeot",
+    "model": "405",
+    "fullName": "Peugeot 405",
+    "imageUrl": "/images/peugeot_405.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_405",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 405 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_405"
+  },
+  {
+    "id": "peugeot_406",
+    "brand": "Peugeot",
+    "model": "406",
+    "fullName": "Peugeot 406",
+    "imageUrl": "/images/peugeot_406.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_406",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 406 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_406"
+  },
+  {
+    "id": "peugeot_407",
+    "brand": "Peugeot",
+    "model": "407",
+    "fullName": "Peugeot 407",
+    "imageUrl": "/images/peugeot_407.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_407",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 407 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_407"
+  },
+  {
+    "id": "peugeot_408",
+    "brand": "Peugeot",
+    "model": "408",
+    "fullName": "Peugeot 408",
+    "imageUrl": "/images/peugeot_408.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_408",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 408 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_408"
   },
   {
     "id": "peugeot_5008",
@@ -6455,95 +8971,143 @@ export const cars: Car[] = [
     "model": "5008",
     "fullName": "Peugeot 5008",
     "imageUrl": "/images/peugeot_5008.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_5008"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_5008",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 5008 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_5008"
+  },
+  {
+    "id": "peugeot_505",
+    "brand": "Peugeot",
+    "model": "505",
+    "fullName": "Peugeot 505",
+    "imageUrl": "/images/peugeot_505.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_505",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 505 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_505"
+  },
+  {
+    "id": "peugeot_508",
+    "brand": "Peugeot",
+    "model": "508",
+    "fullName": "Peugeot 508",
+    "imageUrl": "/images/peugeot_508.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_508",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 508 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_508"
+  },
+  {
+    "id": "peugeot_605",
+    "brand": "Peugeot",
+    "model": "605",
+    "fullName": "Peugeot 605",
+    "imageUrl": "/images/peugeot_605.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_605",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 605 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_605"
+  },
+  {
+    "id": "peugeot_607",
+    "brand": "Peugeot",
+    "model": "607",
+    "fullName": "Peugeot 607",
+    "imageUrl": "/images/peugeot_607.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_607",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 607 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_607"
+  },
+  {
+    "id": "peugeot_806",
+    "brand": "Peugeot",
+    "model": "806",
+    "fullName": "Peugeot 806",
+    "imageUrl": "/images/peugeot_806.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_806",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 806 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_806"
+  },
+  {
+    "id": "peugeot_807",
+    "brand": "Peugeot",
+    "model": "807",
+    "fullName": "Peugeot 807",
+    "imageUrl": "/images/peugeot_807.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_807",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot 807 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_807"
+  },
+  {
+    "id": "peugeot_bipper",
+    "brand": "Peugeot",
+    "model": "Bipper",
+    "fullName": "Peugeot Bipper",
+    "imageUrl": "/images/peugeot_bipper.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Bipper",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot Bipper image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_Bipper"
+  },
+  {
+    "id": "peugeot_boxer",
+    "brand": "Peugeot",
+    "model": "Boxer",
+    "fullName": "Peugeot Boxer",
+    "imageUrl": "/images/peugeot_boxer.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Boxer",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot Boxer image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_Boxer"
+  },
+  {
+    "id": "peugeot_expert",
+    "brand": "Peugeot",
+    "model": "Expert",
+    "fullName": "Peugeot Expert",
+    "imageUrl": "/images/peugeot_expert.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Expert",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot Expert image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_Expert"
+  },
+  {
+    "id": "peugeot_partner",
+    "brand": "Peugeot",
+    "model": "Partner",
+    "fullName": "Peugeot Partner",
+    "imageUrl": "/images/peugeot_partner.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Partner",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot Partner image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_Partner"
   },
   {
     "id": "peugeot_rcz",
     "brand": "Peugeot",
-    "model": "RCZ",
-    "fullName": "Peugeot RCZ",
+    "model": "Rcz",
+    "fullName": "Peugeot Rcz",
     "imageUrl": "/images/peugeot_rcz.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_RCZ"
-  },
-  {
-    "id": "peugeot_partner",
-    "brand": "Citroën",
-    "model": "Berlingo",
-    "fullName": "Citroën Berlingo",
-    "imageUrl": "/images/peugeot_partner.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Partner"
-  },
-  {
-    "id": "peugeot_bipper",
-    "brand": "Fiat",
-    "model": "Fiorino",
-    "fullName": "Fiat Fiorino",
-    "imageUrl": "/images/peugeot_bipper.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Bipper"
-  },
-  {
-    "id": "peugeot_boxer",
-    "brand": "Fiat",
-    "model": "Ducato",
-    "fullName": "Fiat Ducato",
-    "imageUrl": "/images/peugeot_boxer.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Boxer"
-  },
-  {
-    "id": "peugeot_expert",
-    "brand": "Citroën",
-    "model": "Jumpy",
-    "fullName": "Citroën Jumpy",
-    "imageUrl": "/images/peugeot_expert.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Expert"
-  },
-  {
-    "id": "porsche_918",
-    "brand": "Porsche",
-    "model": "918 Spyder",
-    "fullName": "Porsche 918 Spyder",
-    "imageUrl": "/images/porsche_918.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_918"
-  },
-  {
-    "id": "porsche_924",
-    "brand": "Porsche",
-    "model": "924",
-    "fullName": "Porsche 924",
-    "imageUrl": "/images/porsche_924.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_924"
-  },
-  {
-    "id": "porsche_928",
-    "brand": "Porsche",
-    "model": "928",
-    "fullName": "Porsche 928",
-    "imageUrl": "/images/porsche_928.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_928"
-  },
-  {
-    "id": "porsche_944",
-    "brand": "Porsche",
-    "model": "944",
-    "fullName": "Porsche 944",
-    "imageUrl": "/images/porsche_944.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_944"
-  },
-  {
-    "id": "porsche_968",
-    "brand": "Porsche",
-    "model": "968",
-    "fullName": "Porsche 968",
-    "imageUrl": "/images/porsche_968.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_968"
-  },
-  {
-    "id": "porsche_carrera_gt",
-    "brand": "Porsche",
-    "model": "Carrera GT",
-    "fullName": "Porsche Carrera GT",
-    "imageUrl": "/images/porsche_carrera_gt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Carrera_GT"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peugeot_Rcz",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Peugeot Rcz image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Peugeot_Rcz"
   },
   {
     "id": "porsche_356",
@@ -6551,7 +9115,11 @@ export const cars: Car[] = [
     "model": "356",
     "fullName": "Porsche 356",
     "imageUrl": "/images/porsche_356.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_356"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_356",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 356 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_356"
   },
   {
     "id": "porsche_550",
@@ -6559,15 +9127,23 @@ export const cars: Car[] = [
     "model": "550",
     "fullName": "Porsche 550",
     "imageUrl": "/images/porsche_550.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_550"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_550",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 550 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_550"
   },
   {
-    "id": "porsche_959",
+    "id": "porsche_911",
     "brand": "Porsche",
-    "model": "959",
-    "fullName": "Porsche 959",
-    "imageUrl": "/images/porsche_959.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_959"
+    "model": "911",
+    "fullName": "Porsche 911",
+    "imageUrl": "/images/porsche_911.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_911",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 911 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_911"
   },
   {
     "id": "porsche_914",
@@ -6575,167 +9151,263 @@ export const cars: Car[] = [
     "model": "914",
     "fullName": "Porsche 914",
     "imageUrl": "/images/porsche_914.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_914"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_914",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 914 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_914"
+  },
+  {
+    "id": "porsche_918",
+    "brand": "Porsche",
+    "model": "918",
+    "fullName": "Porsche 918",
+    "imageUrl": "/images/porsche_918.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_918",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 918 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_918"
+  },
+  {
+    "id": "porsche_924",
+    "brand": "Porsche",
+    "model": "924",
+    "fullName": "Porsche 924",
+    "imageUrl": "/images/porsche_924.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_924",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 924 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_924"
+  },
+  {
+    "id": "porsche_928",
+    "brand": "Porsche",
+    "model": "928",
+    "fullName": "Porsche 928",
+    "imageUrl": "/images/porsche_928.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_928",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 928 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_928"
+  },
+  {
+    "id": "porsche_944",
+    "brand": "Porsche",
+    "model": "944",
+    "fullName": "Porsche 944",
+    "imageUrl": "/images/porsche_944.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_944",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 944 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_944"
+  },
+  {
+    "id": "porsche_959",
+    "brand": "Porsche",
+    "model": "959",
+    "fullName": "Porsche 959",
+    "imageUrl": "/images/porsche_959.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_959",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 959 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_959"
+  },
+  {
+    "id": "porsche_968",
+    "brand": "Porsche",
+    "model": "968",
+    "fullName": "Porsche 968",
+    "imageUrl": "/images/porsche_968.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_968",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche 968 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_968"
+  },
+  {
+    "id": "porsche_boxster",
+    "brand": "Porsche",
+    "model": "Boxster",
+    "fullName": "Porsche Boxster",
+    "imageUrl": "/images/porsche_boxster.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Boxster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche Boxster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_Boxster"
+  },
+  {
+    "id": "porsche_carrera_gt",
+    "brand": "Porsche",
+    "model": "Carrera Gt",
+    "fullName": "Porsche Carrera Gt",
+    "imageUrl": "/images/porsche_carrera_gt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Carrera_Gt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche Carrera Gt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_Carrera_Gt"
+  },
+  {
+    "id": "porsche_cayenne",
+    "brand": "Porsche",
+    "model": "Cayenne",
+    "fullName": "Porsche Cayenne",
+    "imageUrl": "/images/porsche_cayenne.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Cayenne",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche Cayenne image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_Cayenne"
+  },
+  {
+    "id": "porsche_cayman",
+    "brand": "Porsche",
+    "model": "Cayman",
+    "fullName": "Porsche Cayman",
+    "imageUrl": "/images/porsche_cayman.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Cayman",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche Cayman image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_Cayman"
+  },
+  {
+    "id": "porsche_macan",
+    "brand": "Porsche",
+    "model": "Macan",
+    "fullName": "Porsche Macan",
+    "imageUrl": "/images/porsche_macan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Macan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche Macan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_Macan"
+  },
+  {
+    "id": "porsche_panamera",
+    "brand": "Porsche",
+    "model": "Panamera",
+    "fullName": "Porsche Panamera",
+    "imageUrl": "/images/porsche_panamera.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Panamera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche Panamera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_Panamera"
+  },
+  {
+    "id": "porsche_taycan",
+    "brand": "Porsche",
+    "model": "Taycan",
+    "fullName": "Porsche Taycan",
+    "imageUrl": "/images/porsche_taycan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Porsche_Taycan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Porsche Taycan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Porsche_Taycan"
+  },
+  {
+    "id": "ram_1500",
+    "brand": "Ram",
+    "model": "1500",
+    "fullName": "Ram 1500",
+    "imageUrl": "/images/ram_1500.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_1500",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ram 1500 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ram_1500"
   },
   {
     "id": "ram_2500",
     "brand": "Ram",
-    "model": "pickup",
-    "fullName": "Ram pickup",
+    "model": "2500",
+    "fullName": "Ram 2500",
     "imageUrl": "/images/ram_2500.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_2500"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_2500",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ram 2500 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ram_2500"
   },
   {
     "id": "ram_3500",
     "brand": "Ram",
-    "model": "pickup",
-    "fullName": "Ram pickup",
+    "model": "3500",
+    "fullName": "Ram 3500",
     "imageUrl": "/images/ram_3500.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_3500"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_3500",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ram 3500 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ram_3500"
   },
   {
     "id": "ram_promaster",
-    "brand": "Fiat",
-    "model": "Ducato",
-    "fullName": "Fiat Ducato",
+    "brand": "Ram",
+    "model": "Promaster",
+    "fullName": "Ram Promaster",
     "imageUrl": "/images/ram_promaster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_ProMaster"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_Promaster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ram Promaster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ram_Promaster"
   },
   {
     "id": "ram_promaster_city",
-    "brand": "Fiat",
-    "model": "Doblò",
-    "fullName": "Fiat Doblò",
+    "brand": "Ram",
+    "model": "Promaster City",
+    "fullName": "Ram Promaster City",
     "imageUrl": "/images/ram_promaster_city.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_ProMaster_City"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Ram_Promaster_City",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Ram Promaster City image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Ram_Promaster_City"
   },
   {
-    "id": "renault_captur",
+    "id": "range_rover_evoque",
+    "brand": "Range",
+    "model": "Rover Evoque",
+    "fullName": "Range Rover Evoque",
+    "imageUrl": "/images/range_rover_evoque.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Range_Rover_Evoque",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Range Rover Evoque image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Range_Rover_Evoque"
+  },
+  {
+    "id": "range_rover_sport",
+    "brand": "Range",
+    "model": "Rover Sport",
+    "fullName": "Range Rover Sport",
+    "imageUrl": "/images/range_rover_sport.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Range_Rover_Sport",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Range Rover Sport image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Range_Rover_Sport"
+  },
+  {
+    "id": "renault_11",
     "brand": "Renault",
-    "model": "Captur",
-    "fullName": "Renault Captur",
-    "imageUrl": "/images/renault_captur.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Captur"
-  },
-  {
-    "id": "renault_duster",
-    "brand": "Dacia",
-    "model": "Duster",
-    "fullName": "Dacia Duster",
-    "imageUrl": "/images/renault_duster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Duster"
-  },
-  {
-    "id": "renault_espace",
-    "brand": "Renault",
-    "model": "Espace",
-    "fullName": "Renault Espace",
-    "imageUrl": "/images/renault_espace.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Espace"
-  },
-  {
-    "id": "renault_fluence",
-    "brand": "Renault",
-    "model": "Fluence",
-    "fullName": "Renault Fluence",
-    "imageUrl": "/images/renault_fluence.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Fluence"
-  },
-  {
-    "id": "renault_kadjar",
-    "brand": "Renault",
-    "model": "Kadjar",
-    "fullName": "Renault Kadjar",
-    "imageUrl": "/images/renault_kadjar.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Kadjar"
-  },
-  {
-    "id": "renault_koleos",
-    "brand": "Renault",
-    "model": "Koleos",
-    "fullName": "Renault Koleos",
-    "imageUrl": "/images/renault_koleos.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Koleos"
-  },
-  {
-    "id": "renault_laguna",
-    "brand": "Renault",
-    "model": "Laguna",
-    "fullName": "Renault Laguna",
-    "imageUrl": "/images/renault_laguna.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Laguna"
-  },
-  {
-    "id": "renault_logan",
-    "brand": "Dacia",
-    "model": "Logan",
-    "fullName": "Dacia Logan",
-    "imageUrl": "/images/renault_logan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Logan"
-  },
-  {
-    "id": "renault_modus",
-    "brand": "Renault",
-    "model": "Modus",
-    "fullName": "Renault Modus",
-    "imageUrl": "/images/renault_modus.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Modus"
-  },
-  {
-    "id": "renault_sandero",
-    "brand": "Dacia",
-    "model": "Sandero",
-    "fullName": "Dacia Sandero",
-    "imageUrl": "/images/renault_sandero.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Sandero"
-  },
-  {
-    "id": "renault_symbol",
-    "brand": "Renault",
-    "model": "Symbol",
-    "fullName": "Renault Symbol",
-    "imageUrl": "/images/renault_symbol.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Symbol"
-  },
-  {
-    "id": "renault_talisman",
-    "brand": "Renault",
-    "model": "Talisman",
-    "fullName": "Renault Talisman",
-    "imageUrl": "/images/renault_talisman.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Talisman"
-  },
-  {
-    "id": "renault_twingo",
-    "brand": "Renault",
-    "model": "Twingo",
-    "fullName": "Renault Twingo",
-    "imageUrl": "/images/renault_twingo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Twingo"
-  },
-  {
-    "id": "renault_vel_satis",
-    "brand": "Renault",
-    "model": "Vel Satis",
-    "fullName": "Renault Vel Satis",
-    "imageUrl": "/images/renault_vel_satis.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Vel_Satis"
-  },
-  {
-    "id": "renault_wind",
-    "brand": "Renault",
-    "model": "Wind",
-    "fullName": "Renault Wind",
-    "imageUrl": "/images/renault_wind.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Wind"
-  },
-  {
-    "id": "renault_zoe",
-    "brand": "Renault",
-    "model": "Zoe",
-    "fullName": "Renault Zoe",
-    "imageUrl": "/images/renault_zoe.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Zoe"
+    "model": "11",
+    "fullName": "Renault 11",
+    "imageUrl": "/images/renault_11.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_11",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault 11 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_11"
   },
   {
     "id": "renault_19",
@@ -6743,7 +9415,11 @@ export const cars: Car[] = [
     "model": "19",
     "fullName": "Renault 19",
     "imageUrl": "/images/renault_19.png",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_19"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_19",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault 19 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_19"
   },
   {
     "id": "renault_21",
@@ -6751,7 +9427,11 @@ export const cars: Car[] = [
     "model": "21",
     "fullName": "Renault 21",
     "imageUrl": "/images/renault_21.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_21"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_21",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault 21 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_21"
   },
   {
     "id": "renault_25",
@@ -6759,7 +9439,11 @@ export const cars: Car[] = [
     "model": "25",
     "fullName": "Renault 25",
     "imageUrl": "/images/renault_25.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_25"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_25",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault 25 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_25"
   },
   {
     "id": "renault_5",
@@ -6767,39 +9451,203 @@ export const cars: Car[] = [
     "model": "5",
     "fullName": "Renault 5",
     "imageUrl": "/images/renault_5.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_5"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault 5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_5"
   },
   {
     "id": "renault_9",
     "brand": "Renault",
-    "model": "9 and 11",
-    "fullName": "Renault 9 and 11",
+    "model": "9",
+    "fullName": "Renault 9",
     "imageUrl": "/images/renault_9.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_9"
-  },
-  {
-    "id": "renault_11",
-    "brand": "Renault",
-    "model": "9 and 11",
-    "fullName": "Renault 9 and 11",
-    "imageUrl": "/images/renault_11.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_11"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_9",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault 9 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_9"
   },
   {
     "id": "renault_alpine_a110",
-    "brand": "Alpine",
-    "model": "A110",
-    "fullName": "Alpine A110",
+    "brand": "Renault",
+    "model": "Alpine A110",
+    "fullName": "Renault Alpine A110",
     "imageUrl": "/images/renault_alpine_a110.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Alpine_A110"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Alpine_A110",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Alpine A110 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Alpine_A110"
+  },
+  {
+    "id": "renault_captur",
+    "brand": "Renault",
+    "model": "Captur",
+    "fullName": "Renault Captur",
+    "imageUrl": "/images/renault_captur.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Captur",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Captur image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Captur"
+  },
+  {
+    "id": "renault_clio",
+    "brand": "Renault",
+    "model": "Clio",
+    "fullName": "Renault Clio",
+    "imageUrl": "/images/renault_clio.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Clio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Clio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Clio"
+  },
+  {
+    "id": "renault_duster",
+    "brand": "Renault",
+    "model": "Duster",
+    "fullName": "Renault Duster",
+    "imageUrl": "/images/renault_duster.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Duster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Duster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Duster"
+  },
+  {
+    "id": "renault_espace",
+    "brand": "Renault",
+    "model": "Espace",
+    "fullName": "Renault Espace",
+    "imageUrl": "/images/renault_espace.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Espace",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Espace image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Espace"
+  },
+  {
+    "id": "renault_fluence",
+    "brand": "Renault",
+    "model": "Fluence",
+    "fullName": "Renault Fluence",
+    "imageUrl": "/images/renault_fluence.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Fluence",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Fluence image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Fluence"
+  },
+  {
+    "id": "renault_kadjar",
+    "brand": "Renault",
+    "model": "Kadjar",
+    "fullName": "Renault Kadjar",
+    "imageUrl": "/images/renault_kadjar.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Kadjar",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Kadjar image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Kadjar"
+  },
+  {
+    "id": "renault_koleos",
+    "brand": "Renault",
+    "model": "Koleos",
+    "fullName": "Renault Koleos",
+    "imageUrl": "/images/renault_koleos.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Koleos",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Koleos image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Koleos"
+  },
+  {
+    "id": "renault_laguna",
+    "brand": "Renault",
+    "model": "Laguna",
+    "fullName": "Renault Laguna",
+    "imageUrl": "/images/renault_laguna.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Laguna",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Laguna image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Laguna"
+  },
+  {
+    "id": "renault_logan",
+    "brand": "Renault",
+    "model": "Logan",
+    "fullName": "Renault Logan",
+    "imageUrl": "/images/renault_logan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Logan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Logan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Logan"
+  },
+  {
+    "id": "renault_megane",
+    "brand": "Renault",
+    "model": "Megane",
+    "fullName": "Renault Megane",
+    "imageUrl": "/images/renault_megane.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Megane",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Megane image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Megane"
+  },
+  {
+    "id": "renault_modus",
+    "brand": "Renault",
+    "model": "Modus",
+    "fullName": "Renault Modus",
+    "imageUrl": "/images/renault_modus.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Modus",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Modus image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Modus"
+  },
+  {
+    "id": "renault_sandero",
+    "brand": "Renault",
+    "model": "Sandero",
+    "fullName": "Renault Sandero",
+    "imageUrl": "/images/renault_sandero.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Sandero",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Sandero image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Sandero"
+  },
+  {
+    "id": "renault_scenic",
+    "brand": "Renault",
+    "model": "Scenic",
+    "fullName": "Renault Scenic",
+    "imageUrl": "/images/renault_scenic.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Scenic",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Scenic image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Scenic"
   },
   {
     "id": "renault_spider",
     "brand": "Renault",
-    "model": "Sport Spider",
-    "fullName": "Renault Sport Spider",
+    "model": "Spider",
+    "fullName": "Renault Spider",
     "imageUrl": "/images/renault_spider.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Spider"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Spider",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Spider image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Spider"
   },
   {
     "id": "renault_sport_spider",
@@ -6807,71 +9655,239 @@ export const cars: Car[] = [
     "model": "Sport Spider",
     "fullName": "Renault Sport Spider",
     "imageUrl": "/images/renault_sport_spider.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Sport_Spider"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Sport_Spider",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Sport Spider image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Sport_Spider"
   },
   {
-    "id": "rolls_royce_cullinan",
-    "brand": "Rolls-Royce",
-    "model": "Cullinan",
-    "fullName": "Rolls-Royce Cullinan",
-    "imageUrl": "/images/rolls_royce_cullinan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Cullinan"
+    "id": "renault_symbol",
+    "brand": "Renault",
+    "model": "Symbol",
+    "fullName": "Renault Symbol",
+    "imageUrl": "/images/renault_symbol.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Symbol",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Symbol image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Symbol"
   },
   {
-    "id": "rolls_royce_dawn",
-    "brand": "Rolls-Royce",
-    "model": "Dawn",
-    "fullName": "Rolls-Royce Dawn",
-    "imageUrl": "/images/rolls_royce_dawn.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Dawn"
+    "id": "renault_talisman",
+    "brand": "Renault",
+    "model": "Talisman",
+    "fullName": "Renault Talisman",
+    "imageUrl": "/images/renault_talisman.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Talisman",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Talisman image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Talisman"
   },
   {
-    "id": "rolls_royce_silver_seraph",
-    "brand": "Rolls-Royce",
-    "model": "Silver Seraph",
-    "fullName": "Rolls-Royce Silver Seraph",
-    "imageUrl": "/images/rolls_royce_silver_seraph.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Silver_Seraph"
+    "id": "renault_twingo",
+    "brand": "Renault",
+    "model": "Twingo",
+    "fullName": "Renault Twingo",
+    "imageUrl": "/images/renault_twingo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Twingo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Twingo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Twingo"
+  },
+  {
+    "id": "renault_vel_satis",
+    "brand": "Renault",
+    "model": "Vel Satis",
+    "fullName": "Renault Vel Satis",
+    "imageUrl": "/images/renault_vel_satis.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Vel_Satis",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Vel Satis image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Vel_Satis"
+  },
+  {
+    "id": "renault_wind",
+    "brand": "Renault",
+    "model": "Wind",
+    "fullName": "Renault Wind",
+    "imageUrl": "/images/renault_wind.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Wind",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Wind image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Wind"
+  },
+  {
+    "id": "renault_zoe",
+    "brand": "Renault",
+    "model": "Zoe",
+    "fullName": "Renault Zoe",
+    "imageUrl": "/images/renault_zoe.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Renault_Zoe",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Renault Zoe image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Renault_Zoe"
+  },
+  {
+    "id": "rimac_nevera",
+    "brand": "Rimac",
+    "model": "Nevera",
+    "fullName": "Rimac Nevera",
+    "imageUrl": "/images/rimac_nevera.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rimac_Nevera",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rimac Nevera image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rimac_Nevera"
   },
   {
     "id": "rolls_royce_corniche",
     "brand": "Rolls-Royce",
-    "model": "Corniche",
-    "fullName": "Rolls-Royce Corniche",
+    "model": "Royce Corniche",
+    "fullName": "Rolls-Royce Royce Corniche",
     "imageUrl": "/images/rolls_royce_corniche.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Corniche"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Corniche",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Corniche image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Corniche"
+  },
+  {
+    "id": "rolls_royce_cullinan",
+    "brand": "Rolls-Royce",
+    "model": "Royce Cullinan",
+    "fullName": "Rolls-Royce Royce Cullinan",
+    "imageUrl": "/images/rolls_royce_cullinan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Cullinan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Cullinan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Cullinan"
+  },
+  {
+    "id": "rolls_royce_dawn",
+    "brand": "Rolls-Royce",
+    "model": "Royce Dawn",
+    "fullName": "Rolls-Royce Royce Dawn",
+    "imageUrl": "/images/rolls_royce_dawn.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Dawn",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Dawn image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Dawn"
+  },
+  {
+    "id": "rolls_royce_ghost",
+    "brand": "Rolls-Royce",
+    "model": "Royce Ghost",
+    "fullName": "Rolls-Royce Royce Ghost",
+    "imageUrl": "/images/rolls_royce_ghost.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Ghost",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Ghost image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Ghost"
+  },
+  {
+    "id": "rolls_royce_phantom",
+    "brand": "Rolls-Royce",
+    "model": "Royce Phantom",
+    "fullName": "Rolls-Royce Royce Phantom",
+    "imageUrl": "/images/rolls_royce_phantom.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Phantom",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Phantom image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Phantom"
+  },
+  {
+    "id": "rolls_royce_silver_seraph",
+    "brand": "Rolls-Royce",
+    "model": "Royce Silver Seraph",
+    "fullName": "Rolls-Royce Royce Silver Seraph",
+    "imageUrl": "/images/rolls_royce_silver_seraph.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Silver_Seraph",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Silver Seraph image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Silver_Seraph"
   },
   {
     "id": "rolls_royce_silver_spirit",
     "brand": "Rolls-Royce",
-    "model": "Silver Spirit",
-    "fullName": "Rolls-Royce Silver Spirit",
+    "model": "Royce Silver Spirit",
+    "fullName": "Rolls-Royce Royce Silver Spirit",
     "imageUrl": "/images/rolls_royce_silver_spirit.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Silver_Spirit"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Silver_Spirit",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Silver Spirit image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Silver_Spirit"
   },
   {
     "id": "rolls_royce_silver_spur",
     "brand": "Rolls-Royce",
-    "model": "Silver Spirit",
-    "fullName": "Rolls-Royce Silver Spirit",
+    "model": "Royce Silver Spur",
+    "fullName": "Rolls-Royce Royce Silver Spur",
     "imageUrl": "/images/rolls_royce_silver_spur.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Silver_Spur"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Silver_Spur",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Silver Spur image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Silver_Spur"
   },
   {
     "id": "rolls_royce_spectre",
     "brand": "Rolls-Royce",
-    "model": "Spectre",
-    "fullName": "Rolls-Royce Spectre",
+    "model": "Royce Spectre",
+    "fullName": "Rolls-Royce Royce Spectre",
     "imageUrl": "/images/rolls_royce_spectre.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Spectre"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Spectre",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Rolls-Royce Royce Spectre image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Rolls-Royce_Royce_Spectre"
+  },
+  {
+    "id": "saab_9_3",
+    "brand": "Saab",
+    "model": "9 3",
+    "fullName": "Saab 9 3",
+    "imageUrl": "/images/saab_9_3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_9_3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 9 3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_9_3"
+  },
+  {
+    "id": "saab_9_5",
+    "brand": "Saab",
+    "model": "9 5",
+    "fullName": "Saab 9 5",
+    "imageUrl": "/images/saab_9_5.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_9_5",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 9 5 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_9_5"
   },
   {
     "id": "saab_9_7x",
     "brand": "Saab",
-    "model": "9-7X",
-    "fullName": "Saab 9-7X",
+    "model": "9 7x",
+    "fullName": "Saab 9 7x",
     "imageUrl": "/images/saab_9_7x.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_9-7X"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_9_7x",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 9 7x image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_9_7x"
   },
   {
     "id": "saab_900",
@@ -6879,7 +9895,11 @@ export const cars: Car[] = [
     "model": "900",
     "fullName": "Saab 900",
     "imageUrl": "/images/saab_900.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_900"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_900",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 900 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_900"
   },
   {
     "id": "saab_9000",
@@ -6887,7 +9907,11 @@ export const cars: Car[] = [
     "model": "9000",
     "fullName": "Saab 9000",
     "imageUrl": "/images/saab_9000.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_9000"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_9000",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 9000 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_9000"
   },
   {
     "id": "saab_92",
@@ -6895,7 +9919,11 @@ export const cars: Car[] = [
     "model": "92",
     "fullName": "Saab 92",
     "imageUrl": "/images/saab_92.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_92"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_92",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 92 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_92"
   },
   {
     "id": "saab_93",
@@ -6903,15 +9931,23 @@ export const cars: Car[] = [
     "model": "93",
     "fullName": "Saab 93",
     "imageUrl": "/images/saab_93.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_93"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_93",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 93 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_93"
   },
   {
     "id": "saab_94",
     "brand": "Saab",
-    "model": "Sonett",
-    "fullName": "Saab Sonett",
+    "model": "94",
+    "fullName": "Saab 94",
     "imageUrl": "/images/saab_94.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_94"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_94",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 94 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_94"
   },
   {
     "id": "saab_95",
@@ -6919,7 +9955,11 @@ export const cars: Car[] = [
     "model": "95",
     "fullName": "Saab 95",
     "imageUrl": "/images/saab_95.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_95"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_95",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 95 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_95"
   },
   {
     "id": "saab_96",
@@ -6927,15 +9967,23 @@ export const cars: Car[] = [
     "model": "96",
     "fullName": "Saab 96",
     "imageUrl": "/images/saab_96.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_96"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_96",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 96 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_96"
   },
   {
     "id": "saab_97",
     "brand": "Saab",
-    "model": "Sonett",
-    "fullName": "Saab Sonett",
+    "model": "97",
+    "fullName": "Saab 97",
     "imageUrl": "/images/saab_97.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_97"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_97",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 97 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_97"
   },
   {
     "id": "saab_99",
@@ -6943,7 +9991,11 @@ export const cars: Car[] = [
     "model": "99",
     "fullName": "Saab 99",
     "imageUrl": "/images/saab_99.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_99"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_99",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab 99 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_99"
   },
   {
     "id": "saab_sonett",
@@ -6951,231 +10003,371 @@ export const cars: Car[] = [
     "model": "Sonett",
     "fullName": "Saab Sonett",
     "imageUrl": "/images/saab_sonett.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_Sonett"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Saab_Sonett",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Saab Sonett image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Saab_Sonett"
   },
   {
     "id": "seat_alhambra",
-    "brand": "SEAT",
+    "brand": "Seat",
     "model": "Alhambra",
-    "fullName": "SEAT Alhambra",
+    "fullName": "Seat Alhambra",
     "imageUrl": "/images/seat_alhambra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Alhambra"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Alhambra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Alhambra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Alhambra"
   },
   {
     "id": "seat_altea",
-    "brand": "SEAT",
+    "brand": "Seat",
     "model": "Altea",
-    "fullName": "SEAT Altea",
+    "fullName": "Seat Altea",
     "imageUrl": "/images/seat_altea.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Altea"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Altea",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Altea image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Altea"
   },
   {
     "id": "seat_arona",
-    "brand": "SEAT",
+    "brand": "Seat",
     "model": "Arona",
-    "fullName": "SEAT Arona",
+    "fullName": "Seat Arona",
     "imageUrl": "/images/seat_arona.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Arona"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Arona",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Arona image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Arona"
   },
   {
     "id": "seat_ateca",
-    "brand": "SEAT",
+    "brand": "Seat",
     "model": "Ateca",
-    "fullName": "SEAT Ateca",
+    "fullName": "Seat Ateca",
     "imageUrl": "/images/seat_ateca.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Ateca"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Ateca",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Ateca image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Ateca"
   },
   {
     "id": "seat_cordoba",
-    "brand": "SEAT",
-    "model": "Córdoba",
-    "fullName": "SEAT Córdoba",
+    "brand": "Seat",
+    "model": "Cordoba",
+    "fullName": "Seat Cordoba",
     "imageUrl": "/images/seat_cordoba.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Cordoba"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Cordoba",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Cordoba image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Cordoba"
   },
   {
     "id": "seat_exeo",
-    "brand": "SEAT",
+    "brand": "Seat",
     "model": "Exeo",
-    "fullName": "SEAT Exeo",
+    "fullName": "Seat Exeo",
     "imageUrl": "/images/seat_exeo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Exeo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Exeo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Exeo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Exeo"
+  },
+  {
+    "id": "seat_ibiza",
+    "brand": "Seat",
+    "model": "Ibiza",
+    "fullName": "Seat Ibiza",
+    "imageUrl": "/images/seat_ibiza.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Ibiza",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Ibiza image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Ibiza"
+  },
+  {
+    "id": "seat_leon",
+    "brand": "Seat",
+    "model": "Leon",
+    "fullName": "Seat Leon",
+    "imageUrl": "/images/seat_leon.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Leon",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Leon image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Leon"
   },
   {
     "id": "seat_marbella",
-    "brand": "SEAT",
+    "brand": "Seat",
     "model": "Marbella",
-    "fullName": "SEAT Marbella",
+    "fullName": "Seat Marbella",
     "imageUrl": "/images/seat_marbella.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Marbella"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Marbella",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Marbella image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Marbella"
   },
   {
     "id": "seat_mii",
-    "brand": "Volkswagen",
-    "model": "Up",
-    "fullName": "Volkswagen Up",
+    "brand": "Seat",
+    "model": "Mii",
+    "fullName": "Seat Mii",
     "imageUrl": "/images/seat_mii.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Mii"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Mii",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Mii image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Mii"
   },
   {
     "id": "seat_tarraco",
-    "brand": "SEAT",
+    "brand": "Seat",
     "model": "Tarraco",
-    "fullName": "SEAT Tarraco",
+    "fullName": "Seat Tarraco",
     "imageUrl": "/images/seat_tarraco.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Tarraco"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Tarraco",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Tarraco image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Tarraco"
   },
   {
     "id": "seat_toledo",
-    "brand": "SEAT",
+    "brand": "Seat",
     "model": "Toledo",
-    "fullName": "SEAT Toledo",
+    "fullName": "Seat Toledo",
     "imageUrl": "/images/seat_toledo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Toledo"
-  },
-  {
-    "id": "skoda_citigo",
-    "brand": "Volkswagen",
-    "model": "Up",
-    "fullName": "Volkswagen Up",
-    "imageUrl": "/images/skoda_citigo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Citigo"
-  },
-  {
-    "id": "skoda_fabia",
-    "brand": "Škoda",
-    "model": "Fabia",
-    "fullName": "Škoda Fabia",
-    "imageUrl": "/images/skoda_fabia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Fabia"
-  },
-  {
-    "id": "skoda_kamiq",
-    "brand": "Škoda",
-    "model": "Kamiq",
-    "fullName": "Škoda Kamiq",
-    "imageUrl": "/images/skoda_kamiq.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Kamiq"
-  },
-  {
-    "id": "skoda_karoq",
-    "brand": "Škoda",
-    "model": "Karoq",
-    "fullName": "Škoda Karoq",
-    "imageUrl": "/images/skoda_karoq.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Karoq"
-  },
-  {
-    "id": "skoda_kodiaq",
-    "brand": "Škoda",
-    "model": "Kodiaq",
-    "fullName": "Škoda Kodiaq",
-    "imageUrl": "/images/skoda_kodiaq.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Kodiaq"
-  },
-  {
-    "id": "skoda_octavia",
-    "brand": "Škoda",
-    "model": "Octavia",
-    "fullName": "Škoda Octavia",
-    "imageUrl": "/images/skoda_octavia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Octavia"
-  },
-  {
-    "id": "skoda_rapid",
-    "brand": "Škoda",
-    "model": "Rapid",
-    "fullName": "Škoda Rapid",
-    "imageUrl": "/images/skoda_rapid.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Rapid"
-  },
-  {
-    "id": "skoda_roomster",
-    "brand": "Škoda",
-    "model": "Roomster",
-    "fullName": "Škoda Roomster",
-    "imageUrl": "/images/skoda_roomster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Roomster"
-  },
-  {
-    "id": "skoda_scala",
-    "brand": "Škoda",
-    "model": "Scala",
-    "fullName": "Škoda Scala",
-    "imageUrl": "/images/skoda_scala.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Scala"
-  },
-  {
-    "id": "skoda_superb",
-    "brand": "Škoda",
-    "model": "Superb",
-    "fullName": "Škoda Superb",
-    "imageUrl": "/images/skoda_superb.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Superb"
-  },
-  {
-    "id": "skoda_yeti",
-    "brand": "Škoda",
-    "model": "Yeti",
-    "fullName": "Škoda Yeti",
-    "imageUrl": "/images/skoda_yeti.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Yeti"
-  },
-  {
-    "id": "skoda_felicia",
-    "brand": "Škoda",
-    "model": "Felicia",
-    "fullName": "Škoda Felicia",
-    "imageUrl": "/images/skoda_felicia.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Felicia"
-  },
-  {
-    "id": "skoda_favorit",
-    "brand": "Škoda",
-    "model": "Favorit",
-    "fullName": "Škoda Favorit",
-    "imageUrl": "/images/skoda_favorit.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Favorit"
-  },
-  {
-    "id": "skoda_estelle",
-    "brand": "Škoda",
-    "model": "Type 742",
-    "fullName": "Škoda Type 742",
-    "imageUrl": "/images/skoda_estelle.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Estelle"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Seat_Toledo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Seat Toledo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Seat_Toledo"
   },
   {
     "id": "skoda_110",
-    "brand": "Škoda",
-    "model": "100",
-    "fullName": "Škoda 100",
+    "brand": "Skoda",
+    "model": "110",
+    "fullName": "Skoda 110",
     "imageUrl": "/images/skoda_110.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_110"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_110",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda 110 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_110"
   },
   {
     "id": "skoda_120",
-    "brand": "Škoda",
-    "model": "Type 742",
-    "fullName": "Škoda Type 742",
+    "brand": "Skoda",
+    "model": "120",
+    "fullName": "Skoda 120",
     "imageUrl": "/images/skoda_120.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_120"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_120",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda 120 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_120"
   },
   {
     "id": "skoda_130",
-    "brand": "Škoda",
-    "model": "Type 742",
-    "fullName": "Škoda Type 742",
+    "brand": "Skoda",
+    "model": "130",
+    "fullName": "Skoda 130",
     "imageUrl": "/images/skoda_130.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_130"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_130",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda 130 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_130"
   },
   {
-    "id": "smart_fortwo",
+    "id": "skoda_citigo",
+    "brand": "Skoda",
+    "model": "Citigo",
+    "fullName": "Skoda Citigo",
+    "imageUrl": "/images/skoda_citigo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Citigo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Citigo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Citigo"
+  },
+  {
+    "id": "skoda_estelle",
+    "brand": "Skoda",
+    "model": "Estelle",
+    "fullName": "Skoda Estelle",
+    "imageUrl": "/images/skoda_estelle.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Estelle",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Estelle image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Estelle"
+  },
+  {
+    "id": "skoda_fabia",
+    "brand": "Skoda",
+    "model": "Fabia",
+    "fullName": "Skoda Fabia",
+    "imageUrl": "/images/skoda_fabia.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Fabia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Fabia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Fabia"
+  },
+  {
+    "id": "skoda_favorit",
+    "brand": "Skoda",
+    "model": "Favorit",
+    "fullName": "Skoda Favorit",
+    "imageUrl": "/images/skoda_favorit.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Favorit",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Favorit image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Favorit"
+  },
+  {
+    "id": "skoda_felicia",
+    "brand": "Skoda",
+    "model": "Felicia",
+    "fullName": "Skoda Felicia",
+    "imageUrl": "/images/skoda_felicia.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Felicia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Felicia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Felicia"
+  },
+  {
+    "id": "skoda_kamiq",
+    "brand": "Skoda",
+    "model": "Kamiq",
+    "fullName": "Skoda Kamiq",
+    "imageUrl": "/images/skoda_kamiq.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Kamiq",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Kamiq image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Kamiq"
+  },
+  {
+    "id": "skoda_karoq",
+    "brand": "Skoda",
+    "model": "Karoq",
+    "fullName": "Skoda Karoq",
+    "imageUrl": "/images/skoda_karoq.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Karoq",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Karoq image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Karoq"
+  },
+  {
+    "id": "skoda_kodiaq",
+    "brand": "Skoda",
+    "model": "Kodiaq",
+    "fullName": "Skoda Kodiaq",
+    "imageUrl": "/images/skoda_kodiaq.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Kodiaq",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Kodiaq image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Kodiaq"
+  },
+  {
+    "id": "skoda_octavia",
+    "brand": "Skoda",
+    "model": "Octavia",
+    "fullName": "Skoda Octavia",
+    "imageUrl": "/images/skoda_octavia.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Octavia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Octavia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Octavia"
+  },
+  {
+    "id": "skoda_rapid",
+    "brand": "Skoda",
+    "model": "Rapid",
+    "fullName": "Skoda Rapid",
+    "imageUrl": "/images/skoda_rapid.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Rapid",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Rapid image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Rapid"
+  },
+  {
+    "id": "skoda_roomster",
+    "brand": "Skoda",
+    "model": "Roomster",
+    "fullName": "Skoda Roomster",
+    "imageUrl": "/images/skoda_roomster.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Roomster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Roomster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Roomster"
+  },
+  {
+    "id": "skoda_scala",
+    "brand": "Skoda",
+    "model": "Scala",
+    "fullName": "Skoda Scala",
+    "imageUrl": "/images/skoda_scala.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Scala",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Scala image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Scala"
+  },
+  {
+    "id": "skoda_superb",
+    "brand": "Skoda",
+    "model": "Superb",
+    "fullName": "Skoda Superb",
+    "imageUrl": "/images/skoda_superb.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Superb",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Superb image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Superb"
+  },
+  {
+    "id": "skoda_yeti",
+    "brand": "Skoda",
+    "model": "Yeti",
+    "fullName": "Skoda Yeti",
+    "imageUrl": "/images/skoda_yeti.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Skoda_Yeti",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Skoda Yeti image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Skoda_Yeti"
+  },
+  {
+    "id": "smart_crossblade",
     "brand": "Smart",
-    "model": "Fortwo",
-    "fullName": "Smart Fortwo",
-    "imageUrl": "/images/smart_fortwo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Smart_Fortwo"
+    "model": "Crossblade",
+    "fullName": "Smart Crossblade",
+    "imageUrl": "/images/smart_crossblade.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Smart_Crossblade",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Smart Crossblade image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Smart_Crossblade"
   },
   {
     "id": "smart_forfour",
@@ -7183,7 +10375,23 @@ export const cars: Car[] = [
     "model": "Forfour",
     "fullName": "Smart Forfour",
     "imageUrl": "/images/smart_forfour.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Smart_Forfour"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Smart_Forfour",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Smart Forfour image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Smart_Forfour"
+  },
+  {
+    "id": "smart_fortwo",
+    "brand": "Smart",
+    "model": "Fortwo",
+    "fullName": "Smart Fortwo",
+    "imageUrl": "/images/smart_fortwo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Smart_Fortwo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Smart Fortwo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Smart_Fortwo"
   },
   {
     "id": "smart_roadster",
@@ -7191,55 +10399,35 @@ export const cars: Car[] = [
     "model": "Roadster",
     "fullName": "Smart Roadster",
     "imageUrl": "/images/smart_roadster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Smart_Roadster"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Smart_Roadster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Smart Roadster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Smart_Roadster"
   },
   {
-    "id": "smart_crossblade",
-    "brand": "Smart",
-    "model": "Fortwo",
-    "fullName": "Smart Fortwo",
-    "imageUrl": "/images/smart_crossblade.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Smart_Crossblade"
-  },
-  {
-    "id": "subaru_crosstrek",
+    "id": "subaru_alcyone",
     "brand": "Subaru",
-    "model": "Crosstrek",
-    "fullName": "Subaru Crosstrek",
-    "imageUrl": "/images/subaru_crosstrek.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Crosstrek"
+    "model": "Alcyone",
+    "fullName": "Subaru Alcyone",
+    "imageUrl": "/images/subaru_alcyone.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Alcyone",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Alcyone image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Alcyone"
   },
   {
-    "id": "subaru_impreza",
+    "id": "subaru_ascent",
     "brand": "Subaru",
-    "model": "Impreza",
-    "fullName": "Subaru Impreza",
-    "imageUrl": "/images/subaru_impreza.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Impreza"
-  },
-  {
-    "id": "subaru_svx",
-    "brand": "Subaru",
-    "model": "SVX",
-    "fullName": "Subaru SVX",
-    "imageUrl": "/images/subaru_svx.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_SVX"
-  },
-  {
-    "id": "subaru_tribeca",
-    "brand": "Subaru",
-    "model": "Tribeca",
-    "fullName": "Subaru Tribeca",
-    "imageUrl": "/images/subaru_tribeca.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Tribeca"
-  },
-  {
-    "id": "subaru_wrx",
-    "brand": "Subaru",
-    "model": "WRX",
-    "fullName": "Subaru WRX",
-    "imageUrl": "/images/subaru_wrx.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_WRX"
+    "model": "Ascent",
+    "fullName": "Subaru Ascent",
+    "imageUrl": "/images/subaru_ascent.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Ascent",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Ascent image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Ascent"
   },
   {
     "id": "subaru_baja",
@@ -7247,7 +10435,71 @@ export const cars: Car[] = [
     "model": "Baja",
     "fullName": "Subaru Baja",
     "imageUrl": "/images/subaru_baja.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Baja"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Baja",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Baja image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Baja"
+  },
+  {
+    "id": "subaru_brz",
+    "brand": "Subaru",
+    "model": "Brz",
+    "fullName": "Subaru Brz",
+    "imageUrl": "/images/subaru_brz.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Brz",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Brz image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Brz"
+  },
+  {
+    "id": "subaru_crosstrek",
+    "brand": "Subaru",
+    "model": "Crosstrek",
+    "fullName": "Subaru Crosstrek",
+    "imageUrl": "/images/subaru_crosstrek.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Crosstrek",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Crosstrek image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Crosstrek"
+  },
+  {
+    "id": "subaru_forester",
+    "brand": "Subaru",
+    "model": "Forester",
+    "fullName": "Subaru Forester",
+    "imageUrl": "/images/subaru_forester.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Forester",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Forester image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Forester"
+  },
+  {
+    "id": "subaru_impreza",
+    "brand": "Subaru",
+    "model": "Impreza",
+    "fullName": "Subaru Impreza",
+    "imageUrl": "/images/subaru_impreza.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Impreza",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Impreza image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Impreza"
+  },
+  {
+    "id": "subaru_impreza_wrx",
+    "brand": "Subaru",
+    "model": "Impreza Wrx",
+    "fullName": "Subaru Impreza Wrx",
+    "imageUrl": "/images/subaru_impreza_wrx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Impreza_Wrx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Impreza Wrx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Impreza_Wrx"
   },
   {
     "id": "subaru_justy",
@@ -7255,31 +10507,23 @@ export const cars: Car[] = [
     "model": "Justy",
     "fullName": "Subaru Justy",
     "imageUrl": "/images/subaru_justy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Justy"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Justy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Justy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Justy"
   },
   {
-    "id": "subaru_loyale",
+    "id": "subaru_legacy",
     "brand": "Subaru",
-    "model": "Leone",
-    "fullName": "Subaru Leone",
-    "imageUrl": "/images/subaru_loyale.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Loyale"
-  },
-  {
-    "id": "subaru_xt",
-    "brand": "Subaru",
-    "model": "XT",
-    "fullName": "Subaru XT",
-    "imageUrl": "/images/subaru_xt.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_XT"
-  },
-  {
-    "id": "subaru_alcyone",
-    "brand": "Subaru",
-    "model": "XT",
-    "fullName": "Subaru XT",
-    "imageUrl": "/images/subaru_alcyone.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Alcyone"
+    "model": "Legacy",
+    "fullName": "Subaru Legacy",
+    "imageUrl": "/images/subaru_legacy.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Legacy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Legacy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Legacy"
   },
   {
     "id": "subaru_leone",
@@ -7287,15 +10531,35 @@ export const cars: Car[] = [
     "model": "Leone",
     "fullName": "Subaru Leone",
     "imageUrl": "/images/subaru_leone.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Leone"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Leone",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Leone image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Leone"
   },
   {
-    "id": "subaru_vivio",
+    "id": "subaru_loyale",
     "brand": "Subaru",
-    "model": "Vivio",
-    "fullName": "Subaru Vivio",
-    "imageUrl": "/images/subaru_vivio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Vivio"
+    "model": "Loyale",
+    "fullName": "Subaru Loyale",
+    "imageUrl": "/images/subaru_loyale.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Loyale",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Loyale image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Loyale"
+  },
+  {
+    "id": "subaru_outback",
+    "brand": "Subaru",
+    "model": "Outback",
+    "fullName": "Subaru Outback",
+    "imageUrl": "/images/subaru_outback.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Outback",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Outback image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Outback"
   },
   {
     "id": "subaru_pleo",
@@ -7303,23 +10567,11 @@ export const cars: Car[] = [
     "model": "Pleo",
     "fullName": "Subaru Pleo",
     "imageUrl": "/images/subaru_pleo.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Pleo"
-  },
-  {
-    "id": "subaru_stella",
-    "brand": "Subaru",
-    "model": "Stella",
-    "fullName": "Subaru Stella",
-    "imageUrl": "/images/subaru_stella.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Stella"
-  },
-  {
-    "id": "subaru_r2",
-    "brand": "Subaru",
-    "model": "R2",
-    "fullName": "Subaru R2",
-    "imageUrl": "/images/subaru_r2.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_R2"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Pleo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Pleo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Pleo"
   },
   {
     "id": "subaru_r1",
@@ -7327,191 +10579,95 @@ export const cars: Car[] = [
     "model": "R1",
     "fullName": "Subaru R1",
     "imageUrl": "/images/subaru_r1.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_R1"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_R1",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru R1 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_R1"
   },
   {
-    "id": "suzuki_alto",
-    "brand": "Suzuki",
-    "model": "Alto",
-    "fullName": "Suzuki Alto",
-    "imageUrl": "/images/suzuki_alto.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Alto"
+    "id": "subaru_r2",
+    "brand": "Subaru",
+    "model": "R2",
+    "fullName": "Subaru R2",
+    "imageUrl": "/images/subaru_r2.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_R2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru R2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_R2"
   },
   {
-    "id": "suzuki_baleno",
-    "brand": "Suzuki",
-    "model": "Baleno",
-    "fullName": "Suzuki Baleno",
-    "imageUrl": "/images/suzuki_baleno.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Baleno"
+    "id": "subaru_stella",
+    "brand": "Subaru",
+    "model": "Stella",
+    "fullName": "Subaru Stella",
+    "imageUrl": "/images/subaru_stella.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Stella",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Stella image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Stella"
   },
   {
-    "id": "suzuki_celerio",
-    "brand": "Suzuki",
-    "model": "Celerio",
-    "fullName": "Suzuki Celerio",
-    "imageUrl": "/images/suzuki_celerio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Celerio"
+    "id": "subaru_svx",
+    "brand": "Subaru",
+    "model": "Svx",
+    "fullName": "Subaru Svx",
+    "imageUrl": "/images/subaru_svx.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Svx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Svx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Svx"
   },
   {
-    "id": "suzuki_ciaz",
-    "brand": "Suzuki",
-    "model": "Ciaz",
-    "fullName": "Suzuki Ciaz",
-    "imageUrl": "/images/suzuki_ciaz.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Ciaz"
+    "id": "subaru_tribeca",
+    "brand": "Subaru",
+    "model": "Tribeca",
+    "fullName": "Subaru Tribeca",
+    "imageUrl": "/images/subaru_tribeca.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Tribeca",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Tribeca image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Tribeca"
   },
   {
-    "id": "suzuki_cultus",
-    "brand": "Suzuki",
-    "model": "Cultus",
-    "fullName": "Suzuki Cultus",
-    "imageUrl": "/images/suzuki_cultus.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Cultus"
+    "id": "subaru_vivio",
+    "brand": "Subaru",
+    "model": "Vivio",
+    "fullName": "Subaru Vivio",
+    "imageUrl": "/images/subaru_vivio.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Vivio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Vivio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Vivio"
   },
   {
-    "id": "suzuki_ertiga",
-    "brand": "Suzuki",
-    "model": "Ertiga",
-    "fullName": "Suzuki Ertiga",
-    "imageUrl": "/images/suzuki_ertiga.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Ertiga"
+    "id": "subaru_wrx",
+    "brand": "Subaru",
+    "model": "Wrx",
+    "fullName": "Subaru Wrx",
+    "imageUrl": "/images/subaru_wrx.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Wrx",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Wrx image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Wrx"
   },
   {
-    "id": "suzuki_esteem",
-    "brand": "Suzuki",
-    "model": "Cultus Crescent",
-    "fullName": "Suzuki Cultus Crescent",
-    "imageUrl": "/images/suzuki_esteem.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Esteem"
-  },
-  {
-    "id": "suzuki_forenza",
-    "brand": "Daewoo",
-    "model": "Lacetti",
-    "fullName": "Daewoo Lacetti",
-    "imageUrl": "/images/suzuki_forenza.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Forenza"
-  },
-  {
-    "id": "suzuki_grand_vitara",
-    "brand": "Suzuki",
-    "model": "Vitara",
-    "fullName": "Suzuki Vitara",
-    "imageUrl": "/images/suzuki_grand_vitara.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Grand_Vitara"
-  },
-  {
-    "id": "suzuki_ignis",
-    "brand": "Suzuki",
-    "model": "Ignis",
-    "fullName": "Suzuki Ignis",
-    "imageUrl": "/images/suzuki_ignis.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Ignis"
-  },
-  {
-    "id": "suzuki_jimny",
-    "brand": "Suzuki",
-    "model": "Jimny",
-    "fullName": "Suzuki Jimny",
-    "imageUrl": "/images/suzuki_jimny.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Jimny"
-  },
-  {
-    "id": "suzuki_kizashi",
-    "brand": "Suzuki",
-    "model": "Kizashi",
-    "fullName": "Suzuki Kizashi",
-    "imageUrl": "/images/suzuki_kizashi.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Kizashi"
-  },
-  {
-    "id": "suzuki_liana",
-    "brand": "Suzuki",
-    "model": "Aerio",
-    "fullName": "Suzuki Aerio",
-    "imageUrl": "/images/suzuki_liana.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Liana"
-  },
-  {
-    "id": "suzuki_reno",
-    "brand": "Daewoo",
-    "model": "Lacetti",
-    "fullName": "Daewoo Lacetti",
-    "imageUrl": "/images/suzuki_reno.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Reno"
-  },
-  {
-    "id": "suzuki_samurai",
-    "brand": "Suzuki",
-    "model": "Jimny",
-    "fullName": "Suzuki Jimny",
-    "imageUrl": "/images/suzuki_samurai.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Samurai"
-  },
-  {
-    "id": "suzuki_sidekick",
-    "brand": "Suzuki",
-    "model": "Vitara",
-    "fullName": "Suzuki Vitara",
-    "imageUrl": "/images/suzuki_sidekick.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Sidekick"
-  },
-  {
-    "id": "suzuki_swift",
-    "brand": "Suzuki",
-    "model": "Swift",
-    "fullName": "Suzuki Swift",
-    "imageUrl": "/images/suzuki_swift.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Swift"
-  },
-  {
-    "id": "suzuki_sx4",
-    "brand": "Suzuki",
-    "model": "SX4",
-    "fullName": "Suzuki SX4",
-    "imageUrl": "/images/suzuki_sx4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_SX4"
-  },
-  {
-    "id": "suzuki_verona",
-    "brand": "Daewoo",
-    "model": "Magnus",
-    "fullName": "Daewoo Magnus",
-    "imageUrl": "/images/suzuki_verona.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Verona"
-  },
-  {
-    "id": "suzuki_vitara",
-    "brand": "Suzuki",
-    "model": "Vitara",
-    "fullName": "Suzuki Vitara",
-    "imageUrl": "/images/suzuki_vitara.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Vitara"
-  },
-  {
-    "id": "suzuki_wagon_r",
-    "brand": "Suzuki",
-    "model": "Wagon R",
-    "fullName": "Suzuki Wagon R",
-    "imageUrl": "/images/suzuki_wagon_r.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Wagon_R"
-  },
-  {
-    "id": "suzuki_x_90",
-    "brand": "Suzuki",
-    "model": "X-90",
-    "fullName": "Suzuki X-90",
-    "imageUrl": "/images/suzuki_x_90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_X-90"
-  },
-  {
-    "id": "suzuki_xl7",
-    "brand": "Suzuki",
-    "model": "Ertiga",
-    "fullName": "Suzuki Ertiga",
-    "imageUrl": "/images/suzuki_xl7.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_XL7"
+    "id": "subaru_xt",
+    "brand": "Subaru",
+    "model": "Xt",
+    "fullName": "Subaru Xt",
+    "imageUrl": "/images/subaru_xt.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Subaru_Xt",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Subaru Xt image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Subaru_Xt"
   },
   {
     "id": "suzuki_aerio",
@@ -7519,7 +10675,35 @@ export const cars: Car[] = [
     "model": "Aerio",
     "fullName": "Suzuki Aerio",
     "imageUrl": "/images/suzuki_aerio.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Aerio"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Aerio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Aerio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Aerio"
+  },
+  {
+    "id": "suzuki_alto",
+    "brand": "Suzuki",
+    "model": "Alto",
+    "fullName": "Suzuki Alto",
+    "imageUrl": "/images/suzuki_alto.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Alto",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Alto image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Alto"
+  },
+  {
+    "id": "suzuki_baleno",
+    "brand": "Suzuki",
+    "model": "Baleno",
+    "fullName": "Suzuki Baleno",
+    "imageUrl": "/images/suzuki_baleno.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Baleno",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Baleno image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Baleno"
   },
   {
     "id": "suzuki_cappuccino",
@@ -7527,23 +10711,131 @@ export const cars: Car[] = [
     "model": "Cappuccino",
     "fullName": "Suzuki Cappuccino",
     "imageUrl": "/images/suzuki_cappuccino.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Cappuccino"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Cappuccino",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Cappuccino image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Cappuccino"
+  },
+  {
+    "id": "suzuki_celerio",
+    "brand": "Suzuki",
+    "model": "Celerio",
+    "fullName": "Suzuki Celerio",
+    "imageUrl": "/images/suzuki_celerio.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Celerio",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Celerio image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Celerio"
+  },
+  {
+    "id": "suzuki_ciaz",
+    "brand": "Suzuki",
+    "model": "Ciaz",
+    "fullName": "Suzuki Ciaz",
+    "imageUrl": "/images/suzuki_ciaz.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Ciaz",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Ciaz image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Ciaz"
+  },
+  {
+    "id": "suzuki_cultus",
+    "brand": "Suzuki",
+    "model": "Cultus",
+    "fullName": "Suzuki Cultus",
+    "imageUrl": "/images/suzuki_cultus.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Cultus",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Cultus image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Cultus"
+  },
+  {
+    "id": "suzuki_ertiga",
+    "brand": "Suzuki",
+    "model": "Ertiga",
+    "fullName": "Suzuki Ertiga",
+    "imageUrl": "/images/suzuki_ertiga.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Ertiga",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Ertiga image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Ertiga"
   },
   {
     "id": "suzuki_escudo",
     "brand": "Suzuki",
-    "model": "Vitara",
-    "fullName": "Suzuki Vitara",
+    "model": "Escudo",
+    "fullName": "Suzuki Escudo",
     "imageUrl": "/images/suzuki_escudo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Escudo"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Escudo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Escudo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Escudo"
+  },
+  {
+    "id": "suzuki_esteem",
+    "brand": "Suzuki",
+    "model": "Esteem",
+    "fullName": "Suzuki Esteem",
+    "imageUrl": "/images/suzuki_esteem.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Esteem",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Esteem image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Esteem"
   },
   {
     "id": "suzuki_every",
     "brand": "Suzuki",
-    "model": "Carry",
-    "fullName": "Suzuki Carry",
+    "model": "Every",
+    "fullName": "Suzuki Every",
     "imageUrl": "/images/suzuki_every.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Every"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Every",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Every image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Every"
+  },
+  {
+    "id": "suzuki_forenza",
+    "brand": "Suzuki",
+    "model": "Forenza",
+    "fullName": "Suzuki Forenza",
+    "imageUrl": "/images/suzuki_forenza.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Forenza",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Forenza image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Forenza"
+  },
+  {
+    "id": "suzuki_grand_vitara",
+    "brand": "Suzuki",
+    "model": "Grand Vitara",
+    "fullName": "Suzuki Grand Vitara",
+    "imageUrl": "/images/suzuki_grand_vitara.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Grand_Vitara",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Grand Vitara image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Grand_Vitara"
+  },
+  {
+    "id": "suzuki_gsx_r1000",
+    "brand": "Suzuki",
+    "model": "Gsx R1000",
+    "fullName": "Suzuki Gsx R1000",
+    "imageUrl": "/images/suzuki_gsx_r1000.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Gsx_R1000",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Gsx R1000 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Gsx_R1000"
   },
   {
     "id": "suzuki_hayabusa",
@@ -7551,15 +10843,35 @@ export const cars: Car[] = [
     "model": "Hayabusa",
     "fullName": "Suzuki Hayabusa",
     "imageUrl": "/images/suzuki_hayabusa.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Hayabusa"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Hayabusa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Hayabusa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Hayabusa"
   },
   {
-    "id": "suzuki_gsx_r1000",
+    "id": "suzuki_ignis",
     "brand": "Suzuki",
-    "model": "GSX-R1000",
-    "fullName": "Suzuki GSX-R1000",
-    "imageUrl": "/images/suzuki_gsx_r1000.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_GSX-R1000"
+    "model": "Ignis",
+    "fullName": "Suzuki Ignis",
+    "imageUrl": "/images/suzuki_ignis.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Ignis",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Ignis image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Ignis"
+  },
+  {
+    "id": "suzuki_jimny",
+    "brand": "Suzuki",
+    "model": "Jimny",
+    "fullName": "Suzuki Jimny",
+    "imageUrl": "/images/suzuki_jimny.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Jimny",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Jimny image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Jimny"
   },
   {
     "id": "suzuki_katana",
@@ -7567,7 +10879,71 @@ export const cars: Car[] = [
     "model": "Katana",
     "fullName": "Suzuki Katana",
     "imageUrl": "/images/suzuki_katana.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Katana"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Katana",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Katana image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Katana"
+  },
+  {
+    "id": "suzuki_kizashi",
+    "brand": "Suzuki",
+    "model": "Kizashi",
+    "fullName": "Suzuki Kizashi",
+    "imageUrl": "/images/suzuki_kizashi.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Kizashi",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Kizashi image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Kizashi"
+  },
+  {
+    "id": "suzuki_liana",
+    "brand": "Suzuki",
+    "model": "Liana",
+    "fullName": "Suzuki Liana",
+    "imageUrl": "/images/suzuki_liana.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Liana",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Liana image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Liana"
+  },
+  {
+    "id": "suzuki_reno",
+    "brand": "Suzuki",
+    "model": "Reno",
+    "fullName": "Suzuki Reno",
+    "imageUrl": "/images/suzuki_reno.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Reno",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Reno image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Reno"
+  },
+  {
+    "id": "suzuki_samurai",
+    "brand": "Suzuki",
+    "model": "Samurai",
+    "fullName": "Suzuki Samurai",
+    "imageUrl": "/images/suzuki_samurai.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Samurai",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Samurai image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Samurai"
+  },
+  {
+    "id": "suzuki_sidekick",
+    "brand": "Suzuki",
+    "model": "Sidekick",
+    "fullName": "Suzuki Sidekick",
+    "imageUrl": "/images/suzuki_sidekick.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Sidekick",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Sidekick image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Sidekick"
   },
   {
     "id": "suzuki_splash",
@@ -7575,7 +10951,95 @@ export const cars: Car[] = [
     "model": "Splash",
     "fullName": "Suzuki Splash",
     "imageUrl": "/images/suzuki_splash.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Splash"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Splash",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Splash image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Splash"
+  },
+  {
+    "id": "suzuki_swift",
+    "brand": "Suzuki",
+    "model": "Swift",
+    "fullName": "Suzuki Swift",
+    "imageUrl": "/images/suzuki_swift.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Swift",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Swift image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Swift"
+  },
+  {
+    "id": "suzuki_sx4",
+    "brand": "Suzuki",
+    "model": "Sx4",
+    "fullName": "Suzuki Sx4",
+    "imageUrl": "/images/suzuki_sx4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Sx4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Sx4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Sx4"
+  },
+  {
+    "id": "suzuki_verona",
+    "brand": "Suzuki",
+    "model": "Verona",
+    "fullName": "Suzuki Verona",
+    "imageUrl": "/images/suzuki_verona.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Verona",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Verona image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Verona"
+  },
+  {
+    "id": "suzuki_vitara",
+    "brand": "Suzuki",
+    "model": "Vitara",
+    "fullName": "Suzuki Vitara",
+    "imageUrl": "/images/suzuki_vitara.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Vitara",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Vitara image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Vitara"
+  },
+  {
+    "id": "suzuki_wagon_r",
+    "brand": "Suzuki",
+    "model": "Wagon R",
+    "fullName": "Suzuki Wagon R",
+    "imageUrl": "/images/suzuki_wagon_r.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Wagon_R",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Wagon R image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Wagon_R"
+  },
+  {
+    "id": "suzuki_x_90",
+    "brand": "Suzuki",
+    "model": "X 90",
+    "fullName": "Suzuki X 90",
+    "imageUrl": "/images/suzuki_x_90.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_X_90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki X 90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_X_90"
+  },
+  {
+    "id": "suzuki_xl7",
+    "brand": "Suzuki",
+    "model": "Xl7",
+    "fullName": "Suzuki Xl7",
+    "imageUrl": "/images/suzuki_xl7.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Suzuki_Xl7",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Suzuki Xl7 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Suzuki_Xl7"
   },
   {
     "id": "tesla_cybertruck",
@@ -7583,7 +11047,59 @@ export const cars: Car[] = [
     "model": "Cybertruck",
     "fullName": "Tesla Cybertruck",
     "imageUrl": "/images/tesla_cybertruck.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Cybertruck",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Tesla Cybertruck image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Tesla_Cybertruck"
+  },
+  {
+    "id": "tesla_model_3",
+    "brand": "Tesla",
+    "model": "Model 3",
+    "fullName": "Tesla Model 3",
+    "imageUrl": "/images/tesla_model_3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Model_3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Tesla Model 3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Tesla_Model_3"
+  },
+  {
+    "id": "tesla_model_s",
+    "brand": "Tesla",
+    "model": "Model S",
+    "fullName": "Tesla Model S",
+    "imageUrl": "/images/tesla_model_s.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Model_S",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Tesla Model S image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Tesla_Model_S"
+  },
+  {
+    "id": "tesla_model_x",
+    "brand": "Tesla",
+    "model": "Model X",
+    "fullName": "Tesla Model X",
+    "imageUrl": "/images/tesla_model_x.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Model_X",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Tesla Model X image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Tesla_Model_X"
+  },
+  {
+    "id": "tesla_model_y",
+    "brand": "Tesla",
+    "model": "Model Y",
+    "fullName": "Tesla Model Y",
+    "imageUrl": "/images/tesla_model_y.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Model_Y",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Tesla Model Y image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Tesla_Model_Y"
   },
   {
     "id": "tesla_semi",
@@ -7591,231 +11107,35 @@ export const cars: Car[] = [
     "model": "Semi",
     "fullName": "Tesla Semi",
     "imageUrl": "/images/tesla_semi.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Semi"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Tesla_Semi",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Tesla Semi image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Tesla_Semi"
   },
   {
-    "id": "toyota_avalon",
+    "id": "toyota_4runner",
     "brand": "Toyota",
-    "model": "Avalon",
-    "fullName": "Toyota Avalon",
-    "imageUrl": "/images/toyota_avalon.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Avalon"
+    "model": "4runner",
+    "fullName": "Toyota 4runner",
+    "imageUrl": "/images/toyota_4runner.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_4runner",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota 4runner image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_4runner"
   },
   {
-    "id": "toyota_avensis",
-    "brand": "Toyota",
-    "model": "Avensis",
-    "fullName": "Toyota Avensis",
-    "imageUrl": "/images/toyota_avensis.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Avensis"
-  },
-  {
-    "id": "toyota_aygo",
-    "brand": "Toyota",
-    "model": "Aygo",
-    "fullName": "Toyota Aygo",
-    "imageUrl": "/images/toyota_aygo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Aygo"
-  },
-  {
-    "id": "toyota_c_hr",
-    "brand": "Toyota",
-    "model": "C-HR",
-    "fullName": "Toyota C-HR",
-    "imageUrl": "/images/toyota_c_hr.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_C-HR"
-  },
-  {
-    "id": "toyota_celica",
-    "brand": "Toyota",
-    "model": "Celica",
-    "fullName": "Toyota Celica",
-    "imageUrl": "/images/toyota_celica.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Celica"
-  },
-  {
-    "id": "toyota_crown",
-    "brand": "Toyota",
-    "model": "Crown",
-    "fullName": "Toyota Crown",
-    "imageUrl": "/images/toyota_crown.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Crown"
-  },
-  {
-    "id": "toyota_fj_cruiser",
-    "brand": "Toyota",
-    "model": "FJ Cruiser",
-    "fullName": "Toyota FJ Cruiser",
-    "imageUrl": "/images/toyota_fj_cruiser.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_FJ_Cruiser"
-  },
-  {
-    "id": "toyota_fortuner",
-    "brand": "Toyota",
-    "model": "Fortuner",
-    "fullName": "Toyota Fortuner",
-    "imageUrl": "/images/toyota_fortuner.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Fortuner"
-  },
-  {
-    "id": "toyota_gt86",
+    "id": "toyota_86",
     "brand": "Toyota",
     "model": "86",
     "fullName": "Toyota 86",
-    "imageUrl": "/images/toyota_gt86.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_GT86"
-  },
-  {
-    "id": "toyota_hilux",
-    "brand": "Toyota",
-    "model": "Hilux",
-    "fullName": "Toyota Hilux",
-    "imageUrl": "/images/toyota_hilux.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Hilux"
-  },
-  {
-    "id": "toyota_land_cruiser",
-    "brand": "Toyota",
-    "model": "Land Cruiser",
-    "fullName": "Toyota Land Cruiser",
-    "imageUrl": "/images/toyota_land_cruiser.png",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
-  },
-  {
-    "id": "toyota_matrix",
-    "brand": "Toyota",
-    "model": "Matrix",
-    "fullName": "Toyota Matrix",
-    "imageUrl": "/images/toyota_matrix.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Matrix"
-  },
-  {
-    "id": "toyota_mr2",
-    "brand": "Toyota",
-    "model": "MR2",
-    "fullName": "Toyota MR2",
-    "imageUrl": "/images/toyota_mr2.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_MR2"
-  },
-  {
-    "id": "toyota_sequoia",
-    "brand": "Toyota",
-    "model": "Sequoia",
-    "fullName": "Toyota Sequoia",
-    "imageUrl": "/images/toyota_sequoia.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Sequoia"
-  },
-  {
-    "id": "toyota_sienna",
-    "brand": "Toyota",
-    "model": "Sienna",
-    "fullName": "Toyota Sienna",
-    "imageUrl": "/images/toyota_sienna.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Sienna"
-  },
-  {
-    "id": "toyota_solara",
-    "brand": "Toyota",
-    "model": "Camry Solara",
-    "fullName": "Toyota Camry Solara",
-    "imageUrl": "/images/toyota_solara.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Solara"
-  },
-  {
-    "id": "toyota_tacoma",
-    "brand": "Toyota",
-    "model": "Tacoma",
-    "fullName": "Toyota Tacoma",
-    "imageUrl": "/images/toyota_tacoma.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Tacoma"
-  },
-  {
-    "id": "toyota_venza",
-    "brand": "Toyota",
-    "model": "Venza",
-    "fullName": "Toyota Venza",
-    "imageUrl": "/images/toyota_venza.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Venza"
-  },
-  {
-    "id": "toyota_verso",
-    "brand": "Toyota",
-    "model": "Verso",
-    "fullName": "Toyota Verso",
-    "imageUrl": "/images/toyota_verso.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Verso"
-  },
-  {
-    "id": "toyota_previa",
-    "brand": "Toyota",
-    "model": "Previa",
-    "fullName": "Toyota Previa",
-    "imageUrl": "/images/toyota_previa.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Previa"
-  },
-  {
-    "id": "toyota_picnic",
-    "brand": "Toyota",
-    "model": "Ipsum",
-    "fullName": "Toyota Ipsum",
-    "imageUrl": "/images/toyota_picnic.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Picnic"
-  },
-  {
-    "id": "toyota_starlet",
-    "brand": "Toyota",
-    "model": "Starlet",
-    "fullName": "Toyota Starlet",
-    "imageUrl": "/images/toyota_starlet.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Starlet"
-  },
-  {
-    "id": "toyota_paseo",
-    "brand": "Toyota",
-    "model": "Paseo",
-    "fullName": "Toyota Paseo",
-    "imageUrl": "/images/toyota_paseo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Paseo"
-  },
-  {
-    "id": "toyota_echo",
-    "brand": "Toyota",
-    "model": "Yaris",
-    "fullName": "Toyota Yaris",
-    "imageUrl": "/images/toyota_echo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Echo"
-  },
-  {
-    "id": "toyota_cressida",
-    "brand": "Toyota",
-    "model": "Mark II",
-    "fullName": "Toyota Mark II",
-    "imageUrl": "/images/toyota_cressida.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Cressida"
-  },
-  {
-    "id": "toyota_camry_solara",
-    "brand": "Toyota",
-    "model": "Camry Solara",
-    "fullName": "Toyota Camry Solara",
-    "imageUrl": "/images/toyota_camry_solara.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Camry_Solara"
-  },
-  {
-    "id": "toyota_vitz",
-    "brand": "Toyota",
-    "model": "Vitz",
-    "fullName": "Toyota Vitz",
-    "imageUrl": "/images/toyota_vitz.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Vitz"
-  },
-  {
-    "id": "toyota_wish",
-    "brand": "Toyota",
-    "model": "Wish",
-    "fullName": "Toyota Wish",
-    "imageUrl": "/images/toyota_wish.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Wish"
+    "imageUrl": "/images/toyota_86.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_86",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota 86 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_86"
   },
   {
     "id": "toyota_alphard",
@@ -7823,47 +11143,107 @@ export const cars: Car[] = [
     "model": "Alphard",
     "fullName": "Toyota Alphard",
     "imageUrl": "/images/toyota_alphard.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Alphard"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Alphard",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Alphard image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Alphard"
   },
   {
-    "id": "toyota_estima",
+    "id": "toyota_avalon",
     "brand": "Toyota",
-    "model": "Previa",
-    "fullName": "Toyota Previa",
-    "imageUrl": "/images/toyota_estima.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Estima"
+    "model": "Avalon",
+    "fullName": "Toyota Avalon",
+    "imageUrl": "/images/toyota_avalon.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Avalon",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Avalon image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Avalon"
   },
   {
-    "id": "toyota_noah",
+    "id": "toyota_avensis",
     "brand": "Toyota",
-    "model": "Noah",
-    "fullName": "Toyota Noah",
-    "imageUrl": "/images/toyota_noah.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Noah"
+    "model": "Avensis",
+    "fullName": "Toyota Avensis",
+    "imageUrl": "/images/toyota_avensis.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Avensis",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Avensis image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Avensis"
   },
   {
-    "id": "toyota_voxy",
+    "id": "toyota_aygo",
     "brand": "Toyota",
-    "model": "Noah",
-    "fullName": "Toyota Noah",
-    "imageUrl": "/images/toyota_voxy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Voxy"
+    "model": "Aygo",
+    "fullName": "Toyota Aygo",
+    "imageUrl": "/images/toyota_aygo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Aygo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Aygo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Aygo"
   },
   {
-    "id": "toyota_hiace",
+    "id": "toyota_bz4x",
     "brand": "Toyota",
-    "model": "HiAce",
-    "fullName": "Toyota HiAce",
-    "imageUrl": "/images/toyota_hiace.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Hiace"
+    "model": "Bz4x",
+    "fullName": "Toyota Bz4x",
+    "imageUrl": "/images/toyota_bz4x.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Bz4x",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Bz4x image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Bz4x"
   },
   {
-    "id": "toyota_dyna",
+    "id": "toyota_c_hr",
     "brand": "Toyota",
-    "model": "Dyna",
-    "fullName": "Toyota Dyna",
-    "imageUrl": "/images/toyota_dyna.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Dyna"
+    "model": "C Hr",
+    "fullName": "Toyota C Hr",
+    "imageUrl": "/images/toyota_c_hr.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_C_Hr",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota C Hr image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_C_Hr"
+  },
+  {
+    "id": "toyota_camry",
+    "brand": "Toyota",
+    "model": "Camry",
+    "fullName": "Toyota Camry",
+    "imageUrl": "/images/toyota_camry.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Camry",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Camry image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Camry"
+  },
+  {
+    "id": "toyota_camry_solara",
+    "brand": "Toyota",
+    "model": "Camry Solara",
+    "fullName": "Toyota Camry Solara",
+    "imageUrl": "/images/toyota_camry_solara.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Camry_Solara",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Camry Solara image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Camry_Solara"
+  },
+  {
+    "id": "toyota_celica",
+    "brand": "Toyota",
+    "model": "Celica",
+    "fullName": "Toyota Celica",
+    "imageUrl": "/images/toyota_celica.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Celica",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Celica image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Celica"
   },
   {
     "id": "toyota_coaster",
@@ -7871,15 +11251,215 @@ export const cars: Car[] = [
     "model": "Coaster",
     "fullName": "Toyota Coaster",
     "imageUrl": "/images/toyota_coaster.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Coaster"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Coaster",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Coaster image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Coaster"
   },
   {
-    "id": "toyota_bz4x",
+    "id": "toyota_corolla",
     "brand": "Toyota",
-    "model": "bZ4X",
-    "fullName": "Toyota bZ4X",
-    "imageUrl": "/images/toyota_bz4x.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_bZ4X"
+    "model": "Corolla",
+    "fullName": "Toyota Corolla",
+    "imageUrl": "/images/toyota_corolla.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Corolla",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Corolla image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Corolla"
+  },
+  {
+    "id": "toyota_cressida",
+    "brand": "Toyota",
+    "model": "Cressida",
+    "fullName": "Toyota Cressida",
+    "imageUrl": "/images/toyota_cressida.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Cressida",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Cressida image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Cressida"
+  },
+  {
+    "id": "toyota_crown",
+    "brand": "Toyota",
+    "model": "Crown",
+    "fullName": "Toyota Crown",
+    "imageUrl": "/images/toyota_crown.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Crown",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Crown image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Crown"
+  },
+  {
+    "id": "toyota_dyna",
+    "brand": "Toyota",
+    "model": "Dyna",
+    "fullName": "Toyota Dyna",
+    "imageUrl": "/images/toyota_dyna.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Dyna",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Dyna image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Dyna"
+  },
+  {
+    "id": "toyota_echo",
+    "brand": "Toyota",
+    "model": "Echo",
+    "fullName": "Toyota Echo",
+    "imageUrl": "/images/toyota_echo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Echo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Echo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Echo"
+  },
+  {
+    "id": "toyota_estima",
+    "brand": "Toyota",
+    "model": "Estima",
+    "fullName": "Toyota Estima",
+    "imageUrl": "/images/toyota_estima.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Estima",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Estima image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Estima"
+  },
+  {
+    "id": "toyota_fj_cruiser",
+    "brand": "Toyota",
+    "model": "Fj Cruiser",
+    "fullName": "Toyota Fj Cruiser",
+    "imageUrl": "/images/toyota_fj_cruiser.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Fj_Cruiser",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Fj Cruiser image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Fj_Cruiser"
+  },
+  {
+    "id": "toyota_fortuner",
+    "brand": "Toyota",
+    "model": "Fortuner",
+    "fullName": "Toyota Fortuner",
+    "imageUrl": "/images/toyota_fortuner.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Fortuner",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Fortuner image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Fortuner"
+  },
+  {
+    "id": "toyota_gr_86",
+    "brand": "Toyota",
+    "model": "Gr 86",
+    "fullName": "Toyota Gr 86",
+    "imageUrl": "/images/toyota_gr_86.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Gr_86",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Gr 86 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Gr_86"
+  },
+  {
+    "id": "toyota_gr_supra",
+    "brand": "Toyota",
+    "model": "Gr Supra",
+    "fullName": "Toyota Gr Supra",
+    "imageUrl": "/images/toyota_gr_supra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Gr_Supra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Gr Supra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Gr_Supra"
+  },
+  {
+    "id": "toyota_gr_yaris",
+    "brand": "Toyota",
+    "model": "Gr Yaris",
+    "fullName": "Toyota Gr Yaris",
+    "imageUrl": "/images/toyota_gr_yaris.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Gr_Yaris",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Gr Yaris image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Gr_Yaris"
+  },
+  {
+    "id": "toyota_gt86",
+    "brand": "Toyota",
+    "model": "Gt86",
+    "fullName": "Toyota Gt86",
+    "imageUrl": "/images/toyota_gt86.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Gt86",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Gt86 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Gt86"
+  },
+  {
+    "id": "toyota_hiace",
+    "brand": "Toyota",
+    "model": "Hiace",
+    "fullName": "Toyota Hiace",
+    "imageUrl": "/images/toyota_hiace.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Hiace",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Hiace image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Hiace"
+  },
+  {
+    "id": "toyota_highlander",
+    "brand": "Toyota",
+    "model": "Highlander",
+    "fullName": "Toyota Highlander",
+    "imageUrl": "/images/toyota_highlander.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Highlander",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Highlander image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Highlander"
+  },
+  {
+    "id": "toyota_hilux",
+    "brand": "Toyota",
+    "model": "Hilux",
+    "fullName": "Toyota Hilux",
+    "imageUrl": "/images/toyota_hilux.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Hilux",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Hilux image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Hilux"
+  },
+  {
+    "id": "toyota_land_cruiser",
+    "brand": "Toyota",
+    "model": "Land Cruiser",
+    "fullName": "Toyota Land Cruiser",
+    "imageUrl": "/images/toyota_land_cruiser.png",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Land Cruiser image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Land_Cruiser"
+  },
+  {
+    "id": "toyota_matrix",
+    "brand": "Toyota",
+    "model": "Matrix",
+    "fullName": "Toyota Matrix",
+    "imageUrl": "/images/toyota_matrix.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Matrix",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Matrix image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Matrix"
   },
   {
     "id": "toyota_mirai",
@@ -7887,127 +11467,275 @@ export const cars: Car[] = [
     "model": "Mirai",
     "fullName": "Toyota Mirai",
     "imageUrl": "/images/toyota_mirai.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Mirai"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Mirai",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Mirai image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Mirai"
   },
   {
-    "id": "toyota_gr_supra",
+    "id": "toyota_mr2",
     "brand": "Toyota",
-    "model": "GR Supra",
-    "fullName": "Toyota GR Supra",
-    "imageUrl": "/images/toyota_gr_supra.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_GR_Supra"
+    "model": "Mr2",
+    "fullName": "Toyota Mr2",
+    "imageUrl": "/images/toyota_mr2.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Mr2",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Mr2 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Mr2"
   },
   {
-    "id": "toyota_gr_86",
+    "id": "toyota_noah",
     "brand": "Toyota",
-    "model": "86",
-    "fullName": "Toyota 86",
-    "imageUrl": "/images/toyota_gr_86.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_GR_86"
+    "model": "Noah",
+    "fullName": "Toyota Noah",
+    "imageUrl": "/images/toyota_noah.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Noah",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Noah image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Noah"
   },
   {
-    "id": "toyota_gr_yaris",
+    "id": "toyota_paseo",
     "brand": "Toyota",
-    "model": "GR Yaris",
-    "fullName": "Toyota GR Yaris",
-    "imageUrl": "/images/toyota_gr_yaris.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_GR_Yaris"
+    "model": "Paseo",
+    "fullName": "Toyota Paseo",
+    "imageUrl": "/images/toyota_paseo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Paseo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Paseo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Paseo"
   },
   {
-    "id": "volkswagen_arteon",
-    "brand": "Volkswagen",
-    "model": "Arteon",
-    "fullName": "Volkswagen Arteon",
-    "imageUrl": "/images/volkswagen_arteon.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Arteon"
+    "id": "toyota_picnic",
+    "brand": "Toyota",
+    "model": "Picnic",
+    "fullName": "Toyota Picnic",
+    "imageUrl": "/images/toyota_picnic.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Picnic",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Picnic image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Picnic"
   },
   {
-    "id": "volkswagen_atlas",
-    "brand": "Volkswagen",
-    "model": "Atlas",
-    "fullName": "Volkswagen Atlas",
-    "imageUrl": "/images/volkswagen_atlas.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Atlas"
+    "id": "toyota_previa",
+    "brand": "Toyota",
+    "model": "Previa",
+    "fullName": "Toyota Previa",
+    "imageUrl": "/images/toyota_previa.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Previa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Previa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Previa"
   },
   {
-    "id": "volkswagen_cc",
-    "brand": "Volkswagen",
-    "model": "CC",
-    "fullName": "Volkswagen CC",
-    "imageUrl": "/images/volkswagen_cc.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_CC"
+    "id": "toyota_prius",
+    "brand": "Toyota",
+    "model": "Prius",
+    "fullName": "Toyota Prius",
+    "imageUrl": "/images/toyota_prius.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Prius",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Prius image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Prius"
   },
   {
-    "id": "volkswagen_eos",
-    "brand": "Volkswagen",
-    "model": "Eos",
-    "fullName": "Volkswagen Eos",
-    "imageUrl": "/images/volkswagen_eos.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Eos"
+    "id": "toyota_rav4",
+    "brand": "Toyota",
+    "model": "Rav4",
+    "fullName": "Toyota Rav4",
+    "imageUrl": "/images/toyota_rav4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Rav4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Rav4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Rav4"
   },
   {
-    "id": "volkswagen_jetta",
-    "brand": "Volkswagen",
-    "model": "Jetta",
-    "fullName": "Volkswagen Jetta",
-    "imageUrl": "/images/volkswagen_jetta.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Jetta"
+    "id": "toyota_sequoia",
+    "brand": "Toyota",
+    "model": "Sequoia",
+    "fullName": "Toyota Sequoia",
+    "imageUrl": "/images/toyota_sequoia.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Sequoia",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Sequoia image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Sequoia"
   },
   {
-    "id": "volkswagen_phaeton",
-    "brand": "Volkswagen",
-    "model": "Phaeton",
-    "fullName": "Volkswagen Phaeton",
-    "imageUrl": "/images/volkswagen_phaeton.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Phaeton"
+    "id": "toyota_sienna",
+    "brand": "Toyota",
+    "model": "Sienna",
+    "fullName": "Toyota Sienna",
+    "imageUrl": "/images/toyota_sienna.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Sienna",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Sienna image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Sienna"
   },
   {
-    "id": "volkswagen_polo",
-    "brand": "Volkswagen",
-    "model": "Polo",
-    "fullName": "Volkswagen Polo",
-    "imageUrl": "/images/volkswagen_polo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Polo"
+    "id": "toyota_solara",
+    "brand": "Toyota",
+    "model": "Solara",
+    "fullName": "Toyota Solara",
+    "imageUrl": "/images/toyota_solara.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Solara",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Solara image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Solara"
   },
   {
-    "id": "volkswagen_routan",
-    "brand": "Volkswagen",
-    "model": "Routan",
-    "fullName": "Volkswagen Routan",
-    "imageUrl": "/images/volkswagen_routan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Routan"
+    "id": "toyota_starlet",
+    "brand": "Toyota",
+    "model": "Starlet",
+    "fullName": "Toyota Starlet",
+    "imageUrl": "/images/toyota_starlet.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Starlet",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Starlet image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Starlet"
   },
   {
-    "id": "volkswagen_tiguan",
-    "brand": "Volkswagen",
-    "model": "Tiguan",
-    "fullName": "Volkswagen Tiguan",
-    "imageUrl": "/images/volkswagen_tiguan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Tiguan"
+    "id": "toyota_supra",
+    "brand": "Toyota",
+    "model": "Supra",
+    "fullName": "Toyota Supra",
+    "imageUrl": "/images/toyota_supra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Supra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Supra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Supra"
   },
   {
-    "id": "volkswagen_touareg",
-    "brand": "Volkswagen",
-    "model": "Touareg",
-    "fullName": "Volkswagen Touareg",
-    "imageUrl": "/images/volkswagen_touareg.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Touareg"
+    "id": "toyota_tacoma",
+    "brand": "Toyota",
+    "model": "Tacoma",
+    "fullName": "Toyota Tacoma",
+    "imageUrl": "/images/toyota_tacoma.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Tacoma",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Tacoma image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Tacoma"
   },
   {
-    "id": "volkswagen_touran",
-    "brand": "Volkswagen",
-    "model": "Touran",
-    "fullName": "Volkswagen Touran",
-    "imageUrl": "/images/volkswagen_touran.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Touran"
+    "id": "toyota_tundra",
+    "brand": "Toyota",
+    "model": "Tundra",
+    "fullName": "Toyota Tundra",
+    "imageUrl": "/images/toyota_tundra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Tundra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Tundra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Tundra"
   },
   {
-    "id": "volkswagen_up_",
-    "brand": "Volkswagen",
-    "model": "Up",
-    "fullName": "Volkswagen Up",
-    "imageUrl": "/images/volkswagen_up_.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_up!"
+    "id": "toyota_venza",
+    "brand": "Toyota",
+    "model": "Venza",
+    "fullName": "Toyota Venza",
+    "imageUrl": "/images/toyota_venza.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Venza",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Venza image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Venza"
+  },
+  {
+    "id": "toyota_verso",
+    "brand": "Toyota",
+    "model": "Verso",
+    "fullName": "Toyota Verso",
+    "imageUrl": "/images/toyota_verso.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Verso",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Verso image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Verso"
+  },
+  {
+    "id": "toyota_vitz",
+    "brand": "Toyota",
+    "model": "Vitz",
+    "fullName": "Toyota Vitz",
+    "imageUrl": "/images/toyota_vitz.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Vitz",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Vitz image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Vitz"
+  },
+  {
+    "id": "toyota_voxy",
+    "brand": "Toyota",
+    "model": "Voxy",
+    "fullName": "Toyota Voxy",
+    "imageUrl": "/images/toyota_voxy.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Voxy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Voxy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Voxy"
+  },
+  {
+    "id": "toyota_wish",
+    "brand": "Toyota",
+    "model": "Wish",
+    "fullName": "Toyota Wish",
+    "imageUrl": "/images/toyota_wish.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Wish",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Wish image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Wish"
+  },
+  {
+    "id": "toyota_yaris",
+    "brand": "Toyota",
+    "model": "Yaris",
+    "fullName": "Toyota Yaris",
+    "imageUrl": "/images/toyota_yaris.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Toyota_Yaris",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Toyota Yaris image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Toyota_Yaris"
+  },
+  {
+    "id": "vauxhall_astra",
+    "brand": "Vauxhall",
+    "model": "Astra",
+    "fullName": "Vauxhall Astra",
+    "imageUrl": "/images/vauxhall_astra.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Vauxhall_Astra",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Vauxhall Astra image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Vauxhall_Astra"
+  },
+  {
+    "id": "vauxhall_corsa",
+    "brand": "Vauxhall",
+    "model": "Corsa",
+    "fullName": "Vauxhall Corsa",
+    "imageUrl": "/images/vauxhall_corsa.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Vauxhall_Corsa",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Vauxhall Corsa image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Vauxhall_Corsa"
   },
   {
     "id": "volkswagen_amarok",
@@ -8015,79 +11743,47 @@ export const cars: Car[] = [
     "model": "Amarok",
     "fullName": "Volkswagen Amarok",
     "imageUrl": "/images/volkswagen_amarok.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Amarok"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Amarok",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Amarok image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Amarok"
   },
   {
-    "id": "volkswagen_caddy",
+    "id": "volkswagen_arteon",
     "brand": "Volkswagen",
-    "model": "Caddy",
-    "fullName": "Volkswagen Caddy",
-    "imageUrl": "/images/volkswagen_caddy.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Caddy"
+    "model": "Arteon",
+    "fullName": "Volkswagen Arteon",
+    "imageUrl": "/images/volkswagen_arteon.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Arteon",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Arteon image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Arteon"
   },
   {
-    "id": "volkswagen_crafter",
+    "id": "volkswagen_atlas",
     "brand": "Volkswagen",
-    "model": "Crafter",
-    "fullName": "Volkswagen Crafter",
-    "imageUrl": "/images/volkswagen_crafter.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Crafter"
+    "model": "Atlas",
+    "fullName": "Volkswagen Atlas",
+    "imageUrl": "/images/volkswagen_atlas.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Atlas",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Atlas image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Atlas"
   },
   {
-    "id": "volkswagen_multivan",
+    "id": "volkswagen_beetle",
     "brand": "Volkswagen",
-    "model": "Transporter",
-    "fullName": "Volkswagen Transporter",
-    "imageUrl": "/images/volkswagen_multivan.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Multivan"
-  },
-  {
-    "id": "volkswagen_sharan",
-    "brand": "Volkswagen",
-    "model": "Sharan",
-    "fullName": "Volkswagen Sharan",
-    "imageUrl": "/images/volkswagen_sharan.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Sharan"
-  },
-  {
-    "id": "volkswagen_transporter",
-    "brand": "Volkswagen",
-    "model": "Transporter",
-    "fullName": "Volkswagen Transporter",
-    "imageUrl": "/images/volkswagen_transporter.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Transporter"
-  },
-  {
-    "id": "volkswagen_scirocco",
-    "brand": "Volkswagen",
-    "model": "Scirocco",
-    "fullName": "Volkswagen Scirocco",
-    "imageUrl": "/images/volkswagen_scirocco.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Scirocco"
-  },
-  {
-    "id": "volkswagen_corrado",
-    "brand": "Volkswagen",
-    "model": "Corrado",
-    "fullName": "Volkswagen Corrado",
-    "imageUrl": "/images/volkswagen_corrado.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Corrado"
-  },
-  {
-    "id": "volkswagen_lupo",
-    "brand": "Volkswagen",
-    "model": "Lupo",
-    "fullName": "Volkswagen Lupo",
-    "imageUrl": "/images/volkswagen_lupo.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Lupo"
-  },
-  {
-    "id": "volkswagen_fox",
-    "brand": "Volkswagen",
-    "model": "Fox",
-    "fullName": "Volkswagen Fox",
-    "imageUrl": "/images/volkswagen_fox.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Fox"
+    "model": "Beetle",
+    "fullName": "Volkswagen Beetle",
+    "imageUrl": "/images/volkswagen_beetle.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Beetle",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Beetle image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Beetle"
   },
   {
     "id": "volkswagen_bora",
@@ -8095,7 +11791,347 @@ export const cars: Car[] = [
     "model": "Bora",
     "fullName": "Volkswagen Bora",
     "imageUrl": "/images/volkswagen_bora.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Bora"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Bora",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Bora image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Bora"
+  },
+  {
+    "id": "volkswagen_caddy",
+    "brand": "Volkswagen",
+    "model": "Caddy",
+    "fullName": "Volkswagen Caddy",
+    "imageUrl": "/images/volkswagen_caddy.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Caddy",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Caddy image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Caddy"
+  },
+  {
+    "id": "volkswagen_cc",
+    "brand": "Volkswagen",
+    "model": "Cc",
+    "fullName": "Volkswagen Cc",
+    "imageUrl": "/images/volkswagen_cc.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Cc",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Cc image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Cc"
+  },
+  {
+    "id": "volkswagen_corrado",
+    "brand": "Volkswagen",
+    "model": "Corrado",
+    "fullName": "Volkswagen Corrado",
+    "imageUrl": "/images/volkswagen_corrado.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Corrado",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Corrado image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Corrado"
+  },
+  {
+    "id": "volkswagen_crafter",
+    "brand": "Volkswagen",
+    "model": "Crafter",
+    "fullName": "Volkswagen Crafter",
+    "imageUrl": "/images/volkswagen_crafter.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Crafter",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Crafter image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Crafter"
+  },
+  {
+    "id": "volkswagen_eos",
+    "brand": "Volkswagen",
+    "model": "Eos",
+    "fullName": "Volkswagen Eos",
+    "imageUrl": "/images/volkswagen_eos.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Eos",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Eos image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Eos"
+  },
+  {
+    "id": "volkswagen_fox",
+    "brand": "Volkswagen",
+    "model": "Fox",
+    "fullName": "Volkswagen Fox",
+    "imageUrl": "/images/volkswagen_fox.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Fox",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Fox image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Fox"
+  },
+  {
+    "id": "volkswagen_golf",
+    "brand": "Volkswagen",
+    "model": "Golf",
+    "fullName": "Volkswagen Golf",
+    "imageUrl": "/images/volkswagen_golf.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Golf",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Golf image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Golf"
+  },
+  {
+    "id": "volkswagen_golf_gti",
+    "brand": "Volkswagen",
+    "model": "Golf Gti",
+    "fullName": "Volkswagen Golf Gti",
+    "imageUrl": "/images/volkswagen_golf_gti.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Gti",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Golf Gti image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Golf_Gti"
+  },
+  {
+    "id": "volkswagen_golf_r",
+    "brand": "Volkswagen",
+    "model": "Golf R",
+    "fullName": "Volkswagen Golf R",
+    "imageUrl": "/images/volkswagen_golf_r.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Golf_R",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Golf R image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Golf_R"
+  },
+  {
+    "id": "volkswagen_id_3",
+    "brand": "Volkswagen",
+    "model": "Id 3",
+    "fullName": "Volkswagen Id 3",
+    "imageUrl": "/images/volkswagen_id_3.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Id_3",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Id 3 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Id_3"
+  },
+  {
+    "id": "volkswagen_id_4",
+    "brand": "Volkswagen",
+    "model": "Id 4",
+    "fullName": "Volkswagen Id 4",
+    "imageUrl": "/images/volkswagen_id_4.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Id_4",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Id 4 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Id_4"
+  },
+  {
+    "id": "volkswagen_id_buzz",
+    "brand": "Volkswagen",
+    "model": "Id Buzz",
+    "fullName": "Volkswagen Id Buzz",
+    "imageUrl": "/images/volkswagen_id_buzz.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Id_Buzz",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Id Buzz image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Id_Buzz"
+  },
+  {
+    "id": "volkswagen_jetta",
+    "brand": "Volkswagen",
+    "model": "Jetta",
+    "fullName": "Volkswagen Jetta",
+    "imageUrl": "/images/volkswagen_jetta.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Jetta",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Jetta image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Jetta"
+  },
+  {
+    "id": "volkswagen_lupo",
+    "brand": "Volkswagen",
+    "model": "Lupo",
+    "fullName": "Volkswagen Lupo",
+    "imageUrl": "/images/volkswagen_lupo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Lupo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Lupo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Lupo"
+  },
+  {
+    "id": "volkswagen_multivan",
+    "brand": "Volkswagen",
+    "model": "Multivan",
+    "fullName": "Volkswagen Multivan",
+    "imageUrl": "/images/volkswagen_multivan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Multivan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Multivan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Multivan"
+  },
+  {
+    "id": "volkswagen_passat",
+    "brand": "Volkswagen",
+    "model": "Passat",
+    "fullName": "Volkswagen Passat",
+    "imageUrl": "/images/volkswagen_passat.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Passat",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Passat image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Passat"
+  },
+  {
+    "id": "volkswagen_phaeton",
+    "brand": "Volkswagen",
+    "model": "Phaeton",
+    "fullName": "Volkswagen Phaeton",
+    "imageUrl": "/images/volkswagen_phaeton.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Phaeton",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Phaeton image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Phaeton"
+  },
+  {
+    "id": "volkswagen_polo",
+    "brand": "Volkswagen",
+    "model": "Polo",
+    "fullName": "Volkswagen Polo",
+    "imageUrl": "/images/volkswagen_polo.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Polo",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Polo image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Polo"
+  },
+  {
+    "id": "volkswagen_routan",
+    "brand": "Volkswagen",
+    "model": "Routan",
+    "fullName": "Volkswagen Routan",
+    "imageUrl": "/images/volkswagen_routan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Routan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Routan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Routan"
+  },
+  {
+    "id": "volkswagen_scirocco",
+    "brand": "Volkswagen",
+    "model": "Scirocco",
+    "fullName": "Volkswagen Scirocco",
+    "imageUrl": "/images/volkswagen_scirocco.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Scirocco",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Scirocco image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Scirocco"
+  },
+  {
+    "id": "volkswagen_sharan",
+    "brand": "Volkswagen",
+    "model": "Sharan",
+    "fullName": "Volkswagen Sharan",
+    "imageUrl": "/images/volkswagen_sharan.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Sharan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Sharan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Sharan"
+  },
+  {
+    "id": "volkswagen_t_cross",
+    "brand": "Volkswagen",
+    "model": "T Cross",
+    "fullName": "Volkswagen T Cross",
+    "imageUrl": "/images/volkswagen_t_cross.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_T_Cross",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen T Cross image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_T_Cross"
+  },
+  {
+    "id": "volkswagen_t_roc",
+    "brand": "Volkswagen",
+    "model": "T Roc",
+    "fullName": "Volkswagen T Roc",
+    "imageUrl": "/images/volkswagen_t_roc.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_T_Roc",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen T Roc image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_T_Roc"
+  },
+  {
+    "id": "volkswagen_tiguan",
+    "brand": "Volkswagen",
+    "model": "Tiguan",
+    "fullName": "Volkswagen Tiguan",
+    "imageUrl": "/images/volkswagen_tiguan.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Tiguan",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Tiguan image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Tiguan"
+  },
+  {
+    "id": "volkswagen_touareg",
+    "brand": "Volkswagen",
+    "model": "Touareg",
+    "fullName": "Volkswagen Touareg",
+    "imageUrl": "/images/volkswagen_touareg.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Touareg",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Touareg image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Touareg"
+  },
+  {
+    "id": "volkswagen_touran",
+    "brand": "Volkswagen",
+    "model": "Touran",
+    "fullName": "Volkswagen Touran",
+    "imageUrl": "/images/volkswagen_touran.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Touran",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Touran image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Touran"
+  },
+  {
+    "id": "volkswagen_transporter",
+    "brand": "Volkswagen",
+    "model": "Transporter",
+    "fullName": "Volkswagen Transporter",
+    "imageUrl": "/images/volkswagen_transporter.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Transporter",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Transporter image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Transporter"
+  },
+  {
+    "id": "volkswagen_up_",
+    "brand": "Volkswagen",
+    "model": "Up ",
+    "fullName": "Volkswagen Up ",
+    "imageUrl": "/images/volkswagen_up_.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Up_",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Up  image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Up_"
   },
   {
     "id": "volkswagen_vento",
@@ -8103,199 +12139,47 @@ export const cars: Car[] = [
     "model": "Vento",
     "fullName": "Volkswagen Vento",
     "imageUrl": "/images/volkswagen_vento.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Vento"
-  },
-  {
-    "id": "volkswagen_golf_r",
-    "brand": "Volkswagen",
-    "model": "Golf Mk7",
-    "fullName": "Volkswagen Golf Mk7",
-    "imageUrl": "/images/volkswagen_golf_r.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Golf_R"
-  },
-  {
-    "id": "volkswagen_id_3",
-    "brand": "Volkswagen",
-    "model": "ID.3",
-    "fullName": "Volkswagen ID.3",
-    "imageUrl": "/images/volkswagen_id_3.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_ID.3"
-  },
-  {
-    "id": "volkswagen_id_4",
-    "brand": "Volkswagen",
-    "model": "ID.4",
-    "fullName": "Volkswagen ID.4",
-    "imageUrl": "/images/volkswagen_id_4.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_ID.4"
-  },
-  {
-    "id": "volkswagen_id_buzz",
-    "brand": "Volkswagen",
-    "model": "ID. Buzz",
-    "fullName": "Volkswagen ID. Buzz",
-    "imageUrl": "/images/volkswagen_id_buzz.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_ID.Buzz"
-  },
-  {
-    "id": "volkswagen_t_cross",
-    "brand": "Volkswagen",
-    "model": "T-Cross",
-    "fullName": "Volkswagen T-Cross",
-    "imageUrl": "/images/volkswagen_t_cross.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_T-Cross"
-  },
-  {
-    "id": "volkswagen_t_roc",
-    "brand": "Volkswagen",
-    "model": "T-Roc",
-    "fullName": "Volkswagen T-Roc",
-    "imageUrl": "/images/volkswagen_t_roc.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_T-Roc"
-  },
-  {
-    "id": "volvo_240",
-    "brand": "Volvo",
-    "model": "200 Series",
-    "fullName": "Volvo 200 Series",
-    "imageUrl": "/images/volvo_240.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_240"
-  },
-  {
-    "id": "volvo_260",
-    "brand": "Volvo",
-    "model": "200 Series",
-    "fullName": "Volvo 200 Series",
-    "imageUrl": "/images/volvo_260.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_260"
-  },
-  {
-    "id": "volvo_740",
-    "brand": "Volvo",
-    "model": "700 Series",
-    "fullName": "Volvo 700 Series",
-    "imageUrl": "/images/volvo_740.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_740"
-  },
-  {
-    "id": "volvo_760",
-    "brand": "Volvo",
-    "model": "700 Series",
-    "fullName": "Volvo 700 Series",
-    "imageUrl": "/images/volvo_760.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_760"
-  },
-  {
-    "id": "volvo_780",
-    "brand": "Volvo",
-    "model": "700 Series",
-    "fullName": "Volvo 700 Series",
-    "imageUrl": "/images/volvo_780.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_780"
-  },
-  {
-    "id": "volvo_850",
-    "brand": "Volvo",
-    "model": "850",
-    "fullName": "Volvo 850",
-    "imageUrl": "/images/volvo_850.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_850"
-  },
-  {
-    "id": "volvo_940",
-    "brand": "Volvo",
-    "model": "900 Series",
-    "fullName": "Volvo 900 Series",
-    "imageUrl": "/images/volvo_940.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_940"
-  },
-  {
-    "id": "volvo_960",
-    "brand": "Volvo",
-    "model": "900 Series",
-    "fullName": "Volvo 900 Series",
-    "imageUrl": "/images/volvo_960.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_960"
-  },
-  {
-    "id": "volvo_c30",
-    "brand": "Volvo",
-    "model": "C30",
-    "fullName": "Volvo C30",
-    "imageUrl": "/images/volvo_c30.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_C30"
-  },
-  {
-    "id": "volvo_c70",
-    "brand": "Volvo",
-    "model": "C70",
-    "fullName": "Volvo C70",
-    "imageUrl": "/images/volvo_c70.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_C70"
-  },
-  {
-    "id": "volvo_s40",
-    "brand": "Volvo",
-    "model": "S40",
-    "fullName": "Volvo S40",
-    "imageUrl": "/images/volvo_s40.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S40"
-  },
-  {
-    "id": "volvo_s70",
-    "brand": "Volvo",
-    "model": "S70",
-    "fullName": "Volvo S70",
-    "imageUrl": "/images/volvo_s70.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S70"
-  },
-  {
-    "id": "volvo_s80",
-    "brand": "Volvo",
-    "model": "S80",
-    "fullName": "Volvo S80",
-    "imageUrl": "/images/volvo_s80.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S80"
-  },
-  {
-    "id": "volvo_v50",
-    "brand": "Volvo",
-    "model": "V50",
-    "fullName": "Volvo V50",
-    "imageUrl": "/images/volvo_v50.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_V50"
-  },
-  {
-    "id": "volvo_v70",
-    "brand": "Volvo",
-    "model": "V70",
-    "fullName": "Volvo V70",
-    "imageUrl": "/images/volvo_v70.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_V70"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volkswagen_Vento",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volkswagen Vento image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volkswagen_Vento"
   },
   {
     "id": "volvo_142",
     "brand": "Volvo",
-    "model": "140 Series",
-    "fullName": "Volvo 140 Series",
+    "model": "142",
+    "fullName": "Volvo 142",
     "imageUrl": "/images/volvo_142.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_142"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_142",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 142 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_142"
   },
   {
     "id": "volvo_144",
     "brand": "Volvo",
-    "model": "140 Series",
-    "fullName": "Volvo 140 Series",
+    "model": "144",
+    "fullName": "Volvo 144",
     "imageUrl": "/images/volvo_144.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_144"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_144",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 144 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_144"
   },
   {
     "id": "volvo_145",
     "brand": "Volvo",
-    "model": "140 Series",
-    "fullName": "Volvo 140 Series",
+    "model": "145",
+    "fullName": "Volvo 145",
     "imageUrl": "/images/volvo_145.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_145"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_145",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 145 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_145"
   },
   {
     "id": "volvo_164",
@@ -8303,31 +12187,131 @@ export const cars: Car[] = [
     "model": "164",
     "fullName": "Volvo 164",
     "imageUrl": "/images/volvo_164.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_164"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_164",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 164 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_164"
+  },
+  {
+    "id": "volvo_240",
+    "brand": "Volvo",
+    "model": "240",
+    "fullName": "Volvo 240",
+    "imageUrl": "/images/volvo_240.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_240",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 240 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_240"
+  },
+  {
+    "id": "volvo_260",
+    "brand": "Volvo",
+    "model": "260",
+    "fullName": "Volvo 260",
+    "imageUrl": "/images/volvo_260.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_260",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 260 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_260"
   },
   {
     "id": "volvo_262",
     "brand": "Volvo",
-    "model": "200 Series",
-    "fullName": "Volvo 200 Series",
+    "model": "262",
+    "fullName": "Volvo 262",
     "imageUrl": "/images/volvo_262.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_262"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_262",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 262 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_262"
   },
   {
     "id": "volvo_264",
     "brand": "Volvo",
-    "model": "200 Series",
-    "fullName": "Volvo 200 Series",
+    "model": "264",
+    "fullName": "Volvo 264",
     "imageUrl": "/images/volvo_264.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_264"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_264",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 264 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_264"
   },
   {
-    "id": "volvo_p1800",
+    "id": "volvo_740",
     "brand": "Volvo",
-    "model": "P1800",
-    "fullName": "Volvo P1800",
-    "imageUrl": "/images/volvo_p1800.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_P1800"
+    "model": "740",
+    "fullName": "Volvo 740",
+    "imageUrl": "/images/volvo_740.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_740",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 740 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_740"
+  },
+  {
+    "id": "volvo_760",
+    "brand": "Volvo",
+    "model": "760",
+    "fullName": "Volvo 760",
+    "imageUrl": "/images/volvo_760.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_760",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 760 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_760"
+  },
+  {
+    "id": "volvo_780",
+    "brand": "Volvo",
+    "model": "780",
+    "fullName": "Volvo 780",
+    "imageUrl": "/images/volvo_780.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_780",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 780 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_780"
+  },
+  {
+    "id": "volvo_850",
+    "brand": "Volvo",
+    "model": "850",
+    "fullName": "Volvo 850",
+    "imageUrl": "/images/volvo_850.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_850",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 850 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_850"
+  },
+  {
+    "id": "volvo_940",
+    "brand": "Volvo",
+    "model": "940",
+    "fullName": "Volvo 940",
+    "imageUrl": "/images/volvo_940.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_940",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 940 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_940"
+  },
+  {
+    "id": "volvo_960",
+    "brand": "Volvo",
+    "model": "960",
+    "fullName": "Volvo 960",
+    "imageUrl": "/images/volvo_960.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_960",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo 960 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_960"
   },
   {
     "id": "volvo_amazon",
@@ -8335,23 +12319,35 @@ export const cars: Car[] = [
     "model": "Amazon",
     "fullName": "Volvo Amazon",
     "imageUrl": "/images/volvo_amazon.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Amazon"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Amazon",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Amazon image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Amazon"
   },
   {
-    "id": "volvo_pv444",
+    "id": "volvo_c30",
     "brand": "Volvo",
-    "model": "PV444/544",
-    "fullName": "Volvo PV444/544",
-    "imageUrl": "/images/volvo_pv444.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_PV444"
+    "model": "C30",
+    "fullName": "Volvo C30",
+    "imageUrl": "/images/volvo_c30.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_C30",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo C30 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_C30"
   },
   {
-    "id": "volvo_pv544",
+    "id": "volvo_c70",
     "brand": "Volvo",
-    "model": "PV444/544",
-    "fullName": "Volvo PV444/544",
-    "imageUrl": "/images/volvo_pv544.JPG",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_PV544"
+    "model": "C70",
+    "fullName": "Volvo C70",
+    "imageUrl": "/images/volvo_c70.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_C70",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo C70 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_C70"
   },
   {
     "id": "volvo_duett",
@@ -8359,47 +12355,251 @@ export const cars: Car[] = [
     "model": "Duett",
     "fullName": "Volvo Duett",
     "imageUrl": "/images/volvo_duett.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Duett"
-  },
-  {
-    "id": "volvo_laplander",
-    "brand": "Volvo",
-    "model": "L3314",
-    "fullName": "Volvo L3314",
-    "imageUrl": "/images/volvo_laplander.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Laplander"
-  },
-  {
-    "id": "volvo_ex30",
-    "brand": "Volvo",
-    "model": "EX30",
-    "fullName": "Volvo EX30",
-    "imageUrl": "/images/volvo_ex30.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_EX30"
-  },
-  {
-    "id": "volvo_ex90",
-    "brand": "Volvo",
-    "model": "EX90",
-    "fullName": "Volvo EX90",
-    "imageUrl": "/images/volvo_ex90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_EX90"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Duett",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Duett image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Duett"
   },
   {
     "id": "volvo_ec40",
     "brand": "Volvo",
-    "model": "XC40",
-    "fullName": "Volvo XC40",
+    "model": "Ec40",
+    "fullName": "Volvo Ec40",
     "imageUrl": "/images/volvo_ec40.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_EC40"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Ec40",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Ec40 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Ec40"
   },
   {
     "id": "volvo_em90",
     "brand": "Volvo",
-    "model": "EM90",
-    "fullName": "Volvo EM90",
+    "model": "Em90",
+    "fullName": "Volvo Em90",
     "imageUrl": "/images/volvo_em90.jpg",
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_EM90"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Em90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Em90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Em90"
+  },
+  {
+    "id": "volvo_ex30",
+    "brand": "Volvo",
+    "model": "Ex30",
+    "fullName": "Volvo Ex30",
+    "imageUrl": "/images/volvo_ex30.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Ex30",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Ex30 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Ex30"
+  },
+  {
+    "id": "volvo_ex90",
+    "brand": "Volvo",
+    "model": "Ex90",
+    "fullName": "Volvo Ex90",
+    "imageUrl": "/images/volvo_ex90.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Ex90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Ex90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Ex90"
+  },
+  {
+    "id": "volvo_laplander",
+    "brand": "Volvo",
+    "model": "Laplander",
+    "fullName": "Volvo Laplander",
+    "imageUrl": "/images/volvo_laplander.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Laplander",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Laplander image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Laplander"
+  },
+  {
+    "id": "volvo_p1800",
+    "brand": "Volvo",
+    "model": "P1800",
+    "fullName": "Volvo P1800",
+    "imageUrl": "/images/volvo_p1800.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_P1800",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo P1800 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_P1800"
+  },
+  {
+    "id": "volvo_pv444",
+    "brand": "Volvo",
+    "model": "Pv444",
+    "fullName": "Volvo Pv444",
+    "imageUrl": "/images/volvo_pv444.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Pv444",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Pv444 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Pv444"
+  },
+  {
+    "id": "volvo_pv544",
+    "brand": "Volvo",
+    "model": "Pv544",
+    "fullName": "Volvo Pv544",
+    "imageUrl": "/images/volvo_pv544.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Pv544",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Pv544 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Pv544"
+  },
+  {
+    "id": "volvo_s40",
+    "brand": "Volvo",
+    "model": "S40",
+    "fullName": "Volvo S40",
+    "imageUrl": "/images/volvo_s40.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S40",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo S40 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_S40"
+  },
+  {
+    "id": "volvo_s60",
+    "brand": "Volvo",
+    "model": "S60",
+    "fullName": "Volvo S60",
+    "imageUrl": "/images/volvo_s60.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S60",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo S60 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_S60"
+  },
+  {
+    "id": "volvo_s70",
+    "brand": "Volvo",
+    "model": "S70",
+    "fullName": "Volvo S70",
+    "imageUrl": "/images/volvo_s70.JPG",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S70",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo S70 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_S70"
+  },
+  {
+    "id": "volvo_s80",
+    "brand": "Volvo",
+    "model": "S80",
+    "fullName": "Volvo S80",
+    "imageUrl": "/images/volvo_s80.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S80",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo S80 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_S80"
+  },
+  {
+    "id": "volvo_s90",
+    "brand": "Volvo",
+    "model": "S90",
+    "fullName": "Volvo S90",
+    "imageUrl": "/images/volvo_s90.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_S90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo S90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_S90"
+  },
+  {
+    "id": "volvo_v50",
+    "brand": "Volvo",
+    "model": "V50",
+    "fullName": "Volvo V50",
+    "imageUrl": "/images/volvo_v50.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_V50",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo V50 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_V50"
+  },
+  {
+    "id": "volvo_v60",
+    "brand": "Volvo",
+    "model": "V60",
+    "fullName": "Volvo V60",
+    "imageUrl": "/images/volvo_v60.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_V60",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo V60 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_V60"
+  },
+  {
+    "id": "volvo_v70",
+    "brand": "Volvo",
+    "model": "V70",
+    "fullName": "Volvo V70",
+    "imageUrl": "/images/volvo_v70.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_V70",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo V70 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_V70"
+  },
+  {
+    "id": "volvo_v90",
+    "brand": "Volvo",
+    "model": "V90",
+    "fullName": "Volvo V90",
+    "imageUrl": "/images/volvo_v90.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_V90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo V90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_V90"
+  },
+  {
+    "id": "volvo_xc40",
+    "brand": "Volvo",
+    "model": "Xc40",
+    "fullName": "Volvo Xc40",
+    "imageUrl": "/images/volvo_xc40.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Xc40",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Xc40 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Xc40"
+  },
+  {
+    "id": "volvo_xc60",
+    "brand": "Volvo",
+    "model": "Xc60",
+    "fullName": "Volvo Xc60",
+    "imageUrl": "/images/volvo_xc60.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Xc60",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Xc60 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Xc60"
+  },
+  {
+    "id": "volvo_xc90",
+    "brand": "Volvo",
+    "model": "Xc90",
+    "fullName": "Volvo Xc90",
+    "imageUrl": "/images/volvo_xc90.jpg",
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Volvo_Xc90",
+    "license": "Wikipedia/Commons",
+    "author": "Wikipedia contributors",
+    "attribution": "Volvo Xc90 image from Wikipedia/Wikimedia Commons",
+    "imageSource": "https://en.wikipedia.org/wiki/Volvo_Xc90"
   }
 ];
 

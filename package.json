@@ -25,6 +25,7 @@
     "scrape-cars": "node scripts/scrape-cars.js",
     "scrape-batch": "node scripts/scrape-batch.js",
     "expand-dataset": "node scripts/expand-dataset.js",
+    "fetch-licenses": "node scripts/fetch-image-licenses.js",
     "lint": "eslint src/**/*.{ts,tsx}",
     "lint:fix": "eslint src/**/*.{ts,tsx} --fix"
   },

@@ -5,6 +5,10 @@ export interface Car {
   fullName: string;
   imageUrl: string;
   wikipediaUrl: string;
+  license?: string;
+  author?: string;
+  attribution?: string;
+  imageSource?: string;
 }
 
 export interface GameQuestion {

@@ -4,9 +4,15 @@ import './GameModeSelector.css';
 
 interface GameModeSelectorProps {
   onSelectMode: (mode: GameMode) => void;
+  onShowCredits: () => void;
 }
 
-const GameModeSelector: React.FC<GameModeSelectorProps> = ({ onSelectMode }) => {
+const GameModeSelector: React.FC<GameModeSelectorProps> = ({ onSelectMode, onShowCredits }) => {
+  const handleCreditsClick = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    onShowCredits();
+  };
   const modes = [
     {
       mode: GameMode.BRAND_MULTIPLE_CHOICE,
@@ -44,6 +50,12 @@ const GameModeSelector: React.FC<GameModeSelectorProps> = ({ onSelectMode }) => 
             <p>{description}</p>
           </button>
         ))}
+      </div>
+      
+      <div className="credits-section">
+        <button className="credits-button" onClick={handleCreditsClick}>
+          📷 Image Credits & Attributions
+        </button>
       </div>
     </div>
   );

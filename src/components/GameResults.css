@@ -94,8 +94,14 @@
   font-weight: 500;
 }
 
+.action-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
 .play-again-button {
-  width: 100%;
+  flex: 1;
   padding: 1rem;
   background: #4a90e2;
   color: white;
@@ -110,6 +116,23 @@
   background: #357abd;
 }
 
+.credits-button-results {
+  padding: 1rem;
+  background: rgba(74, 144, 226, 0.1);
+  color: #4a90e2;
+  border: 1px solid #4a90e2;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.credits-button-results:hover {
+  background: #4a90e2;
+  color: white;
+}
+
 @media (max-width: 768px) {
   .game-results {
     padding: 1rem;
@@ -122,5 +145,13 @@
   .score-details {
     flex-direction: column;
     gap: 1rem;
+  }
+  
+  .action-buttons {
+    flex-direction: column;
+  }
+  
+  .credits-button-results {
+    font-size: 0.85rem;
   }
 }

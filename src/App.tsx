@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useGame } from './hooks/useGame';
 import { GameMode } from './types';
 import GameModeSelector from './components/GameModeSelector';
 import QuestionCard from './components/QuestionCard';
 import GameResults from './components/GameResults';
 import AnswerFeedback from './components/AnswerFeedback';
+import Credits from './components/Credits';
 import cars from './data/cars';
 import './App.css';
 
 function App() {
   const { gameState, startGame, submitAnswer, continueToNextQuestion, resetGame, getGameStats } = useGame(cars);
+  const [showCredits, setShowCredits] = useState(false);
 
   const handleStartGame = (mode: GameMode) => {
     startGame(mode);
@@ -31,6 +33,14 @@ function App() {
     resetGame();
   };
 
+  const handleShowCredits = () => {
+    setShowCredits(true);
+  };
+
+  const handleCloseCredits = () => {
+    setShowCredits(false);
+  };
+
   if (!gameState.isGameStarted) {
     return (
       <div className="App">
@@ -38,7 +48,8 @@ function App() {
           <h1>Car Finder Game</h1>
           <p>Test your knowledge of cars from around the world!</p>
         </header>
-        <GameModeSelector onSelectMode={handleStartGame} />
+        <GameModeSelector onSelectMode={handleStartGame} onShowCredits={handleShowCredits} />
+        {showCredits && <Credits onClose={handleCloseCredits} />}
       </div>
     );
   }
@@ -49,7 +60,8 @@ function App() {
         <header className="App-header">
           <h1>Car Finder Game</h1>
         </header>
-        <GameResults stats={getGameStats()} onPlayAgain={handlePlayAgain} />
+        <GameResults stats={getGameStats()} onPlayAgain={handlePlayAgain} onShowCredits={handleShowCredits} />
+        {showCredits && <Credits onClose={handleCloseCredits} />}
       </div>
     );
   }
@@ -76,6 +88,7 @@ function App() {
           gameMode={gameState.gameMode}
           onContinue={handleContinue}
         />
+        {showCredits && <Credits onClose={handleCloseCredits} />}
       </div>
     );
   }
@@ -104,6 +117,8 @@ function App() {
         gameMode={gameState.gameMode}
         onAnswer={handleAnswer}
       />
+      
+      {showCredits && <Credits onClose={handleCloseCredits} />}
     </div>
   );
 }
